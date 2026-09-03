@@ -1,0 +1,1599 @@
+[
+  {
+    "id": "pmkvy-4-0-skill-development-scheme",
+    "title": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY 4.0 Skill Training)",
+    "code": "PMKVY-4-0-MSDE",
+    "ministry": "Ministry of Skill Development and Entrepreneurship (MSDE)",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Certification",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers",
+      "Workers",
+      "Women",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Free Industry-Aligned Skill Training + Government Skill Certificate + ₹8,000 Direct Assessment Allowance & Job Placement Support",
+    "benefitNumericMin": 8000,
+    "benefitNumericMax": 25000,
+    "description": "Empowers Indian youth with free industry-aligned skill training in Industry 4.0 (AI, Robotics, Drones, Solar) and traditional job roles with placement assistance.",
+    "eligibilityDescription": "Unemployed Indian youth or school/college dropouts aged 15 to 45 years seeking industry skill certification and jobs.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Bank Account Details",
+      "Educational Qualification Marksheet"
+    ],
+    "deadline": "PMKVY Official Portal (pmkvyofficial.org) / Skill India Digital Hub",
+    "officialWebsiteUrl": "https://pmkvyofficial.org",
+    "rules": {
+      "minAge": 15,
+      "maxAge": 45
+    },
+    "isPopular": true,
+    "iconName": "work"
+  },
+  {
+    "id": "naps-2-0-national-apprenticeship-promotion-scheme",
+    "title": "National Apprenticeship Promotion Scheme (NAPS 2.0 Stipend Support)",
+    "code": "NAPS-2-0-MSDE-STIPEND",
+    "ministry": "Ministry of Skill Development and Entrepreneurship (MSDE)",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Apprenticeships & Job Assistance",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers",
+      "Workers"
+    ],
+    "benefitValue": "Direct Benefit Transfer (DBT) Stipend Subsidy of 25% (up to ₹1,500/Month) + On-the-Job Industrial Training",
+    "benefitNumericMin": 18000,
+    "benefitNumericMax": 120000,
+    "description": "Promotes on-the-job industrial apprenticeship in top companies, providing monthly stipends directly into bank accounts of youth learning practical trades.",
+    "eligibilityDescription": "Youth aged 14+ who have completed ITI, Diploma, Degree, or 10th/12th seeking practical apprenticeship training.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Academic Certificate (10th/12th/ITI/Degree)",
+      "Aadhaar Seeded Bank Account"
+    ],
+    "deadline": "Apprenticeship India Portal (apprenticeshipindia.gov.in)",
+    "officialWebsiteUrl": "https://apprenticeshipindia.gov.in",
+    "rules": {
+      "minAge": 14,
+      "maxAge": 35
+    },
+    "isPopular": true,
+    "iconName": "badge"
+  },
+  {
+    "id": "nats-national-apprenticeship-training-scheme",
+    "title": "National Apprenticeship Training Scheme (NATS Graduate & Diploma Stipend)",
+    "code": "NATS-MOE-STIPEND",
+    "ministry": "Department of Higher Education, Ministry of Education, Govt. of India",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Apprenticeships & Career Development",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "Government Guaranteed Monthly Stipend of ₹9,000 for Graduate Engineers and ₹8,000 for Diploma Holders for 1 Year",
+    "benefitNumericMin": 96000,
+    "benefitNumericMax": 108000,
+    "description": "Provides 1-year paid practical apprenticeship in top PSUs, government departments, and private industries for fresh engineering, science, and general stream graduates.",
+    "eligibilityDescription": "Fresh Engineering, Technology, B.Sc, B.Com, B.A, or Diploma pass-outs who graduated within the last 3 years.",
+    "requiredDocs": [
+      "Degree / Diploma Certificate",
+      "Aadhaar Card",
+      "Bank Passbook Details"
+    ],
+    "deadline": "NATS Portal (nats.education.gov.in)",
+    "officialWebsiteUrl": "https://nats.education.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 30,
+      "requiresStudent": true
+    },
+    "isPopular": true,
+    "iconName": "school"
+  },
+  {
+    "id": "pmegp-employment-generation-programme",
+    "title": "Prime Minister Employment Generation Programme (PMEGP Business Subsidy ₹50 Lakh)",
+    "code": "PMEGP-KVIC-MSME",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MSME) / KVIC",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Entrepreneurship Training & Self-Employment Support",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Workers",
+      "Rural Citizens",
+      "Women",
+      "Farmers"
+    ],
+    "benefitValue": "Capital Loan Margin Money Subsidy up to 35% (Max ₹17.5 Lakh) on Project Loans up to ₹50 Lakh",
+    "benefitNumericMin": 150000,
+    "benefitNumericMax": 1750000,
+    "description": "Credit-linked subsidy scheme offering financial grant up to 35% to set up micro-enterprises in manufacturing and service sectors, creating mass self-employment.",
+    "eligibilityDescription": "Any individual above 18 years of age (8th pass for projects above ₹10 Lakh in manufacturing or ₹5 Lakh in service).",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Educational Certificate",
+      "Detailed Project Report (DPR)",
+      "Caste/Category Certificate"
+    ],
+    "deadline": "PMEGP e-Portal (kviconline.gov.in/pmegpeportal)",
+    "officialWebsiteUrl": "https://kviconline.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65
+    },
+    "isPopular": true,
+    "iconName": "storefront"
+  },
+  {
+    "id": "ddu-gky-rural-skills-employment",
+    "title": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY Rural Job Placement)",
+    "code": "DDU-GKY-MORD-JOBS",
+    "ministry": "Ministry of Rural Development (MoRD), Govt. of India",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Job Assistance",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Job Seekers",
+      "Workers"
+    ],
+    "benefitValue": "100% Free Residential Skill Training, Uniform, Boarding & Guaranteed Job Placement with Minimum ₹10,000 Monthly Salary",
+    "benefitNumericMin": 30000,
+    "benefitNumericMax": 120000,
+    "description": "Focuses on rural poor youth, providing demand-driven residential vocational training and guaranteed formal sector job placement with post-placement stipends.",
+    "eligibilityDescription": "Rural youth aged 15 to 35 years (up to 45 years for SC/ST/Women/PwD) belonging to poor rural households.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Rural BPL / SECC Income Proof",
+      "Age Proof Certificate"
+    ],
+    "deadline": "DDU-GKY Official Portal (ddugky.gov.in) / Kaushal Panjee",
+    "officialWebsiteUrl": "https://ddugky.gov.in",
+    "rules": {
+      "minAge": 15,
+      "maxAge": 35
+    },
+    "isPopular": true,
+    "iconName": "work_history"
+  },
+  {
+    "id": "pm-vishwakarma-artisan-skill-scheme",
+    "title": "PM Vishwakarma Kaushal Samman (Artisan Skill & Toolkit Grant)",
+    "code": "PM-VISHWAKARMA-MSME",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MSME)",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Entrepreneurship Training",
+    "beneficiaries": [
+      "Workers",
+      "Rural Citizens",
+      "Entrepreneurs",
+      "Women"
+    ],
+    "benefitValue": "₹15,000 e-Voucher Toolkit Grant + Collateral-Free Loan up to ₹3,00,000 at 5% Interest + Daily ₹500 Training Stipend",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 300000,
+    "description": "Provides holistic end-to-end support to traditional artisans and craftspeople across 18 trades (carpenter, blacksmith, goldsmith, mason, tailor, cobbler) including skill training, modern tools, and cheap credit.",
+    "eligibilityDescription": "Artisans or craftspeople working with hands and tools in one of the 18 traditional trades aged 18+.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Ration Card",
+      "Bank Account Details",
+      "Skill Trade Self-Declaration"
+    ],
+    "deadline": "PM Vishwakarma Portal (pmvishwakarma.gov.in) / Common Service Centres",
+    "officialWebsiteUrl": "https://pmvishwakarma.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 75
+    },
+    "isPopular": true,
+    "iconName": "build"
+  },
+  {
+    "id": "national-career-service-ncs-job-portal",
+    "title": "National Career Service (NCS Free Job Assistance & Career Counseling)",
+    "code": "NCS-MOLAE-JOB-PORTAL",
+    "ministry": "Ministry of Labour and Employment, Govt. of India",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Job Assistance & Career Development",
+    "beneficiaries": [
+      "Job Seekers",
+      "Students",
+      "Workers",
+      "Women"
+    ],
+    "benefitValue": "100% Free Access to 35+ Lakh Active Job Vacancies, Direct Employer Connections & Free Skill Assessment Tests",
+    "benefitNumericMin": 5000,
+    "benefitNumericMax": 50000,
+    "description": "Nationwide one-stop digital career portal providing job matching, career counseling, online skill courses, job fairs, and placement assistance.",
+    "eligibilityDescription": "All job seekers, students, fresh graduates, and experienced professionals across India.",
+    "requiredDocs": [
+      "Aadhaar Card / Job Seeker ID",
+      "Resume / Marksheets"
+    ],
+    "deadline": "NCS Official Portal (ncs.gov.in) / Model Career Centres",
+    "officialWebsiteUrl": "https://ncs.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65
+    },
+    "isPopular": true,
+    "iconName": "search"
+  },
+  {
+    "id": "day-nulm-employment-skills-estep",
+    "title": "DAY-NULM Employment through Skills Training & Placement (EST&P)",
+    "code": "DAY-NULM-ESTP-MOHUA",
+    "ministry": "Ministry of Housing and Urban Affairs (MoHUA)",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Job Assistance",
+    "beneficiaries": [
+      "Job Seekers",
+      "Workers",
+      "Women",
+      "General Citizen"
+    ],
+    "benefitValue": "100% Free Urban Vocational Skill Training + Guaranteed Job Placement or Micro-Enterprise Credit Support",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 80000,
+    "description": "Develops vocational skills among urban poor youth and facilitates wage employment or self-employment micro-enterprises.",
+    "eligibilityDescription": "Urban poor youth residing in statutory towns and cities belonging to low-income families.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Urban BPL Certificate / Family Income Proof"
+    ],
+    "deadline": "NULM Portal (nulm.gov.in) / City Urban Livelihood Cell",
+    "officialWebsiteUrl": "https://nulm.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 45
+    },
+    "isPopular": true,
+    "iconName": "business_center"
+  },
+  {
+    "id": "rseti-rural-self-employment-training-institutes",
+    "title": "Rural Self Employment Training Institutes (RSETI Entrepreneurship Training)",
+    "code": "RSETI-MORD-BANKS",
+    "ministry": "Ministry of Rural Development & Lead Bank Association",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Entrepreneurship Training & Self-Employment Support",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Farmers",
+      "Women",
+      "Workers"
+    ],
+    "benefitValue": "100% Free Residential Entrepreneurship Training (1 to 6 Weeks) + Free Fooding + Direct Bank Credit Linkage",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 100000,
+    "description": "Offers short-term residential skill and business management training to rural youth, followed by 2 years of business handholding and bank loan credit linkage.",
+    "eligibilityDescription": "Rural youth aged 18 to 45 years interested in starting their own small business, shop, farm, or enterprise.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Passport Photo",
+      "Bank Passbook"
+    ],
+    "deadline": "District Lead Bank RSETI Centre",
+    "officialWebsiteUrl": "https://rsetis.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 45
+    },
+    "isPopular": true,
+    "iconName": "store"
+  },
+  {
+    "id": "samarth-scheme-textile-sector-capacity-building",
+    "title": "SAMARTH Scheme for Capacity Building in Textile Sector",
+    "code": "SAMARTH-MOT-TEXTILE-SKILLS",
+    "ministry": "Ministry of Textiles, Govt. of India",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Job Assistance",
+    "beneficiaries": [
+      "Workers",
+      "Women",
+      "Rural Citizens",
+      "Job Seekers"
+    ],
+    "benefitValue": "Free Certified Textile & Apparel Skill Training + Monthly Biometric Training Attendance Stipend + Wage Employment Placement",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 60000,
+    "description": "Trains and places youth in organized textile, garmenting, spinning, weaving, and technical textile industries across India.",
+    "eligibilityDescription": "Indian citizens aged 18+ seeking job opportunities in garmenting and textile industry.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Educational Certificate",
+      "Bank Account Details"
+    ],
+    "deadline": "SAMARTH Portal (samarth-mot.gov.in)",
+    "officialWebsiteUrl": "https://samarth-mot.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 50
+    },
+    "isPopular": true,
+    "iconName": "checkroom"
+  },
+  {
+    "id": "sankalp-district-skill-development-planning",
+    "title": "SANKALP Skill Acquisition and Knowledge Awareness for Livelihood Promotion",
+    "code": "SANKALP-MSDE-WORLD-BANK",
+    "ministry": "Ministry of Skill Development and Entrepreneurship (MSDE) & World Bank",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Career Development & Skill Planning",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers",
+      "Workers"
+    ],
+    "benefitValue": "District Skill Committee Funding, Decentralized Industry Linkages & Micro-Grant for Local Skill Ecosystems",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 50000,
+    "description": "Strengthens institutional mechanisms for skill development and increases access to quality skill training for women and marginalized communities.",
+    "eligibilityDescription": "Youth and district skill development committees seeking localized skill training infrastructure.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Educational Certificates"
+    ],
+    "deadline": "MSDE SANKALP Portal",
+    "officialWebsiteUrl": "https://msde.gov.in",
+    "rules": {
+      "minAge": 15,
+      "maxAge": 45
+    },
+    "isPopular": false,
+    "iconName": "insights"
+  },
+  {
+    "id": "strive-industrial-training-institutes-modernization",
+    "title": "STRIVE Scheme for ITI Modernization & Industrial Apprenticeship",
+    "code": "STRIVE-MSDE-ITI",
+    "ministry": "Ministry of Skill Development and Entrepreneurship (MSDE)",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Apprenticeships",
+    "beneficiaries": [
+      "Students",
+      "Workers"
+    ],
+    "benefitValue": "Modern Dual-System Training Equipment in ITIs + Enhanced Industrial Apprenticeship Partnerships",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 100000,
+    "description": "Upgrades government ITIs and industry clusters to deliver world-class vocational training matching international standards.",
+    "eligibilityDescription": "Students enrolled in ITIs or industry apprenticeship programs.",
+    "requiredDocs": [
+      "ITI Enrollment Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "MSDE STRIVE Portal",
+    "officialWebsiteUrl": "https://dgt.gov.in",
+    "rules": {
+      "minAge": 14,
+      "maxAge": 35
+    },
+    "isPopular": false,
+    "iconName": "precision_manufacturing"
+  },
+  {
+    "id": "hunar-haat-artisan-empowerment-scheme",
+    "title": "Hunar Haat Skill Empowerment & National Market Platform for Artisans",
+    "code": "HUNAR-HAAT-MOMA",
+    "ministry": "Ministry of Minority Affairs, Govt. of India",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Employment Support & Artisan Entrepreneurship",
+    "beneficiaries": [
+      "Workers",
+      "Women",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Free Stalls at National Crafts Fairs + Daily Travelling & Boarding Allowance + Digital E-Commerce Storefront",
+    "benefitNumericMin": 25000,
+    "benefitNumericMax": 150000,
+    "description": "Provides market exposure, free stall space, and direct sales channels to master craftsmen, traditional artisans, and culinary experts.",
+    "eligibilityDescription": "Traditional artisans, master craftsmen, and culinary experts from minority and marginalized communities.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Artisan Card / Craft Self-Declaration",
+      "Bank Details"
+    ],
+    "deadline": "Hunar Haat Portal (hunarhaat.org)",
+    "officialWebsiteUrl": "https://hunarhaat.org",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 70
+    },
+    "isPopular": true,
+    "iconName": "palette"
+  },
+  {
+    "id": "seekho-aur-kamao-minority-skill-scheme",
+    "title": "Seekho Aur Kamao (Learn and Earn Skill Scheme for Minorities)",
+    "code": "SEEKHO-AUR-KAMAO-MOMA",
+    "ministry": "Ministry of Minority Affairs, Govt. of India",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Job Assistance",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers",
+      "Workers",
+      "Women"
+    ],
+    "benefitValue": "100% Free Vocational Training + Monthly Attendance Stipend of ₹1,500 + Minimum 75% Guaranteed Job Placement",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 45000,
+    "description": "Skill development scheme targeting minority youth to upgrade technical capabilities and secure employment in modern corporate sectors.",
+    "eligibilityDescription": "Minority community youth (Muslim, Christian, Sikh, Buddhist, Jain, Parsi) aged 14 to 35 with minimum 5th pass qualification.",
+    "requiredDocs": [
+      "Minority Self-Declaration / Community Certificate",
+      "Aadhaar Card",
+      "Educational Certificate"
+    ],
+    "deadline": "Seekho Aur Kamao Portal",
+    "officialWebsiteUrl": "https://minorityaffairs.gov.in",
+    "rules": {
+      "minAge": 14,
+      "maxAge": 35
+    },
+    "isPopular": true,
+    "iconName": "school"
+  },
+  {
+    "id": "usttad-upgrading-traditional-arts-skills",
+    "title": "USTTAD Upgrading the Skills and Training in Traditional Arts/Crafts",
+    "code": "USTTAD-MOMA-CRAFTS",
+    "ministry": "Ministry of Minority Affairs, Govt. of India",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Career Development",
+    "beneficiaries": [
+      "Workers",
+      "Rural Citizens",
+      "Women"
+    ],
+    "benefitValue": "Master Craftsmen Apprenticeship Training + Design Innovation Grant + Brand Fair Marketing Support",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 80000,
+    "description": "Preserves rich heritage of traditional master crafts, providing skill revival training and global design standardization.",
+    "eligibilityDescription": "Artisans and young craftsmen practicing traditional Indian arts and handicrafts.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Artisan Certificate"
+    ],
+    "deadline": "Minority Affairs Official Portal",
+    "officialWebsiteUrl": "https://minorityaffairs.gov.in",
+    "rules": {
+      "minAge": 14,
+      "maxAge": 60
+    },
+    "isPopular": false,
+    "iconName": "brush"
+  },
+  {
+    "id": "nai-manzil-skill-scheme-school-dropouts",
+    "title": "Nai Manzil Skill & Formal Education Scheme for School Dropouts",
+    "code": "NAI-MANZIL-MOMA",
+    "ministry": "Ministry of Minority Affairs, Govt. of India",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Career Development",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Class 8th / 10th NIOS Education Certificate + Certified Vocational Skill + Stipend of ₹4,000 & Job Placement",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 35000,
+    "description": "Provides bridge education and certified skill training to school dropouts from minority communities, integrating them into formal job markets.",
+    "eligibilityDescription": "Minority youth aged 17 to 35 who are school dropouts or educated in madarsas without formal Class 10 certificate.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Minority Community Certificate",
+      "School Leaving / Madarsa Certificate"
+    ],
+    "deadline": "Nai Manzil Portal",
+    "officialWebsiteUrl": "https://minorityaffairs.gov.in",
+    "rules": {
+      "minAge": 17,
+      "maxAge": 35
+    },
+    "isPopular": false,
+    "iconName": "menu_book"
+  },
+  {
+    "id": "futureskills-prime-nasscom-it-subsidy",
+    "title": "FutureSkills Prime (MeitY - NASSCOM IT Skill Incentive Scheme)",
+    "code": "FUTURESKILLS-PRIME-MEITY",
+    "ministry": "Ministry of Electronics and Information Technology (MeitY) & NASSCOM",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Career Development",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers",
+      "Workers"
+    ],
+    "benefitValue": "Government Skill Cashback Reimbursement up to ₹12,000 upon successfully passing Gold Standard Tech Certification",
+    "benefitNumericMin": 8000,
+    "benefitNumericMax": 12000,
+    "description": "Reimburses course fees to citizens completing emerging technology courses in Cloud Computing, AI, Cybersecurity, IoT, and Big Data.",
+    "eligibilityDescription": "Indian citizens, IT professionals, and students passing certified FutureSkills Prime assessment exams.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Assessment Result Certificate",
+      "Fee Payment Receipt"
+    ],
+    "deadline": "FutureSkills Prime Portal (futureskillsprime.in)",
+    "officialWebsiteUrl": "https://futureskillsprime.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 60
+    },
+    "isPopular": true,
+    "iconName": "computer"
+  },
+  {
+    "id": "green-jobs-skill-council-solar-technician",
+    "title": "Suryamitra Skill Development Program (Solar PV Technician Training)",
+    "code": "SURYAMITRA-MNRE-SCGJ",
+    "ministry": "Ministry of New and Renewable Energy (MNRE) & Skill Council for Green Jobs",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Job Assistance",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers",
+      "Workers"
+    ],
+    "benefitValue": "100% Free 600-Hour Residential Solar PV Installer Skill Training + Free Boarding & Guaranteed Green Job Placement",
+    "benefitNumericMin": 25000,
+    "benefitNumericMax": 75000,
+    "description": "Trains young ITI/Diploma pass-outs as certified Suryamitra solar technicians to install, operate, and maintain rooftop and utility solar plants.",
+    "eligibilityDescription": "Youth aged 18+ holding ITI certificate in Electrical/Wireman/Fitter or Diploma in Engineering.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "ITI / Diploma Certificate",
+      "Passport Photo"
+    ],
+    "deadline": "National Institute of Solar Energy (NISE) Suryamitra Portal",
+    "officialWebsiteUrl": "https://nise.res.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 40
+    },
+    "isPopular": true,
+    "iconName": "solar_power"
+  },
+  {
+    "id": "flexi-apprenticeship-scheme-industries",
+    "title": "Flexi-Apprenticeship Scheme (Tailored Industry Skill Partnerships)",
+    "code": "FLEXI-APPRENTICESHIP-MSDE",
+    "ministry": "Directorate General of Training (DGT) / MSDE",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Apprenticeships & Employment Support",
+    "beneficiaries": [
+      "Job Seekers",
+      "Workers"
+    ],
+    "benefitValue": "Industry Custom Skill Curriculum + Monthly Industrial Stipend + NCVT Skill Certification",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 100000,
+    "description": "Allows industrial conglomerates (TATA, Maruti, L&T) to design custom training courses and hire apprentices directly for factory operations.",
+    "eligibilityDescription": "Youth seeking custom technical manufacturing and industrial factory training.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Educational Certificates"
+    ],
+    "deadline": "Apprenticeship India Portal",
+    "officialWebsiteUrl": "https://dgt.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 35
+    },
+    "isPopular": false,
+    "iconName": "precision_manufacturing"
+  },
+  {
+    "id": "craftsmen-training-scheme-iti-stipend",
+    "title": "Craftsmen Training Scheme (CTS Free ITI Skill Training & Tool Kits)",
+    "code": "CTS-DGT-MSDE-ITI",
+    "ministry": "Directorate General of Training (DGT), Ministry of Skill Development",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Apprenticeships",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers",
+      "Workers"
+    ],
+    "benefitValue": "100% Free / Subsidized 1-2 Year Vocational ITI Trade Training + NCVT Certificate + Monthly Stipend",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 60000,
+    "description": "Offers vocational trade training across 150+ engineering and non-engineering trades in 15,000+ ITIs across India.",
+    "eligibilityDescription": "Students passed 8th, 10th, or 12th standard seeking technical trade qualifications.",
+    "requiredDocs": [
+      "School Marksheet (8th/10th/12th)",
+      "Aadhaar Card",
+      "Caste Certificate"
+    ],
+    "deadline": "State ITI Admission Portals / NCVT MIS Portal",
+    "officialWebsiteUrl": "https://ncvtmis.gov.in",
+    "rules": {
+      "minAge": 14,
+      "maxAge": 40
+    },
+    "isPopular": true,
+    "iconName": "handyman"
+  },
+  {
+    "id": "ev-technician-skill-training-asdc",
+    "title": "Electric Vehicle (EV) Powertrain Technician Skill Certification",
+    "code": "EV-TECHNICIAN-ASDC-MSDE",
+    "ministry": "Automotive Skills Development Council (ASDC) / MSDE",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Career Development",
+    "beneficiaries": [
+      "Job Seekers",
+      "Workers",
+      "Students"
+    ],
+    "benefitValue": "Advanced EV Battery, Motor & Diagnostics Certification + Direct Hiring Placement in EV Manufacturing & Service Outlets",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 80000,
+    "description": "Upgrades automotive mechanics and diploma holders with specialized skills in Electric Vehicle battery servicing, BMS, and motor assembly.",
+    "eligibilityDescription": "Mechanics, ITI auto trade pass-outs, or diploma holders seeking green mobility jobs.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Educational Certificate / Trade License"
+    ],
+    "deadline": "ASDC Skill Portal (asdc.org.in)",
+    "officialWebsiteUrl": "https://asdc.org.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 45
+    },
+    "isPopular": true,
+    "iconName": "electric_car"
+  },
+  {
+    "id": "drone-pilot-certification-subsidized-course",
+    "title": "Subsidized DGCA Remote Pilot Certification Course for Youth",
+    "code": "DRONE-PILOT-DGCA-MSDE",
+    "ministry": "Ministry of Civil Aviation & Skill India Digital",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Job Assistance",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Subsidized DGCA Authorized Remote Pilot License Course + High Demand Drone Flying Certification",
+    "benefitNumericMin": 30000,
+    "benefitNumericMax": 60000,
+    "description": "Trains young job seekers to become certified commercial drone pilots for agriculture mapping, infrastructure inspection, and delivery operations.",
+    "eligibilityDescription": "10th pass individuals aged 18 to 65 holding a valid Indian Passport or Voter ID.",
+    "requiredDocs": [
+      "10th Marksheet",
+      "Passport / Voter ID Proof",
+      "Medical Fitness Certificate"
+    ],
+    "deadline": "DigitalSky DGCA Portal / Skill India Digital",
+    "officialWebsiteUrl": "https://digitalsky.dgca.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65
+    },
+    "isPopular": true,
+    "iconName": "flight_takeoff"
+  },
+  {
+    "id": "healthcare-nursing-assistant-skill-scheme",
+    "title": "General Duty Assistant (GDA) & Paramedic Skill Training Scheme",
+    "code": "GDA-HEALTHCARE-HSSC",
+    "ministry": "Healthcare Sector Skill Council (HSSC) / MSDE",
+    "origin": "central",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Job Assistance",
+    "beneficiaries": [
+      "Job Seekers",
+      "Women",
+      "Students"
+    ],
+    "benefitValue": "100% Free Nursing Assistant & Hospital Patient Care Training + Guaranteed Job Placement in Private/Govt Hospitals",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 60000,
+    "description": "Prepares male and female youth for high-demand healthcare careers as nursing assistants, home health aides, and emergency medical technicians.",
+    "eligibilityDescription": "10th or 12th pass students seeking healthcare sector jobs.",
+    "requiredDocs": [
+      "10th / 12th Marksheet",
+      "Aadhaar Card"
+    ],
+    "deadline": "HSSC Portal (cgsc.in)",
+    "officialWebsiteUrl": "https://mepsc.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 35
+    },
+    "isPopular": true,
+    "iconName": "medical_services"
+  },
+  {
+    "id": "up-skill-development-mission-upsdm",
+    "title": "Uttar Pradesh Skill Development Mission (UPSDM Free Training Scheme)",
+    "code": "UP-UPSDM-FREE-SKILL",
+    "ministry": "Department of Vocational Education and Skill Development, Govt. of UP",
+    "origin": "state",
+    "stateName": "Uttar Pradesh",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Job Assistance",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers",
+      "Workers",
+      "Women",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Free Skill Training in 40+ Sectors + Free Uniform & Course Material + Mandatory Job Placement Assistance",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 50000,
+    "description": "Aims to train and empower 10 lakh unemployed youth across all 75 districts of Uttar Pradesh in modern market-driven trades.",
+    "eligibilityDescription": "Youth of Uttar Pradesh aged 14 to 35 seeking free vocational skill training and employment.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "UP Domicile Certificate",
+      "Educational Certificates"
+    ],
+    "deadline": "UPSDM Official Portal (upsdm.gov.in)",
+    "officialWebsiteUrl": "https://upsdm.gov.in",
+    "rules": {
+      "minAge": 14,
+      "maxAge": 35,
+      "statesAllowed": [
+        "Uttar Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "work"
+  },
+  {
+    "id": "up-mukhyamantri-yuva-swarojgar-yojana",
+    "title": "UP Mukhyamantri Yuva Swarojgar Yojana (Self-Employment Loan & Subsidy)",
+    "code": "UP-MMYSY-BUSINESS-LOAN",
+    "ministry": "Department of Infrastructure & Industrial Development, Govt. of UP",
+    "origin": "state",
+    "stateName": "Uttar Pradesh",
+    "category": "Skills & Employment",
+    "subCategory": "Entrepreneurship Training & Self-Employment Support",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Job Seekers",
+      "Workers"
+    ],
+    "benefitValue": "Bank Loan up to ₹25 Lakh for Industry and ₹10 Lakh for Service Sector + 25% Government Margin Money Subsidy",
+    "benefitNumericMin": 250000,
+    "benefitNumericMax": 625000,
+    "description": "Provides low-interest loan and 25% capital subsidy to educated unemployed youth in UP to set up small factories, shops, or service businesses.",
+    "eligibilityDescription": "UP resident youth aged 18 to 40 with minimum 10th pass qualification.",
+    "requiredDocs": [
+      "UP Domicile Certificate",
+      "10th Marksheet",
+      "Detailed Project Report",
+      "Aadhaar / PAN Card"
+    ],
+    "deadline": "UP DIIC Portal (diupmsme.upsdc.gov.in)",
+    "officialWebsiteUrl": "https://diupmsme.upsdc.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 40,
+      "statesAllowed": [
+        "Uttar Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "storefront"
+  },
+  {
+    "id": "mh-chief-minister-youth-work-training-scheme",
+    "title": "Maharashtra Chief Minister Youth Work Training Scheme (CM-YWT Stipend)",
+    "code": "MH-CM-YOUTH-WORK-STIPEND",
+    "ministry": "Skill Development, Employment and Innovation Dept, Govt. of Maharashtra",
+    "origin": "state",
+    "stateName": "Maharashtra",
+    "category": "Skills & Employment",
+    "subCategory": "Apprenticeships & Employment Support",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "Monthly Internship Stipend of ₹6,000 (12th Pass), ₹8,000 (ITI/Diploma), and ₹10,000 (Graduates) for 6 Months",
+    "benefitNumericMin": 36000,
+    "benefitNumericMax": 60000,
+    "description": "Offers 6-month paid industrial internships to 10 lakh youth in Maharashtra government offices and private corporations to enhance employability.",
+    "eligibilityDescription": "Youth aged 18 to 35 residing in Maharashtra holding 12th pass, ITI, Diploma, or Degree qualification.",
+    "requiredDocs": [
+      "Maharashtra Domicile Certificate",
+      "Educational Certificates",
+      "Aadhaar Card"
+    ],
+    "deadline": "MahaSwayam Portal (mahaswayam.gov.in)",
+    "officialWebsiteUrl": "https://mahaswayam.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 35,
+      "statesAllowed": [
+        "Maharashtra"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "badge"
+  },
+  {
+    "id": "mh-annasaheb-patil-self-employment-scheme",
+    "title": "Annasaheb Patil Economic Development Corporation Self-Employment Scheme",
+    "code": "MH-ANNASAHEB-PATIL-LOAN-SUBSIDY",
+    "ministry": "Annasaheb Patil Arthik Vikas Mahamandal, Govt. of Maharashtra",
+    "origin": "state",
+    "stateName": "Maharashtra",
+    "category": "Skills & Employment",
+    "subCategory": "Entrepreneurship Training & Self-Employment Support",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Job Seekers"
+    ],
+    "benefitValue": "100% Bank Interest Reimbursement on Business Loans up to ₹15 Lakh for 5 Years",
+    "benefitNumericMin": 150000,
+    "benefitNumericMax": 450000,
+    "description": "Reimburses total bank interest incurred on business loans up to ₹15 Lakh to help youth set up commercial transport, retail, or manufacturing ventures.",
+    "eligibilityDescription": "Unemployed youth of Maharashtra aged 18 to 45 years.",
+    "requiredDocs": [
+      "Maharashtra Domicile",
+      "Bank Loan Approval Letter",
+      "Aadhaar / PAN Card"
+    ],
+    "deadline": "MahaSwayam / APAVM Portal",
+    "officialWebsiteUrl": "https://mahaswayam.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 45,
+      "statesAllowed": [
+        "Maharashtra"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "payments"
+  },
+  {
+    "id": "ka-yuva-nidhi-unemployment-stipend",
+    "title": "Karnataka Yuva Nidhi Scheme (Monthly Allowance for Unemployed Graduates)",
+    "code": "KA-YUVA-NIDHI-ALLOWANCE",
+    "ministry": "Department of Skill Development, Entrepreneurship and Livelihood, Govt. of Karnataka",
+    "origin": "state",
+    "stateName": "Karnataka",
+    "category": "Skills & Employment",
+    "subCategory": "Job Assistance & Career Development",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "Monthly Financial Unemployment Allowance of ₹3,000 for Degree Holders and ₹1,500 for Diploma Holders for 2 Years",
+    "benefitNumericMin": 36000,
+    "benefitNumericMax": 72000,
+    "description": "Provides monthly unemployment financial support for up to 2 years to fresh degree and diploma graduates seeking jobs in Karnataka.",
+    "eligibilityDescription": "Graduates/Diploma holders who passed in academic year 2022-23 onwards and remained unemployed for 180 days.",
+    "requiredDocs": [
+      "Karnataka Domicile Certificate",
+      "Degree / Diploma Marksheet",
+      "Aadhaar Seeded Bank Account"
+    ],
+    "deadline": "Seva Sindhu Portal Karnataka (sevasindhuservices.karnataka.gov.in)",
+    "officialWebsiteUrl": "https://sevasindhuservices.karnataka.gov.in",
+    "rules": {
+      "minAge": 20,
+      "maxAge": 30,
+      "statesAllowed": [
+        "Karnataka"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "account_balance_wallet"
+  },
+  {
+    "id": "tn-unemployed-youth-employment-generation-programme",
+    "title": "Tamil Nadu UYEGP Scheme (Unemployed Youth Business Loan & Subsidy)",
+    "code": "TN-UYEGP-BUSINESS-LOAN",
+    "ministry": "Department of Industries and Commerce, Govt. of Tamil Nadu",
+    "origin": "state",
+    "stateName": "Tamil Nadu",
+    "category": "Skills & Employment",
+    "subCategory": "Entrepreneurship Training & Self-Employment Support",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Job Seekers",
+      "Women"
+    ],
+    "benefitValue": "Bank Business Loan up to ₹15 Lakh + 25% Government Capital Subsidy (Max ₹3.75 Lakh)",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 375000,
+    "description": "Helps educated unemployed youth in Tamil Nadu establish micro-enterprises in manufacturing, service, and trading businesses.",
+    "eligibilityDescription": "Tamil Nadu residents aged 18 to 45 (up to 55 for women/SC/ST) with 8th pass qualification and annual family income below ₹5 Lakh.",
+    "requiredDocs": [
+      "TN Smart Ration Card",
+      "8th Pass Certificate",
+      "Project Report"
+    ],
+    "deadline": "MSME Online TN Portal (msmeonline.tn.gov.in)",
+    "officialWebsiteUrl": "https://msmeonline.tn.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 55,
+      "maxAnnualIncome": 500000,
+      "statesAllowed": [
+        "Tamil Nadu"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "store"
+  },
+  {
+    "id": "ts-palamuru-skill-development-mission",
+    "title": "Telangana Telangana Academy for Skill and Knowledge (TASK Skill Program)",
+    "code": "TS-TASK-SKILL-ACADEMY",
+    "ministry": "ITE&C Department, Govt. of Telangana",
+    "origin": "state",
+    "stateName": "Telangana",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Job Assistance",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "100% Subsidized Corporate Tech Skills, FinTech & Communication Courses + Campus Placement Drives",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 50000,
+    "description": "Connects engineering, degree, and polytechnic students in Telangana with top tech industry skills and campus placement drives.",
+    "eligibilityDescription": "Students enrolled in colleges across Telangana registered with TASK.",
+    "requiredDocs": [
+      "College Student ID",
+      "Aadhaar Card"
+    ],
+    "deadline": "TASK Telangana Portal (task.telangana.gov.in)",
+    "officialWebsiteUrl": "https://task.telangana.gov.in",
+    "rules": {
+      "minAge": 17,
+      "maxAge": 28,
+      "requiresStudent": true,
+      "statesAllowed": [
+        "Telangana"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "school"
+  },
+  {
+    "id": "ap-skill-development-corporation-apssdc",
+    "title": "Andhra Pradesh APSSDC Free Skill Training & Job Mela Scheme",
+    "code": "AP-APSSDC-SKILL-TRAINING",
+    "ministry": "Department of Skill Development and Training, Govt. of AP",
+    "origin": "state",
+    "stateName": "Andhra Pradesh",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Job Assistance",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers",
+      "Workers",
+      "Women"
+    ],
+    "benefitValue": "100% Free Technical & Vocational Training + Mega Job Mela Hiring Drives in all Districts",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 50000,
+    "description": "Empowers AP youth with industry skill hubs, Siemens excellence labs, and weekly district Job Melas.",
+    "eligibilityDescription": "Unemployed youth and students of Andhra Pradesh aged 18 to 35.",
+    "requiredDocs": [
+      "AP Rice Card / Aadhaar Card",
+      "Educational Certificates"
+    ],
+    "deadline": "APSSDC Official Portal (apssdc.in)",
+    "officialWebsiteUrl": "https://apssdc.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 35,
+      "statesAllowed": [
+        "Andhra Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "work"
+  },
+  {
+    "id": "wb-utkarsh-bangla-skill-mission",
+    "title": "Utkarsh Bangla Skill Development Scheme (Free Vocational Training WB)",
+    "code": "WB-UTKARSH-BANGLA-SKILL",
+    "ministry": "Department of Technical Education, Training & Skill Development, Govt. of WB",
+    "origin": "state",
+    "stateName": "West Bengal",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Job Assistance",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers",
+      "Workers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Free Vocational Training (400-1200 Hours) + Free Courseware + Certified Placement Support",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 45000,
+    "description": "Offers non-formal vocational training to non-schoolgoers and youth across West Bengal for wage employment.",
+    "eligibilityDescription": "West Bengal resident youth aged 18 to 35.",
+    "requiredDocs": [
+      "WB Khadya Sathi Card",
+      "Aadhaar Card",
+      "Academic Marksheet"
+    ],
+    "deadline": "Utkarsh Bangla Portal (pbssd.gov.in)",
+    "officialWebsiteUrl": "https://pbssd.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 35,
+      "statesAllowed": [
+        "West Bengal"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "psychology"
+  },
+  {
+    "id": "gj-mukhyamantri-apprentice-yojana",
+    "title": "Gujarat Mukhyamantri Apprentice Yojana (Monthly Stipend Grant)",
+    "code": "GJ-GMAY-APPRENTICE-STIPEND",
+    "ministry": "Labour and Employment Department, Govt. of Gujarat",
+    "origin": "state",
+    "stateName": "Gujarat",
+    "category": "Skills & Employment",
+    "subCategory": "Apprenticeships & Job Assistance",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "Additional Monthly State Government Stipend Allowance of ₹3,000 for Degree and ₹2,000 for Diploma Apprentices",
+    "benefitNumericMin": 24000,
+    "benefitNumericMax": 36000,
+    "description": "Provides additional state monthly stipend over and above central NAPS stipend to encourage industrial apprenticeship in Gujarat factories.",
+    "eligibilityDescription": "Diploma, Degree, or ITI pass-outs undergoing apprenticeship in Gujarat establishments.",
+    "requiredDocs": [
+      "Gujarat Domicile",
+      "Apprenticeship Contract Letter",
+      "Bank Passbook"
+    ],
+    "deadline": "Gujarat Employment Portal",
+    "officialWebsiteUrl": "https://gujarat.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 35,
+      "statesAllowed": [
+        "Gujarat"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "badge"
+  },
+  {
+    "id": "rj-mukhyamantri-yuva-sambal-yojana",
+    "title": "Rajasthan Mukhyamantri Yuva Sambal Yojana (Unemployment Allowance)",
+    "code": "RJ-MMYSY-UNEMPLOYMENT-ALLOWANCE",
+    "ministry": "Department of Skills, Employment and Entrepreneurship, Govt. of Rajasthan",
+    "origin": "state",
+    "stateName": "Rajasthan",
+    "category": "Skills & Employment",
+    "subCategory": "Job Assistance & Employment Support",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers",
+      "Women"
+    ],
+    "benefitValue": "Monthly Unemployment Financial Allowance of ₹4,500 for Women/Disabled/Transgender and ₹4,000 for Male Youth for 2 Years",
+    "benefitNumericMin": 48000,
+    "benefitNumericMax": 108000,
+    "description": "Provides monthly unemployment allowance to educated unemployed youth in Rajasthan alongside 4-hour daily skill internship.",
+    "eligibilityDescription": "Unemployed Rajasthan resident graduates holding Jan Aadhaar card with annual family income below ₹2 Lakh.",
+    "requiredDocs": [
+      "Jan Aadhaar Card",
+      "Graduation Marksheet",
+      "Income Certificate"
+    ],
+    "deadline": "Rajasthan Employment Exchange Portal (eajmer.rajasthan.gov.in)",
+    "officialWebsiteUrl": "https://employment.livelihoods.rajasthan.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 35,
+      "maxAnnualIncome": 200000,
+      "statesAllowed": [
+        "Rajasthan"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "payments"
+  },
+  {
+    "id": "kl-kerala-knowledge-economy-mission-kkem",
+    "title": "Kerala Knowledge Economy Mission (KKEM Knowledge Job Scheme)",
+    "code": "KL-KKEM-KNOWLEDGE-JOBS",
+    "ministry": "Kerala Development and Innovation Strategic Council (K-DISC), Govt. of Kerala",
+    "origin": "state",
+    "stateName": "Kerala",
+    "category": "Skills & Employment",
+    "subCategory": "Job Assistance & Career Development",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers",
+      "Women",
+      "Workers"
+    ],
+    "benefitValue": "Free Digital Workplace Skill Upgradation + Global Remote Job & Gig Work Placement Platform (DWMS)",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 100000,
+    "description": "Aims to provide 20 lakh educated youth in Kerala with knowledge-based digital jobs, freelance opportunities, and skill certification.",
+    "eligibilityDescription": "Educated Kerala resident youth and home-based women seeking white-collar digital work.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Educational Certificate"
+    ],
+    "deadline": "Digital Workforce Management System (knowledgemission.kerala.gov.in)",
+    "officialWebsiteUrl": "https://knowledgemission.kerala.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 59,
+      "statesAllowed": [
+        "Kerala"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "laptop"
+  },
+  {
+    "id": "od-skilled-in-odisha-mission",
+    "title": "Skilled in Odisha World Skill Center Advanced Technical Training",
+    "code": "OD-SKILLED-IN-ODISHA-WSC",
+    "ministry": "Skill Development and Technical Education Dept, Govt. of Odisha",
+    "origin": "state",
+    "stateName": "Odisha",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Career Development",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "World-Class Advanced Robotics, Precision Engineering & Mechatronics Training at World Skill Center Bhubaneswar",
+    "benefitNumericMin": 30000,
+    "benefitNumericMax": 100000,
+    "description": "Offers premier finishing school skills matching ITE Singapore standards to ITI and Diploma graduates in Odisha.",
+    "eligibilityDescription": "Odisha resident youth holding ITI or Polytechnic Diploma certificates.",
+    "requiredDocs": [
+      "Odisha Domicile Certificate",
+      "Diploma / ITI Marksheets"
+    ],
+    "deadline": "World Skill Center Odisha (worldskillcenter.org)",
+    "officialWebsiteUrl": "https://worldskillcenter.org",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 30,
+      "statesAllowed": [
+        "Odisha"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "precision_manufacturing"
+  },
+  {
+    "id": "pb-ghar-ghar-rozgar-mission",
+    "title": "Punjab Ghar Ghar Rozgar Mission & Skill Development Scheme",
+    "code": "PB-GHAR-GHAR-ROZGAR",
+    "ministry": "Department of Employment Generation, Skill Development and Training, Govt. of Punjab",
+    "origin": "state",
+    "stateName": "Punjab",
+    "category": "Skills & Employment",
+    "subCategory": "Job Assistance & Employment Support",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "100% Free Career Counseling, Overseas Employment Bureau Assistance & Job Fair Registrations",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 50000,
+    "description": "Provides job search assistance, competitive exam coaching, and legal overseas employment facilitation for Punjab youth.",
+    "eligibilityDescription": "Job seekers residing in Punjab.",
+    "requiredDocs": [
+      "Punjab Domicile / Aadhaar Card",
+      "Educational Marksheets"
+    ],
+    "deadline": "Punjab Rozgar Portal (pgrkam.com)",
+    "officialWebsiteUrl": "https://pgrkam.com",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 37,
+      "statesAllowed": [
+        "Punjab"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "search"
+  },
+  {
+    "id": "hr-saksham-yuva-yojana",
+    "title": "Haryana Saksham Yuva Yojana (Skill Training & Monthly Stipend)",
+    "code": "HR-SAKSHAM-YUVA-STIPEND",
+    "ministry": "Department of Employment, Govt. of Haryana",
+    "origin": "state",
+    "stateName": "Haryana",
+    "category": "Skills & Employment",
+    "subCategory": "Job Assistance & Employment Support",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "Monthly Allowance + Honorary Assignment Stipend up to ₹9,000 for Post-Graduates and ₹7,500 for Graduates (100 Hours Work)",
+    "benefitNumericMin": 36000,
+    "benefitNumericMax": 108000,
+    "description": "Offers 100 hours of monthly honorary work and skill training along with a monthly allowance to unemployed post-graduates and graduates in Haryana.",
+    "eligibilityDescription": "Unemployed Haryana resident post-graduates or graduates registered in Haryana employment exchanges with family income up to ₹3 Lakh.",
+    "requiredDocs": [
+      "Haryana Family ID (PPP)",
+      "Graduation / PG Marksheet",
+      "Aadhaar Card"
+    ],
+    "deadline": "Saksham Yuva Portal (hreyahs.gov.in)",
+    "officialWebsiteUrl": "https://hreyahs.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 35,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Haryana"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "badge"
+  },
+  {
+    "id": "mp-mukhyamantri-seekho-kamao-yojana",
+    "title": "MP Mukhyamantri Seekho-Kamao Yojana (Learn and Earn Monthly Stipend)",
+    "code": "MP-MMSKY-STIPEND-SCHEME",
+    "ministry": "Technical Education, Skill Development and Employment Dept, Govt. of MP",
+    "origin": "state",
+    "stateName": "Madhya Pradesh",
+    "category": "Skills & Employment",
+    "subCategory": "Apprenticeships & Skill Development",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "Monthly Industrial Training Stipend of ₹8,000 (12th Pass), ₹8,500 (ITI), ₹9,000 (Diploma), and ₹10,000 (Graduates) for 1 Year",
+    "benefitNumericMin": 96000,
+    "benefitNumericMax": 120000,
+    "description": "Offers 1-year industrial training in top business establishments in MP with monthly government stipend transferred directly via DBT.",
+    "eligibilityDescription": "Unemployed youth of MP aged 18 to 29 years holding 12th pass, ITI, Diploma, or Degree.",
+    "requiredDocs": [
+      "MP Samagra ID",
+      "Educational Certificates",
+      "Aadhaar Seeded Bank Account"
+    ],
+    "deadline": "Seekho Kamao Portal MP (seekhokamao.mp.gov.in)",
+    "officialWebsiteUrl": "https://seekhokamao.mp.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 29,
+      "statesAllowed": [
+        "Madhya Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "work_history"
+  },
+  {
+    "id": "br-mukhyamantri-nischay-swayamsahayata-bhatta",
+    "title": "Bihar Mukhyamantri Nischay Swayamsahayata Bhatta Yojana (Unemployment Allowance)",
+    "code": "BR-MNSBY-ALLOWANCE-SCHEME",
+    "ministry": "Planning and Development Dept / MNSSBY, Govt. of Bihar",
+    "origin": "state",
+    "stateName": "Bihar",
+    "category": "Skills & Employment",
+    "subCategory": "Job Assistance & Career Development",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "Monthly Unemployment Allowance of ₹1,000 for 2 Years (Total ₹24,000) + Mandatory Free Basic Computer & Language Training",
+    "benefitNumericMin": 24000,
+    "benefitNumericMax": 24000,
+    "description": "Provides monthly financial assistance to 12th pass unemployed youth searching for higher education or employment opportunities.",
+    "eligibilityDescription": "Unemployed youth of Bihar aged 20 to 25 who passed 12th and are not enrolled in higher education.",
+    "requiredDocs": [
+      "Bihar Residential Certificate",
+      "12th Marksheet",
+      "Aadhaar Card"
+    ],
+    "deadline": "MNSSBY Official Portal (7nishchay-yuvaupmission.bihar.gov.in)",
+    "officialWebsiteUrl": "https://7nishchay-yuvaupmission.bihar.gov.in",
+    "rules": {
+      "minAge": 20,
+      "maxAge": 25,
+      "statesAllowed": [
+        "Bihar"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "payments"
+  },
+  {
+    "id": "cg-mukhyamantri-unemployment-allowance-scheme",
+    "title": "Chhattisgarh Mukhyamantri Berozgari Bhatta Yojana (Unemployment Allowance)",
+    "code": "CG-BEROZGARI-BHATTA-SCHEME",
+    "ministry": "Department of Technical Education and Employment, Govt. of Chhattisgarh",
+    "origin": "state",
+    "stateName": "Chhattisgarh",
+    "category": "Skills & Employment",
+    "subCategory": "Job Assistance & Employment Support",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "Monthly Unemployment Allowance of ₹2,500 for up to 2 Years (Total ₹60,000) + Free Vocational Skill Course",
+    "benefitNumericMin": 30000,
+    "benefitNumericMax": 60000,
+    "description": "Provides financial aid and free skill development training to 12th pass unemployed youth in Chhattisgarh.",
+    "eligibilityDescription": "Unemployed Chhattisgarh residents aged 18 to 35 with 12th pass qualification and annual family income up to ₹2.5 Lakh.",
+    "requiredDocs": [
+      "CG Domicile Certificate",
+      "12th Marksheet",
+      "Income Certificate"
+    ],
+    "deadline": "CG Berozgari Bhatta Portal (berozgaribhatta.cg.nic.in)",
+    "officialWebsiteUrl": "https://berozgaribhatta.cg.nic.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 35,
+      "maxAnnualIncome": 250000,
+      "statesAllowed": [
+        "Chhattisgarh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "account_balance_wallet"
+  },
+  {
+    "id": "jh-mukhyamantri-sarjan-yojana-self-employment",
+    "title": "Jharkhand Mukhyamantri Rozgar Srijan Yojana (CMRSY Business Subsidy)",
+    "code": "JH-CMRSY-LOAN-SUBSIDY",
+    "ministry": "Department of Scheduled Tribe, Scheduled Caste, Minority & OBC Welfare, Govt. of Jharkhand",
+    "origin": "state",
+    "stateName": "Jharkhand",
+    "category": "Skills & Employment",
+    "subCategory": "Entrepreneurship Training & Self-Employment Support",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Job Seekers",
+      "Workers"
+    ],
+    "benefitValue": "Self-Employment Loan up to ₹25 Lakh with 40% Capital Subsidy (Max ₹5 Lakh)",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 500000,
+    "description": "Provides low-interest credit and 40% capital subsidy to ST/SC/OBC/Minority youth to start businesses or buy commercial passenger/goods vehicles.",
+    "eligibilityDescription": "Jharkhand resident youth aged 18 to 45 belonging to ST, SC, OBC, Minority, or PwD categories with family income up to ₹5 Lakh.",
+    "requiredDocs": [
+      "Jharkhand Residential Certificate",
+      "Caste Certificate",
+      "Project Cost Estimate"
+    ],
+    "deadline": "CMRSY Portal Jharkhand",
+    "officialWebsiteUrl": "https://jharkhand.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 45,
+      "maxAnnualIncome": 500000,
+      "statesAllowed": [
+        "Jharkhand"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "directions_bus"
+  },
+  {
+    "id": "as-mukhyamantri-atmanirbhar-assam-yojana",
+    "title": "Mukhyamantri Atmanirbhar Asom Scheme (₹2 Lakh Business Grant)",
+    "code": "AS-CMMYAA-ENTREPRENEUR-GRANT",
+    "ministry": "Department of Industries, Commerce & Public Enterprises, Govt. of Assam",
+    "origin": "state",
+    "stateName": "Assam",
+    "category": "Skills & Employment",
+    "subCategory": "Entrepreneurship Training & Self-Employment Support",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Job Seekers",
+      "Workers"
+    ],
+    "benefitValue": "₹2.0 Lakh Financial Grant (50% Government Subsidy + 50% Interest-Free Loan) for 2 Lakh Youth",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 200000,
+    "description": "Empowers 2 lakh unemployed youth in Assam by providing ₹2 Lakh in two installments along with 1-month entrepreneurship training.",
+    "eligibilityDescription": "Assam permanent residents aged 28 to 40 (28 to 43 for SC/ST/OBC) with 10th pass qualification.",
+    "requiredDocs": [
+      "Assam Domicile Certificate",
+      "10th Marksheet",
+      "Employment Exchange Card",
+      "Bank Account Details"
+    ],
+    "deadline": "Atmanirbhar Asom Portal (cmaaa.assam.gov.in)",
+    "officialWebsiteUrl": "https://cmaaa.assam.gov.in",
+    "rules": {
+      "minAge": 28,
+      "maxAge": 43,
+      "statesAllowed": [
+        "Assam"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "storefront"
+  },
+  {
+    "id": "uk-mukhyamantri-swarojgar-yojana-msy",
+    "title": "Uttarakhand Mukhyamantri Swarojgar Yojana (MSY Business Loan Subsidy)",
+    "code": "UK-MSY-SWAROJGAR-SUBSIDY",
+    "ministry": "Department of Industries, Govt. of Uttarakhand",
+    "origin": "state",
+    "stateName": "Uttarakhand",
+    "category": "Skills & Employment",
+    "subCategory": "Entrepreneurship Training & Self-Employment Support",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Job Seekers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Project Loan up to ₹25 Lakh (Manufacturing) and ₹10 Lakh (Service) + 15% to 25% Capital Subsidy",
+    "benefitNumericMin": 150000,
+    "benefitNumericMax": 625000,
+    "description": "Promotes self-employment and checks migration in hill districts of Uttarakhand by subsidizing cottage industries, tourism homestays, and shops.",
+    "eligibilityDescription": "Permanent residents or returned migrants of Uttarakhand aged 18+.",
+    "requiredDocs": [
+      "Uttarakhand Domicile",
+      "Aadhaar Card",
+      "Detailed Project Report"
+    ],
+    "deadline": "MSY Portal Uttarakhand (msy.uk.gov.in)",
+    "officialWebsiteUrl": "https://msy.uk.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 60,
+      "statesAllowed": [
+        "Uttarakhand"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "landscape"
+  },
+  {
+    "id": "hp-mukhyamantri-swavalamban-yojana-mmsy",
+    "title": "Himachal Pradesh Mukhyamantri Swavalamban Yojana (MMSY Business Grant)",
+    "code": "HP-MMSY-SWAVALAMBAN-GRANT",
+    "ministry": "Department of Industries, Govt. of Himachal Pradesh",
+    "origin": "state",
+    "stateName": "Himachal Pradesh",
+    "category": "Skills & Employment",
+    "subCategory": "Entrepreneurship Training & Self-Employment Support",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Job Seekers",
+      "Women"
+    ],
+    "benefitValue": "30% Capital Subsidy for Men, 35% for Women, and 40% for SC/ST on Project Investment up to ₹1 Crore",
+    "benefitNumericMin": 300000,
+    "benefitNumericMax": 3500000,
+    "description": "Encourages local youth in Himachal Pradesh to turn job creators, providing up to 35% capital subsidy on machinery and land investment.",
+    "eligibilityDescription": "Himachal Bonafide youth aged 18 to 45 years.",
+    "requiredDocs": [
+      "Bonafide Himachali Certificate",
+      "Aadhaar / PAN",
+      "Bank DPR"
+    ],
+    "deadline": "Emerging Himachal Portal (mmsy.hp.gov.in)",
+    "officialWebsiteUrl": "https://mmsy.hp.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 45,
+      "statesAllowed": [
+        "Himachal Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "store"
+  },
+  {
+    "id": "delhi-skill-and-entrepreneurship-university-dseu",
+    "title": "Delhi Skill and Entrepreneurship University (DSEU Subsidized Vocation Courses)",
+    "code": "DELHI-DSEU-SKILL-COURSES",
+    "ministry": "Department of Training and Technical Education, Govt. of NCT of Delhi",
+    "origin": "state",
+    "stateName": "Delhi",
+    "category": "Skills & Employment",
+    "subCategory": "Skill Development & Career Development",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "100% Fee Waiver Scholarships for Low-Income Students + World-Class Applied Skill Degree & Diploma Courses",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 80000,
+    "description": "Operates 20+ specialized skill campuses in Delhi offering practice-led diploma and degree programs with guaranteed industry internships.",
+    "eligibilityDescription": "Students residing in Delhi passing 10th or 12th seeking skill education.",
+    "requiredDocs": [
+      "Delhi Address Proof",
+      "Educational Certificates"
+    ],
+    "deadline": "DSEU Official Portal (dseu.ac.in)",
+    "officialWebsiteUrl": "https://dseu.ac.in",
+    "rules": {
+      "minAge": 15,
+      "maxAge": 35,
+      "statesAllowed": [
+        "Delhi"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "school"
+  },
+  {
+    "id": "jk-mission-youth-mumkin-transport-scheme",
+    "title": "J&K Mission Youth MUMKIN Scheme (Subsidized Commercial Vehicle Grant)",
+    "code": "JK-MUMKIN-MISSION-YOUTH",
+    "ministry": "Mission Youth, Govt. of Jammu and Kashmir",
+    "origin": "state",
+    "stateName": "Jammu and Kashmir",
+    "category": "Skills & Employment",
+    "subCategory": "Entrepreneurship Training & Self-Employment Support",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Job Seekers",
+      "Workers"
+    ],
+    "benefitValue": "Up to ₹80,000 Government Subsidy + Matching Vehicle Manufacturer Discount on Small Commercial Vehicles",
+    "benefitNumericMin": 80000,
+    "benefitNumericMax": 160000,
+    "description": "Enables unemployed youth in Jammu & Kashmir to buy small commercial goods vehicles (Tata Ace, Mahindra Bolero PikUp) with zero down payment for sustainable livelihoods.",
+    "eligibilityDescription": "Unemployed J&K domicile youth aged 18 to 35 holding valid commercial driving license.",
+    "requiredDocs": [
+      "J&K Domicile Certificate",
+      "Commercial Driving License",
+      "Aadhaar Card"
+    ],
+    "deadline": "JK e-Services Portal (jk.gov.in/payment/missionyouth)",
+    "officialWebsiteUrl": "https://missionyouth.jk.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 35,
+      "statesAllowed": [
+        "Jammu and Kashmir"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "local_shipping"
+  }
+]

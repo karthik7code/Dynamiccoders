@@ -1,0 +1,1751 @@
+[
+  {
+    "id": "nalsa-free-legal-aid-services",
+    "title": "NALSA Free Legal Services & Legal Aid Scheme",
+    "code": "NALSA-FREE-LEGAL-AID",
+    "ministry": "National Legal Services Authority (NALSA) / Ministry of Law and Justice",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Court Representation",
+    "beneficiaries": [
+      "General Citizen",
+      "Women",
+      "Children",
+      "Persons with Disabilities",
+      "Workers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Free Legal Representation by Empaneled Lawyers in District, High Court & Supreme Court + Exemption from All Court Fees",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 200000,
+    "description": "Provides completely free legal assistance, court representation, drafting of petitions, and court fee exemptions to women, children, SC/ST, PwD, and low-income citizens.",
+    "eligibilityDescription": "All women, children, SC/ST members, victims of human trafficking/disasters, disabled persons, industrial workers, and citizens with annual income below ₹3 Lakh (or ₹5 Lakh in Supreme Court).",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Income Certificate / Self-Declaration",
+      "Case / Dispute Supporting Documents"
+    ],
+    "deadline": "24/7 NALSA Helpline 15100 / District Legal Services Authority (DLSA)",
+    "officialWebsiteUrl": "https://nalsa.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "maxAnnualIncome": 300000
+    },
+    "isPopular": true,
+    "iconName": "gavel"
+  },
+  {
+    "id": "tele-law-program-rural-legal-aid",
+    "title": "Tele-Law: Mainstreaming Legal Aid to the Poor via CSCs",
+    "code": "TELE-LAW-MEITY-MOLJ",
+    "ministry": "Department of Justice, Ministry of Law & Justice, Govt. of India",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Digital Legal Consultation & Citizen Protection",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Women",
+      "Farmers",
+      "Senior Citizens",
+      "Workers"
+    ],
+    "benefitValue": "100% Free Video & Telephonic Legal Pre-Litigation Advice with Panel Advocates through Common Service Centres (CSCs)",
+    "benefitNumericMin": 2000,
+    "benefitNumericMax": 25000,
+    "description": "Connects rural and marginalized citizens directly with legal experts and panel lawyers via video conferencing at village CSCs for immediate legal guidance.",
+    "eligibilityDescription": "All citizens in rural and semi-urban areas, especially women, SC/ST, senior citizens, and poor families needing advice on land, family, disputes, and rights.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Mobile Phone Number"
+    ],
+    "deadline": "Tele-Law Citizen App / Village Common Service Centre (CSC)",
+    "officialWebsiteUrl": "https://tele-law.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95
+    },
+    "isPopular": true,
+    "iconName": "headset_mic"
+  },
+  {
+    "id": "nyaya-bandhu-pro-bono-legal-services",
+    "title": "Nyaya Bandhu (Pro Bono Legal Services Initiative)",
+    "code": "NYAYA-BANDHU-DOJ",
+    "ministry": "Department of Justice, Ministry of Law & Justice",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Pro Bono Legal Representation & Advocacy",
+    "beneficiaries": [
+      "General Citizen",
+      "Women",
+      "Senior Citizens",
+      "Persons with Disabilities"
+    ],
+    "benefitValue": "Free Quality Legal Representation by Practicing High Court and Supreme Court Advocates",
+    "benefitNumericMin": 25000,
+    "benefitNumericMax": 300000,
+    "description": "Connects marginalized litigants who are eligible for free legal aid under Section 12 of LSA Act with practicing lawyers willing to offer pro bono service.",
+    "eligibilityDescription": "Litigants eligible under Section 12 of Legal Services Authorities Act (Women, Children, SC/ST, PwD, Low-Income Groups).",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Case Summary Document",
+      "Income Certificate"
+    ],
+    "deadline": "Nyaya Bandhu Android/iOS App",
+    "officialWebsiteUrl": "https://probono-doj.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 90,
+      "maxAnnualIncome": 300000
+    },
+    "isPopular": true,
+    "iconName": "scale"
+  },
+  {
+    "id": "central-victim-compensation-scheme-cvcs",
+    "title": "Central Victim Compensation Scheme (CVCS & State Victim Compensation)",
+    "code": "CVCS-MHA-VICTIM-RELIEF",
+    "ministry": "Ministry of Home Affairs (MHA), Govt. of India",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Victim Support & Financial Rehabilitation",
+    "beneficiaries": [
+      "Women",
+      "Children",
+      "General Citizen",
+      "Workers"
+    ],
+    "benefitValue": "Financial Compensation Grant from ₹3,00,000 up to ₹10,00,000 for victims or dependents of violent crime, acid attacks & sexual assault",
+    "benefitNumericMin": 300000,
+    "benefitNumericMax": 1000000,
+    "description": "Provides urgent financial relief and long-term compensation to victims of violent crimes, human trafficking, acid attacks, and severe physical trauma.",
+    "eligibilityDescription": "Victims or legal heirs/dependents of victims of violent crimes where FIR is registered and medical/legal injury verified.",
+    "requiredDocs": [
+      "Copy of FIR / Police Report",
+      "Medical Treatment / Legal Injury Report",
+      "Aadhaar Card",
+      "Bank Passbook Details"
+    ],
+    "deadline": "District Legal Services Authority (DLSA) / State Victim Compensation Board",
+    "officialWebsiteUrl": "https://mha.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "shield_heart"
+  },
+  {
+    "id": "i4c-cyber-crime-victim-financial-aid",
+    "title": "Indian Cyber Crime Coordination Centre (I4C) National Cyber Financial Helpline 1930",
+    "code": "I4C-CYBER-1930-MHA",
+    "ministry": "Indian Cyber Crime Coordination Centre (I4C), Ministry of Home Affairs",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Cyber Fraud Recovery & Victim Protection",
+    "beneficiaries": [
+      "General Citizen",
+      "Senior Citizens",
+      "Women",
+      "Students",
+      "Workers"
+    ],
+    "benefitValue": "Immediate Lien Blocking & Recovery of Defrauded Bank Funds + Free Cyber Crime Police Assistance",
+    "benefitNumericMin": 5000,
+    "benefitNumericMax": 500000,
+    "description": "Enables instant reporting and freezing of defrauded funds stolen via online financial scams, UPI frauds, phishing, and cyber extortion within the golden hour.",
+    "eligibilityDescription": "All Indian citizens who have suffered financial cyber fraud or digital harassment.",
+    "requiredDocs": [
+      "Transaction Reference ID / Bank SMS Proof",
+      "Aadhaar Card",
+      "Cyber Crime Acknowledgment Number"
+    ],
+    "deadline": "National Cyber Crime Reporting Portal (cybercrime.gov.in) / Helpline 1930",
+    "officialWebsiteUrl": "https://cybercrime.gov.in",
+    "rules": {
+      "minAge": 12,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "security"
+  },
+  {
+    "id": "one-stop-centre-sakhi-legal-aid",
+    "title": "One Stop Centre (Sakhi) Integrated Legal, Medical & Rescue Scheme",
+    "code": "SAKHI-OSC-MWCD-LEGAL",
+    "ministry": "Ministry of Women and Child Development (MWCD), Govt. of India",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Victim Support & Emergency Legal Protection",
+    "beneficiaries": [
+      "Women",
+      "Children"
+    ],
+    "benefitValue": "100% Free Integrated Shelter, Police Assistance, Medical Care, Legal Counseling & Court Advocacy under One Roof",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 100000,
+    "description": "Offers 24/7 emergency response, legal aid, medical assistance, psychological counseling, and temporary shelter to women facing violence or distress in private or public spaces.",
+    "eligibilityDescription": "Any woman or minor girl affected by domestic violence, sexual harassment, trafficking, or physical assault.",
+    "requiredDocs": [
+      "None required for immediate emergency admission / Aadhaar optional"
+    ],
+    "deadline": "24/7 Helpline 181 / District One Stop Centre Sakhi",
+    "officialWebsiteUrl": "https://wcd.nic.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "genderConstraint": "Female"
+    },
+    "isPopular": true,
+    "iconName": "support_agent"
+  },
+  {
+    "id": "fast-track-special-courts-ftsc",
+    "title": "Fast Track Special Courts (FTSC) Speedy Justice Scheme for POCSO & Rape Cases",
+    "code": "FTSC-POCSO-DOJ",
+    "ministry": "Department of Justice / Ministry of Law & Justice",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Justice-Related Services & Fast-Track Advocacy",
+    "beneficiaries": [
+      "Women",
+      "Children"
+    ],
+    "benefitValue": "Time-Bound Trial Disposal within 1 Year + Designated Special Public Prosecutor & Victim Care Counsel",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 500000,
+    "description": "Sets up dedicated Fast Track Special Courts across all districts to ensure swift trial, victim support, and legal resolution for offenses under POCSO and IPC rape cases.",
+    "eligibilityDescription": "Victims or family members of rape and POCSO Act offenses seeking speedy judicial trials.",
+    "requiredDocs": [
+      "FIR Copy",
+      "Medical Examination Report",
+      "Identity Proof"
+    ],
+    "deadline": "District Court Fast Track Special Court Bench",
+    "officialWebsiteUrl": "https://doj.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": false,
+    "iconName": "balance"
+  },
+  {
+    "id": "elderline-14567-senior-citizen-legal-protection",
+    "title": "National Helpline for Senior Citizens (Elderline 14567 Legal & Safety Protection)",
+    "code": "ELDERLINE-14567-DOSJE",
+    "ministry": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Citizen Protection & Elderly Legal Defense",
+    "beneficiaries": [
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Free Emergency Legal Protection, Abuse Intervention, Maintenance Tribunal Assistance & Rescue Services",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 100000,
+    "description": "Provides guidance, legal support under Maintenance and Welfare of Parents Act, emotional support, and emergency rescue from elder abuse or property disputes.",
+    "eligibilityDescription": "Senior citizens aged 60 and above facing physical abuse, property encroachment, abandonment, or legal disputes.",
+    "requiredDocs": [
+      "Age Proof / Aadhaar Card"
+    ],
+    "deadline": "National Toll-Free Helpline 14567 (7 AM - 10 PM daily)",
+    "officialWebsiteUrl": "https://socialjustice.gov.in",
+    "rules": {
+      "minAge": 60,
+      "maxAge": 110,
+      "requiresSeniorCitizen": true
+    },
+    "isPopular": true,
+    "iconName": "elderly"
+  },
+  {
+    "id": "sc-st-prevention-of-atrocities-legal-relief",
+    "title": "SC/ST Prevention of Atrocities Legal Aid & Financial Relief Grant",
+    "code": "SC-ST-POA-RELIEF-DOSJE",
+    "ministry": "Ministry of Social Justice and Empowerment & Ministry of Tribal Affairs",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Victim Support & Atrocity Legal Relief",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Workers",
+      "General Citizen"
+    ],
+    "benefitValue": "Immediate Financial Relief Grant from ₹85,000 to ₹8,25,000 per victim + Free Special Public Prosecutor Representation",
+    "benefitNumericMin": 85000,
+    "benefitNumericMax": 825000,
+    "description": "Provides mandatory monetary compensation, free legal prosecution, medical care, and family rehabilitation to SC/ST victims of atrocity offenses.",
+    "eligibilityDescription": "Victims belonging to Scheduled Castes or Scheduled Tribes against whom offenses under the POA Act 1989 have been committed.",
+    "requiredDocs": [
+      "SC/ST Caste Certificate",
+      "FIR Copy under POA Act",
+      "Aadhaar Card",
+      "Bank Passbook Details"
+    ],
+    "deadline": "District Collectorate / Special Court for Atrocities / DLSA",
+    "officialWebsiteUrl": "https://socialjustice.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "allowedCategories": [
+        "SC",
+        "ST"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "gavel"
+  },
+  {
+    "id": "legal-aid-defense-counsel-system-ladcs",
+    "title": "Legal Aid Defense Counsel System (LADCS for Criminal Indigent Cases)",
+    "code": "LADCS-NALSA-CRIMINAL-DEFENSE",
+    "ministry": "National Legal Services Authority (NALSA)",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Legal Services & Criminal Defense",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Full-time Professional Legal Defense Lawyers in Criminal Trials, Bail Hearings & Appeals for Indigent Accused Persons",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 150000,
+    "description": "Deploys full-time criminal defense lawyers dedicated exclusively to providing high-quality legal defense to accused poor individuals who cannot afford private advocates.",
+    "eligibilityDescription": "Accused persons in criminal cases who qualify for free legal aid under NALSA guidelines.",
+    "requiredDocs": [
+      "Court Custody Warrant / Case Number",
+      "Income Declaration Proof"
+    ],
+    "deadline": "District Legal Services Authority (DLSA) LADCS Office",
+    "officialWebsiteUrl": "https://nalsa.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 100
+    },
+    "isPopular": false,
+    "iconName": "balance"
+  },
+  {
+    "id": "gram-nyayalayas-rural-court-access",
+    "title": "Gram Nyayalayas Scheme for Speedy Village-Level Justice Access",
+    "code": "GRAM-NYAYALAYA-DOJ",
+    "ministry": "Department of Justice, Ministry of Law & Justice",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Justice-Related Services & Village Mobile Courts",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Farmers",
+      "Workers",
+      "Women"
+    ],
+    "benefitValue": "Mobile Village Court Hearings at Panchayat Doorsteps + Low Nominal Filing Fee & Fast Dispute Settlement within 90 Days",
+    "benefitNumericMin": 5000,
+    "benefitNumericMax": 50000,
+    "description": "Establishes mobile Gram Nyayalayas at the intermediate Panchayat level to try civil and criminal cases directly in villages, bringing justice to rural citizens.",
+    "eligibilityDescription": "Rural residents involved in petty civil, land, or criminal disputes seeking localized, informal, and affordable adjudication.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Dispute Petition / Property Slip"
+    ],
+    "deadline": "Gram Nyayalaya Court Office / Intermediate Panchayat Office",
+    "officialWebsiteUrl": "https://doj.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "gavel"
+  },
+  {
+    "id": "hit-and-run-accident-victim-compensation",
+    "title": "Compensation to Victims of Hit and Run Motor Accidents Scheme",
+    "code": "HIT-RUN-MOTOR-ACCIDENT-MORTH",
+    "ministry": "Ministry of Road Transport and Highways (MoRTH)",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Victim Support & Road Safety Relief",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Rural Citizens",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Financial Compensation of ₹2,00,000 for Deceased Victim and ₹50,000 for Grievous Hurt in unidentified vehicle hit-and-run cases",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 200000,
+    "description": "Provides solatium compensation from the Solatium Fund to victims or legal heirs in motor vehicle hit-and-run accidents where the offending vehicle cannot be traced.",
+    "eligibilityDescription": "Victims or legal heirs of individuals injured or killed in hit-and-run motor accidents verified by police inquiry.",
+    "requiredDocs": [
+      "Police Accident Enquiry Report",
+      "Post-Mortem / Medical Injury Certificate",
+      "Aadhaar Card",
+      "Legal Heir Certificate"
+    ],
+    "deadline": "Sub-Divisional Magistrate (SDM) / Claims Enquiry Officer",
+    "officialWebsiteUrl": "https://morth.nic.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "medical_services"
+  },
+  {
+    "id": "witness-protection-scheme-mha",
+    "title": "National Witness Protection Scheme (MHA Witness Protection Grant)",
+    "code": "WITNESS-PROTECTION-MHA",
+    "ministry": "Ministry of Home Affairs (MHA), Govt. of India",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Citizen Protection & Legal Defense",
+    "beneficiaries": [
+      "General Citizen",
+      "Women",
+      "Workers"
+    ],
+    "benefitValue": "Police Security Escort, Identity Protection, Temporary Relocation Support & Court Guard for Vulnerable Witnesses",
+    "benefitNumericMin": 25000,
+    "benefitNumericMax": 200000,
+    "description": "Ensures safety and protection for witnesses facing threat to life or property during criminal trials, including secure court transportation and identity concealment.",
+    "eligibilityDescription": "Witnesses in serious criminal trials who face threat, intimidation, or harm from accused parties.",
+    "requiredDocs": [
+      "Witness Statement Copy",
+      "Threat Perception Application",
+      "Aadhaar Card"
+    ],
+    "deadline": "Standing Witness Protection Committee / District Judge",
+    "officialWebsiteUrl": "https://mha.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 100
+    },
+    "isPopular": false,
+    "iconName": "verified_user"
+  },
+  {
+    "id": "acid-attack-victim-rehabilitation-grant",
+    "title": "Acid Attack Victim Financial Medical Relief & Free Reconstructive Surgery",
+    "code": "ACID-ATTACK-REHAB-MHA-MWCD",
+    "ministry": "Ministry of Home Affairs & Ministry of Health and Family Welfare",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Victim Support & Rehabilitation",
+    "beneficiaries": [
+      "Women",
+      "General Citizen"
+    ],
+    "benefitValue": "100% Cashless Reconstructive Surgeries at Empaneled Hospitals + Mandatory Minimum ₹3 Lakh Immediate State Financial Relief",
+    "benefitNumericMin": 300000,
+    "benefitNumericMax": 800000,
+    "description": "Mandates immediate free medical treatment, specialized plastic surgeries, psychological therapy, and guaranteed state financial compensation for acid attack survivors.",
+    "eligibilityDescription": "Acid attack survivors across all age groups and genders.",
+    "requiredDocs": [
+      "FIR Copy",
+      "Hospital Medical Casualty Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "District Magistrate Office / DLSA / Government Hospitals",
+    "officialWebsiteUrl": "https://mha.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "health_and_safety"
+  },
+  {
+    "id": "ujjawala-anti-trafficking-rehabilitation-scheme",
+    "title": "Ujjawala Scheme for Prevention of Trafficking & Victim Rehabilitation",
+    "code": "UJJAWALA-MWCD-TRAFFICKING",
+    "ministry": "Ministry of Women and Child Development (MWCD)",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Victim Support & Legal Rescue",
+    "beneficiaries": [
+      "Women",
+      "Children"
+    ],
+    "benefitValue": "Free Rescue Operations, Protective Shelter Homes, Legal Advocacy, Vocational Training & Repatriation Assistance",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 150000,
+    "description": "A comprehensive scheme for prevention of trafficking and rescue, recovery, rehabilitation, and repatriation of victims of commercial sexual exploitation.",
+    "eligibilityDescription": "Women and children who are victims or vulnerable to human trafficking and exploitation.",
+    "requiredDocs": [
+      "Rescue Report / Police Referral Letter / NGO Intake Form"
+    ],
+    "deadline": "District Child Protection Unit / District WCD Officer",
+    "officialWebsiteUrl": "https://wcd.nic.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "genderConstraint": "Female"
+    },
+    "isPopular": false,
+    "iconName": "shield"
+  },
+  {
+    "id": "childline-1098-emergency-child-protection",
+    "title": "Childline 1098 National Emergency Child Protection Service",
+    "code": "CHILDLINE-1098-MWCD",
+    "ministry": "Ministry of Women and Child Development (MWCD)",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Citizen Protection & Child Legal Defense",
+    "beneficiaries": [
+      "Children"
+    ],
+    "benefitValue": "Immediate 24/7 Police Rescue, Emergency Medical Care, Shelter Care & Child Welfare Committee (CWC) Legal Protection",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 50000,
+    "description": "Nationwide 24-hour toll-free emergency phone service for children in need of care and protection, rescuing runaways, child workers, and abused children.",
+    "eligibilityDescription": "All children under 18 years of age in need of care, protection, medical rescue, or legal defense.",
+    "requiredDocs": [
+      "None required for immediate emergency rescue"
+    ],
+    "deadline": "Toll-Free Helpline 1098 / Emergency Response Support System 112",
+    "officialWebsiteUrl": "https://wcd.nic.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 18
+    },
+    "isPopular": true,
+    "iconName": "child_care"
+  },
+  {
+    "id": "lok-adalat-dispute-resolution-scheme",
+    "title": "National Lok Adalat Speedy Dispute Resolution & Fee Refund Scheme",
+    "code": "LOK-ADALAT-NALSA",
+    "ministry": "National Legal Services Authority (NALSA)",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Legal Services & Dispute Resolution",
+    "beneficiaries": [
+      "General Citizen",
+      "Farmers",
+      "Workers",
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Refund of Court Fees Paid + Non-Appealable Final Settlement Order with Zero Execution Delays",
+    "benefitNumericMin": 5000,
+    "benefitNumericMax": 200000,
+    "description": "Provides an amicable, fast-track forum for resolving pending court disputes or pre-litigation cases (bank recovery, motor accident, land, family) with full court fee refunds.",
+    "eligibilityDescription": "Litigants with pending cases in court or pre-litigation disputes willing to settle through mutual compromise.",
+    "requiredDocs": [
+      "Court Case Registration Details",
+      "Aadhaar Card",
+      "Dispute Agreement Form"
+    ],
+    "deadline": "Quarterly National Lok Adalat Benches at all District & High Courts",
+    "officialWebsiteUrl": "https://nalsa.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "handshake"
+  },
+  {
+    "id": "e-courts-citizen-services-portal",
+    "title": "e-Courts Digital Citizen Services & Online Case Status System",
+    "code": "ECOURTS-DIGITAL-SERVICES",
+    "ministry": "e-Committee, Supreme Court of India & Department of Justice",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Legal Services & Citizen Protection",
+    "beneficiaries": [
+      "General Citizen",
+      "Students",
+      "Workers",
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Free Real-Time Case Status Tracking, Electronic Certified Judgments & Free e-Filing Access",
+    "benefitNumericMin": 1000,
+    "benefitNumericMax": 10000,
+    "description": "Enables every citizen to track case status, download court orders, receive SMS alerts, and file cases online without paying agent fees.",
+    "eligibilityDescription": "All litigants, advocates, and citizens seeking judicial case updates across any district or High Court in India.",
+    "requiredDocs": [
+      "CNR Number / Case Number / Party Name"
+    ],
+    "deadline": "e-Courts Mobile App / Services Portal (services.ecourts.gov.in)",
+    "officialWebsiteUrl": "https://ecourts.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "laptop"
+  },
+  {
+    "id": "consumer-protection-e-daakhil-portal",
+    "title": "e-Daakhil Consumer Rights Complaint Portal & Legal Fee Waiver",
+    "code": "E-DAAKHIL-CONSUMER-DOCA",
+    "ministry": "Department of Consumer Affairs, Govt. of India",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Citizen Protection & Legal Services",
+    "beneficiaries": [
+      "General Citizen",
+      "Students",
+      "Workers",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Direct Online Consumer Forum Complaint Filing + Fee Waiver for Claims up to ₹5 Lakh",
+    "benefitNumericMin": 5000,
+    "benefitNumericMax": 100000,
+    "description": "Allows consumers to file grievances against defective goods, unfair trade practices, or deficient services online before Consumer Commissions nationwide.",
+    "eligibilityDescription": "Any consumer who has purchased goods or services and faced deficiency or fraud by sellers or manufacturers.",
+    "requiredDocs": [
+      "Purchase Invoice / Bill / Receipt",
+      "Complaint Brief",
+      "Aadhaar Card"
+    ],
+    "deadline": "e-Daakhil Official Portal (edaakhil.nic.in)",
+    "officialWebsiteUrl": "https://edaakhil.nic.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "shopping_bag"
+  },
+  {
+    "id": "under-trial-prisoner-legal-aid-bail-scheme",
+    "title": "Support for Poor Prisoners Scheme (Financial Aid for Bail & Fines)",
+    "code": "POOR-PRISONERS-BAIL-MHA",
+    "ministry": "Ministry of Home Affairs (MHA), Govt. of India",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Legal Assistance & Prisoner Welfare",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Direct State Grant up to ₹40,000 for Payment of Bail Bond or Unpaid Court Fine for Poor Undertrial Prisoners",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 40000,
+    "description": "Provides financial support to impoverished undertrial prisoners who remain incarcerated solely due to inability to pay bail bonds or penalty fines.",
+    "eligibilityDescription": "Indigent prisoners in jail eligible for bail or release on fine payment verified by Empowered Committee.",
+    "requiredDocs": [
+      "Jail Superintendent Recommendation",
+      "Bail Order / Court Penalty Order"
+    ],
+    "deadline": "District Empowered Committee / District Jail Office",
+    "officialWebsiteUrl": "https://mha.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 90,
+      "maxAnnualIncome": 150000
+    },
+    "isPopular": false,
+    "iconName": "lock_open"
+  },
+  {
+    "id": "medico-legal-assistance-road-accident-victims",
+    "title": "Cashless Medical Treatment & Medico-Legal Aid for Road Accident Victims",
+    "code": "CASHLESS-ROAD-ACCIDENT-MORTH",
+    "ministry": "Ministry of Road Transport and Highways (MoRTH)",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Citizen Protection & Emergency Relief",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Farmers"
+    ],
+    "benefitValue": "Cashless Hospitalization Treatment up to ₹1,50,000 for up to 7 days + Zero Medico-Legal Police Delay",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 150000,
+    "description": "Guarantees immediate trauma treatment and medical stabilization to road accident victims at all empaneled public and private hospitals without advance payment.",
+    "eligibilityDescription": "Any person injured in a road accident on any public road in India.",
+    "requiredDocs": [
+      "Accident Spot Verification / Police Trauma Intimation Sheet"
+    ],
+    "deadline": "Empaneled Hospitals Nationwide / MoRTH Helpline",
+    "officialWebsiteUrl": "https://morth.nic.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "emergency"
+  },
+  {
+    "id": "anti-human-trafficking-unit-ahtu-victim-aid",
+    "title": "Anti-Human Trafficking Units (AHTU) Rescue & Witness Protection Scheme",
+    "code": "AHTU-MHA-RESCUE",
+    "ministry": "Ministry of Home Affairs (MHA), Govt. of India",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Citizen Protection & Victim Support",
+    "beneficiaries": [
+      "Women",
+      "Children",
+      "Workers"
+    ],
+    "benefitValue": "Specialized Police Rescue Teams, Inter-State Law Enforcement & Safe Victim Rehabilitation",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 100000,
+    "description": "Establishes specialized Anti-Human Trafficking Units in every police district to investigate, rescue, and safely rehabilitate victims of forced labor and trafficking.",
+    "eligibilityDescription": "Victims or families of victims of forced labor, commercial exploitation, or missing children.",
+    "requiredDocs": [
+      "Police Missing Complaint / Intimation Report"
+    ],
+    "deadline": "District Superintendent of Police Office / AHTU Cell",
+    "officialWebsiteUrl": "https://mha.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": false,
+    "iconName": "policy"
+  },
+  {
+    "id": "commercial-courts-alternative-dispute-resolution",
+    "title": "Pre-Institution Mediation & Settlement (PIMS) for Commercial Disputes",
+    "code": "PIMS-COMMERCIAL-COURTS-DOJ",
+    "ministry": "Department of Justice, Govt. of India",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Legal Services & Business Protection",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Workers",
+      "General Citizen"
+    ],
+    "benefitValue": "3-Month Mandatory Mediation Settlement with Legal Binding Equivalent to Court Decree",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 100000,
+    "description": "Provides mandatory pre-institution mediation through State Legal Services Authorities to resolve commercial and business disputes quickly without long litigation.",
+    "eligibilityDescription": "Traders, micro-entrepreneurs, and citizens facing commercial disputes before filing a lawsuit.",
+    "requiredDocs": [
+      "Commercial Agreement Copy",
+      "Mediation Application",
+      "Identity Proof"
+    ],
+    "deadline": "State Legal Services Authority (SLSA) Mediation Centre",
+    "officialWebsiteUrl": "https://doj.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 100
+    },
+    "isPopular": false,
+    "iconName": "storefront"
+  },
+  {
+    "id": "forest-rights-act-fra-tribal-legal-aid",
+    "title": "Forest Rights Act (FRA) Tribal Land Rights Legal Defense Scheme",
+    "code": "FRA-TRIBAL-LEGAL-MOTA",
+    "ministry": "Ministry of Tribal Affairs (MoTA), Govt. of India",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Legal Assistance & Tribal Protection",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Farmers",
+      "Workers"
+    ],
+    "benefitValue": "Free Legal Representation & Appeals for Forest Dwelling Scheduled Tribes (FDST) Land Titles",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 75000,
+    "description": "Protects forest dwelling tribal communities by offering free legal assistance for securing individual and community forest rights titles.",
+    "eligibilityDescription": "Forest Dwelling Scheduled Tribes (FDST) and Other Traditional Forest Dwellers (OTFD) residing in forest areas.",
+    "requiredDocs": [
+      "ST Certificate / Traditional Residency Proof",
+      "Gram Sabha Recommendation Slip"
+    ],
+    "deadline": "Sub-Divisional Level Committee (SDLC) / District Tribal Welfare Officer",
+    "officialWebsiteUrl": "https://tribal.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 100,
+      "allowedCategories": [
+        "ST"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "park"
+  },
+  {
+    "id": "national-green-tribunal-ngt-environmental-compensation",
+    "title": "National Green Tribunal (NGT) Environmental Pollution Victim Relief Scheme",
+    "code": "NGT-ENVIRONMENT-RELIEF-MOEFCC",
+    "ministry": "Ministry of Environment, Forest and Climate Change",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Victim Support & Environmental Justice",
+    "beneficiaries": [
+      "General Citizen",
+      "Farmers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Financial Relief & Medical Compensation for Victims of Industrial Pollution, Hazardous Toxic Waste & Environmental Disasters",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 500000,
+    "description": "Adjudicates environmental damage claims and awards financial compensation to citizens affected by industrial toxic spills or illegal deforestation.",
+    "eligibilityDescription": "Citizens, farmers, or local communities facing health damage or land destruction due to environmental violations.",
+    "requiredDocs": [
+      "Medical Injury Report / Land Damage Photos",
+      "NGT Petition Copy"
+    ],
+    "deadline": "National Green Tribunal Benches (Delhi, Pune, Kolkata, Bhopal, Chennai)",
+    "officialWebsiteUrl": "https://greentribunal.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 100
+    },
+    "isPopular": false,
+    "iconName": "eco"
+  },
+  {
+    "id": "up-free-legal-aid-slsa-scheme",
+    "title": "Uttar Pradesh State Legal Services Authority (UP-SLSA Free Legal Defense)",
+    "code": "UP-SLSA-LEGAL-AID",
+    "ministry": "Department of Justice, Govt. of Uttar Pradesh",
+    "origin": "state",
+    "stateName": "Uttar Pradesh",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Court Representation",
+    "beneficiaries": [
+      "Women",
+      "Rural Citizens",
+      "Workers",
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Free Legal Representation across UP District Courts & Allahabad High Court + Exemption from Court Fees",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Provides free legal services, panel lawyer representation, and dispute resolution through Lok Adalats across all 75 districts in Uttar Pradesh.",
+    "eligibilityDescription": "UP residents belonging to SC/ST, women, children, PwD, or families with annual income up to ₹3 Lakh.",
+    "requiredDocs": [
+      "Uttar Pradesh Aadhaar Card",
+      "Income Certificate",
+      "Case Papers"
+    ],
+    "deadline": "District Legal Services Authority (DLSA) UP",
+    "officialWebsiteUrl": "https://upslsa.up.nic.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Uttar Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "gavel"
+  },
+  {
+    "id": "up-cyber-crime-police-station-assistance",
+    "title": "UP Cyber Crime Police Station & Citizen Fraud Relief Helpline",
+    "code": "UP-CYBER-CRIME-HELPLINE",
+    "ministry": "Home Department, Govt. of Uttar Pradesh",
+    "origin": "state",
+    "stateName": "Uttar Pradesh",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Cyber Fraud Recovery & Citizen Protection",
+    "beneficiaries": [
+      "General Citizen",
+      "Women",
+      "Students",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Free Dedicated Cyber Police Investigation, Stolen Bank Account Freeze & Free Legal Assistance",
+    "benefitNumericMin": 5000,
+    "benefitNumericMax": 300000,
+    "description": "Operates 18 specialized Cyber Crime Police Stations across UP divisions to resolve financial cyber frauds, extortion, and harassment.",
+    "eligibilityDescription": "Citizens of Uttar Pradesh who fall victim to online banking scams or cyber harassment.",
+    "requiredDocs": [
+      "UP Ration / Aadhaar Card",
+      "Bank Statement",
+      "Fraud Complaint Form"
+    ],
+    "deadline": "UP Cyber Crime Police Stations / Dial 112",
+    "officialWebsiteUrl": "https://uppolice.gov.in",
+    "rules": {
+      "minAge": 12,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Uttar Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "security"
+  },
+  {
+    "id": "mh-free-legal-aid-mahasharaddak",
+    "title": "Maharashtra State Legal Services Authority (MSLSA Free Counsel Grant)",
+    "code": "MH-MSLSA-LEGAL-AID",
+    "ministry": "Law and Judiciary Department, Govt. of Maharashtra",
+    "origin": "state",
+    "stateName": "Maharashtra",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Court Advocacy",
+    "beneficiaries": [
+      "Women",
+      "Workers",
+      "Senior Citizens",
+      "Persons with Disabilities"
+    ],
+    "benefitValue": "Free Legal Defense, High Court & District Court Panel Lawyers + Complete Court Fee Exemption",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 200000,
+    "description": "Extends free advocate services and legal advice to poor and vulnerable residents across Bombay High Court and Maharashtra district courts.",
+    "eligibilityDescription": "Maharashtra residents belonging to SC/ST, women, disabled, or persons with annual income up to ₹3 Lakh.",
+    "requiredDocs": [
+      "Maharashtra Domicile",
+      "Aadhaar Card",
+      "Income Certificate"
+    ],
+    "deadline": "District Legal Services Authority (DLSA) Maharashtra",
+    "officialWebsiteUrl": "https://legalservices.maharashtra.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Maharashtra"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "scale"
+  },
+  {
+    "id": "mh-manodhairya-scheme-victim-relief",
+    "title": "Manodhairya Scheme for Financial Compensation to Sexual Assault & Acid Attack Victims",
+    "code": "MH-MANODHAIRYA-VICTIM-RELIEF",
+    "ministry": "Women and Child Development Department, Govt. of Maharashtra",
+    "origin": "state",
+    "stateName": "Maharashtra",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Victim Support & Rehabilitation",
+    "beneficiaries": [
+      "Women",
+      "Children"
+    ],
+    "benefitValue": "Immediate Financial Relief Grant from ₹3,00,000 up to ₹10,00,000 + Free Medical & Psychological Counseling",
+    "benefitNumericMin": 300000,
+    "benefitNumericMax": 1000000,
+    "description": "Provides swift monetary compensation, shelter, legal assistance, and counseling to female victims of rape, child sexual abuse, and acid attacks in Maharashtra.",
+    "eligibilityDescription": "Female victims or child victims of sexual assault or acid attacks in Maharashtra.",
+    "requiredDocs": [
+      "FIR Copy",
+      "Medical Casualty Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "District Collector Office / District WCD Officer Maharashtra",
+    "officialWebsiteUrl": "https://womenchild.maharashtra.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "genderConstraint": "Female",
+      "statesAllowed": [
+        "Maharashtra"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "shield_heart"
+  },
+  {
+    "id": "tn-free-legal-aid-taidcl",
+    "title": "Tamil Nadu State Legal Services Authority (TNSLSA Free Legal Aid)",
+    "code": "TN-TNSLSA-LEGAL-AID",
+    "ministry": "Law Department, Govt. of Tamil Nadu",
+    "origin": "state",
+    "stateName": "Tamil Nadu",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Court Advocacy",
+    "beneficiaries": [
+      "Women",
+      "Workers",
+      "Rural Citizens",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Full Free Legal Advocacy in Madras High Court & District Courts + Zero Court Fee Expenses",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 180000,
+    "description": "Offers free court representation, legal drafting, and mediation services to marginalized citizens in Tamil Nadu.",
+    "eligibilityDescription": "Tamil Nadu residents eligible under LSA Act (Women, SC/ST, PwD, low income under ₹3 Lakh).",
+    "requiredDocs": [
+      "TN Smart Ration Card",
+      "Aadhaar Card",
+      "Case Summary"
+    ],
+    "deadline": "District Legal Services Authority (DLSA) TN",
+    "officialWebsiteUrl": "https://tnslsa.tn.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Tamil Nadu"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "gavel"
+  },
+  {
+    "id": "ka-free-legal-aid-kslsa",
+    "title": "Karnataka State Legal Services Authority (KSLSA Legal Aid & Mediation)",
+    "code": "KA-KSLSA-LEGAL-AID",
+    "ministry": "Department of Law, Justice and Human Rights, Govt. of Karnataka",
+    "origin": "state",
+    "stateName": "Karnataka",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Legal Services & Dispute Resolution",
+    "beneficiaries": [
+      "Women",
+      "Farmers",
+      "Workers",
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Free Advocates for Karnataka High Court & Trial Courts + Free Pre-Litigation Mediation",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Ensures equal justice by providing free legal representation and organizing Lok Adalats across all districts of Karnataka.",
+    "eligibilityDescription": "Karnataka residents belonging to SC/ST, women, disabled, or having annual income below ₹3 Lakh.",
+    "requiredDocs": [
+      "Karnataka Ration / Aadhaar Card",
+      "Income Certificate"
+    ],
+    "deadline": "KSLSA Nyaya Degula Bengaluru / DLSA Offices",
+    "officialWebsiteUrl": "https://kslsa.kar.nic.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Karnataka"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "balance"
+  },
+  {
+    "id": "ts-free-legal-aid-tgslsa",
+    "title": "Telangana State Legal Services Authority (TGSLSA Free Counsel Scheme)",
+    "code": "TS-TGSLSA-LEGAL-AID",
+    "ministry": "Law Department, Govt. of Telangana",
+    "origin": "state",
+    "stateName": "Telangana",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Court Advocacy",
+    "beneficiaries": [
+      "Women",
+      "Workers",
+      "Rural Citizens",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Free Lawyer Services for Telangana High Court & District Courts + Lok Adalat Fee Refund",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Provides free legal assistance and organizes mobile Lok Adalats to resolve land, labor, and family disputes in Telangana.",
+    "eligibilityDescription": "Telangana residents with family income under ₹3 Lakh, women, SC/ST, and disabled citizens.",
+    "requiredDocs": [
+      "Telangana Food Security Card",
+      "Aadhaar Card"
+    ],
+    "deadline": "DLSA Office at District Court Complexes Telangana",
+    "officialWebsiteUrl": "https://tgslsa.telangana.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Telangana"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "gavel"
+  },
+  {
+    "id": "ap-free-legal-aid-apslsa",
+    "title": "Andhra Pradesh State Legal Services Authority (APSLSA Free Defense)",
+    "code": "AP-APSLSA-LEGAL-AID",
+    "ministry": "Law Department, Govt. of Andhra Pradesh",
+    "origin": "state",
+    "stateName": "Andhra Pradesh",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Court Advocacy",
+    "beneficiaries": [
+      "Women",
+      "Farmers",
+      "Workers"
+    ],
+    "benefitValue": "Free Legal Advice, Court Representation & Court Fee Exemption across AP Courts",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Ensures justice is not denied to any poor citizen in Andhra Pradesh by offering free advocate services.",
+    "eligibilityDescription": "Andhra Pradesh BPL cardholders, women, children, SC/ST, and disabled persons.",
+    "requiredDocs": [
+      "AP YSR Rice Card",
+      "Aadhaar Card"
+    ],
+    "deadline": "APSLSA High Court Complex Amaravati / DLSA Offices",
+    "officialWebsiteUrl": "https://apslsa.ap.nic.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "statesAllowed": [
+        "Andhra Pradesh"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "scale"
+  },
+  {
+    "id": "wb-free-legal-aid-wbslsa",
+    "title": "West Bengal State Legal Services Authority (WBSLSA Legal Aid Scheme)",
+    "code": "WB-WBSLSA-LEGAL-AID",
+    "ministry": "Judicial Department, Govt. of West Bengal",
+    "origin": "state",
+    "stateName": "West Bengal",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Citizen Protection",
+    "beneficiaries": [
+      "Women",
+      "Workers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Free Panel Lawyers in Calcutta High Court & District Courts + Free Legal Counseling",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Provides free legal services, assistance to victims of trafficking, and conducts Lok Adalats throughout West Bengal.",
+    "eligibilityDescription": "West Bengal residents eligible under LSA Act Guidelines.",
+    "requiredDocs": [
+      "WB Khadya Sathi Card",
+      "Aadhaar Card"
+    ],
+    "deadline": "District Legal Services Authority (DLSA) WB",
+    "officialWebsiteUrl": "https://wbslsa.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "West Bengal"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "gavel"
+  },
+  {
+    "id": "gj-free-legal-aid-gslsa",
+    "title": "Gujarat State Legal Services Authority (GSLSA Legal Counseling Scheme)",
+    "code": "GJ-GSLSA-LEGAL-AID",
+    "ministry": "Legal Department, Govt. of Gujarat",
+    "origin": "state",
+    "stateName": "Gujarat",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Court Advocacy",
+    "beneficiaries": [
+      "Women",
+      "Workers",
+      "Farmers",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Free Advocate Representation in Gujarat High Court & District Courts + Lok Adalat Fee Refund",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Extends free legal aid and mediation facilities across all taluka and district court complexes in Gujarat.",
+    "eligibilityDescription": "Gujarat residents with income under ₹3 Lakh, women, children, SC/ST, and disabled individuals.",
+    "requiredDocs": [
+      "Gujarat Domicile",
+      "Aadhaar Card",
+      "Income Proof"
+    ],
+    "deadline": "GSLSA Gujarat High Court Campus Ahmedabad / DLSA",
+    "officialWebsiteUrl": "https://gslsa.gujarat.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Gujarat"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "balance"
+  },
+  {
+    "id": "rj-free-legal-aid-rslsa",
+    "title": "Rajasthan State Legal Services Authority (RSLSA Free Defense Scheme)",
+    "code": "RJ-RSLSA-LEGAL-AID",
+    "ministry": "Law and Legal Affairs Department, Govt. of Rajasthan",
+    "origin": "state",
+    "stateName": "Rajasthan",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Court Advocacy",
+    "beneficiaries": [
+      "Women",
+      "Farmers",
+      "Workers",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Free Advocate Services in Rajasthan High Court Jodhpur/Jaipur & District Courts + Free Mediation",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Provides free legal assistance and operates Nyaya Raths (Mobile Legal Aid Vans) in remote desert areas of Rajasthan.",
+    "eligibilityDescription": "Rajasthan resident Jan Aadhaar holders eligible for legal aid under NALSA rules.",
+    "requiredDocs": [
+      "Jan Aadhaar Card",
+      "Aadhaar Card"
+    ],
+    "deadline": "RSLSA High Court Campus Jaipur / DLSA Rajasthan",
+    "officialWebsiteUrl": "https://rslsa.rajasthan.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Rajasthan"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "gavel"
+  },
+  {
+    "id": "kl-free-legal-aid-kelsa",
+    "title": "Kerala State Legal Services Authority (KELSA Legal Defense & Mediation)",
+    "code": "KL-KELSA-LEGAL-AID",
+    "ministry": "Law Department, Govt. of Kerala",
+    "origin": "state",
+    "stateName": "Kerala",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Dispute Resolution",
+    "beneficiaries": [
+      "Women",
+      "Workers",
+      "Senior Citizens",
+      "Persons with Disabilities"
+    ],
+    "benefitValue": "Free High Court & District Panel Lawyer Services + Community Legal Literacy Programs",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 180000,
+    "description": "Ensures accessible justice through free legal aid clinics in colleges, coastal hamlets, and panchayats across Kerala.",
+    "eligibilityDescription": "Kerala residents belonging to SC/ST, women, disabled, or having annual income below ₹3 Lakh.",
+    "requiredDocs": [
+      "Kerala Ration Card",
+      "Aadhaar Card"
+    ],
+    "deadline": "KELSA Niyama Sahaya Bhavan Kochi / DLSA Offices",
+    "officialWebsiteUrl": "https://kelsa.kerala.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Kerala"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "scale"
+  },
+  {
+    "id": "od-free-legal-aid-oslsa",
+    "title": "Odisha State Legal Services Authority (OSLSA Legal Defense Scheme)",
+    "code": "OD-OSLSA-LEGAL-AID",
+    "ministry": "Law Department, Govt. of Odisha",
+    "origin": "state",
+    "stateName": "Odisha",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Tribal Rights Defense",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Farmers",
+      "Women",
+      "Workers"
+    ],
+    "benefitValue": "Free Panel Lawyers in Orissa High Court & District Courts + Legal Defense for Forest Land Disputes",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Delivers free legal defense and organizes legal literacy camps in tribal and rural districts of Odisha.",
+    "eligibilityDescription": "Odisha residents eligible under Legal Services Authorities Act.",
+    "requiredDocs": [
+      "Odisha BSK Card",
+      "Aadhaar Card"
+    ],
+    "deadline": "OSLSA Cuttack / DLSA Offices Odisha",
+    "officialWebsiteUrl": "https://oslsa.odisha.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "statesAllowed": [
+        "Odisha"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "gavel"
+  },
+  {
+    "id": "pb-free-legal-aid-pbslsa",
+    "title": "Punjab State Legal Services Authority (PBSLSA Free Legal Services)",
+    "code": "PB-PBSLSA-LEGAL-AID",
+    "ministry": "Department of Legal and Legislative Affairs, Govt. of Punjab",
+    "origin": "state",
+    "stateName": "Punjab",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Court Advocacy",
+    "beneficiaries": [
+      "Women",
+      "Farmers",
+      "Workers",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Free Legal Representation in Punjab & Haryana High Court & Trial Courts + Mediation Assistance",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Provides free legal assistance and dispute resolution to poor families and senior citizens across Punjab.",
+    "eligibilityDescription": "Punjab residents with annual family income up to ₹3 Lakh, women, SC/ST, and disabled citizens.",
+    "requiredDocs": [
+      "Punjab Aadhaar Card",
+      "Income Certificate"
+    ],
+    "deadline": "PBSLSA District Court Complexes Punjab",
+    "officialWebsiteUrl": "https://pulsa.punjab.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Punjab"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "balance"
+  },
+  {
+    "id": "hr-free-legal-aid-hslsa",
+    "title": "Haryana State Legal Services Authority (HSLSA Legal Aid & Victim Assistance)",
+    "code": "HR-HSLSA-LEGAL-AID",
+    "ministry": "Law Department, Govt. of Haryana",
+    "origin": "state",
+    "stateName": "Haryana",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Citizen Protection",
+    "beneficiaries": [
+      "Women",
+      "Farmers",
+      "Workers",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Free Panel Advocates in High Court & District Courts + Financial Relief to Victims of Violence",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Extends free legal advice, court representation, and victim relief across all 22 districts of Haryana.",
+    "eligibilityDescription": "Haryana PPP (Parivar Pehchan Patra) holders with annual income up to ₹3 Lakh, women, and SC/ST.",
+    "requiredDocs": [
+      "Haryana PPP Card",
+      "Aadhaar Card"
+    ],
+    "deadline": "HSLSA District Court Complexes Haryana",
+    "officialWebsiteUrl": "https://hslsa.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Haryana"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "gavel"
+  },
+  {
+    "id": "mp-free-legal-aid-mpslsa",
+    "title": "Madhya Pradesh State Legal Services Authority (MPSLSA Legal Counseling)",
+    "code": "MP-MPSLSA-LEGAL-AID",
+    "ministry": "Law and Legislative Affairs Department, Govt. of Madhya Pradesh",
+    "origin": "state",
+    "stateName": "Madhya Pradesh",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Court Advocacy",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Farmers",
+      "Women",
+      "Workers"
+    ],
+    "benefitValue": "Free Panel Advocates in MP High Court (Jabalpur, Indore, Gwalior) & District Courts",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Provides free legal services, operates mobile court vans, and settles pre-litigation disputes across MP.",
+    "eligibilityDescription": "MP residents holding Samagra ID with income below ₹3 Lakh, women, SC/ST, and disabled individuals.",
+    "requiredDocs": [
+      "MP Samagra ID",
+      "Aadhaar Card"
+    ],
+    "deadline": "MPSLSA Office Jabalpur / DLSA MP",
+    "officialWebsiteUrl": "https://mpslsa.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Madhya Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "scale"
+  },
+  {
+    "id": "br-free-legal-aid-bslsa",
+    "title": "Bihar State Legal Services Authority (BSLSA Nyaya Mitra Scheme)",
+    "code": "BR-BSLSA-LEGAL-AID",
+    "ministry": "Law Department, Govt. of Bihar",
+    "origin": "state",
+    "stateName": "Bihar",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Village Dispute Resolution",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Farmers",
+      "Workers",
+      "Women"
+    ],
+    "benefitValue": "Free Lawyer Services in Patna High Court & Trial Courts + Gram Panchayat Nyaya Mitra Guidance",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Offers free advocate representation and village level Nyaya Mitra guidance to resolve land and civil disputes in Bihar.",
+    "eligibilityDescription": "Bihar residents eligible under Legal Services Authorities Act guidelines.",
+    "requiredDocs": [
+      "Bihar Ration Card",
+      "Aadhaar Card"
+    ],
+    "deadline": "BSLSA Patna High Court / DLSA Bihar",
+    "officialWebsiteUrl": "https://bslsa.bihar.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "statesAllowed": [
+        "Bihar"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "gavel"
+  },
+  {
+    "id": "cg-free-legal-aid-cgslsa",
+    "title": "Chhattisgarh State Legal Services Authority (CGSLSA Legal Defense)",
+    "code": "CG-CGSLSA-LEGAL-AID",
+    "ministry": "Law Department, Govt. of Chhattisgarh",
+    "origin": "state",
+    "stateName": "Chhattisgarh",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Tribal Protection",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Farmers",
+      "Workers",
+      "Women"
+    ],
+    "benefitValue": "Free Advocates in High Court Bilaspur & District Courts + Special Assistance for Tribal Litigants",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Provides free legal assistance and legal literacy camps across tribal and remote regions of Chhattisgarh.",
+    "eligibilityDescription": "Chhattisgarh residents with annual income under ₹3 Lakh, women, SC/ST, and disabled citizens.",
+    "requiredDocs": [
+      "Chhattisgarh Ration Card",
+      "Aadhaar Card"
+    ],
+    "deadline": "CGSLSA High Court Campus Bilaspur / DLSA Offices",
+    "officialWebsiteUrl": "https://cgslsa.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Chhattisgarh"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "balance"
+  },
+  {
+    "id": "jh-free-legal-aid-jhalsa",
+    "title": "Jharkhand State Legal Services Authority (JHALSA Legal Defense & Rehabilitation)",
+    "code": "JH-JHALSA-LEGAL-AID",
+    "ministry": "Department of Law, Govt. of Jharkhand",
+    "origin": "state",
+    "stateName": "Jharkhand",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Tribal Rights Defense",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Workers",
+      "Women"
+    ],
+    "benefitValue": "Free Panel Lawyer Representation in High Court Ranchi & District Courts + Anti-Trafficking Legal Aid",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Ensures free legal aid, anti-human trafficking protection, and land rights advocacy for tribal populations in Jharkhand.",
+    "eligibilityDescription": "Jharkhand residents belonging to ST/SC, women, children, and poor families.",
+    "requiredDocs": [
+      "Jharkhand Aadhaar Card",
+      "Income / Caste Certificate"
+    ],
+    "deadline": "JHALSA Nyaya Sadan Ranchi / DLSA Jharkhand",
+    "officialWebsiteUrl": "https://jhalsa.org",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "statesAllowed": [
+        "Jharkhand"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "gavel"
+  },
+  {
+    "id": "as-free-legal-aid-aslsa",
+    "title": "Assam State Legal Services Authority (ASLSA Legal Literacy & Defense)",
+    "code": "AS-ASLSA-LEGAL-AID",
+    "ministry": "Judicial Department, Govt. of Assam",
+    "origin": "state",
+    "stateName": "Assam",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Citizen Protection",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Workers",
+      "Women",
+      "Students"
+    ],
+    "benefitValue": "Free Panel Lawyers in Gauhati High Court & District Courts + Free Legal Counseling",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Extends free legal aid, disaster victim support, and legal literacy programs across Assam districts.",
+    "eligibilityDescription": "Assam residents eligible under Legal Services Authorities Act guidelines.",
+    "requiredDocs": [
+      "Assam Ration / Aadhaar Card"
+    ],
+    "deadline": "ASLSA Gauhati High Court Campus / DLSA Assam",
+    "officialWebsiteUrl": "https://aslsa.assam.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "statesAllowed": [
+        "Assam"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "scale"
+  },
+  {
+    "id": "uk-free-legal-aid-ukslsa",
+    "title": "Uttarakhand State Legal Services Authority (UKSLSA Free Legal Defense)",
+    "code": "UK-UKSLSA-LEGAL-AID",
+    "ministry": "Law Department, Govt. of Uttarakhand",
+    "origin": "state",
+    "stateName": "Uttarakhand",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Disaster Victim Relief",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Farmers",
+      "Women",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Free Panel Advocates in High Court Nainital & District Courts + Legal Relief for Natural Calamity Victims",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Offers free advocate representation and emergency legal relief for disaster-affected hill families in Uttarakhand.",
+    "eligibilityDescription": "Uttarakhand residents with annual income under ₹3 Lakh, women, SC/ST, and disabled citizens.",
+    "requiredDocs": [
+      "Uttarakhand Domicile",
+      "Aadhaar Card"
+    ],
+    "deadline": "UKSLSA High Court Campus Nainital / DLSA Uttarakhand",
+    "officialWebsiteUrl": "https://ukslsa.uk.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Uttarakhand"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "gavel"
+  },
+  {
+    "id": "hp-free-legal-aid-hpslsa",
+    "title": "Himachal Pradesh State Legal Services Authority (HPSLSA Legal Counseling)",
+    "code": "HP-HPSLSA-LEGAL-AID",
+    "ministry": "Law Department, Govt. of Himachal Pradesh",
+    "origin": "state",
+    "stateName": "Himachal Pradesh",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Court Advocacy",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Farmers",
+      "Women",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Free High Court & Trial Court Lawyers + Free Pre-Litigation Mediation",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Provides accessible legal defense and organizes Lok Adalats across Himachal Pradesh hill districts.",
+    "eligibilityDescription": "Himachal Pradesh residents with income below ₹3 Lakh, women, SC/ST, and disabled individuals.",
+    "requiredDocs": [
+      "Himachal Bonafide Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "HPSLSA High Court Campus Shimla / DLSA Himachal",
+    "officialWebsiteUrl": "https://hpslsa.nic.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Himachal Pradesh"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "balance"
+  },
+  {
+    "id": "od-madho-babu-pension-legal-aid-cell",
+    "title": "Odisha Senior Citizen & Widow Protection Legal Cell",
+    "code": "OD-SENIOR-WIDOW-LEGAL-CELL",
+    "ministry": "Department of Social Security & Empowerment of Persons with Disabilities, Govt. of Odisha",
+    "origin": "state",
+    "stateName": "Odisha",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Citizen Protection & Elderly Legal Relief",
+    "beneficiaries": [
+      "Senior Citizens",
+      "Women"
+    ],
+    "benefitValue": "100% Free Legal Help for Maintenance Pension Claims & Protection from Property Ouster",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 60000,
+    "description": "Special legal defense cell in Odisha providing protection and tribunal advocacy to senior citizens and destitute widows against illegal land grabbing and abandonment.",
+    "eligibilityDescription": "Senior citizens aged 60+ and destitute widows residing in Odisha.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Age / Pension Proof"
+    ],
+    "deadline": "District Sub-Divisional Magistrate (SDM) Maintenance Tribunal Odisha",
+    "officialWebsiteUrl": "https://ssepd.odisha.gov.in",
+    "rules": {
+      "minAge": 60,
+      "maxAge": 110,
+      "statesAllowed": [
+        "Odisha"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "elderly"
+  },
+  {
+    "id": "delhi-victim-compensation-scheme-dvcs",
+    "title": "Delhi Victim Compensation Scheme (DVCS Financial Relief & Medical Grant)",
+    "code": "DELHI-DVCS-LEGAL-AID",
+    "ministry": "Home Department / DSLSA, Govt. of NCT of Delhi",
+    "origin": "state",
+    "stateName": "Delhi",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Victim Support & Financial Compensation",
+    "beneficiaries": [
+      "Women",
+      "Children",
+      "General Citizen",
+      "Workers"
+    ],
+    "benefitValue": "Financial Compensation Grant from ₹3,00,000 to ₹10,00,000 for violent crime victims in Delhi NCR",
+    "benefitNumericMin": 300000,
+    "benefitNumericMax": 1000000,
+    "description": "Provides immediate financial compensation, emergency hospital treatment, and legal defense to victims of violent crime, acid attacks, and hit-and-run in Delhi.",
+    "eligibilityDescription": "Victims or legal heirs of violent crimes committed within NCT of Delhi.",
+    "requiredDocs": [
+      "Delhi Police FIR Copy",
+      "Medical Examination Report",
+      "Aadhaar Card"
+    ],
+    "deadline": "Delhi State Legal Services Authority (DSLSA) Patiala House Courts",
+    "officialWebsiteUrl": "https://dslsa.org",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Delhi"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "shield_heart"
+  },
+  {
+    "id": "jk-free-legal-aid-jkslsa",
+    "title": "Jammu & Kashmir State Legal Services Authority (JKSLSA Free Defense)",
+    "code": "JK-JKSLSA-LEGAL-AID",
+    "ministry": "Department of Law, Justice and Parliamentary Affairs, Govt. of J&K",
+    "origin": "state",
+    "stateName": "Jammu and Kashmir",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Free Legal Assistance & Citizen Protection",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Women",
+      "Workers",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Free Advocates in J&K High Court Srinagar/Jammu & Trial Courts + Mediation Assistance",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 150000,
+    "description": "Delivers free legal aid, legal literacy camps, and dispute settlement through Lok Adalats across Jammu & Kashmir.",
+    "eligibilityDescription": "Residents of J&K with annual family income up to ₹3 Lakh, women, SC/ST, and disabled citizens.",
+    "requiredDocs": [
+      "J&K Domicile Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "JKSLSA High Court Campus Srinagar/Jammu / DLSA Offices",
+    "officialWebsiteUrl": "https://jkslsa.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 95,
+      "maxAnnualIncome": 300000,
+      "statesAllowed": [
+        "Jammu and Kashmir"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "scale"
+  },
+  {
+    "id": "cyber-volunteer-citizen-protection-program",
+    "title": "National Cyber Crime Volunteer Framework & Digital Safety Guard",
+    "code": "CYBER-VOLUNTEER-I4C-MHA",
+    "ministry": "Indian Cyber Crime Coordination Centre (I4C), Ministry of Home Affairs",
+    "origin": "central",
+    "category": "Public Safety, Law & Justice",
+    "subCategory": "Citizen Protection & Cyber Safety",
+    "beneficiaries": [
+      "Students",
+      "General Citizen",
+      "Workers"
+    ],
+    "benefitValue": "Official MHA Digital Cyber Safety Badge, Free Cyber Forensics Training & Incident Reporting Access",
+    "benefitNumericMin": 5000,
+    "benefitNumericMax": 25000,
+    "description": "Empowers citizens and tech-savvy students to report illegal cyber content, child abuse material, and phishing websites to assist law enforcement.",
+    "eligibilityDescription": "Indian citizens aged 18+ committed to digital safety and community protection.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Citizen Cyber Safety Pledge"
+    ],
+    "deadline": "National Cyber Crime Reporting Portal (cybercrime.gov.in)",
+    "officialWebsiteUrl": "https://cybercrime.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 75
+    },
+    "isPopular": false,
+    "iconName": "verified"
+  }
+]

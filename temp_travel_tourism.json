@@ -1,0 +1,1753 @@
+[
+  {
+    "id": "prashad-scheme-pilgrimage-rejuvenation",
+    "title": "PRASHAD Scheme (Pilgrimage Rejuvenation and Spiritual Heritage Augmentation Drive)",
+    "code": "PRASHAD-MINISTRY-OF-TOURISM",
+    "ministry": "Ministry of Tourism, Govt. of India",
+    "origin": "central",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Heritage",
+    "beneficiaries": [
+      "General Citizen",
+      "Travelers",
+      "Workers"
+    ],
+    "benefitValue": "100% Fully Central Funded Pilgrim Facilitation Centres, Clean Sanitation Complex, Lighting, Ghats & Sound Shows in 40+ Sacred Pilgrimage Sites",
+    "benefitNumericMin": 5000000,
+    "benefitNumericMax": 100000000,
+    "description": "Enriches infrastructure at major national pilgrimage destinations (Varanasi, Kedarnath, Somnath, Puri, Amritsar, Kamakhya, Dwarka) with clean pilgrim facilities and accessibility.",
+    "eligibilityDescription": "Pilgrims, tourists, and local businesses in designated national PRASHAD pilgrimage towns.",
+    "requiredDocs": [
+      "State Tourism Department Infrastructure Proposal"
+    ],
+    "deadline": "PRASHAD Portal, Ministry of Tourism (tourism.gov.in)",
+    "officialWebsiteUrl": "https://tourism.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "temple_hindu"
+  },
+  {
+    "id": "swadesh-darshan-2-0-theme-tourism-circuits",
+    "title": "Swadesh Darshan 2.0 (Sustainable & Responsible Destination Tourism Scheme)",
+    "code": "SWADESH-DARSHAN-2-0-TOURISM",
+    "ministry": "Ministry of Tourism, Govt. of India",
+    "origin": "central",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Development & Cultural Circuits",
+    "beneficiaries": [
+      "Travelers",
+      "Entrepreneurs",
+      "Workers"
+    ],
+    "benefitValue": "100% Central Financial Assistance for Developing Destination Tourist Hubs, Eco-Trails, Cultural Villages & Craft Melas",
+    "benefitNumericMin": 10000000,
+    "benefitNumericMax": 500000000,
+    "description": "Develops sustainable and responsible tourism destinations across 50+ selected cities (Eco-Tourism, Himalayan Circuit, Coastal Circuit, Heritage Circuit).",
+    "eligibilityDescription": "State Tourism Corporations, District Tourism Promotion Councils, and local hospitality entrepreneurs.",
+    "requiredDocs": [
+      "Swadesh Darshan 2.0 Destination Master Plan DPR"
+    ],
+    "deadline": "Swadesh Darshan Portal (swadeshdarshan.gov.in)",
+    "officialWebsiteUrl": "https://swadeshdarshan.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "landscape"
+  },
+  {
+    "id": "dekho-apna-desh-ltc-and-tourism-pledge",
+    "title": "Dekho Apna Desh People’s Choice & Domestic Tourist Incentive Campaign",
+    "code": "DEKHO-APNA-DESH-MOT",
+    "ministry": "Ministry of Tourism, Govt. of India",
+    "origin": "central",
+    "category": "Travel & Tourism",
+    "subCategory": "Travel Support & Domestic Tourism",
+    "beneficiaries": [
+      "General Citizen",
+      "Travelers",
+      "Workers"
+    ],
+    "benefitValue": "100% Tax Free Leave Travel Concession (LTC) Reimbursement for Govt Employees + Certified \"Dekho Apna Desh\" Citizen Travel Merit Badge & Cash Prizes",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 100000,
+    "description": "Incentivizes domestic travel across India by encouraging citizens to visit at least 15 non-home state tourist locations, offering travel badges and LTC exemptions.",
+    "eligibilityDescription": "All Indian citizens and central/state government employees taking domestic vacation trips.",
+    "requiredDocs": [
+      "Travel Photo Uploads on Dekho Apna Desh Portal / LTC Tickets"
+    ],
+    "deadline": "Dekho Apna Desh Portal (dekhoapnadesh.gov.in)",
+    "officialWebsiteUrl": "https://dekhoapnadesh.gov.in",
+    "rules": {
+      "minAge": 5,
+      "maxAge": 85
+    },
+    "isPopular": true,
+    "iconName": "flight"
+  },
+  {
+    "id": "incredible-india-tourist-facilitator-certification",
+    "title": "Incredible India Tourist Facilitator (IITF) Certification & Guide Training",
+    "code": "IITF-GUIDE-TRAINING-TOURISM",
+    "ministry": "Ministry of Tourism, Govt. of India",
+    "origin": "central",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Entrepreneurship & Skill Development",
+    "beneficiaries": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "benefitValue": "100% Free Online Tourist Guide Training, Official License Badge & Direct Employment at Heritage Sites & Tour Agencies",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 50000,
+    "description": "Digital training and licensing program empowering local youth to become certified, professional Incredible India tourist guides.",
+    "eligibilityDescription": "Indian citizens aged 18 or above who have passed 10+2 / High School in any stream.",
+    "requiredDocs": [
+      "10+2 Marksheet",
+      "Aadhaar Card",
+      "IITF Online Registration Receipt"
+    ],
+    "deadline": "IITF Official Online Portal (iitf.gov.in)",
+    "officialWebsiteUrl": "https://iitf.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 60
+    },
+    "isPopular": true,
+    "iconName": "badge"
+  },
+  {
+    "id": "financial-assistance-to-tour-operators-and-homestays",
+    "title": "Paryatan Loan Guarantee Scheme for Micro & Small Tour Operators (LGSST)",
+    "code": "LGSST-TOURISM-NCGTC",
+    "ministry": "Ministry of Tourism & NCGTC, Ministry of Finance",
+    "origin": "central",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Entrepreneurship & Business Finance",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Workers"
+    ],
+    "benefitValue": "100% Collateral-Free Bank Working Capital Loan up to ₹10 Lakh for Regional Tour Operators and ₹1.0 Lakh for Tourist Guides",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 1000000,
+    "description": "Provides 100% government-guaranteed collateral-free bank loans to small tour operators, travel agents, homestays, and approved tourist guides.",
+    "eligibilityDescription": "MoT / State Tourism approved travel agencies, tour operators, registered guides, and rural homestay owners.",
+    "requiredDocs": [
+      "MoT / State Tourism Approval License",
+      "PAN Card",
+      "Bank Account Statement"
+    ],
+    "deadline": "NCGTC LGSST Nodal Portal / Commercial Banks",
+    "officialWebsiteUrl": "https://tourism.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 65
+    },
+    "isPopular": false,
+    "iconName": "card_travel"
+  },
+  {
+    "id": "saathi-and-nidhi-hospitality-certification",
+    "title": "SAATHI & NIDHI 2.0 Hospitality Quality Standard & Homestay Registration",
+    "code": "NIDHI-2-0-HOSPITALITY-SAATHI",
+    "ministry": "Ministry of Tourism, Govt. of India",
+    "origin": "central",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Development & Quality Assurance",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Workers"
+    ],
+    "benefitValue": "100% Free Official National Classification Star Rating, Safety Certification & Direct Listing on Incredible India Portal",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 50000,
+    "description": "Unified national database and self-assessment portal for hotels, resorts, B&Bs, and homestays to obtain government quality certification.",
+    "eligibilityDescription": "All accommodation units (Hotels, Resorts, Homestays, Guest Houses, Heritage Havellis) operating in India.",
+    "requiredDocs": [
+      "Property Commercial / Local Panchayat License",
+      "GST Registration / Trade License"
+    ],
+    "deadline": "NIDHI 2.0 Official Portal (nidhi.tourism.gov.in)",
+    "officialWebsiteUrl": "https://nidhi.tourism.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 75
+    },
+    "isPopular": false,
+    "iconName": "hotel"
+  },
+  {
+    "id": "up-kashi-vishwanath-and-ayodhya-teerth-yatra-subsidy",
+    "title": "UP Mukhyamantri Teerth Yatra Yojana (Ayodhya, Kashi & Mathura Subsidy)",
+    "code": "UP-TEERTH-YATRA-SUBSIDY",
+    "ministry": "Department of Religious Affairs, Govt. of Uttar Pradesh",
+    "origin": "state",
+    "stateName": "Uttar Pradesh",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Senior Citizens",
+      "Rural Citizens",
+      "Workers"
+    ],
+    "benefitValue": "100% Free Special AC Express Pilgrimage Train Fare, Food, Lodging & Local AC Bus Sightseeing for Senior Citizens",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 25000,
+    "description": "Sponsors 100% free pilgrimage tours (including Ayodhya Ram Mandir, Varanasi Kashi Vishwanath, Mathura-Vrindavan, and Chitrakoot) for elderly citizens in UP.",
+    "eligibilityDescription": "Senior citizens aged 60 and above domiciled in Uttar Pradesh with annual family income up to ₹3.0 Lakh.",
+    "requiredDocs": [
+      "UP Domicile Certificate",
+      "Aadhaar Card",
+      "Age Certificate (60+)",
+      "Medical Fitness Certificate"
+    ],
+    "deadline": "UP Religious Affairs Department Portal (updharmarthkarya.in)",
+    "officialWebsiteUrl": "https://updharmarthkarya.in",
+    "rules": {
+      "minAge": 60,
+      "maxAge": 85,
+      "maxAnnualIncome": 300000,
+      "requiresSeniorCitizen": true,
+      "statesAllowed": [
+        "Uttar Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "temple_hindu"
+  },
+  {
+    "id": "up-bed-and-breakfast-homestay-scheme-ayodhya-kashi",
+    "title": "UP Rural Homestay & Heritage B&B Subsidy Scheme (Ayodhya & Kashi)",
+    "code": "UP-RURAL-HOMESTAY-SUBSIDY",
+    "ministry": "Uttar Pradesh Tourism Development Corporation (UPTDC)",
+    "origin": "state",
+    "stateName": "Uttar Pradesh",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Entrepreneurship & Homestays",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Rural Citizens",
+      "Women"
+    ],
+    "benefitValue": "Capital Subsidy up to ₹2.5 Lakh for Renovating Rural & Heritage Homes into Tourist Homestays + 100% Exemption of Commercial Property Tax",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 250000,
+    "description": "Encourages local homeowners in Ayodhya, Varanasi, Agra, and Mathura to convert extra rooms into tourist homestays, providing subsidies for renovation.",
+    "eligibilityDescription": "Residents of UP owning residential property in tourist/heritage hubs with 2 to 6 available spare rooms.",
+    "requiredDocs": [
+      "UP Residential Property Ownership Copy",
+      "Aadhaar Card",
+      "Bank Passbook Details"
+    ],
+    "deadline": "UP Tourism Official Portal (uptourism.gov.in)",
+    "officialWebsiteUrl": "https://uptourism.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 70,
+      "statesAllowed": [
+        "Uttar Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "house"
+  },
+  {
+    "id": "mh-aai-women-tourism-policy-and-agro-tourism",
+    "title": "Maharashtra \"AAI\" Women-Centric Tourism Policy & Agro-Tourism Grant",
+    "code": "MH-AAI-WOMEN-TOURISM-POLICY",
+    "ministry": "Department of Tourism, Govt. of Maharashtra / MTDC",
+    "origin": "state",
+    "stateName": "Maharashtra",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Entrepreneurship & Women Support",
+    "beneficiaries": [
+      "Women",
+      "Entrepreneurs",
+      "Farmers"
+    ],
+    "benefitValue": "100% Capital Subsidy up to ₹1.0 Lakh for Women-Owned Tourist Homestays + 100% Stamp Duty Waiver for Women-Led Tour Ventures",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 500000,
+    "description": "Maharashtra’s landmark women-centric tourism scheme reserving 20% of MTDC tourist stalls for women and funding rural agro-tourism farms.",
+    "eligibilityDescription": "Women entrepreneurs, female SHGs, and farmers registered with Maharashtra Tourism.",
+    "requiredDocs": [
+      "Maharashtra Domicile",
+      "Agro-Tourism Farm Registration",
+      "Aadhaar Card"
+    ],
+    "deadline": "Maharashtra Tourism Portal (maharashtratourism.gov.in)",
+    "officialWebsiteUrl": "https://maharashtratourism.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "genderConstraint": "Female",
+      "statesAllowed": [
+        "Maharashtra"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "agriculture"
+  },
+  {
+    "id": "tn-ttdc-temple-tour-and-eco-tourism-subsidy",
+    "title": "TN TTDC Heritage Temple Tour Package & Eco-Tourism Homestay Scheme",
+    "code": "TN-TTDC-HERITAGE-TOURS",
+    "ministry": "Tamil Nadu Tourism Development Corporation (TTDC)",
+    "origin": "state",
+    "stateName": "Tamil Nadu",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Eco-Tourism",
+    "beneficiaries": [
+      "Travelers",
+      "General Citizen",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Subsidized AC Coach Temple Tour Packages (Madurai, Rameshwaram, Tanjore) + 50% Concession for Senior Citizens & School Tours",
+    "benefitNumericMin": 2000,
+    "benefitNumericMax": 10000,
+    "description": "Operates low-cost subsidized pilgrimage and eco-cultural bus tours across Nilgiris, Rameshwaram, Kanyakumari, and Chidambaram.",
+    "eligibilityDescription": "Tourists, students, and senior citizens traveling within Tamil Nadu.",
+    "requiredDocs": [
+      "TTDC Online Tour Booking Ticket / Aadhaar Card"
+    ],
+    "deadline": "TTDC Official Portal (ttdconline.com)",
+    "officialWebsiteUrl": "https://ttdconline.com",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Tamil Nadu"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "tour"
+  },
+  {
+    "id": "ka-punya-koti-and-kstdc-tourist-driver-scheme",
+    "title": "Karnataka KSTDC Tourist Taxi Driver Subsidy & Punya Koti Pilgrimage",
+    "code": "KA-KSTDC-TOURIST-DRIVER-GRANT",
+    "ministry": "Department of Tourism, Govt. of Karnataka / KSTDC",
+    "origin": "state",
+    "stateName": "Karnataka",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Entrepreneurship & Travel Support",
+    "beneficiaries": [
+      "Workers",
+      "Travelers",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Direct Capital Grant of ₹3,00,000 for Buying Tourist Taxis for SC/ST Drivers + ₹5,000 Subsidy for Kashi/Char Dham Pilgrims",
+    "benefitNumericMin": 5000,
+    "benefitNumericMax": 300000,
+    "description": "Provides ₹3 Lakh vehicle purchase subsidy to SC/ST tourist taxi drivers and pays ₹5,000 direct cash subsidy to Karnataka pilgrims visiting Kashi Vishwanath.",
+    "eligibilityDescription": "Karnataka resident commercial drivers (SC/ST) and senior citizen pilgrims.",
+    "requiredDocs": [
+      "Karnataka Domicile",
+      "Commercial Driving License / Badge",
+      "Caste Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "Karnataka Tourism Portal (karnatakatourism.org)",
+    "officialWebsiteUrl": "https://karnatakatourism.org",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Karnataka"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "local_taxi"
+  },
+  {
+    "id": "ts-telangana-heritage-and-eco-tourism-homestays",
+    "title": "Telangana TSTDC Heritage Circuit & Forest Eco-Tourism Homestays",
+    "code": "TS-TSTDC-HERITAGE-ECO-TOURISM",
+    "ministry": "Telangana State Tourism Development Corporation (TSTDC)",
+    "origin": "state",
+    "stateName": "Telangana",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Development & Heritage",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Travelers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "50% Capital Grant for Establishing Forest Eco-Resorts & Heritage Homestays in Warangal & Amrabad Tiger Reserve",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 1000000,
+    "description": "Promotes eco-tourism and tribal homestays surrounding Ramappa Temple (UNESCO Site), Laknavaram Lake, and Nallamala Forest.",
+    "eligibilityDescription": "Local tribal youth, rural homeowners, and eco-resort operators in Telangana.",
+    "requiredDocs": [
+      "TSTDC Registration Certificate",
+      "Land Possession Document"
+    ],
+    "deadline": "TSTDC Official Portal (tourism.telangana.gov.in)",
+    "officialWebsiteUrl": "https://tourism.telangana.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Telangana"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "forest"
+  },
+  {
+    "id": "ap-divya-darsanam-and-haritha-tourism-resorts",
+    "title": "AP Divya Darsanam Free Pilgrimage Scheme & APTDC Resort Subsidy",
+    "code": "AP-DIVYA-DARSANAM-PILGRIMAGE",
+    "ministry": "Department of Endowments / APTDC, Govt. of Andhra Pradesh",
+    "origin": "state",
+    "stateName": "Andhra Pradesh",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Senior Citizens",
+      "Women"
+    ],
+    "benefitValue": "100% Free Transport, Boarding, Food & Special Darshan at Tirupati Balaji, Srisailam & Vijayawada Kanaka Durga for SC/ST/BPL Families",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 20000,
+    "description": "Provides completely free VIP pilgrimage tours to Tirupati, Srisailam, and Simhachalam for SC, ST, and BPL citizens in Andhra Pradesh.",
+    "eligibilityDescription": "AP residents belonging to SC, ST, and BPL families (Rice Card holders).",
+    "requiredDocs": [
+      "AP Rice Card",
+      "Aadhaar Card",
+      "Caste Certificate"
+    ],
+    "deadline": "AP Endowments Dept Portal (endowments.ap.gov.in)",
+    "officialWebsiteUrl": "https://endowments.ap.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 80,
+      "statesAllowed": [
+        "Andhra Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "temple_hindu"
+  },
+  {
+    "id": "wb-banglarmukh-homestay-tourism-prakalpa",
+    "title": "WB Banglarmukh Rural Homestay Tourism Policy (Darjeeling & Dooars)",
+    "code": "WB-BANGLARMUKH-HOMESTAY-SCHEME",
+    "ministry": "Department of Tourism, Govt. of West Bengal / WBTDCL",
+    "origin": "state",
+    "stateName": "West Bengal",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Entrepreneurship & Homestays",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Rural Citizens",
+      "Job Seekers"
+    ],
+    "benefitValue": "Direct Financial Grant up to ₹1,50,000 for Building/Upgrading Homestays in Hill & Sunderban Areas + 100% Free Trade License Clearance",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 150000,
+    "description": "Promotes rural homestay tourism in Darjeeling, Kalimpong, Dooars, and Sundarbans, offering ₹1.5 Lakh grant per homestay owner.",
+    "eligibilityDescription": "Rural homeowners in North Bengal hills, Dooars, tea gardens, and Sundarbans delta.",
+    "requiredDocs": [
+      "WB Residential Certificate",
+      "Property Land Record",
+      "Aadhaar Card"
+    ],
+    "deadline": "WBTDCL Portal (wbtourism.gov.in)",
+    "officialWebsiteUrl": "https://wbtourism.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 65,
+      "statesAllowed": [
+        "West Bengal"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "cabin"
+  },
+  {
+    "id": "gj-cinematic-tourism-and-rann-utsav-tent-city",
+    "title": "Gujarat Cinematic Tourism Policy & Kutch Rann Utsav Homestay Scheme",
+    "code": "GJ-CINEMATIC-TOURISM-POLICY",
+    "ministry": "Gujarat Tourism Development Corporation (TCGL)",
+    "origin": "state",
+    "stateName": "Gujarat",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Development & Film Production",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Workers",
+      "Travelers"
+    ],
+    "benefitValue": "Financial Production Subsidy up to ₹3 Crore for Film Shooting in Gujarat + Capital Subsidy for Desert Tent Cities & Heritage Havellis",
+    "benefitNumericMin": 500000,
+    "benefitNumericMax": 30000000,
+    "description": "Promotes film tourism and local employment by subsidizing movie shoots at Statue of Unity, White Rann of Kutch, and Gir National Park.",
+    "eligibilityDescription": "Film producers, event organizers, and heritage resort owners in Gujarat.",
+    "requiredDocs": [
+      "TCGL Film Shooting Approval Sanction"
+    ],
+    "deadline": "Gujarat Tourism Portal (gujarattourism.com)",
+    "officialWebsiteUrl": "https://gujarattourism.com",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 70,
+      "statesAllowed": [
+        "Gujarat"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "movie"
+  },
+  {
+    "id": "rj-senior-citizen-p तीर्थ-yatra-yojana-char-dham",
+    "title": "Rajasthan Senior Citizen Deevya Teerth Yatra Scheme (Free Flight & Train)",
+    "code": "RJ-SENIOR-TEERTH-YATRA-CHAR-DHAM",
+    "ministry": "Devasthan Department, Govt. of Rajasthan",
+    "origin": "state",
+    "stateName": "Rajasthan",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Free Air Travel Pilgrimage Flight (Pashupatinath Nepal) & Special Bharat Gaurav Train Tours (Char Dham, Rameshwaram, Ayodhya)",
+    "benefitNumericMin": 25000,
+    "benefitNumericMax": 60000,
+    "description": "Provides 100% free domestic and international pilgrimage tours (including flights to Kathmandu Pashupatinath) for 40,000 senior citizens annually.",
+    "eligibilityDescription": "Senior citizens aged 60 and above domiciled in Rajasthan registered on Jan Aadhaar Card.",
+    "requiredDocs": [
+      "Rajasthan Jan Aadhaar Card",
+      "Medical Fitness Certificate",
+      "Age Certificate (60+)"
+    ],
+    "deadline": "Devasthan Department Rajasthan Portal (devasthan.rajasthan.gov.in)",
+    "officialWebsiteUrl": "https://devasthan.rajasthan.gov.in",
+    "rules": {
+      "minAge": 60,
+      "maxAge": 85,
+      "requiresSeniorCitizen": true,
+      "statesAllowed": [
+        "Rajasthan"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "flight"
+  },
+  {
+    "id": "kl-responsible-tourism-mission-rt-homestays",
+    "title": "Kerala Responsible Tourism Mission (RT Homestays & Village Experience Tours)",
+    "code": "KL-RESPONSIBLE-TOURISM-MISSION",
+    "ministry": "Department of Tourism, Govt. of Kerala",
+    "origin": "state",
+    "stateName": "Kerala",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Development & Eco-Tourism",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Entrepreneurs",
+      "Women",
+      "Workers"
+    ],
+    "benefitValue": "100% Free Skill Training, Village Tour Promotion, Local Handicrafts Direct Sale & MTDC Green Quality Certification",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 100000,
+    "description": "Internationally acclaimed UNWTO-awarded scheme linking local village communities, artisans, farmers, and women directly with inbound foreign tourists.",
+    "eligibilityDescription": "Local farmers, artisans, traditional boatmen, and homestay hosts across Kerala villages.",
+    "requiredDocs": [
+      "RT Mission Registration Certificate",
+      "Kerala Residential Proof"
+    ],
+    "deadline": "Kerala Responsible Tourism Portal (keralatourism.org/rt)",
+    "officialWebsiteUrl": "https://keralatourism.org",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 70,
+      "statesAllowed": [
+        "Kerala"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "nature_people"
+  },
+  {
+    "id": "pb-mukh-mantri-tirath-yatra-valmiki-dham",
+    "title": "Punjab Mukh Mantri Tirath Yatra Scheme (Free AC Bus & Train Pilgrimage)",
+    "code": "PB-MUKH-MANTRI-TIRATH-YATRA",
+    "ministry": "Department of Tourism and Cultural Affairs, Govt. of Punjab",
+    "origin": "state",
+    "stateName": "Punjab",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Senior Citizens",
+      "Rural Citizens",
+      "Workers"
+    ],
+    "benefitValue": "100% Free Travel, AC Boarding, Food, Kit & Medical Insurance for Visits to Hazur Sahib, Varanasi, Amritsar & Ajmer Sharif",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 35000,
+    "description": "Sponsors completely free pilgrimage trips for Punjab residents to sacred shrines across India in comfortable AC trains and buses.",
+    "eligibilityDescription": "Residents of Punjab aged 18 and above (priority to senior citizens and BPL families).",
+    "requiredDocs": [
+      "Punjab Domicile Proof",
+      "Aadhaar Card",
+      "Medical Fitness Certificate"
+    ],
+    "deadline": "Punjab Tourism Portal (punjabtourism.gov.in)",
+    "officialWebsiteUrl": "https://punjabtourism.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Punjab"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "train"
+  },
+  {
+    "id": "hr-mukhyamantri-teerth-yatra-yojana-ayodhya",
+    "title": "Haryana Mukhyamantri Teerth Yatra Scheme (Ayodhya & Sacred Shrines)",
+    "code": "HR-MUKHYAMANTRI-TEERTH-YATRA",
+    "ministry": "Department of Information, Public Relations & Languages, Govt. of Haryana",
+    "origin": "state",
+    "stateName": "Haryana",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Senior Citizens",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Free Transport AC Train Fare, Lodging & Food for Pilgrimage to Ayodhya Ram Mandir & Maa Vaishno Devi",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 25000,
+    "description": "Provides free pilgrimage travel to Ayodhya and other holy places for elderly citizens in Haryana with annual family income up to ₹1.80 Lakh.",
+    "eligibilityDescription": "Haryana residents aged 60 and above registered under Parivar Pehchan Patra (PPP) with income below ₹1.8 Lakh.",
+    "requiredDocs": [
+      "Haryana PPP Family ID",
+      "Age Proof (60+)",
+      "Aadhaar Card"
+    ],
+    "deadline": "SARAL Haryana Portal (saralharyana.gov.in)",
+    "officialWebsiteUrl": "https://saralharyana.gov.in",
+    "rules": {
+      "minAge": 60,
+      "maxAge": 85,
+      "maxAnnualIncome": 180000,
+      "requiresSeniorCitizen": true,
+      "statesAllowed": [
+        "Haryana"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "temple_hindu"
+  },
+  {
+    "id": "mp-mukhyamantri-teerth-darshan-yojana-by-air",
+    "title": "MP Mukhyamantri Teerth Darshan Yojana (Free Flight Pilgrimage for Seniors)",
+    "code": "MP-TEERTH-DARSHAN-BY-AIR",
+    "ministry": "Religious Trusts and Endowments Dept, Govt. of MP",
+    "origin": "state",
+    "stateName": "Madhya Pradesh",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Air Travel",
+    "beneficiaries": [
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Free Air Airplane Ticket Pilgrimage Flight to Shirdi, Gangotri, Puri, Rameshwaram & Kamakhya",
+    "benefitNumericMin": 30000,
+    "benefitNumericMax": 50000,
+    "description": "Madhya Pradesh is the first state in India providing 100% free airplane flight pilgrimage trips to senior citizens.",
+    "eligibilityDescription": "Senior citizens aged 65 and above domiciled in MP who do not pay income tax.",
+    "requiredDocs": [
+      "MP Samagra ID",
+      "Aadhaar Card",
+      "Medical Fitness Certificate"
+    ],
+    "deadline": "Teerth Darshan MP Portal (teerthdarshan.mp.gov.in)",
+    "officialWebsiteUrl": "https://teerthdarshan.mp.gov.in",
+    "rules": {
+      "minAge": 65,
+      "maxAge": 85,
+      "requiresSeniorCitizen": true,
+      "statesAllowed": [
+        "Madhya Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "flight"
+  },
+  {
+    "id": "br-mukhyamantri-teerth-yatra-yojana-senior-pilgrims",
+    "title": "Bihar Mukhyamantri Teerth Yatra Scheme (Subsidized Senior Pilgrimage)",
+    "code": "BR-TEERTH-YATRA-SCHEME",
+    "ministry": "Department of Development / Tourism, Govt. of Bihar",
+    "origin": "state",
+    "stateName": "Bihar",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Senior Citizens",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Free Special AC Train Journey, Food, Hotel Stay & Medical Escort for Visits to Bodhgaya, Rajgir, Vaishali & Kashi",
+    "benefitNumericMin": 12000,
+    "benefitNumericMax": 20000,
+    "description": "Organizes free pilgrimage tours for senior citizens in Bihar to major Buddhist, Jain, Hindu, and Sikh historical heritage sites.",
+    "eligibilityDescription": "Bihar resident senior citizens aged 60 and above belonging to low-income families.",
+    "requiredDocs": [
+      "Bihar Residential Certificate",
+      "Aadhaar Card",
+      "Age Certificate"
+    ],
+    "deadline": "District Social Welfare Officer / Bihar Tourism Dept",
+    "officialWebsiteUrl": "https://tourism.bihar.gov.in",
+    "rules": {
+      "minAge": 60,
+      "maxAge": 85,
+      "requiresSeniorCitizen": true,
+      "statesAllowed": [
+        "Bihar"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "temple_buddhist"
+  },
+  {
+    "id": "as-punyadham-yojana-and-kaziranga-eco-resorts",
+    "title": "Assam Punyadham Scheme Pilgrimage & Kaziranga Homestay Grant",
+    "code": "AS-PUNYADHAM-PILGRIMAGE-GRANT",
+    "ministry": "Department of Tourism, Govt. of Assam",
+    "origin": "state",
+    "stateName": "Assam",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Eco-Tourism",
+    "beneficiaries": [
+      "Senior Citizens",
+      "Entrepreneurs",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Free Pilgrimage Trip to Puri Jagannath & Vrindavan + Financial Grant up to ₹2,00,000 for Homestays near Kaziranga & Majuli",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 200000,
+    "description": "Provides free organized pilgrimage tours for elderly citizens and capital grants for local youth establishing eco-homestays in Kaziranga National Park and Majuli Island.",
+    "eligibilityDescription": "Assam senior citizens (60+) and local rural youth near national parks in Assam.",
+    "requiredDocs": [
+      "Assam Domicile Certificate",
+      "Aadhaar Card",
+      "Land/Homestay Plan Document"
+    ],
+    "deadline": "Assam Tourism Development Corporation (atdc.assam.gov.in)",
+    "officialWebsiteUrl": "https://atdc.assam.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 80,
+      "statesAllowed": [
+        "Assam"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "landscape"
+  },
+  {
+    "id": "uk-homestay-ye-yojana-and-char-dham-yatra-registration",
+    "title": "Uttarakhand Deendayal Upadhyaya Grih Awas (Homestay) Scheme & Char Dham Yatra Pass",
+    "code": "UK-CHAR-DHAM-HOMESTAY-SCHEME",
+    "ministry": "Uttarakhand Tourism Development Board (UTDB)",
+    "origin": "state",
+    "stateName": "Uttarakhand",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Entrepreneurship & Pilgrimage",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Travelers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "33% Capital Financial Subsidy (up to ₹10 Lakh in Hills) for Constructing Mountain Homestays + Free Char Dham Smart QR Registration Pass",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 1000000,
+    "description": "Uttarakhand’s flagship tourism scheme giving up to ₹10 Lakh capital subsidy to local hill residents to build traditional mountain homestays for Char Dham pilgrims.",
+    "eligibilityDescription": "Bonafide residents of Uttarakhand owning land in hill districts.",
+    "requiredDocs": [
+      "Uttarakhand Bonafide Domicile",
+      "Homestay Building Plan Approval",
+      "Aadhaar Card"
+    ],
+    "deadline": "Uttarakhand Tourism Portal (uttarakhandtourism.gov.in)",
+    "officialWebsiteUrl": "https://uttarakhandtourism.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Uttarakhand"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "cabin"
+  },
+  {
+    "id": "hp-nai-manzilen-nai-rahein-tourism-scheme",
+    "title": "Himachal Pradesh \"Nai Manzilen Nai Raheinn\" Eco-Adventure Tourism Scheme",
+    "code": "HP-NAI-MANZILEN-NAI-RAHEIN",
+    "ministry": "Department of Tourism and Civil Aviation, Govt. of Himachal Pradesh",
+    "origin": "state",
+    "stateName": "Himachal Pradesh",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Development & Adventure Sports",
+    "beneficiaries": [
+      "Travelers",
+      "Entrepreneurs",
+      "Job Seekers"
+    ],
+    "benefitValue": "Capital Subsidy up to ₹5.0 Lakh for Paragliding, Camping Sites, Trekking Gear & River Rafting Operators in Unexplored Valleys",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 500000,
+    "description": "Develops unexplored scenic valleys (Chanshal, Janjehli, Bir Billing, Lahaul) into adventure hubs and provides capital grants for local adventure tour operators.",
+    "eligibilityDescription": "Bonafide Himachali youth and local adventure tourism entrepreneurs.",
+    "requiredDocs": [
+      "Himachal Bonafide Certificate",
+      "Adventure Sports Operator License",
+      "Aadhaar Card"
+    ],
+    "deadline": "Himachal Tourism Portal (himachaltourism.gov.in)",
+    "officialWebsiteUrl": "https://himachaltourism.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 50,
+      "statesAllowed": [
+        "Himachal Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "paragliding"
+  },
+  {
+    "id": "delhi-mukhya-mantri-teerth-yatra-yojana-ac-train",
+    "title": "Delhi Mukhya Mantri Tirth Yatra Yojana (100% Free Pilgrimage by AC Bharat Gaurav)",
+    "code": "DELHI-TEERTH-YATRA-SCHEME",
+    "ministry": "Department of Revenue / Tirth Yatra Vikas Samiti, Govt. of NCT of Delhi",
+    "origin": "state",
+    "stateName": "Delhi",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Fully Paid AC Train Journey, 3-Star Hotel Accommodation, Food, Local AC Sightseeing & Attendant Escort for Elderly",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 35000,
+    "description": "Sponsors 100% free pilgrimage travel for Delhi senior citizens to 15+ holy circuits including Rameshwaram, Dwarka, Puri, Amritsar, Ayodhya, and Shirdi.",
+    "eligibilityDescription": "Senior citizens aged 60 and above residing in Delhi for at least 5 years without income limits.",
+    "requiredDocs": [
+      "Delhi Voter ID Card / Address Proof",
+      "Age Certificate (60+)",
+      "Aadhaar Card",
+      "MLA Recommendation Letter"
+    ],
+    "deadline": "e-District Delhi Portal (edistrict.delhigovt.nic.in)",
+    "officialWebsiteUrl": "https://edistrict.delhigovt.nic.in",
+    "rules": {
+      "minAge": 60,
+      "maxAge": 85,
+      "requiresSeniorCitizen": true,
+      "statesAllowed": [
+        "Delhi"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "train"
+  },
+  {
+    "id": "jk-homestay-policy-and-border-tourism-scheme",
+    "title": "J&K Border Tourism Development & Offbeat Homestay Promotion Scheme",
+    "code": "JK-HOMESTAY-BORDER-TOURISM",
+    "ministry": "Department of Tourism, Govt. of Jammu and Kashmir",
+    "origin": "state",
+    "stateName": "Jammu and Kashmir",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Development & Border Mobility",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Rural Citizens",
+      "Travelers"
+    ],
+    "benefitValue": "Capital Incentive Grant up to ₹50,000 for Converting Traditional Wooden Houses into Registered Tourist Homestays in Gurez, Keran & Tangdhar",
+    "benefitNumericMin": 30000,
+    "benefitNumericMax": 100000,
+    "description": "Promotes border tourism in scenic Line of Control (LoC) valleys (Gurez, Keran, Teetwal) by funding local youth to establish tourist homestays.",
+    "eligibilityDescription": "Local residents of J&K border districts owning residential houses in offbeat tourist locations.",
+    "requiredDocs": [
+      "J&K Domicile Certificate",
+      "Aadhaar Card",
+      "Homestay Registration Copy"
+    ],
+    "deadline": "J&K Tourism Official Portal (jk-tourism.com)",
+    "officialWebsiteUrl": "https://jk-tourism.com",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Jammu and Kashmir"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "cabin"
+  },
+  {
+    "id": "prashad-scheme-pilgrimage-rejuvenation-drive",
+    "title": "PRASHAD Scheme (National Mission on Pilgrimage Rejuvenation & Spiritual Augmentation)",
+    "code": "PRASHAD-MOT-PILGRIMAGE",
+    "ministry": "Ministry of Tourism, Govt. of India",
+    "origin": "central",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Infrastructure",
+    "beneficiaries": [
+      "Travelers",
+      "General Citizen"
+    ],
+    "benefitValue": "100% Central Government Grant for World-Class Amenities, Tourist Facilitation Centres & Clean Restrooms at Holy Shrine Towns",
+    "benefitNumericMin": 5000000,
+    "benefitNumericMax": 100000000,
+    "description": "Develops infrastructure and pilgrimage amenities at iconic holy shrines across India (Varanasi, Puri, Kedarnath, Amritsar, Kamakhya, Kanchipuram).",
+    "eligibilityDescription": "Pilgrims, domestic tourists, and local service providers at designated PRASHAD shrine sites.",
+    "requiredDocs": [
+      "Ministry of Tourism Project Master Charter"
+    ],
+    "deadline": "Ministry of Tourism PRASHAD Portal (tourism.gov.in)",
+    "officialWebsiteUrl": "https://tourism.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "temple_hindu"
+  },
+  {
+    "id": "swadesh-darshan-2-0-sustainable-tourism",
+    "title": "Swadesh Darshan 2.0 (Sustainable & Responsible Destination Development)",
+    "code": "SWADESH-DARSHAN-2-0",
+    "ministry": "Ministry of Tourism, Govt. of India",
+    "origin": "central",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Development & Eco-Tourism",
+    "beneficiaries": [
+      "Travelers",
+      "Entrepreneurs",
+      "General Citizen"
+    ],
+    "benefitValue": "100% Financial Grant for Modern Tourist Interpretation Centres, Eco-Trails & Heritage Circuit Upgradation",
+    "benefitNumericMin": 10000000,
+    "benefitNumericMax": 200000000,
+    "description": "Transforms 50+ selected tourist destinations into sustainable, tourist-centric hubs with smart mobility, digital signage, and heritage preservation.",
+    "eligibilityDescription": "Tourists, certified local tour guides, and eco-tourism entrepreneurs across selected destinations.",
+    "requiredDocs": [
+      "Destination Management Committee (DMC) Master Plan"
+    ],
+    "deadline": "Swadesh Darshan Portal (swadeshdarshan.gov.in)",
+    "officialWebsiteUrl": "https://swadeshdarshan.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "landscape"
+  },
+  {
+    "id": "dekho-apna-desh-pledge-and-travel-subsidies",
+    "title": "Dekho Apna Desh Scheme (Domestic Tourism Incentive & Travel Reimbursement)",
+    "code": "DEKHO-APNA-DESH-MOT",
+    "ministry": "Ministry of Tourism, Govt. of India",
+    "origin": "central",
+    "category": "Travel & Tourism",
+    "subCategory": "Travel Support & Domestic Promotion",
+    "beneficiaries": [
+      "Travelers",
+      "Students",
+      "General Citizen"
+    ],
+    "benefitValue": "National Tourism Certification + 100% Reimbursement of Travel Expenses for Citizens Visiting 15 Specified Heritage Locations in 1 Year",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 50000,
+    "description": "Encourages citizens to travel domestically across India by pledging to visit at least 15 designated non-home state tourist locations in 12 months.",
+    "eligibilityDescription": "Indian citizens completing the Dekho Apna Desh travel pledge on MyGov / Ministry of Tourism portal.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Travel Tickets / Geo-Tagged Photos at 15 Specified Heritage Monuments"
+    ],
+    "deadline": "MyGov Dekho Apna Desh Portal (pledge.mygov.in)",
+    "officialWebsiteUrl": "https://pledge.mygov.in",
+    "rules": {
+      "minAge": 10,
+      "maxAge": 75
+    },
+    "isPopular": true,
+    "iconName": "flight_takeoff"
+  },
+  {
+    "id": "chhatrapati-shivaji-maharaj-tourism-circuit-scheme",
+    "title": "Chhatrapati Shivaji Maharaj Heritage Forts Tourism Development Scheme",
+    "code": "MH-SHIVAJI-FORTS-TOURISM",
+    "ministry": "Department of Tourism, Govt. of Maharashtra",
+    "origin": "state",
+    "stateName": "Maharashtra",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Development & Fort Heritage",
+    "beneficiaries": [
+      "Travelers",
+      "General Citizen"
+    ],
+    "benefitValue": "100% State Funding for Cable Cars, Sound & Light Shows, Trekking Paths & Tourist Interpretation Halls across 14 Hill Forts",
+    "benefitNumericMin": 5000000,
+    "benefitNumericMax": 50000000,
+    "description": "Restores and promotes world heritage hill forts of Maharashtra (Raigad, Shivneri, Pratapgad, Rajgad) into world-class heritage tourism circuits.",
+    "eligibilityDescription": "Tourists, trekkers, and heritage conservation organizations.",
+    "requiredDocs": [
+      "MTDC Tourist Booking Pass"
+    ],
+    "deadline": "Maharashtra Tourism Portal (mtdc.co.in)",
+    "officialWebsiteUrl": "https://mtdc.co.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Maharashtra"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "castle"
+  },
+  {
+    "id": "ka-punyatoti-and-kashi-yatra-subsidy-scheme",
+    "title": "Karnataka Kashi Yatra Subsidy Scheme (₹5,000 Direct Subsidy for Pilgrims)",
+    "code": "KA-KASHI-YATRA-SUBSIDY",
+    "ministry": "Religious Endowments Department (Muzrai), Govt. of Karnataka",
+    "origin": "state",
+    "stateName": "Karnataka",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Senior Citizens",
+      "General Citizen"
+    ],
+    "benefitValue": "Direct Benefit Transfer (DBT) Cash Assistance Subsidy of ₹5,000 for Domiciled Pilgrims Visiting Kashi Vishwanath Temple (Varanasi)",
+    "benefitNumericMin": 5000,
+    "benefitNumericMax": 5000,
+    "description": "Provides direct financial assistance of ₹5,000 per pilgrim domiciled in Karnataka undertaking the holy Kashi Vishwanath Yatra in Varanasi.",
+    "eligibilityDescription": "Karnataka domicile citizens aged 18 and above who have visited Kashi Vishwanath Temple once in their lifetime.",
+    "requiredDocs": [
+      "Karnataka Domicile Proof",
+      "Varanasi Pooja Ticket / Train Tickets",
+      "Aadhaar Card",
+      "Bank Passbook"
+    ],
+    "deadline": "Seva Sindhu Portal Karnataka (sevasindhuservices.karnataka.gov.in)",
+    "officialWebsiteUrl": "https://muzrai.karnataka.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Karnataka"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "temple_hindu"
+  },
+  {
+    "id": "ts-telangana-pilgrimage-and-yadadri-tourism-scheme",
+    "title": "Telangana Temple Tourism & Heritage Circuit Scheme (Yadadri / Ramappa)",
+    "code": "TS-TEMPLE-TOURISM-CIRCUIT",
+    "ministry": "Department of Tourism, Culture and Youth Services, Govt. of Telangana",
+    "origin": "state",
+    "stateName": "Telangana",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Heritage",
+    "beneficiaries": [
+      "Travelers",
+      "General Citizen"
+    ],
+    "benefitValue": "AC Luxury Tourist Bus Circuit Packages + UNESCO World Heritage Ramappa & Yadadri Temple VIP Fast-Track Passes",
+    "benefitNumericMin": 1000,
+    "benefitNumericMax": 10000,
+    "description": "Promotes heritage circuits connecting UNESCO site Ramappa Temple, Thousand Pillar Temple, and Yadadri Lakshmi Narasimha Shrine.",
+    "eligibilityDescription": "Pilgrims and cultural heritage travelers visiting Telangana.",
+    "requiredDocs": [
+      "TSTDC Online Booking Voucher"
+    ],
+    "deadline": "Telangana Tourism Portal (tourism.telangana.gov.in)",
+    "officialWebsiteUrl": "https://tourism.telangana.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Telangana"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "temple_hindu"
+  },
+  {
+    "id": "tn-spiritual-and-heritage-tourism-subsidy",
+    "title": "Tamil Nadu Senior Citizen Temple Tourism Subsidy & Free Annadhanam Pass",
+    "code": "TN-SENIOR-TEMPLE-TOURISM",
+    "ministry": "Hindu Religious & Charitable Endowments (HR&CE) & TTDC, Govt. of Tamil Nadu",
+    "origin": "state",
+    "stateName": "Tamil Nadu",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Free Bus Pilgrimage Tour for Senior Citizens to Mukthi Sthalams (Rameswaram, Kanchipuram, Madurai) + Free Special Darshan",
+    "benefitNumericMin": 5000,
+    "benefitNumericMax": 15000,
+    "description": "Sponsors 100% free temple pilgrimage travel packages for low-income senior citizens across famous Tamil Nadu temples.",
+    "eligibilityDescription": "Tamil Nadu resident senior citizens aged 60 to 70 with annual family income up to ₹72,000.",
+    "requiredDocs": [
+      "TN Smart Ration Card",
+      "Age Certificate (60+)",
+      "Income Certificate"
+    ],
+    "deadline": "HR&CE Department Tamil Nadu / TTDC Portal",
+    "officialWebsiteUrl": "https://hrce.tn.gov.in",
+    "rules": {
+      "minAge": 60,
+      "maxAge": 70,
+      "maxAnnualIncome": 72000,
+      "requiresSeniorCitizen": true,
+      "statesAllowed": [
+        "Tamil Nadu"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "directions_bus"
+  },
+  {
+    "id": "up-mukhyamantri-paryatan-vikas-sahbagita-yojana",
+    "title": "UP Mukhyamantri Paryatan Vikas Sahbagita Scheme (50% Local Tourist Site Matching Grant)",
+    "code": "UP-PARYATAN-VIKAS-SAHBAGITA",
+    "ministry": "Department of Tourism, Govt. of Uttar Pradesh",
+    "origin": "state",
+    "stateName": "Uttar Pradesh",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Entrepreneurship & Infrastructure",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "General Citizen",
+      "Workers"
+    ],
+    "benefitValue": "50% Financial Grant up to ₹50 Lakh for Developing Local Pilgrim Rest Houses, Public Toilets & Parks at Unexplored Religious Sites",
+    "benefitNumericMin": 500000,
+    "benefitNumericMax": 5000000,
+    "description": "Encourages public partnership where state government matches 50% fund to develop civic amenities at local religious and historic sites in UP.",
+    "eligibilityDescription": "MLAs, local trusts, and public donors in Uttar Pradesh.",
+    "requiredDocs": [
+      "UP Tourism Partnership Proposal",
+      "50% Matching Contribution Proof"
+    ],
+    "deadline": "UP Tourism Department (uptourism.gov.in)",
+    "officialWebsiteUrl": "https://uptourism.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 75,
+      "statesAllowed": [
+        "Uttar Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "temple_hindu"
+  },
+  {
+    "id": "rj-mukhyamantri-varishtha-nagrik-tirth-yatra-yojana",
+    "title": "Rajasthan Mukhyamantri Varishtha Nagrik Tirth Yatra Yojana (Free Air & Train Pilgrimage)",
+    "code": "RJ-VARISHTHA-TIRTH-YATRA",
+    "ministry": "Devasthan Department, Govt. of Rajasthan",
+    "origin": "state",
+    "stateName": "Rajasthan",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Free Pilgrimage Travel by Flight (Pashupatinath Nepal) or AC Train (Puri, Rameshwaram, Dwarka) + Hotel & Food",
+    "benefitNumericMin": 25000,
+    "benefitNumericMax": 60000,
+    "description": "Sponsors 100% free pilgrimage travel (including international air travel to Pashupatinath, Nepal for elderly above 70) for senior citizens of Rajasthan.",
+    "eligibilityDescription": "Rajasthan resident senior citizens aged 60 and above (70+ for flight option) who are non-income taxpayers.",
+    "requiredDocs": [
+      "Jan Aadhaar Card",
+      "Medical Fitness Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "Devasthan Department Rajasthan Portal (devasthan.rajasthan.gov.in)",
+    "officialWebsiteUrl": "https://devasthan.rajasthan.gov.in",
+    "rules": {
+      "minAge": 60,
+      "maxAge": 90,
+      "requiresSeniorCitizen": true,
+      "statesAllowed": [
+        "Rajasthan"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "flight_takeoff"
+  },
+  {
+    "id": "gj-cinematic-tourism-policy-incentive-scheme",
+    "title": "Gujarat Cinematic Tourism Policy (Film Shooting Financial Capital Subsidy)",
+    "code": "GJ-CINEMATIC-TOURISM-SUBSIDY",
+    "ministry": "Tourism Corporation of Gujarat Limited (TCGL)",
+    "origin": "state",
+    "stateName": "Gujarat",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Entrepreneurship & Film Promotion",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Workers"
+    ],
+    "benefitValue": "Capital Cash Subsidy up to ₹3 Crore (or up to 75% of Production Expenses) for Filming Movies / Web Series at Gujarat Tourist Locations",
+    "benefitNumericMin": 1000000,
+    "benefitNumericMax": 30000000,
+    "description": "Provides production cash subsidies to filmmakers shooting feature films, web series, and documentaries at scenic Gujarat heritage destinations.",
+    "eligibilityDescription": "Registered film production houses and documentary creators in India.",
+    "requiredDocs": [
+      "Film Production Script Approval",
+      "TCGL Location Permission",
+      "Audited Gujarat Expenditure Statements"
+    ],
+    "deadline": "Gujarat Tourism Official Portal (gujarattourism.com)",
+    "officialWebsiteUrl": "https://gujarattourism.com",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 70,
+      "statesAllowed": [
+        "Gujarat"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "movie"
+  },
+  {
+    "id": "pb-mukh-mantri-tirath-yatra-thittam-ac-trains",
+    "title": "Punjab Mukh Mantri Tirath Yatra Scheme (100% Free Pilgrimage by Bus & Train)",
+    "code": "PB-MMTY-PILGRIMAGE-SCHEME",
+    "ministry": "Department of Transport & Tourism, Govt. of Punjab",
+    "origin": "state",
+    "stateName": "Punjab",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Senior Citizens",
+      "General Citizen"
+    ],
+    "benefitValue": "100% Free Travel, AC Accommodation, Meals & Kits for Pilgrims Visiting Sri Hazur Sahib, Varanasi, Ajmer Sharif & Anandpur Sahib",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 40000,
+    "description": "Sponsors 100% free pilgrimage travel packages for Punjab residents to sacred places across India via special AC trains and buses.",
+    "eligibilityDescription": "Punjab resident citizens aged 18 and above (priority to senior citizens).",
+    "requiredDocs": [
+      "Punjab Residential Certificate",
+      "Aadhaar Card",
+      "Medical Fitness Certificate"
+    ],
+    "deadline": "Punjab Tourism / Transport Portal",
+    "officialWebsiteUrl": "https://punjabtourism.punjab.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Punjab"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "train"
+  },
+  {
+    "id": "or-baristha-nagarik-tirtha-yatra-yojana",
+    "title": "Odisha Baristha Nagarik Tirtha Yatra Yojana (Free Senior Citizen Pilgrimage)",
+    "code": "OR-BARISTHA-TIRTHA-YATRA",
+    "ministry": "Department of Tourism, Govt. of Odisha",
+    "origin": "state",
+    "stateName": "Odisha",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Fully Sponsored Pilgrimage Train Journey, Boarding, Lodging & Medical Cover for BPL Elderly",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 30000,
+    "description": "Provides 100% free pilgrimage trips to senior citizens belonging to BPL families in Odisha to major holy shrines across South & North India.",
+    "eligibilityDescription": "BPL senior citizens aged 60 to 75 domiciled in Odisha.",
+    "requiredDocs": [
+      "Odisha BPL Card",
+      "Residential Certificate",
+      "Medical Fitness Certificate"
+    ],
+    "deadline": "Odisha Tourism Portal (odishatourism.gov.in)",
+    "officialWebsiteUrl": "https://odishatourism.gov.in",
+    "rules": {
+      "minAge": 60,
+      "maxAge": 75,
+      "requiresSeniorCitizen": true,
+      "statesAllowed": [
+        "Odisha"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "train"
+  },
+  {
+    "id": "ap-divyadesam-yatra-and-pilgrimage-scheme",
+    "title": "Andhra Pradesh Divyadesam Yatra & Temple Tourism Subsidy",
+    "code": "AP-DIVYADESAM-YATRA-GRANT",
+    "ministry": "Endowments Department, Govt. of Andhra Pradesh",
+    "origin": "state",
+    "stateName": "Andhra Pradesh",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Senior Citizens",
+      "General Citizen"
+    ],
+    "benefitValue": "Concessional Pilgrimage Bus Passes + Direct VIP Special Entrance Pass for Tirupati, Srisailam & Simhachalam Shrines",
+    "benefitNumericMin": 2000,
+    "benefitNumericMax": 10000,
+    "description": "Provides organized subsidised pilgrimage tours and priority darshan for elderly devotees visiting major Andhra Pradesh temples.",
+    "eligibilityDescription": "Resident devotees domiciled in Andhra Pradesh.",
+    "requiredDocs": [
+      "AP Rice Card",
+      "Aadhaar Card"
+    ],
+    "deadline": "AP Endowments Dept (aptemples.ap.gov.in)",
+    "officialWebsiteUrl": "https://aptemples.ap.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Andhra Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "temple_hindu"
+  },
+  {
+    "id": "kl-kerala-responsible-tourism-artisan-homestay-grant",
+    "title": "Kerala Responsible Tourism Mission (Village Experience & Homestay Grant)",
+    "code": "KL-RESPONSIBLE-TOURISM-GRANT",
+    "ministry": "Department of Tourism, Govt. of Kerala",
+    "origin": "state",
+    "stateName": "Kerala",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Entrepreneurship & Village Experience",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Workers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Capital Grant up to ₹1.0 Lakh for Local Artisans, Coir Workers, Canal Boatmen & Village Homestay Hosts",
+    "benefitNumericMin": 30000,
+    "benefitNumericMax": 100000,
+    "description": "Award-winning community tourism initiative empowering local rural households to offer authentic backwater boat rides, traditional meals, and coir handicraft demos to tourists.",
+    "eligibilityDescription": "Local village artisans, traditional cooks, and homestay owners registered with RT Mission Kerala.",
+    "requiredDocs": [
+      "RT Mission Registration Number",
+      "Kerala Domicile Certificate",
+      "Bank Details"
+    ],
+    "deadline": "Kerala Responsible Tourism Portal (keralatourism.org/rt-mission)",
+    "officialWebsiteUrl": "https://keralatourism.org/rt-mission",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Kerala"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "cabin"
+  },
+  {
+    "id": "as-amar-alohi-homestay-scheme-assam",
+    "title": "Assam \"Amar Alohi\" Rural & Eco Homestay Capital Subsidy Scheme",
+    "code": "AS-AMAR-ALOHI-HOMESTAY-SUBSIDY",
+    "ministry": "Tourism Department, Govt. of Assam",
+    "origin": "state",
+    "stateName": "Assam",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Entrepreneurship & Homestays",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Rural Citizens",
+      "Job Seekers"
+    ],
+    "benefitValue": "80% Capital Financial Subsidy (up to ₹5.0 Lakh) for Constructing New Eco-Friendly Tourist Homestays near Kaziranga & Majuli",
+    "benefitNumericMin": 150000,
+    "benefitNumericMax": 500000,
+    "description": "Provides 80% capital subsidy to local youth to construct traditional bamboo tourist homestays in wildlife sanctuaries and river islands of Assam.",
+    "eligibilityDescription": "Assam resident youth and families living near recognized tourist destinations (Kaziranga, Manas, Majuli).",
+    "requiredDocs": [
+      "Assam Domicile Certificate",
+      "Land Title Document",
+      "Architectural Homestay Plan"
+    ],
+    "deadline": "Assam Tourism Development Corporation (tourism.assam.gov.in)",
+    "officialWebsiteUrl": "https://tourism.assam.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 50,
+      "statesAllowed": [
+        "Assam"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "cabin"
+  },
+  {
+    "id": "uk-char-dham-yatra-registration-and-token-system",
+    "title": "Uttarakhand Char Dham Yatra Biometric Registration & Emergency Relief Cover",
+    "code": "UK-CHAR-DHAM-REGISTRATION",
+    "ministry": "Uttarakhand Tourism Development Board (UTDB)",
+    "origin": "state",
+    "stateName": "Uttarakhand",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Safety",
+    "beneficiaries": [
+      "Travelers",
+      "General Citizen",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Free Digital QR Yatra Registration Pass + ₹1.0 Lakh Personal Accident Insurance Cover for All Char Dham Pilgrims",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 100000,
+    "description": "Mandatory free digital registration system ensuring queue-less token darshan, weather alerts, medical helipads, and insurance cover for Badrinath, Kedarnath, Gangotri & Yamunotri pilgrims.",
+    "eligibilityDescription": "All domestic and international pilgrims undertaking the Char Dham Yatra in Uttarakhand.",
+    "requiredDocs": [
+      "Aadhaar Card / Govt Identity Proof"
+    ],
+    "deadline": "UTDB Official Char Dham Portal (registrationandtouristcare.uk.gov.in)",
+    "officialWebsiteUrl": "https://registrationandtouristcare.uk.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "landscape"
+  },
+  {
+    "id": "wb-mukhyamantri-sagar-sangam-gangasagar-mela-cover",
+    "title": "West Bengal Gangasagar Mela Free Insurance & Pilgrimage Transit Scheme",
+    "code": "WB-GANGASAGAR-MELA-COVER",
+    "ministry": "Department of Sundarban Affairs & Tourism, Govt. of West Bengal",
+    "origin": "state",
+    "stateName": "West Bengal",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Travelers",
+      "General Citizen",
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Free ₹5 Lakh Accidental Insurance Cover + Buffer Vessel Commute & Free Health Camps at Sagar Island",
+    "benefitNumericMin": 500000,
+    "benefitNumericMax": 500000,
+    "description": "Provides free ₹5 Lakh accidental life insurance coverage and subsidized vessel transportation for millions of pilgrims visiting Gangasagar Mela during Makar Sankranti.",
+    "eligibilityDescription": "All pilgrims visiting Gangasagar Sagar Island during the official Mela period.",
+    "requiredDocs": [
+      "Gangasagar Pilgrim Entry Registration"
+    ],
+    "deadline": "Gangasagar Official Portal (gangasagar.in)",
+    "officialWebsiteUrl": "https://gangasagar.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "directions_boat"
+  },
+  {
+    "id": "cg-ram-van-gaman-tourism-circuit",
+    "title": "Chhattisgarh Ram Van Gaman Tourism Circuit Development Scheme",
+    "code": "CG-RAM-VAN-GAMAN-CIRCUIT",
+    "ministry": "Department of Tourism and Culture, Govt. of Chhattisgarh",
+    "origin": "state",
+    "stateName": "Chhattisgarh",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Infrastructure",
+    "beneficiaries": [
+      "Travelers",
+      "General Citizen"
+    ],
+    "benefitValue": "100% State Funding for Heritage Ghats, Tourist Lodges & Cultural Auditoriums along 9 Key Pilgrim Sites",
+    "benefitNumericMin": 10000000,
+    "benefitNumericMax": 100000000,
+    "description": "Develops 9 key sacred heritage sites across Chhattisgarh (Shivrinarayan, Chandkhuri, Rajim) associated with Lord Ram’s exile into a major national tourism corridor.",
+    "eligibilityDescription": "Pilgrims, tourists, and local cultural troupes in Chhattisgarh.",
+    "requiredDocs": [
+      "Chhattisgarh Tourism Board Booking Pass"
+    ],
+    "deadline": "CG Tourism Board (tourism.cg.gov.in)",
+    "officialWebsiteUrl": "https://tourism.cg.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Chhattisgarh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "temple_hindu"
+  },
+  {
+    "id": "jh-deoghar-shravani-mela-tourist-infrastructure-scheme",
+    "title": "Jharkhand Deoghar Shravani Mela & Baidyanath Temple Tourist Facilitation Scheme",
+    "code": "JH-DEOGHAR-SHRAVANI-MELA",
+    "ministry": "Department of Tourism, Govt. of Jharkhand",
+    "origin": "state",
+    "stateName": "Jharkhand",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Safety",
+    "beneficiaries": [
+      "Travelers",
+      "General Citizen"
+    ],
+    "benefitValue": "100% Free Medical Camps, Water Paving, Digital Queue Management & Free Shravani Mela Shelter Tents",
+    "benefitNumericMin": 2000,
+    "benefitNumericMax": 10000,
+    "description": "Provides free transit amenities, medical assistance, and tent accommodations for 50+ lakh Kanwar pilgrims visiting Baba Baidyanath Dham in Deoghar.",
+    "eligibilityDescription": "Devotees and Kanwar pilgrims visiting Deoghar during Shravan month.",
+    "requiredDocs": [
+      "Deoghar E-Darshan Pass"
+    ],
+    "deadline": "Jharkhand Tourism Portal (jharkhandtourism.gov.in)",
+    "officialWebsiteUrl": "https://jharkhandtourism.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Jharkhand"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "temple_hindu"
+  },
+  {
+    "id": "mp-mukhyamantri-teerth-darshan-yojana-flight-pension",
+    "title": "MP Mukhyamantri Teerth Darshan Yojana (100% Free Senior Citizen Flight & Train Trips)",
+    "code": "MP-TEERTH-DARSHAN-FLIGHT",
+    "ministry": "Religious Trusts and Endowments Dept, Govt. of MP",
+    "origin": "state",
+    "stateName": "Madhya Pradesh",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Free Air Travel (Flight) or Special AC Train Travel + Hotel, Food & Local Sightseeing for Elderly",
+    "benefitNumericMin": 30000,
+    "benefitNumericMax": 60000,
+    "description": "First state in India to airlift senior citizens for free pilgrimage trips (to Shirdi, Gangasagar, Prayagraj) by commercial passenger airlines.",
+    "eligibilityDescription": "MP resident senior citizens aged 60 and above (65+ for flight trips) who are non-income taxpayers.",
+    "requiredDocs": [
+      "MP Samagra ID",
+      "Age Certificate (60+)",
+      "Medical Fitness Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "MP Teerth Darshan Portal (religioustrusts.mp.gov.in)",
+    "officialWebsiteUrl": "https://religioustrusts.mp.gov.in",
+    "rules": {
+      "minAge": 60,
+      "maxAge": 90,
+      "requiresSeniorCitizen": true,
+      "statesAllowed": [
+        "Madhya Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "flight_takeoff"
+  },
+  {
+    "id": "hr-mukhya-mantri-tirth-yatra-yojana-seniors",
+    "title": "Haryana Mukhya Mantri Tirth Yatra Scheme (100% Free Pilgrimage Travel)",
+    "code": "HR-MM-TIRTH-YATRA-SCHEME",
+    "ministry": "Department of Heritage & Tourism, Govt. of Haryana",
+    "origin": "state",
+    "stateName": "Haryana",
+    "category": "Travel & Tourism",
+    "subCategory": "Pilgrimage-related Programs & Travel Support",
+    "beneficiaries": [
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Free Travel, Accommodation, Meals & Kit for Elderly Visiting Ayodhya Ram Mandir & Key Shrines",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 35000,
+    "description": "Sponsors 100% free AC train/bus pilgrimage packages for elderly residents of Haryana earning up to ₹1.80 Lakh per year.",
+    "eligibilityDescription": "Haryana domiciled senior citizens aged 60 and above with annual family income up to ₹1.80 Lakh.",
+    "requiredDocs": [
+      "Haryana Parivar Pehchan Patra (PPP)",
+      "Aadhaar Card",
+      "Age Proof"
+    ],
+    "deadline": "Haryana Tourism Official Portal (haryanatourism.gov.in)",
+    "officialWebsiteUrl": "https://haryanatourism.gov.in",
+    "rules": {
+      "minAge": 60,
+      "maxAge": 85,
+      "maxAnnualIncome": 180000,
+      "requiresSeniorCitizen": true,
+      "statesAllowed": [
+        "Haryana"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "train"
+  },
+  {
+    "id": "ga-goa-monsoon-eco-tourism-and-homestay-scheme",
+    "title": "Goa Hinterland & Monsoon Eco-Tourism Promotion Grant",
+    "code": "GA-HINTERLAND-ECO-TOURISM",
+    "ministry": "Department of Tourism, Govt. of Goa",
+    "origin": "state",
+    "stateName": "Goa",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Development & Eco-Tourism",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Travelers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Capital Subsidy up to ₹2.5 Lakh for Spice Plantation Tour Guides, Waterfall Trekking Operators & Heritage Village Stay Owners",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 250000,
+    "description": "Promotes hinterland monsoon tourism across Western Ghats, spice farms, and waterfall trails in Goa to diversify tourism beyond beaches.",
+    "eligibilityDescription": "Goan local youth and eco-tourism entrepreneurs operating in inland talukas.",
+    "requiredDocs": [
+      "Goa Domicile Certificate",
+      "Department of Tourism Registration"
+    ],
+    "deadline": "Goa Tourism Official Portal (goatourism.gov.in)",
+    "officialWebsiteUrl": "https://goatourism.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 60,
+      "statesAllowed": [
+        "Goa"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "landscape"
+  },
+  {
+    "id": "sk-sikkim-homestay-and-eco-adventure-scheme",
+    "title": "Sikkim Eco-Tourism & Village Homestay Capital Incentive Scheme",
+    "code": "SK-ECO-HOMESTAY-SCHEME",
+    "ministry": "Tourism & Civil Aviation Department, Govt. of Sikkim",
+    "origin": "state",
+    "stateName": "Sikkim",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Entrepreneurship & Eco-Tourism",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Rural Citizens",
+      "Job Seekers"
+    ],
+    "benefitValue": "Capital Cash Incentive up to ₹3.0 Lakh for Traditional Organic Homestays in Village Circuits (Pelling, Yuksom, Lachung)",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 300000,
+    "description": "Promotes Sikkim’s organic eco-tourism vision by funding local villagers to construct traditional Sikkimese homestays for mountain trekkers.",
+    "eligibilityDescription": "Sikkim Subject Certificate / Certificate of Identification holders.",
+    "requiredDocs": [
+      "Sikkim COI / Sikkim Subject Certificate",
+      "Tourism Registration Certificate"
+    ],
+    "deadline": "Sikkim Tourism Official Portal (sikkimtourism.gov.in)",
+    "officialWebsiteUrl": "https://sikkimtourism.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 55,
+      "statesAllowed": [
+        "Sikkim"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "cabin"
+  },
+  {
+    "id": "tr-tripura-tourism-development-and-boating-scheme",
+    "title": "Tripura Dumboor Lake & Neermahal Water Tourism Promotion Scheme",
+    "code": "TR-WATER-TOURISM-PROMOTION",
+    "ministry": "Department of Tourism, Govt. of Tripura",
+    "origin": "state",
+    "stateName": "Tripura",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Development & Water Sports",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Travelers",
+      "Workers"
+    ],
+    "benefitValue": "50% Capital Subsidy for Speedboats, Houseboats & Water Sports Equipment at Dumboor Lake and Narikel Kunja",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 1000000,
+    "description": "Develops water tourism and island resorts at Dumboor Lake and Neermahal Water Palace in Tripura.",
+    "eligibilityDescription": "Local youth and tourism cooperatives in Tripura.",
+    "requiredDocs": [
+      "Tripura Permanent Resident Certificate (PRTC)",
+      "Boating License"
+    ],
+    "deadline": "Tripura Tourism Portal (tripuratourism.gov.in)",
+    "officialWebsiteUrl": "https://tripuratourism.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 60,
+      "statesAllowed": [
+        "Tripura"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "directions_boat"
+  },
+  {
+    "id": "me-meghalaya-homestay-scheme-eco-tourism",
+    "title": "Meghalaya Chief Minister’s Eco-Tourism & Homestay Scheme (PMAY-Tourism)",
+    "code": "ME-ECO-HOMESTAY-SCHEME",
+    "ministry": "Tourism Department, Govt. of Meghalaya",
+    "origin": "state",
+    "stateName": "Meghalaya",
+    "category": "Travel & Tourism",
+    "subCategory": "Tourism Entrepreneurship & Homestays",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Rural Citizens",
+      "Job Seekers"
+    ],
+    "benefitValue": "30% Capital Subsidy (up to ₹7.0 Lakh) for Eco-Friendly Wooden Cottages near Sohra, Dawki & Living Root Bridges",
+    "benefitNumericMin": 200000,
+    "benefitNumericMax": 700000,
+    "description": "Empowers local Khasi, Garo, and Jaintia youth to build eco-friendly wooden tourist stays in Cherrapunji, Dawki, and Mawlynnong.",
+    "eligibilityDescription": "Resident youth domiciled in Meghalaya with land rights.",
+    "requiredDocs": [
+      "Meghalaya Scheduled Tribe / Domicile Certificate",
+      "No Objection Certificate from Traditional Dorbar Shnong"
+    ],
+    "deadline": "Meghalaya Tourism Portal (meghalayatourism.in)",
+    "officialWebsiteUrl": "https://meghalayatourism.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 50,
+      "statesAllowed": [
+        "Meghalaya"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "cabin"
+  }
+]

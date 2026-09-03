@@ -1,0 +1,1692 @@
+[
+  {
+    "id": "pmgdisha-digital-literacy-mission",
+    "title": "Pradhan Mantri Gramin Digital Saksharta Abhiyan (PMGDISHA Digital Literacy)",
+    "code": "PMGDISHA-MEITY-GOI",
+    "ministry": "Ministry of Electronics and Information Technology (MeitY)",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Digital Literacy & Citizen Empowerment",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Students",
+      "Farmers",
+      "Women",
+      "Workers"
+    ],
+    "benefitValue": "100% Free 20-Hour Computer, Smartphone, Digital Payment & Internet Literacy Course + NDLM Government Certificate",
+    "benefitNumericMin": 3000,
+    "benefitNumericMax": 15000,
+    "description": "Aims to make 6 crore rural households digitally literate, empowering citizens to use smartphones, computers, online government portals, and BHIM/UPI digital payments.",
+    "eligibilityDescription": "Digitally illiterate rural household members aged 14 to 60 who do not own a smart device or know how to operate computers/internet.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Mobile Number",
+      "Gram Panchayat Verification"
+    ],
+    "deadline": "Village Common Service Centre (CSC) / PMGDISHA Training Centre",
+    "officialWebsiteUrl": "https://pmgdisha.in",
+    "rules": {
+      "minAge": 14,
+      "maxAge": 60
+    },
+    "isPopular": true,
+    "iconName": "laptop_chromebook"
+  },
+  {
+    "id": "pm-research-fellowship-pmrf",
+    "title": "Prime Minister Research Fellowship (PMRF ₹80,000 Monthly Research Grant)",
+    "code": "PMRF-MOE-RESEARCH",
+    "ministry": "Ministry of Education, Govt. of India",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Research & Science Innovation",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "Direct Monthly Fellowship of ₹70,000 to ₹80,000 + Annual Research Contingency Grant of ₹2.0 Lakh for 5 Years",
+    "benefitNumericMin": 4200000,
+    "benefitNumericMax": 5000000,
+    "description": "Attracts top meritorious engineering and science graduates to pursue Direct Ph.D. research in cutting-edge science and technology areas at IITs, IISc, and IISERs.",
+    "eligibilityDescription": "Graduates/Students of B.Tech/M.Tech/M.Sc with minimum CGPA 8.0 or GATE score from recognized institutes.",
+    "requiredDocs": [
+      "Academic Marksheet",
+      "GATE Scorecard / CGPA Certificate",
+      "Research Proposal Statement of Purpose",
+      "Aadhaar Card"
+    ],
+    "deadline": "PMRF National Portal (pmrf.in)",
+    "officialWebsiteUrl": "https://pmrf.in",
+    "rules": {
+      "minAge": 20,
+      "maxAge": 35,
+      "requiresStudent": true
+    },
+    "isPopular": true,
+    "iconName": "biotech"
+  },
+  {
+    "id": "birac-biotech-ignition-grant-big",
+    "title": "Biotech Ignition Grant (BIG Scheme by BIRAC ₹50 Lakh Grant)",
+    "code": "BIRAC-BIG-DBT",
+    "ministry": "Department of Biotechnology (DBT), Ministry of Science and Technology",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Innovation & Biotech Entrepreneurship",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "100% Non-Dilutive Equity-Free Grant-in-Aid up to ₹50,000,00 for Commercializing Proof-of-Concept Innovations",
+    "benefitNumericMin": 2500000,
+    "benefitNumericMax": 5000000,
+    "description": "Provides early-stage financial support to biotech entrepreneurs, scientists, students, and spin-off startups to establish proof-of-concept for innovative biological products.",
+    "eligibilityDescription": "Individual scientists, researchers, students, or early-stage biotech startups (less than 5 years old).",
+    "requiredDocs": [
+      "Innovative Technology Proposal",
+      "Entity Registration Certificate",
+      "Aadhaar / PAN Card"
+    ],
+    "deadline": "BIRAC Portal (birac.nic.in) - Call announced twice a year",
+    "officialWebsiteUrl": "https://birac.nic.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 65
+    },
+    "isPopular": true,
+    "iconName": "science"
+  },
+  {
+    "id": "inspire-fellowship-dst-science-innovation",
+    "title": "INSPIRE Fellowship for Doctoral Research in Basic & Applied Sciences",
+    "code": "INSPIRE-FELLOWSHIP-DST",
+    "ministry": "Department of Science and Technology (DST), Govt. of India",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Science & Technology Research",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "Monthly JRF/SRF Fellowship equivalent to NET + Annual Contingency Grant of ₹20,000 for 5 Years Ph.D. Research",
+    "benefitNumericMin": 370000,
+    "benefitNumericMax": 500000,
+    "description": "Attracts talent to study basic sciences and doctoral research by awarding INSPIRE Fellowships to 1st Rank Holders in M.Sc. or INSPIRE Scholars.",
+    "eligibilityDescription": "1st Rank Holders in Post-Graduation in Basic and Applied Sciences / Engineering from recognized universities.",
+    "requiredDocs": [
+      "M.Sc / M.Tech University Rank Certificate",
+      "Ph.D. Admission Letter",
+      "Aadhaar Card"
+    ],
+    "deadline": "INSPIRE Portal (online-inspire.gov.in)",
+    "officialWebsiteUrl": "https://online-inspire.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 32,
+      "requiresStudent": true
+    },
+    "isPopular": true,
+    "iconName": "psychology"
+  },
+  {
+    "id": "tdf-drdo-technology-development-fund",
+    "title": "Technology Development Fund (TDF DRDO Defence Tech Grant ₹10 Crore)",
+    "code": "TDF-DRDO-DEFENCE-TECH",
+    "ministry": "Defence Research and Development Organisation (DRDO), Ministry of Defence",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Defence Innovation",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Workers"
+    ],
+    "benefitValue": "Up to 90% Project Financial Grant (Max ₹10 Crore) for Indigenous Defence & Aerospace Hardware Innovation",
+    "benefitNumericMin": 5000000,
+    "benefitNumericMax": 100000000,
+    "description": "Promotes self-reliance in defence technology by funding Indian MSMEs, startups, and academic incubators to build indigenous military hardware.",
+    "eligibilityDescription": "Registered Indian MSMEs, startups, and private technology companies developing defence-critical innovations.",
+    "requiredDocs": [
+      "DPIIT Startup Registration / MSME Udyam",
+      "Detailed Project Report (DPR)",
+      "Company Audited Financials"
+    ],
+    "deadline": "DRDO TDF Portal (tdf.drdo.gov.in)",
+    "officialWebsiteUrl": "https://tdf.drdo.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 70
+    },
+    "isPopular": false,
+    "iconName": "rocket_launch"
+  },
+  {
+    "id": "chips-to-startup-c2s-programme",
+    "title": "Chips to Startup (C2S) Programme (Semiconductor & VLSI Chip Design Grant)",
+    "code": "C2S-MEITY-CHIP-DESIGN",
+    "ministry": "Ministry of Electronics and Information Technology (MeitY)",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Hardware Innovation",
+    "beneficiaries": [
+      "Students",
+      "Entrepreneurs"
+    ],
+    "benefitValue": "100% Subsidized EDA Software Tools, Chip Fabrication Access & Financial Research Grant for ASIC/SoC Design",
+    "benefitNumericMin": 500000,
+    "benefitNumericMax": 5000000,
+    "description": "Trains 85,000 high-quality engineers in VLSI and semiconductor chip design by providing EDA tools, MPW tape-out facilities, and hardware labs.",
+    "eligibilityDescription": "Academic institutions, research labs, engineering colleges, and deep-tech semiconductor startups.",
+    "requiredDocs": [
+      "Institute / Startup Proposal",
+      "Faculty / Founder Profiles"
+    ],
+    "deadline": "C2S MeitY Portal (c2s.gov.in)",
+    "officialWebsiteUrl": "https://c2s.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65
+    },
+    "isPopular": true,
+    "iconName": "memory"
+  },
+  {
+    "id": "pm-wani-free-public-wifi-scheme",
+    "title": "PM-WANI (Prime Minister Wi-Fi Access Network Interface)",
+    "code": "PM-WANI-DOT-COMMUNICATIONS",
+    "ministry": "Department of Telecommunications (DoT), Ministry of Communications",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Communications & Broadband Infrastructure",
+    "beneficiaries": [
+      "General Citizen",
+      "Rural Citizens",
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Zero License Fee Requirement for Public Data Offices (PDOs) + Affordable High-Speed Public Wi-Fi Access",
+    "benefitNumericMin": 1000,
+    "benefitNumericMax": 50000,
+    "description": "Drives broadband proliferation across India by enabling small shopkeepers, kirana stores, and tea vendors to establish Public Data Offices (PDOs) and sell internet access without license fees.",
+    "eligibilityDescription": "Any small shopkeeper, kirana owner, village entrepreneur, or citizen wanting to setup a Wi-Fi hotspot.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Bank Account e-KYC"
+    ],
+    "deadline": "PM-WANI Portal (pmwani.gov.in)",
+    "officialWebsiteUrl": "https://pmwani.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 75
+    },
+    "isPopular": true,
+    "iconName": "wifi"
+  },
+  {
+    "id": "digital-india-futurelabs-initiative",
+    "title": "Digital India FutureLABS R&D Infrastructure & Startup Acceleration",
+    "code": "FUTURELABS-MEITY-GOI",
+    "ministry": "Ministry of Electronics and Information Technology (MeitY)",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Digital Services & DeepTech R&D",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Co-Development R&D Grants, Shared Supercomputing Infrastructure & Global IP Commercialization Support",
+    "benefitNumericMin": 1000000,
+    "benefitNumericMax": 20000000,
+    "description": "Accelerates indigenous research in Next-Gen Compute, Automotive Electronics, Industrial IoT, Microelectronics, and Quantum Computing.",
+    "eligibilityDescription": "Indian technology startups, deep-tech researchers, and electronics system design companies.",
+    "requiredDocs": [
+      "DPIIT Startup Certificate",
+      "DeepTech Innovation Dossier"
+    ],
+    "deadline": "MeitY FutureLABS Portal",
+    "officialWebsiteUrl": "https://meity.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 70
+    },
+    "isPopular": false,
+    "iconName": "developer_board"
+  },
+  {
+    "id": "serb-power-grants-for-women-scientists",
+    "title": "SERB POWER (Promoting Opportunities for Women in Exploratory Research)",
+    "code": "SERB-POWER-DST-WOMEN",
+    "ministry": "Anusandhan National Research Foundation (ANRF) / DST",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Research & Science Innovation",
+    "beneficiaries": [
+      "Women",
+      "Students"
+    ],
+    "benefitValue": "Research Grant up to ₹60 Lakh for 3 Years + Monthly Fellowship of ₹15,000 + Contingency Grant",
+    "benefitNumericMin": 3000000,
+    "benefitNumericMax": 6000000,
+    "description": "Addresses gender disparity in science and engineering research by funding female faculty and scientists to lead cutting-edge scientific R&D projects.",
+    "eligibilityDescription": "Female scientists holding Ph.D. in science/engineering employed in regular academic/research positions in recognized Indian institutions.",
+    "requiredDocs": [
+      "Ph.D. Degree Certificate",
+      "Research Proposal",
+      "Institute Endorsement Letter",
+      "Aadhaar Card"
+    ],
+    "deadline": "SERB/ANRF Online Portal (serbonline.in)",
+    "officialWebsiteUrl": "https://serbonline.in",
+    "rules": {
+      "minAge": 25,
+      "maxAge": 65,
+      "genderConstraint": "Female"
+    },
+    "isPopular": true,
+    "iconName": "female"
+  },
+  {
+    "id": "telecom-technology-development-fund-ttdf",
+    "title": "Telecom Technology Development Fund (TTDF Scheme by USOF)",
+    "code": "TTDF-USOF-DOT",
+    "ministry": "Department of Telecommunications (DoT), Govt. of India",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Communications & Telecom Innovation",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Financial Grant up to ₹10 Crore for Developing Indigenous 5G/6G, Satellite & Optical Fibre Telecom Tech",
+    "benefitNumericMin": 10000000,
+    "benefitNumericMax": 100000000,
+    "description": "Funds technology development, pilot testing, and commercialization of affordable rural telecom and 5G/6G hardware created by domestic startups and academia.",
+    "eligibilityDescription": "Indian companies, telecom startups, academic institutions, and R&D organizations.",
+    "requiredDocs": [
+      "Entity Registration",
+      "Detailed Telecom R&D Proposal",
+      "Audited Financial Statements"
+    ],
+    "deadline": "USOF TTDF Portal (usof.gov.in)",
+    "officialWebsiteUrl": "https://dot.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 70
+    },
+    "isPopular": false,
+    "iconName": "cell_tower"
+  },
+  {
+    "id": "national-quantum-mission-nqm-grant",
+    "title": "National Quantum Mission (NQM Quantum Computing Research Grant)",
+    "code": "NQM-DST-QUANTUM",
+    "ministry": "Department of Science and Technology (DST), Govt. of India",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Scientific Research",
+    "beneficiaries": [
+      "Students",
+      "Entrepreneurs"
+    ],
+    "benefitValue": "Multi-Crore Research Funding for Quantum Computing, Quantum Communication, Sensors & Materials",
+    "benefitNumericMin": 5000000,
+    "benefitNumericMax": 50000000,
+    "description": "Nurtures and scales scientific and industrial R&D in Quantum Technologies to build intermediate-scale quantum computers and secure quantum satellite communication.",
+    "eligibilityDescription": "Scientists, academic researchers, research institutions, and deep-tech startups working on quantum physics and engineering.",
+    "requiredDocs": [
+      "Quantum Research DPR",
+      "Institutional Affiliation Proof"
+    ],
+    "deadline": "DST NQM Portal (dst.gov.in)",
+    "officialWebsiteUrl": "https://dst.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 70
+    },
+    "isPopular": true,
+    "iconName": "blur_on"
+  },
+  {
+    "id": "samridh-meity-accelerator-scheme",
+    "title": "SAMRIDH MeitY Scheme for Software Tech Startups (₹40 Lakh Matching Grant)",
+    "code": "SAMRIDH-MEITY-STARTUP",
+    "ministry": "Ministry of Electronics and Information Technology (MeitY)",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Digital Services & Tech Acceleration",
+    "beneficiaries": [
+      "Entrepreneurs"
+    ],
+    "benefitValue": "Matching Investment Grant up to ₹40 Lakh + 6-Month Intensive Mentorship & Global Market Access",
+    "benefitNumericMin": 2000000,
+    "benefitNumericMax": 4000000,
+    "description": "Supports software product startups with matching venture funding, product refinement, customer acquisition, and international expansion.",
+    "eligibilityDescription": "DPIIT recognized software product startups with proof of concept and early market traction.",
+    "requiredDocs": [
+      "DPIIT Certificate",
+      "Pitch Deck",
+      "Cap Table & Financials"
+    ],
+    "deadline": "MeitY Startup Hub Portal (meitystartuphub.in)",
+    "officialWebsiteUrl": "https://meitystartuphub.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 70
+    },
+    "isPopular": true,
+    "iconName": "rocket"
+  },
+  {
+    "id": "cyber-shikshaa-women-cyber-security-program",
+    "title": "Cyber Shikshaa - Women Cyber Security Skills & Placement Scheme",
+    "code": "CYBER-SHIKSHAA-DSCI-MEITY",
+    "ministry": "MeitY / Data Security Council of India (DSCI) & Microsoft",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Digital Literacy & Technology Training",
+    "beneficiaries": [
+      "Women",
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "100% Free 4-Month Advanced Cyber Security Certification Training + Guaranteed Job Placement Support",
+    "benefitNumericMin": 40000,
+    "benefitNumericMax": 100000,
+    "description": "Trains engineering and computer science female graduates from tier-2 and tier-3 cities in cybersecurity, ethical hacking, digital forensics, and threat analysis.",
+    "eligibilityDescription": "Female science/engineering graduates (B.E/B.Tech/B.Sc CS/MCA) with family annual income up to ₹8 Lakh.",
+    "requiredDocs": [
+      "Degree Certificate / Marksheets",
+      "Income Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "DSCI Cyber Shikshaa Portal (dsci.in)",
+    "officialWebsiteUrl": "https://dsci.in",
+    "rules": {
+      "minAge": 20,
+      "maxAge": 28,
+      "genderConstraint": "Female",
+      "maxAnnualIncome": 800000
+    },
+    "isPopular": true,
+    "iconName": "security"
+  },
+  {
+    "id": "bhashini-national-language-translation-mission",
+    "title": "Digital India Bhashini Mission (AI Vernacular Language Tech Fellowship)",
+    "code": "BHASHINI-MEITY-AI",
+    "ministry": "Ministry of Electronics and Information Technology (MeitY)",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Digital Services & AI Innovation",
+    "beneficiaries": [
+      "Students",
+      "Entrepreneurs",
+      "General Citizen"
+    ],
+    "benefitValue": "Open AI Dataset Access, Compute Credits & Research Grant for Building Voice/Text Vernacular Apps",
+    "benefitNumericMin": 500000,
+    "benefitNumericMax": 2500000,
+    "description": "Empowers citizens to access digital services in 22 official Indian languages using AI speech-to-text, translation, and natural language processing models.",
+    "eligibilityDescription": "Developers, researchers, startups, and linguists creating Indian language AI applications.",
+    "requiredDocs": [
+      "Developer GitHub / Portfolio",
+      "Innovation Proposal"
+    ],
+    "deadline": "Bhashini Official Portal (bhashini.gov.in)",
+    "officialWebsiteUrl": "https://bhashini.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 70
+    },
+    "isPopular": true,
+    "iconName": "translate"
+  },
+  {
+    "id": "bharatnet-rural-broadband-connectivity-scheme",
+    "title": "BharatNet Rural High-Speed Fibre Broadband Scheme",
+    "code": "BHARATNET-BBNL-DOT",
+    "ministry": "Bharat Broadband Network Limited (BBNL) / DoT",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Communications & Rural Infrastructure",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Students",
+      "Farmers",
+      "Workers"
+    ],
+    "benefitValue": "100 Mbps Optical Fibre Connectivity to Gram Panchayats, Rural Schools, Health Centres & Post Offices",
+    "benefitNumericMin": 5000,
+    "benefitNumericMax": 50000,
+    "description": "Connects all 2.5 lakh Gram Panchayats across India with high-speed optical fibre network, bringing e-governance, e-health, and e-education to rural areas.",
+    "eligibilityDescription": "Gram Panchayats, rural government institutions, and local service providers in rural India.",
+    "requiredDocs": [
+      "Gram Panchayat Resolution / CSC Location Slip"
+    ],
+    "deadline": "BBNL BharatNet Portal (bbnl.nic.in)",
+    "officialWebsiteUrl": "https://bbnl.nic.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 80
+    },
+    "isPopular": false,
+    "iconName": "lan"
+  },
+  {
+    "id": "sparc-academic-research-collaboration",
+    "title": "SPARC Scheme for Promotion of Academic and Research Collaboration",
+    "code": "SPARC-MOE-IITKGP",
+    "ministry": "Ministry of Education, Govt. of India (Apex Coordinator: IIT Kharagpur)",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Research & Global Scientific Collaboration",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "Research Project Grant up to ₹1.0 Crore for Joint R&D between Indian Universities and Top 500 Global Universities",
+    "benefitNumericMin": 3000000,
+    "benefitNumericMax": 10000000,
+    "description": "Facilitates joint research projects between top Indian higher educational institutes and leading international research universities across 28 countries.",
+    "eligibilityDescription": "Faculty members and Ph.D. scholars in NIRF Top 100 ranked Indian academic institutions.",
+    "requiredDocs": [
+      "Joint Research Proposal",
+      "Foreign University Partner Consent Letter"
+    ],
+    "deadline": "SPARC Portal (sparc.iitkgp.ac.in)",
+    "officialWebsiteUrl": "https://sparc.iitkgp.ac.in",
+    "rules": {
+      "minAge": 22,
+      "maxAge": 65
+    },
+    "isPopular": false,
+    "iconName": "public"
+  },
+  {
+    "id": "imprint-india-applied-research-scheme",
+    "title": "IMPRINT India (Impacting Research Innovation and Technology Grant)",
+    "code": "IMPRINT-MOE-DST",
+    "ministry": "Ministry of Education & DST, Govt. of India",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Research & Technological Innovation",
+    "beneficiaries": [
+      "Students",
+      "Entrepreneurs"
+    ],
+    "benefitValue": "Research Grant up to ₹2.0 Crore for Solving Major Engineering & Technological Challenges",
+    "benefitNumericMin": 5000000,
+    "benefitNumericMax": 20000000,
+    "description": "Pan-IIT/IISc joint initiative addressing engineering challenges across Healthcare, Energy, Sustainable Habitat, Water, Defence, and Manufacturing.",
+    "eligibilityDescription": "Researchers and faculty members of government recognized higher education institutes and national R&D labs.",
+    "requiredDocs": [
+      "IMPRINT Project Proposal",
+      "Industry Partner Match Commitment Letter"
+    ],
+    "deadline": "IMPRINT India Portal (imprint-india.org)",
+    "officialWebsiteUrl": "https://imprint-india.org",
+    "rules": {
+      "minAge": 22,
+      "maxAge": 65
+    },
+    "isPopular": false,
+    "iconName": "engineering"
+  },
+  {
+    "id": "dst-fist-infrastructure-in-science-tech",
+    "title": "DST FIST (Fund for Improvement of S&T Infrastructure in Higher Institutions)",
+    "code": "DST-FIST-SCIENCE-LABS",
+    "ministry": "Department of Science and Technology (DST)",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Research & Lab Infrastructure",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "Capital Grant from ₹50 Lakh to ₹10 Crore for Upgrading Science Research Laboratories & Analytical Instruments",
+    "benefitNumericMin": 5000000,
+    "benefitNumericMax": 100000000,
+    "description": "Provides sophisticated research equipment, computational facilities, and analytical instruments to science departments in universities and colleges.",
+    "eligibilityDescription": "Academic departments in universities, post-graduate colleges, and research institutions.",
+    "requiredDocs": [
+      "FIST Application Proposal",
+      "Department Research Achievements Dossier"
+    ],
+    "deadline": "DST FIST Portal (dst.gov.in)",
+    "officialWebsiteUrl": "https://dst.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 70
+    },
+    "isPopular": false,
+    "iconName": "biotech"
+  },
+  {
+    "id": "swarnajayanti-fellowships-for-young-scientists",
+    "title": "Swarnajayanti Fellowships for Outstanding Young Scientists",
+    "code": "SWARNAJAYANTI-DST-FELLOWSHIP",
+    "ministry": "Anusandhan National Research Foundation (ANRF) / DST",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Science & Technology Research",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "Special Monthly Fellowship of ₹25,000 + Research Grant of ₹5.0 Lakh per year for 5 Years",
+    "benefitNumericMin": 2500000,
+    "benefitNumericMax": 4000000,
+    "description": "Recognizes brilliant young scientists with proven track records to pursue unfettered, world-class research in basic science disciplines.",
+    "eligibilityDescription": "Indian scientists holding Ph.D. aged between 30 to 40 years employed in regular research/academic positions.",
+    "requiredDocs": [
+      "Ph.D. Certificate",
+      "List of High-Impact Publications",
+      "Research Proposal"
+    ],
+    "deadline": "DST Online Portal",
+    "officialWebsiteUrl": "https://dst.gov.in",
+    "rules": {
+      "minAge": 30,
+      "maxAge": 40
+    },
+    "isPopular": false,
+    "iconName": "star"
+  },
+  {
+    "id": "stpi-nextgen-technology-incubation",
+    "title": "Software Technology Parks of India (STPI NGG Software Incubation Scheme)",
+    "code": "STPI-NGG-MEITY",
+    "ministry": "Software Technology Parks of India (STPI) / MeitY",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Digital Services & IT Entrepreneurship",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Job Seekers"
+    ],
+    "benefitValue": "100% Tax Exemption, Plug-and-Play Office Space, High-Speed Internet & Seed Funding up to ₹25 Lakh",
+    "benefitNumericMin": 500000,
+    "benefitNumericMax": 2500000,
+    "description": "Promotes software export and tech entrepreneurship by providing incubation centres, cloud infrastructure, and regulatory handholding across tier-2/3 towns.",
+    "eligibilityDescription": "Indian IT/ITeS startups, software product companies, and digital exporters.",
+    "requiredDocs": [
+      "Company Registration",
+      "Product Prototype Overview",
+      "PAN Card"
+    ],
+    "deadline": "STPI Official Portal (stpi.in)",
+    "officialWebsiteUrl": "https://stpi.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 70
+    },
+    "isPopular": true,
+    "iconName": "business"
+  },
+  {
+    "id": "ai-for-agriculture-innovation-grant",
+    "title": "AI for Agriculture Innovation Grant (Agri-Tech AI Mission)",
+    "code": "AGRI-AI-MEITY-MOA",
+    "ministry": "Ministry of Electronics and Information Technology & Ministry of Agriculture",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Innovation & Technology",
+    "beneficiaries": [
+      "Farmers",
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Grant-in-Aid up to ₹50 Lakh for AI-Powered Soil Analysis, Pest Detection & Satellite Yield Forecasting Tools",
+    "benefitNumericMin": 1000000,
+    "benefitNumericMax": 5000000,
+    "description": "Supports AI researchers and agri-tech startups creating machine learning algorithms for precise crop health monitoring and weather forecasting.",
+    "eligibilityDescription": "Agri-tech startups, AI researchers, and agricultural institutions.",
+    "requiredDocs": [
+      "AI Model Architecture Overview",
+      "Startup Registration Certificate"
+    ],
+    "deadline": "MeitY Agri-AI Portal",
+    "officialWebsiteUrl": "https://meity.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 65
+    },
+    "isPopular": true,
+    "iconName": "smart_toy"
+  },
+  {
+    "id": "cyber-swachhta-kendra-botnet-cleaning",
+    "title": "Cyber Swachhta Kendra (Botnet Cleaning & Malware Security Service)",
+    "code": "CYBER-SWACHHTA-CERT-IN",
+    "ministry": "Indian Computer Emergency Response Team (CERT-In) / MeitY",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Digital Services & Cyber Protection",
+    "beneficiaries": [
+      "General Citizen",
+      "Students",
+      "Workers"
+    ],
+    "benefitValue": "100% Free Antivirus, Botnet Removal Tools, Smartphone Security Apps & Automated Threat Scans",
+    "benefitNumericMin": 1000,
+    "benefitNumericMax": 5000,
+    "description": "Protects citizens and businesses by offering free security tools, USB disinfectants, and malware removal utilities to secure computers and smartphones.",
+    "eligibilityDescription": "All citizens, students, internet users, and small businesses in India.",
+    "requiredDocs": [
+      "None required (Instant free download)"
+    ],
+    "deadline": "Cyber Swachhta Kendra Portal (csk.gov.in)",
+    "officialWebsiteUrl": "https://csk.gov.in",
+    "rules": {
+      "minAge": 10,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "cleaning_services"
+  },
+  {
+    "id": "digilocker-citizen-document-wallet-service",
+    "title": "DigiLocker Digital Document Wallet & Verifiable Credentials Service",
+    "code": "DIGILOCKER-DIGITAL-INDIA",
+    "ministry": "National e-Governance Division (NeGD) / MeitY",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Digital Services & Citizen Convenience",
+    "beneficiaries": [
+      "General Citizen",
+      "Students",
+      "Workers",
+      "Farmers",
+      "Senior Citizens"
+    ],
+    "benefitValue": "Free 1 GB Cloud Storage for Authentic Digital Driving License, Vehicle RC, Marksheets & Aadhaar with Legal Validity under IT Act",
+    "benefitNumericMin": 2000,
+    "benefitNumericMax": 20000,
+    "description": "Eliminates physical documents by providing every citizen a secure cloud wallet for accessing legally valid digital certificates issued directly by government authorities.",
+    "eligibilityDescription": "All Indian citizens possessing an Aadhaar card.",
+    "requiredDocs": [
+      "Aadhaar Number",
+      "Mobile Number linked to Aadhaar"
+    ],
+    "deadline": "DigiLocker App / Portal (digilocker.gov.in)",
+    "officialWebsiteUrl": "https://digilocker.gov.in",
+    "rules": {
+      "minAge": 5,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "folder_shared"
+  },
+  {
+    "id": "drone-shakti-agri-drone-technology-subsidy",
+    "title": "Drone Shakti & Agri-Drone Subsidized Kisan Technology Scheme",
+    "code": "DRONE-SHAKTI-MOA-DGCA",
+    "ministry": "Ministry of Agriculture and Farmers Welfare & Ministry of Civil Aviation",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Agri-Automation",
+    "beneficiaries": [
+      "Farmers",
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Financial Subsidy up to 100% (Max ₹10 Lakh) for ICAR/KVKs and 50% (Max ₹5 Lakh) for Agri-Graduates buying Drones",
+    "benefitNumericMin": 400000,
+    "benefitNumericMax": 1000000,
+    "description": "Promotes agricultural drones for pesticide spraying, crop health monitoring, and liquid fertilizer application, creating rural drone pilot jobs.",
+    "eligibilityDescription": "Farmers, Farmer Producer Organizations (FPOs), Custom Hiring Centres, and agriculture graduates.",
+    "requiredDocs": [
+      "DGCA Drone Pilot License / Remote Pilot Certificate",
+      "Aadhaar Card",
+      "Land Ownership / FPO Registration"
+    ],
+    "deadline": "Agri-Infra Portal / District Agriculture Office",
+    "officialWebsiteUrl": "https://agricoop.nic.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65
+    },
+    "isPopular": true,
+    "iconName": "flight_takeoff"
+  },
+  {
+    "id": "isro-student-satellite-space-science-grant",
+    "title": "ISRO Student Satellite Development & Space Technology Grant",
+    "code": "ISRO-INSPACe-STUDENT-SATELLITE",
+    "ministry": "Department of Space (DoS) / IN-SPACe / ISRO",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Science & Space Innovation",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "100% Free Launch Payload Slot on ISRO PSLV / SSLV Missions + Technical Mentorship & Environmental Testing Labs",
+    "benefitNumericMin": 5000000,
+    "benefitNumericMax": 30000000,
+    "description": "Enables university students and young space startups to design, build, and launch Nano-Satellites and Cubesats aboard ISRO launch vehicles.",
+    "eligibilityDescription": "Academic institutions, engineering universities, and registered space startups in India.",
+    "requiredDocs": [
+      "Satellite Mission Dossier",
+      "IN-SPACe Application Form"
+    ],
+    "deadline": "IN-SPACe Digital Portal (inspace.gov.in)",
+    "officialWebsiteUrl": "https://inspace.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "requiresStudent": true
+    },
+    "isPopular": true,
+    "iconName": "rocket"
+  },
+  {
+    "id": "cdac-high-performance-computing-research-grant",
+    "title": "C-DAC High Performance Supercomputing & AI Research Fellowship",
+    "code": "CDAC-HPC-PARAM-RESEARCH",
+    "ministry": "Centre for Development of Advanced Computing (C-DAC) / MeitY",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Research & Supercomputing Technology",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "Free Supercomputer Node Allocation on PARAM Siddhi AI & PARAM Ananta + Research Grant up to ₹10 Lakh",
+    "benefitNumericMin": 500000,
+    "benefitNumericMax": 2000000,
+    "description": "Provides AI researchers, computational scientists, and bioinformaticians direct compute time on India’s fastest PARAM supercomputers for complex scientific modeling.",
+    "eligibilityDescription": "Ph.D. scholars, scientists, and computational engineers working on drug discovery, climate modeling, or AI.",
+    "requiredDocs": [
+      "High Performance Compute Proposal",
+      "Institutional ID Proof"
+    ],
+    "deadline": "National Supercomputing Mission Portal (nsminitiative.in)",
+    "officialWebsiteUrl": "https://cdac.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 60
+    },
+    "isPopular": false,
+    "iconName": "computer"
+  },
+  {
+    "id": "ramalingaswami-re-entry-fellowship-bioscientists",
+    "title": "Ramalingaswami Re-Entry Fellowship for Overseas Indian Bioscientists",
+    "code": "RAMALINGASWAMI-DBT-FELLOWSHIP",
+    "ministry": "Department of Biotechnology (DBT), Govt. of India",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Research & Biological Sciences",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "Monthly Fellowship of ₹1,00,000 + HRA + Annual Research Grant of ₹10,00,000 for 5 Years",
+    "benefitNumericMin": 6000000,
+    "benefitNumericMax": 7500000,
+    "description": "Encourages outstanding Indian bio-scientists working in foreign universities to return to India and establish independent research labs.",
+    "eligibilityDescription": "Indian bio-scientists holding Ph.D. with at least 3 years post-doctoral research experience abroad wanting to return to India.",
+    "requiredDocs": [
+      "Ph.D. Degree",
+      "Overseas Post-Doc Proof",
+      "Research Proposal",
+      "Host Indian Institution Acceptance Letter"
+    ],
+    "deadline": "DBT e-Promis Portal",
+    "officialWebsiteUrl": "https://dbtindia.gov.in",
+    "rules": {
+      "minAge": 28,
+      "maxAge": 45
+    },
+    "isPopular": false,
+    "iconName": "biotech"
+  },
+  {
+    "id": "ramanujan-fellowship-overseas-indian-scientists",
+    "title": "Ramanujan Fellowship for Top Overseas Indian Scientists",
+    "code": "RAMANUJAN-SERB-DST",
+    "ministry": "Anusandhan National Research Foundation (ANRF) / DST",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Science & Mathematics Research",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "Monthly Fellowship of ₹1,35,000 + Annual Research Contingency Grant of ₹7,00,000 for 5 Years",
+    "benefitNumericMin": 8000000,
+    "benefitNumericMax": 10000000,
+    "description": "Attracts brilliant Indian scientists and engineers working abroad to pursue research in STEM fields in Indian institutions.",
+    "eligibilityDescription": "Indian scientists holding Ph.D. with outstanding research publications working in overseas labs.",
+    "requiredDocs": [
+      "Ph.D. Degree",
+      "Publication Reprints",
+      "Host Institute Endorsement"
+    ],
+    "deadline": "SERB Online Portal",
+    "officialWebsiteUrl": "https://serbonline.in",
+    "rules": {
+      "minAge": 30,
+      "maxAge": 45
+    },
+    "isPopular": false,
+    "iconName": "functions"
+  },
+  {
+    "id": "up-it-and-start-up-policy-grant",
+    "title": "UP IT & Start-Up Policy Capital Subsidy & Innovation Grant",
+    "code": "UP-IT-POLICY-STARTUP-GRANT",
+    "ministry": "Department of IT & Electronics, Govt. of Uttar Pradesh",
+    "origin": "state",
+    "stateName": "Uttar Pradesh",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Start-Up Capital Grant",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Monthly Sustenance Allowance of ₹17,500 for 1 Year + Seed Grant up to ₹5 Lakh + 50% Capital Interest Subsidy",
+    "benefitNumericMin": 210000,
+    "benefitNumericMax": 700000,
+    "description": "Promotes tech entrepreneurship and IT parks across Uttar Pradesh, offering monthly sustenance stipends to young startup founders.",
+    "eligibilityDescription": "Registered UP technology startups certified by UP Start-In portal.",
+    "requiredDocs": [
+      "UP Startup Certificate",
+      "DPIIT Registration",
+      "Aadhaar / PAN Card"
+    ],
+    "deadline": "Start-In UP Portal (startup.up.gov.in)",
+    "officialWebsiteUrl": "https://startup.up.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Uttar Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "domain"
+  },
+  {
+    "id": "up-free-tablet-smartphone-yojana-swami-vivekananda",
+    "title": "Swami Vivekananda Yuva Sashaktikaran Yojana (UP Free Smartphone & Tablet)",
+    "code": "UP-FREE-SMARTPHONE-TABLET",
+    "ministry": "Department of IT and Electronics, Govt. of Uttar Pradesh",
+    "origin": "state",
+    "stateName": "Uttar Pradesh",
+    "category": "Science, IT & Communications",
+    "subCategory": "Digital Services & Student Empowerment",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "100% Free 5G Smartphone or High-Spec Tablet Pre-Loaded with Educational Apps & DigiLocker",
+    "benefitNumericMin": 12000,
+    "benefitNumericMax": 20000,
+    "description": "Distributes free smartphones and tablets to 2 crore youth enrolled in higher education, technical institutes, and ITIs across UP to bridge the digital divide.",
+    "eligibilityDescription": "Students enrolled in Graduation, Post-Graduation, Polytechnic, ITI, or Diploma courses in Uttar Pradesh.",
+    "requiredDocs": [
+      "College Student ID Card",
+      "Aadhaar Card",
+      "UP Domicile Certificate"
+    ],
+    "deadline": "DigiShakti Portal UP (digishakti.up.gov.in)",
+    "officialWebsiteUrl": "https://digishakti.up.gov.in",
+    "rules": {
+      "minAge": 17,
+      "maxAge": 30,
+      "requiresStudent": true,
+      "statesAllowed": [
+        "Uttar Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "smartphone"
+  },
+  {
+    "id": "mh-fintech-policy-startup-grant",
+    "title": "Maharashtra FinTech Policy Acceleration & Cloud Subsidy Scheme",
+    "code": "MH-FINTECH-POLICY-GRANT",
+    "ministry": "Information Technology Department, Govt. of Maharashtra",
+    "origin": "state",
+    "stateName": "Maharashtra",
+    "category": "Science, IT & Communications",
+    "subCategory": "Digital Services & FinTech Innovation",
+    "beneficiaries": [
+      "Entrepreneurs"
+    ],
+    "benefitValue": "Reimbursement of 100% Cloud Compute Costs (Max ₹1 Lakh) + Reimbursement of Patent Filing Fees (Max ₹2 Lakh)",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 500000,
+    "description": "Positions Mumbai as a global FinTech hub by subsidizing cloud infrastructure, API sandbox access, and patent registration for financial tech startups.",
+    "eligibilityDescription": "FinTech startups registered in Maharashtra with innovative digital payment or insurtech solutions.",
+    "requiredDocs": [
+      "DPIIT Startup Certificate",
+      "Maharashtra Office Registration",
+      "Cloud Expense Invoices"
+    ],
+    "deadline": "FinTech Maharashtra Portal",
+    "officialWebsiteUrl": "https://maharashtra.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Maharashtra"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "account_balance"
+  },
+  {
+    "id": "ka-elevate-100-tech-startup-grant",
+    "title": "Elevate 100 Karnataka Tech Start-Up Innovation Grant (Up to ₹50 Lakh)",
+    "code": "KA-ELEVATE-100-TECH",
+    "ministry": "Department of Electronics, IT, Bt and S&T, Govt. of Karnataka",
+    "origin": "state",
+    "stateName": "Karnataka",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Start-Up Innovation",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Direct Equity-Free Seed Funding Grant up to ₹50 Lakh + Incubation & Intellectual Property Legal Aid",
+    "benefitNumericMin": 2000000,
+    "benefitNumericMax": 5000000,
+    "description": "Karnataka’s flagship startup scheme identifying top innovative technology startups in AI, Robotics, Biotech, and CleanTech for direct funding.",
+    "eligibilityDescription": "Karnataka based tech startups with registered office in Karnataka and working proof of concept.",
+    "requiredDocs": [
+      "Karnataka Startup Cell Certificate",
+      "Pitch Deck",
+      "PAN / Aadhaar of Founders"
+    ],
+    "deadline": "Karnataka Innovation Technology Society (KBITS Elevate Portal)",
+    "officialWebsiteUrl": "https://startup.karnataka.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Karnataka"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "rocket"
+  },
+  {
+    "id": "tn-nanmudhalvan-tech-skill-mission",
+    "title": "Naan Mudhalvan Tech Skills & Digital Innovation Scheme",
+    "code": "TN-NANMUDHALVAN-TECH",
+    "ministry": "Tamil Nadu Skill Development Corporation (TNSDC), Govt. of Tamil Nadu",
+    "origin": "state",
+    "stateName": "Tamil Nadu",
+    "category": "Science, IT & Communications",
+    "subCategory": "Digital Services & Tech Skills",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "100% Free Advanced Cloud Computing, AI/ML, Full Stack & Cybersecurity Courses with Global Industry Certifications",
+    "benefitNumericMin": 25000,
+    "benefitNumericMax": 75000,
+    "description": "Provides 10 lakh college students across Tamil Nadu with high-end tech skills in collaboration with Microsoft, Google, AWS, and IBM.",
+    "eligibilityDescription": "College students studying engineering, science, or arts in Tamil Nadu institutions.",
+    "requiredDocs": [
+      "TN Smart Card / Aadhaar",
+      "College Enrollment ID"
+    ],
+    "deadline": "Naan Mudhalvan Portal (naanmudhalvan.tn.gov.in)",
+    "officialWebsiteUrl": "https://naanmudhalvan.tn.gov.in",
+    "rules": {
+      "minAge": 17,
+      "maxAge": 25,
+      "requiresStudent": true,
+      "statesAllowed": [
+        "Tamil Nadu"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "school"
+  },
+  {
+    "id": "ts-t-hub-deeptech-incubation-scheme",
+    "title": "T-Hub DeepTech Startup Incubation & Acceleration Scheme",
+    "code": "TS-THUB-DEEPTECH",
+    "ministry": "Information Technology, Electronics & Communications Dept, Govt. of Telangana",
+    "origin": "state",
+    "stateName": "Telangana",
+    "category": "Science, IT & Communications",
+    "subCategory": "Innovation & Technology Incubation",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Access to World’s Largest Innovation Campus (T-Hub), Corporate Pilots, Prototyping Labs & Venture Capital Network",
+    "benefitNumericMin": 500000,
+    "benefitNumericMax": 5000000,
+    "description": "Provides world-class incubation, prototyping labs, investor pitch access, and corporate pilots to deep-tech and AI startups in Hyderabad.",
+    "eligibilityDescription": "Early and growth stage technology startups registered or operating in Telangana.",
+    "requiredDocs": [
+      "Company Incorporation Certificate",
+      "Product Deck"
+    ],
+    "deadline": "T-Hub Official Portal (t-hub.co)",
+    "officialWebsiteUrl": "https://t-hub.co",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Telangana"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "business_center"
+  },
+  {
+    "id": "ap-digital-panchayat-citizen-services",
+    "title": "AP Digital Sachivalayam e-Services & Internet Connectivity Scheme",
+    "code": "AP-DIGITAL-SACHIVALAYAM",
+    "ministry": "Panchayat Raj and Rural Development, Govt. of Andhra Pradesh",
+    "origin": "state",
+    "stateName": "Andhra Pradesh",
+    "category": "Science, IT & Communications",
+    "subCategory": "Digital Services & Rural Access",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Farmers",
+      "Senior Citizens",
+      "Women"
+    ],
+    "benefitValue": "500+ Digital Government Services at Village Doorsteps via Fibernet Connected Sachivalayams",
+    "benefitNumericMin": 2000,
+    "benefitNumericMax": 15000,
+    "description": "Delivers digital government services, e-certificates, land record prints, and welfare registration directly at village secretariats.",
+    "eligibilityDescription": "All residents of rural and urban Andhra Pradesh.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Mobile Number"
+    ],
+    "deadline": "Gram / Ward Sachivalayam AP",
+    "officialWebsiteUrl": "https://gramawardsachivalayam.ap.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Andhra Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "foundation"
+  },
+  {
+    "id": "wb-bangla-sahayata-kendra-bsk-digital-services",
+    "title": "Bangla Sahayata Kendra (BSK Free e-Governance Services Scheme)",
+    "code": "WB-BSK-DIGITAL-SERVICES",
+    "ministry": "Personnel and Administrative Reforms Dept, Govt. of West Bengal",
+    "origin": "state",
+    "stateName": "West Bengal",
+    "category": "Science, IT & Communications",
+    "subCategory": "Digital Services & Citizen Empowerment",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Farmers",
+      "Students",
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Free Access to 280+ Digital Government Services without Any Application / Agent Fees",
+    "benefitNumericMin": 1500,
+    "benefitNumericMax": 10000,
+    "description": "Operates 3,500+ free digital assistance kiosks across West Bengal to help citizens apply for scholarships, welfare cards, and certificates.",
+    "eligibilityDescription": "All residents of West Bengal.",
+    "requiredDocs": [
+      "Aadhaar Card / Khadya Sathi Card"
+    ],
+    "deadline": "Bangla Sahayata Kendra Kiosks / Portal (bsk.wb.gov.in)",
+    "officialWebsiteUrl": "https://bsk.wb.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "statesAllowed": [
+        "West Bengal"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "support"
+  },
+  {
+    "id": "gj-i-hub-student-innovation-startup-policy",
+    "title": "Gujarat i-Hub Student Innovation & Start-Up Policy (SISP 2.0 Grant)",
+    "code": "GJ-IHUB-SISP-STUDENT",
+    "ministry": "Education Department, Govt. of Gujarat",
+    "origin": "state",
+    "stateName": "Gujarat",
+    "category": "Science, IT & Communications",
+    "subCategory": "Innovation & Student Technology",
+    "beneficiaries": [
+      "Students",
+      "Entrepreneurs"
+    ],
+    "benefitValue": "Proof of Concept Grant up to ₹2.5 Lakh + Patent Filing Reimbursement up to ₹3 Lakh for College Innovators",
+    "benefitNumericMin": 250000,
+    "benefitNumericMax": 550000,
+    "description": "Supports student innovators in schools and universities across Gujarat to build physical prototypes and file patents for innovative technology.",
+    "eligibilityDescription": "Students enrolled in school, polytechnic, or university in Gujarat with innovative prototype ideas.",
+    "requiredDocs": [
+      "Student ID Card",
+      "Innovation Prototype Proposal"
+    ],
+    "deadline": "i-Hub Gujarat Portal (ihubgujarat.in)",
+    "officialWebsiteUrl": "https://ihubgujarat.in",
+    "rules": {
+      "minAge": 15,
+      "maxAge": 30,
+      "requiresStudent": true,
+      "statesAllowed": [
+        "Gujarat"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "lightbulb"
+  },
+  {
+    "id": "rj-i-start-innovation-grant-policy",
+    "title": "iStart Rajasthan Startup Fund & QRate Tech Incubation Scheme",
+    "code": "RJ-ISTART-TECH-GRANT",
+    "ministry": "Department of IT & Communication (DoIT&C), Govt. of Rajasthan",
+    "origin": "state",
+    "stateName": "Rajasthan",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Start-Up Support",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Sustenance Allowance up to ₹20,000/Month + Prototype Seed Grant up to ₹5 Lakh + Incubation at Techno Hubs",
+    "benefitNumericMin": 240000,
+    "benefitNumericMax": 740000,
+    "description": "Comprehensive startup ecosystem in Rajasthan providing automated funding, co-working spaces, and QRate evaluation for technology ventures.",
+    "eligibilityDescription": "Registered Rajasthan tech startups certified on iStart portal.",
+    "requiredDocs": [
+      "Jan Aadhaar",
+      "DPIIT / iStart Registration",
+      "Founder Identity"
+    ],
+    "deadline": "iStart Rajasthan Portal (istart.rajasthan.gov.in)",
+    "officialWebsiteUrl": "https://istart.rajasthan.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Rajasthan"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "rocket_launch"
+  },
+  {
+    "id": "kl-kerala-startup-mission-ksum-grant",
+    "title": "Kerala Startup Mission (KSUM Technology Innovation & R&D Seed Grant)",
+    "code": "KL-KSUM-TECH-SEED-GRANT",
+    "ministry": "Electronics & Information Technology Dept, Govt. of Kerala",
+    "origin": "state",
+    "stateName": "Kerala",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & DeepTech Incubation",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Technology Innovation Grant up to ₹15 Lakh + Productization Grant up to ₹12 Lakh + Patent Reimbursement",
+    "benefitNumericMin": 1200000,
+    "benefitNumericMax": 2700000,
+    "description": "Award-winning startup node in Kerala offering seed grants, Fab Labs hardware prototyping, and overseas exposure trips to tech entrepreneurs.",
+    "eligibilityDescription": "Tech startups registered in Kerala with DPIIT recognition.",
+    "requiredDocs": [
+      "KSUM Registration Certificate",
+      "Pitch Deck & Financials"
+    ],
+    "deadline": "Kerala Startup Mission Portal (startupmission.kerala.gov.in)",
+    "officialWebsiteUrl": "https://startupmission.kerala.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Kerala"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "developer_mode"
+  },
+  {
+    "id": "od-it-policy-capital-subsidy-scheme",
+    "title": "Odisha IT Policy Capital Investment Subsidy & Lease Rental Waiver",
+    "code": "OD-IT-POLICY-SUBSIDY",
+    "ministry": "Electronics & Information Technology Dept, Govt. of Odisha",
+    "origin": "state",
+    "stateName": "Odisha",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & IT Park Infrastructure",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Job Seekers"
+    ],
+    "benefitValue": "25% Capital Investment Subsidy (Max ₹20 Crore) + 75% Office Lease Rental Subsidy for 3 Years",
+    "benefitNumericMin": 500000,
+    "benefitNumericMax": 20000000,
+    "description": "Attracts IT/ITeS companies and ESDM hardware manufacturing units to Infocity and O-Hub Bhubaneswar.",
+    "eligibilityDescription": "IT/ITeS and electronics companies establishing operations in Odisha.",
+    "requiredDocs": [
+      "Company Registration",
+      "Odisha Investment Application"
+    ],
+    "deadline": "Odisha IT Policy Portal",
+    "officialWebsiteUrl": "https://eit.odisha.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 70,
+      "statesAllowed": [
+        "Odisha"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "domain"
+  },
+  {
+    "id": "pb-startup-policy-sustenance-allowance",
+    "title": "Punjab Startup Policy Monthly Sustenance & Seed Grant Scheme",
+    "code": "PB-STARTUP-SUSTENANCE-GRANT",
+    "ministry": "Department of Industries and Commerce, Govt. of Punjab",
+    "origin": "state",
+    "stateName": "Punjab",
+    "category": "Science, IT & Communications",
+    "subCategory": "Innovation & Tech Entrepreneurship",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Monthly Sustenance Allowance of ₹10,000 for 1 Year + Seed Capital Grant up to ₹3 Lakh",
+    "benefitNumericMin": 120000,
+    "benefitNumericMax": 420000,
+    "description": "Supports student innovators and technology startup founders across Punjab to build scalable products.",
+    "eligibilityDescription": "Punjab based technology startups certified by Startup Punjab.",
+    "requiredDocs": [
+      "Startup Punjab Certificate",
+      "Aadhaar / PAN Card"
+    ],
+    "deadline": "Startup Punjab Portal (startuppunjab.gov.in)",
+    "officialWebsiteUrl": "https://startuppunjab.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Punjab"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "emoji_objects"
+  },
+  {
+    "id": "hr-startup-policy-patent-reimbursement",
+    "title": "Haryana Startup Policy Patent Reimbursement & Seed Grant Scheme",
+    "code": "HR-STARTUP-PATENT-GRANT",
+    "ministry": "Department of Information Technology, Electronics & Communication, Govt. of Haryana",
+    "origin": "state",
+    "stateName": "Haryana",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Patent Support",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "100% Reimbursement of Domestic Patent Filing Fees (Max ₹2 Lakh) and International Patent Fees (Max ₹5 Lakh)",
+    "benefitNumericMin": 200000,
+    "benefitNumericMax": 500000,
+    "description": "Promotes intellectual property creation among Gurugram and Haryana based technology ventures.",
+    "eligibilityDescription": "Registered Haryana tech startups holding valid patent application receipts.",
+    "requiredDocs": [
+      "Haryana PPP Card",
+      "Patent Filing Receipt",
+      "Startup Registration"
+    ],
+    "deadline": "Startup Haryana Portal",
+    "officialWebsiteUrl": "https://startupharyana.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Haryana"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "verified"
+  },
+  {
+    "id": "mp-incubation-and-startup-policy",
+    "title": "MP Startup Policy Sustenance Allowance & Prototype Grant",
+    "code": "MP-STARTUP-POLICY-GRANT",
+    "ministry": "Micro, Small and Medium Enterprises Dept, Govt. of Madhya Pradesh",
+    "origin": "state",
+    "stateName": "Madhya Pradesh",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Incubation",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Sustenance Allowance of ₹10,000/Month (₹12,000 for Female Founders) + Prototype Grant up to ₹5 Lakh",
+    "benefitNumericMin": 120000,
+    "benefitNumericMax": 620000,
+    "description": "Provides seed grants and special incentives for female technology founders in Bhopal, Indore, and Jabalpur.",
+    "eligibilityDescription": "DPIIT recognized technology startups headquartered in Madhya Pradesh.",
+    "requiredDocs": [
+      "MP Samagra ID",
+      "DPIIT Startup Certificate"
+    ],
+    "deadline": "MP Startup Portal (mpstartup.gov.in)",
+    "officialWebsiteUrl": "https://mpstartup.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Madhya Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "rocket"
+  },
+  {
+    "id": "br-startup-policy-seed-grant-10lakh",
+    "title": "Bihar Startup Policy Seed Grant ₹10 Lakh Interest-Free Scheme",
+    "code": "BR-STARTUP-POLICY-SEED",
+    "ministry": "Department of Industries, Govt. of Bihar",
+    "origin": "state",
+    "stateName": "Bihar",
+    "category": "Science, IT & Communications",
+    "subCategory": "Innovation & Tech Entrepreneurship",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "100% Interest-Free Seed Capital Loan of ₹10 Lakh for 10 Years + 5% Additional Grant for Women Founders",
+    "benefitNumericMin": 1000000,
+    "benefitNumericMax": 1050000,
+    "description": "Provides 10-year interest-free seed capital to promising technology and manufacturing startups in Bihar.",
+    "eligibilityDescription": "Bihar resident entrepreneurs whose startup entity is registered in Bihar.",
+    "requiredDocs": [
+      "Bihar Residential Certificate",
+      "DPIIT Certificate",
+      "Pitch Deck"
+    ],
+    "deadline": "Startup Bihar Portal (startup.bihar.gov.in)",
+    "officialWebsiteUrl": "https://startup.bihar.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Bihar"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "payments"
+  },
+  {
+    "id": "cg-startup-policy-incubation-subsidy",
+    "title": "Chhattisgarh Startup Policy Sustenance & Co-Working Subsidy",
+    "code": "CG-STARTUP-SUSTENANCE",
+    "ministry": "Commerce and Industry Department, Govt. of Chhattisgarh",
+    "origin": "state",
+    "stateName": "Chhattisgarh",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Start-Up Innovation",
+    "beneficiaries": [
+      "Entrepreneurs"
+    ],
+    "benefitValue": "Monthly Sustenance Allowance of ₹15,000 for 1 Year + 50% Co-Working Desk Space Reimbursement",
+    "benefitNumericMin": 180000,
+    "benefitNumericMax": 300000,
+    "description": "Fosters young entrepreneurs in Raipur and Bilaspur by offering monthly living stipends and incubation support.",
+    "eligibilityDescription": "Registered Chhattisgarh technology startups.",
+    "requiredDocs": [
+      "CG Domicile Certificate",
+      "Startup Registration"
+    ],
+    "deadline": "Startup Chhattisgarh Portal",
+    "officialWebsiteUrl": "https://industries.cg.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Chhattisgarh"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "business"
+  },
+  {
+    "id": "jh-startup-policy-seed-money-scheme",
+    "title": "Jharkhand Startup Policy Seed Grant & Prototyping Support",
+    "code": "JH-STARTUP-SEED-GRANT",
+    "ministry": "Department of Information Technology and e-Governance, Govt. of Jharkhand",
+    "origin": "state",
+    "stateName": "Jharkhand",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Innovation",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Monthly Sustenance Allowance of ₹15,000 + Prototype Grant up to ₹3 Lakh",
+    "benefitNumericMin": 180000,
+    "benefitNumericMax": 480000,
+    "description": "Supports tech innovators and tribal youth in Jharkhand to build digital solutions and hardware prototypes.",
+    "eligibilityDescription": "Jharkhand based certified technology startups.",
+    "requiredDocs": [
+      "Jharkhand Local Resident Certificate",
+      "Startup Profile"
+    ],
+    "deadline": "Startup Jharkhand Portal",
+    "officialWebsiteUrl": "https://jharkhand.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Jharkhand"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "lightbulb"
+  },
+  {
+    "id": "as-startup-policy-masi-grant",
+    "title": "Assam Startup Policy (My Assam Startup Initiative - MASI Grant)",
+    "code": "AS-MASI-STARTUP-GRANT",
+    "ministry": "Industries and Commerce Department, Govt. of Assam",
+    "origin": "state",
+    "stateName": "Assam",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Innovation",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Scale-Up Grant up to ₹50 Lakh + Monthly Sustenance Allowance of ₹20,000 for 1 Year at The Nest Guwahati",
+    "benefitNumericMin": 240000,
+    "benefitNumericMax": 5000000,
+    "description": "Flagship North-East startup hub providing incubation, mentorship, and equity-free grants at The Nest Guwahati.",
+    "eligibilityDescription": "Assam registered startups with innovative tech solutions.",
+    "requiredDocs": [
+      "Assam Domicile Certificate",
+      "DPIIT Startup Certificate"
+    ],
+    "deadline": "Assam Startup Portal (startup.assam.gov.in)",
+    "officialWebsiteUrl": "https://startup.assam.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Assam"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "rocket_launch"
+  },
+  {
+    "id": "uk-startup-policy-incubation-grant",
+    "title": "Uttarakhand Startup Policy Seed Capital & Patent Assistance",
+    "code": "UK-STARTUP-SEED-GRANT",
+    "ministry": "Department of Industries, Govt. of Uttarakhand",
+    "origin": "state",
+    "stateName": "Uttarakhand",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Innovation",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Monthly Sustenance Allowance of ₹10,000 for 1 Year + Seed Capital Grant up to ₹5 Lakh",
+    "benefitNumericMin": 120000,
+    "benefitNumericMax": 620000,
+    "description": "Encourages hill-state youth and tech graduates in Dehradun and Pantnagar to start technology ventures.",
+    "eligibilityDescription": "Uttarakhand resident technology startup founders.",
+    "requiredDocs": [
+      "Uttarakhand Domicile",
+      "Startup Registration"
+    ],
+    "deadline": "StartUp Uttarakhand Portal (startup.uk.gov.in)",
+    "officialWebsiteUrl": "https://startup.uk.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Uttarakhand"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "domain"
+  },
+  {
+    "id": "hp-chief-minister-start-up-scheme",
+    "title": "Himachal Pradesh Chief Minister’s Start-Up Scheme (CMST Scheme)",
+    "code": "HP-CM-STARTUP-SCHEME",
+    "ministry": "Department of Industries, Govt. of Himachal Pradesh",
+    "origin": "state",
+    "stateName": "Himachal Pradesh",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Innovation",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Monthly Sustenance Allowance of ₹25,000 for 1 Year + Free Incubation Space at IIT Mandi & NIT Hamirpur",
+    "benefitNumericMin": 300000,
+    "benefitNumericMax": 300000,
+    "description": "Provides generous monthly stipends and premier university incubation to technology entrepreneurs in Himachal Pradesh.",
+    "eligibilityDescription": "Himachal Bonafide resident youth with innovative startup proposals.",
+    "requiredDocs": [
+      "Himachal Bonafide Certificate",
+      "Project Proposal"
+    ],
+    "deadline": "Emerging Himachal Portal (cmstartup.hp.gov.in)",
+    "officialWebsiteUrl": "https://cmstartup.hp.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Himachal Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "psychology"
+  },
+  {
+    "id": "delhi-start-up-policy-seed-grant",
+    "title": "Delhi Start-Up Policy Financial Seed Grant & College Incubation",
+    "code": "DELHI-STARTUP-SEED-POLICY",
+    "ministry": "Department of Industries, Govt. of NCT of Delhi",
+    "origin": "state",
+    "stateName": "Delhi",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Digital Services",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Collateral-Free Seed Capital Loan up to ₹10 Lakh + 100% Free Incubation across Delhi University & DTU Incubators",
+    "benefitNumericMin": 500000,
+    "benefitNumericMax": 1000000,
+    "description": "Aims to make Delhi the startup capital of Asia by providing seed loans, university incubators, and mentor networks.",
+    "eligibilityDescription": "Students and founders running registered technology startups in Delhi NCR.",
+    "requiredDocs": [
+      "Delhi Startup Registration",
+      "Aadhaar / PAN Card"
+    ],
+    "deadline": "Delhi Startup Portal",
+    "officialWebsiteUrl": "https://delhi.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Delhi"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "business"
+  },
+  {
+    "id": "jk-it-and-startup-policy-grant",
+    "title": "Jammu & Kashmir IT & Start-Up Policy Seed Capital Assistance",
+    "code": "JK-IT-STARTUP-GRANT",
+    "ministry": "Information Technology Department, Govt. of J&K",
+    "origin": "state",
+    "stateName": "Jammu and Kashmir",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Digital Services",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Students"
+    ],
+    "benefitValue": "Seed Capital Assistance up to ₹20 Lakh + Monthly Sustenance Allowance of ₹12,000 for 1 Year",
+    "benefitNumericMin": 144000,
+    "benefitNumericMax": 2000000,
+    "description": "Provides seed grants, IT park office spaces, and high-speed internet connectivity to tech founders in Srinagar and Jammu.",
+    "eligibilityDescription": "J&K domicile holders establishing tech ventures in J&K.",
+    "requiredDocs": [
+      "J&K Domicile Certificate",
+      "Startup Profile"
+    ],
+    "deadline": "J&K IT Department Portal",
+    "officialWebsiteUrl": "https://jk.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "statesAllowed": [
+        "Jammu and Kashmir"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "memory"
+  },
+  {
+    "id": "gis-rural-land-technology-mapping-grant",
+    "title": "Geographic Information System (GIS) Digital Rural Mapping Technology Grant",
+    "code": "GIS-RURAL-MAPPING-DST",
+    "ministry": "Department of Science and Technology (DST) / Survey of India",
+    "origin": "central",
+    "category": "Science, IT & Communications",
+    "subCategory": "Technology & Digital Services",
+    "beneficiaries": [
+      "Farmers",
+      "Rural Citizens",
+      "Students"
+    ],
+    "benefitValue": "High-Precision 3D Spatial Maps, Drone Survey Data & Open GIS Layer Access for Rural Planning",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 100000,
+    "description": "Provides open spatial mapping technology and high-resolution satellite/drone geographic datasets to researchers and rural panchayats.",
+    "eligibilityDescription": "Panchayati Raj institutions, spatial technology researchers, and agriculture planners.",
+    "requiredDocs": [
+      "Institutional Application / Research Request"
+    ],
+    "deadline": "Survey of India Geo-Portal (surveyofindia.gov.in)",
+    "officialWebsiteUrl": "https://surveyofindia.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 70
+    },
+    "isPopular": false,
+    "iconName": "map"
+  }
+]

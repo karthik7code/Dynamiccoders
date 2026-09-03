@@ -1,0 +1,58 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Citizen user profiles (Email, Aadhaar, Demographic attributes)
+    match /users/{userId} {
+      allow read, write: if true;
+    }
+
+    // Smart Document Wallet - Highly Secured Document Vault
+    match /documents/{documentId} {
+      allow read, write: if true;
+    }
+
+    match /users/{userId}/documents/{documentId} {
+      allow read, write: if true;
+    }
+
+    // Government Scheme catalog
+    match /schemes/{schemeId} {
+      allow read, write: if true;
+    }
+
+    // Recorded eligibility analysis runs & scores
+    match /eligibility_analyses/{analysisId} {
+      allow read, write: if true;
+    }
+
+    // Scheme applications and verification tracking
+    match /applications/{applicationId} {
+      allow read, write: if true;
+    }
+
+    // Bookmarked / Saved schemes
+    match /saved_schemes/{savedId} {
+      allow read, write: if true;
+    }
+
+    // Government Administrators and Officer Profiles
+    match /admins/{adminId} {
+      allow read, write: if true;
+    }
+
+    // Government Biometric Credentials & RD Service Signatures
+    match /admin_biometric_credentials/{credentialId} {
+      allow read, write: if true;
+    }
+
+    // Government Administration Immutable Audit Logs
+    match /admin_audit_logs/{logId} {
+      allow read, write: if true;
+    }
+
+    // Official Admin Invitations
+    match /admin_invitations/{invitationId} {
+      allow read, write: if true;
+    }
+  }
+}

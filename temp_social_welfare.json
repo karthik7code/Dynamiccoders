@@ -1,0 +1,1934 @@
+[
+  {
+    "id": "post-matric-scholarship-sc-students",
+    "title": "Post Matric Scholarship for Scheduled Caste (SC) Students",
+    "code": "POST-MATRIC-SC-DOSJE",
+    "ministry": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Education",
+    "beneficiaries": [
+      "Students",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Non-Refundable Course Fee Reimbursement + Monthly Maintenance Allowance up to ₹13,500 per annum",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 120000,
+    "description": "Provides financial support to Scheduled Caste students studying at post-matriculation or post-secondary stage to enable them to complete higher education.",
+    "eligibilityDescription": "SC students pursuing post-10th studies whose total family annual income does not exceed ₹2,50,000.",
+    "requiredDocs": [
+      "SC Caste Certificate",
+      "Income Certificate",
+      "Aadhaar Card",
+      "Mark Sheets",
+      "Fee Receipt"
+    ],
+    "deadline": "National Scholarship Portal (scholarships.gov.in)",
+    "officialWebsiteUrl": "https://scholarships.gov.in",
+    "rules": {
+      "minAge": 14,
+      "maxAge": 35,
+      "maxAnnualIncome": 250000,
+      "allowedCategories": [
+        "SC"
+      ],
+      "requiresStudent": true
+    },
+    "isPopular": true,
+    "iconName": "school"
+  },
+  {
+    "id": "pre-matric-scholarship-st-students",
+    "title": "Pre-Matric Scholarship for Scheduled Tribe (ST) Students (Classes IX & X)",
+    "code": "PRE-MATRIC-ST-MOTA",
+    "ministry": "Ministry of Tribal Affairs (MoTA), Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Education",
+    "beneficiaries": [
+      "Students",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Annual Scholarship of ₹3,500 for Day Scholars and ₹7,000 for Hostellers + Books & Stationery Grant",
+    "benefitNumericMin": 35000,
+    "benefitNumericMax": 70000,
+    "description": "Supports ST parents for sending their children to school in Class IX and X, reducing dropouts among tribal communities.",
+    "eligibilityDescription": "ST students studying in Class 9 or 10 in government recognized schools with family income up to ₹2.5 Lakh.",
+    "requiredDocs": [
+      "ST Certificate",
+      "Income Certificate",
+      "School Enrollment Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "National Scholarship Portal (scholarships.gov.in)",
+    "officialWebsiteUrl": "https://scholarships.gov.in",
+    "rules": {
+      "minAge": 12,
+      "maxAge": 18,
+      "maxAnnualIncome": 250000,
+      "allowedCategories": [
+        "ST"
+      ],
+      "requiresStudent": true
+    },
+    "isPopular": true,
+    "iconName": "menu_book"
+  },
+  {
+    "id": "pm-yasasvi-scholarship-obc-ebc-dnt",
+    "title": "PM Young Achievers Scholarship Award Scheme for Vibrant India (PM YASASVI)",
+    "code": "PM-YASASVI-DOSJE",
+    "ministry": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Merit Assistance",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "Top Class School Scholarship up to ₹75,000/Year (Class 9-10) and ₹1,25,000/Year (Class 11-12)",
+    "benefitNumericMin": 75000,
+    "benefitNumericMax": 125000,
+    "description": "Provides merit-based scholarships for OBC, EBC, and De-notified, Nomadic and Semi-Nomadic Tribes (DNT) students studying in top schools across India.",
+    "eligibilityDescription": "OBC/EBC/DNT students studying in Class 9 to 12 with annual family income up to ₹2,50,000.",
+    "requiredDocs": [
+      "OBC/EBC/DNT Caste Certificate",
+      "Income Certificate",
+      "Aadhaar Card",
+      "School ID Card"
+    ],
+    "deadline": "NTA PM YASASVI Portal (yet.nta.ac.in) / NSP",
+    "officialWebsiteUrl": "https://yet.nta.ac.in",
+    "rules": {
+      "minAge": 13,
+      "maxAge": 20,
+      "maxAnnualIncome": 250000,
+      "allowedCategories": [
+        "OBC",
+        "EBC",
+        "General"
+      ],
+      "requiresStudent": true
+    },
+    "isPopular": true,
+    "iconName": "workspace_premium"
+  },
+  {
+    "id": "adip-scheme-aids-appliances-pwd",
+    "title": "ADIP Scheme (Assistance to Disabled Persons for Purchase/Fitting of Aids and Appliances)",
+    "code": "ADIP-ALIMCO-DEPWD",
+    "ministry": "Department of Empowerment of Persons with Disabilities (DEPwD)",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Persons with Disabilities & Mobility",
+    "beneficiaries": [
+      "Persons with Disabilities",
+      "Senior Citizens",
+      "Children"
+    ],
+    "benefitValue": "100% Free Motorized Tricycles, Hearing Aids, Wheelchairs, Prosthetic Limbs & Smart Canes (up to ₹12,000 value free)",
+    "benefitNumericMin": 12000,
+    "benefitNumericMax": 50000,
+    "description": "Distributes modern, durable, and scientifically manufactured aids and assistive devices to persons with disabilities to promote independence.",
+    "eligibilityDescription": "Indian citizens with 40% or more certified disability and monthly family income up to ₹22,500.",
+    "requiredDocs": [
+      "UDID Card / Disability Certificate (40%+)",
+      "Income Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "DEPwD Portal / ALIMCO Assessment Camps",
+    "officialWebsiteUrl": "https://adip.depwd.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "requiresDisability": true
+    },
+    "isPopular": true,
+    "iconName": "wheelchair_pickup"
+  },
+  {
+    "id": "national-overseas-scholarship-sc-st",
+    "title": "National Overseas Scholarship for SC/ST/Landless Agricultural Labourers",
+    "code": "NOS-OVERSEAS-DOSJE",
+    "ministry": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Global Education",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "100% Full Foreign Tuition Fee + Annual Maintenance Allowance USD $15,400 / GBP £9,900 + Airfare",
+    "benefitNumericMin": 2500000,
+    "benefitNumericMax": 6000000,
+    "description": "Provides financial assistance to selected SC/ST/DNT students for pursuing Master’s or Ph.D. degrees in top foreign universities.",
+    "eligibilityDescription": "SC/ST/DNT students aged below 35 with 60%+ marks in Bachelor/Master degree and family income below ₹8 Lakh.",
+    "requiredDocs": [
+      "Caste Certificate",
+      "Foreign University Unconditional Offer Letter",
+      "Income Certificate",
+      "Passport"
+    ],
+    "deadline": "NOS Online Portal (nosmsje.gov.in)",
+    "officialWebsiteUrl": "https://nosmsje.gov.in",
+    "rules": {
+      "minAge": 20,
+      "maxAge": 35,
+      "maxAnnualIncome": 800000,
+      "allowedCategories": [
+        "SC",
+        "ST"
+      ],
+      "requiresStudent": true
+    },
+    "isPopular": true,
+    "iconName": "flight_takeoff"
+  },
+  {
+    "id": "rashtriya-vayoshri-yojana-senior-citizens",
+    "title": "Rashtriya Vayoshri Yojana (RVY Free Assistive Devices for Elderly)",
+    "code": "RVY-DOSJE-ALIMCO",
+    "ministry": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Elderly Welfare",
+    "beneficiaries": [
+      "Senior Citizens"
+    ],
+    "benefitValue": "100% Free Spectacles, Hearing Aids, Walking Sticks, Dentures, Wheelchairs & Tripods",
+    "benefitNumericMin": 8000,
+    "benefitNumericMax": 25000,
+    "description": "Provides physical aids and assisted-living devices for BPL senior citizens suffering from age-related disabilities.",
+    "eligibilityDescription": "Senior citizens aged 60+ belonging to BPL category or monthly family income up to ₹15,000.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Age Proof Certificate",
+      "BPL Ration Card / Income Certificate"
+    ],
+    "deadline": "ALIMCO RVY Assessment Camps / District Collectorate",
+    "officialWebsiteUrl": "https://socialjustice.gov.in",
+    "rules": {
+      "minAge": 60,
+      "maxAge": 110,
+      "requiresSeniorCitizen": true
+    },
+    "isPopular": true,
+    "iconName": "elderly"
+  },
+  {
+    "id": "pm-jan-vikas-karyakram-minority-area-development",
+    "title": "Pradhan Mantri Jan Vikas Karyakram (PMJVK Minority Community Infrastructure)",
+    "code": "PMJVK-MOMA-INFRA",
+    "ministry": "Ministry of Minority Affairs, Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Community Development & Minority Welfare",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Students",
+      "Women",
+      "General Citizen"
+    ],
+    "benefitValue": "Multi-Crore Capital Grants for Schools, Colleges, ITIs, Hospitals, Hostels & Skill Centres in Minority Areas",
+    "benefitNumericMin": 500000,
+    "benefitNumericMax": 10000000,
+    "description": "Develops socio-economic infrastructure (schools, hostels, hospitals, skill centres) in identified Minority Concentration Areas to bridge development deficits.",
+    "eligibilityDescription": "Gram Panchayats, urban local bodies, and educational institutions in designated Minority Concentration Blocks.",
+    "requiredDocs": [
+      "District Level Committee Proposal / Land Allotment Document"
+    ],
+    "deadline": "PMJVK Portal (pmjvk.gov.in)",
+    "officialWebsiteUrl": "https://pmjvk.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": false,
+    "iconName": "location_city"
+  },
+  {
+    "id": "smile-scheme-transgender-beggar-rehabilitation",
+    "title": "Support for Marginalized Individuals for Livelihood and Enterprise (SMILE Scheme)",
+    "code": "SMILE-TRANSGENDER-DOSJE",
+    "ministry": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Marginalized Welfare",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Job Seekers"
+    ],
+    "benefitValue": "Free Transgender ID Certificate, Gender Affirmation Medical Care Insurance (₹5 Lakh) & Skill Rehabilitation Stipend",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 500000,
+    "description": "Comprehensive rehabilitation scheme providing welfare, education, skill training, medical care, and shelter homes (Garima Greh) for Transgender persons and persons engaged in begging.",
+    "eligibilityDescription": "Transgender persons and individuals engaged in the act of begging.",
+    "requiredDocs": [
+      "National Transgender ID Card / Self-Declaration",
+      "Aadhaar Card"
+    ],
+    "deadline": "National Transgender Portal (transgender.dosje.gov.in)",
+    "officialWebsiteUrl": "https://transgender.dosje.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 75
+    },
+    "isPopular": true,
+    "iconName": "diversity_3"
+  },
+  {
+    "id": "eklavya-model-residential-schools-emrs",
+    "title": "Eklavya Model Residential Schools (EMRS Free Quality Education for ST)",
+    "code": "EMRS-MOTA-TRIBAL-EDUCATION",
+    "ministry": "Ministry of Tribal Affairs (MoTA), Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Education",
+    "beneficiaries": [
+      "Students",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Free Quality CBSE Residential Education, Boarding, Books, Uniforms, Sports & Computer Labs (Class 6th to 12th)",
+    "benefitNumericMin": 80000,
+    "benefitNumericMax": 150000,
+    "description": "Establishes state-of-the-art free residential schools in tribal blocks to ensure Scheduled Tribe students access quality secondary education and competitive exams coaching.",
+    "eligibilityDescription": "Scheduled Tribe (ST) students clearing Class 5 entrance examination.",
+    "requiredDocs": [
+      "ST Caste Certificate",
+      "Class 5th Marksheet",
+      "Aadhaar Card"
+    ],
+    "deadline": "EMRS Selection Test (EMRST) Portal / NESTS Portal",
+    "officialWebsiteUrl": "https://emrs.tribal.gov.in",
+    "rules": {
+      "minAge": 10,
+      "maxAge": 18,
+      "allowedCategories": [
+        "ST"
+      ],
+      "requiresStudent": true
+    },
+    "isPopular": true,
+    "iconName": "school"
+  },
+  {
+    "id": "stand-up-india-sc-st-women-entrepreneur-loan",
+    "title": "Stand Up India Scheme for SC/ST and Women Entrepreneurs",
+    "code": "STAND-UP-INDIA-DFS-MOF",
+    "ministry": "Department of Financial Services, Ministry of Finance, Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Entrepreneurship",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Women",
+      "Workers"
+    ],
+    "benefitValue": "Bank Greenfield Business Loan from ₹10 Lakh up to ₹1 Crore with Low Margin Money Requirement (15%)",
+    "benefitNumericMin": 1000000,
+    "benefitNumericMax": 10000000,
+    "description": "Facilitates bank loans between ₹10 Lakh and ₹1 Crore to at least one SC/ST borrower and one Woman borrower per bank branch for setting up greenfield enterprises.",
+    "eligibilityDescription": "SC/ST and/or Woman entrepreneurs above 18 years of age setting up non-farm manufacturing, service, trading, or agri-allied ventures.",
+    "requiredDocs": [
+      "SC/ST Certificate (if applicable)",
+      "Detailed Project Report (DPR)",
+      "KYC Aadhaar & PAN Card",
+      "Bank Account Statement"
+    ],
+    "deadline": "Stand Up Mitra Portal (standupmitra.in)",
+    "officialWebsiteUrl": "https://standupmitra.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 70
+    },
+    "isPopular": true,
+    "iconName": "account_balance"
+  },
+  {
+    "id": "niramaya-health-insurance-pwd",
+    "title": "Niramaya Health Insurance Scheme for Persons with Disabilities",
+    "code": "NIRAMAYA-NATIONAL-TRUST",
+    "ministry": "National Trust, DEPwD, Ministry of Social Justice and Empowerment",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Persons with Disabilities & Health",
+    "beneficiaries": [
+      "Persons with Disabilities",
+      "Children"
+    ],
+    "benefitValue": "100% Free / Subsidized Health Insurance Cover up to ₹1.0 Lakh per annum for OPD, Hospitalization, Surgery & Therapy",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 100000,
+    "description": "Affordable health insurance scheme providing ₹1 Lakh cover for persons with Autism, Cerebral Palsy, Mental Retardation, and Multiple Disabilities.",
+    "eligibilityDescription": "Persons with Autism, Cerebral Palsy, Mental Retardation, or Multiple Disabilities (certified under National Trust Act).",
+    "requiredDocs": [
+      "Disability Certificate under National Trust Act",
+      "Aadhaar Card",
+      "BPL Card / Income Proof"
+    ],
+    "deadline": "National Trust Official Portal (thenationaltrust.gov.in)",
+    "officialWebsiteUrl": "https://thenationaltrust.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "requiresDisability": true
+    },
+    "isPopular": true,
+    "iconName": "health_and_safety"
+  },
+  {
+    "id": "shreshta-residential-education-sc-students",
+    "title": "SHRESHTA Scheme for Residential Education for SC Students in Targeted Areas",
+    "code": "SHRESHTA-DOSJE-CBSE",
+    "ministry": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Merit Education",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "100% Free Admission & Boarding in Top Private CBSE Residential Schools (Classes 9th to 12th)",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 160000,
+    "description": "Provides fully funded seats in top CBSE private residential schools for meritorious SC students through NETS entrance test.",
+    "eligibilityDescription": "SC students studying in Class 8 or Class 10 with annual family income up to ₹2,50,000.",
+    "requiredDocs": [
+      "SC Caste Certificate",
+      "Income Certificate",
+      "NETS Entrance Scorecard",
+      "Aadhaar Card"
+    ],
+    "deadline": "NTA SHRESHTA Portal (shreshta.nta.online)",
+    "officialWebsiteUrl": "https://shreshta.nta.online",
+    "rules": {
+      "minAge": 13,
+      "maxAge": 17,
+      "maxAnnualIncome": 250000,
+      "allowedCategories": [
+        "SC"
+      ],
+      "requiresStudent": true
+    },
+    "isPopular": true,
+    "iconName": "school"
+  },
+  {
+    "id": "pradhan-mantri-ajay-anusuchit-jaati-abhyuday",
+    "title": "PM-AJAY (Pradhan Mantri Anusuchit Jaati Abhyuday Yojana)",
+    "code": "PM-AJAY-DOSJE-SC-VILLAGE",
+    "ministry": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Village Development",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Workers",
+      "Farmers"
+    ],
+    "benefitValue": "Comprehensive Adarsh Gram Infrastructure Grants + Up to ₹50,000 Income Generation Grant per SC Beneficiary",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 200000,
+    "description": "Reduces poverty in SC majority villages by converting them into Adarsh Grams and providing self-employment income generation grants.",
+    "eligibilityDescription": "SC residents living in villages with 50%+ Scheduled Caste population.",
+    "requiredDocs": [
+      "SC Caste Certificate",
+      "Income Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "PM-AJAY Portal (pmajay.dosje.gov.in)",
+    "officialWebsiteUrl": "https://pmajay.dosje.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "allowedCategories": [
+        "SC"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "holiday_village"
+  },
+  {
+    "id": "pvtg-development-mission-tribal-groups",
+    "title": "Pradhan Mantri PVTG Development Mission (Particularly Vulnerable Tribal Groups)",
+    "code": "PM-PVTG-MISSION-MOTA",
+    "ministry": "Ministry of Tribal Affairs (MoTA), Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Community Development",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Farmers",
+      "Workers"
+    ],
+    "benefitValue": "100% Free Pucca Housing, Clean Drinking Water, Solar Power, Road Connectivity & Sustainable Livelihood Grants",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 500000,
+    "description": "₹24,000 Crore mission saturating 75 PVTG tribal communities across 22,000 villages with basic services, healthcare, and sustainable agriculture.",
+    "eligibilityDescription": "Families belonging to 75 recognized Particularly Vulnerable Tribal Groups (PVTGs) across India.",
+    "requiredDocs": [
+      "PVTG Tribal Identity Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "MoTA PVTG Portal / District Tribal Welfare Officer",
+    "officialWebsiteUrl": "https://tribal.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "allowedCategories": [
+        "ST"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "nature_people"
+  },
+  {
+    "id": "maulana-azad-national-fellowship-minority-scholars",
+    "title": "Maulana Azad National Fellowship for Minority Students (MANF Ph.D. Fellowship)",
+    "code": "MANF-MOMA-UGC",
+    "ministry": "Ministry of Minority Affairs & UGC",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Minority Welfare & Higher Education",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "Monthly Research Fellowship of ₹31,000 (JRF) / ₹35,000 (SRF) + Annual Contingency Grant for 5 Years",
+    "benefitNumericMin": 372000,
+    "benefitNumericMax": 420000,
+    "description": "Provides integrated 5-year fellowships to minority research scholars pursuing M.Phil and Ph.D. in science, humanities, and engineering.",
+    "eligibilityDescription": "Minority students (Muslim, Christian, Sikh, Buddhist, Jain, Parsi) clearing NET/SLET exams with family income under ₹6 Lakh.",
+    "requiredDocs": [
+      "Minority Certificate",
+      "NET Scorecard",
+      "Ph.D. Registration Copy",
+      "Income Certificate"
+    ],
+    "deadline": "UGC MANF Portal / NSP",
+    "officialWebsiteUrl": "https://minorityaffairs.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 35,
+      "maxAnnualIncome": 600000,
+      "requiresStudent": true
+    },
+    "isPopular": true,
+    "iconName": "school"
+  },
+  {
+    "id": "seed-scheme-nomadic-tribes-dnt",
+    "title": "Scheme for Economic Empowerment of DNTs (SEED Scheme for Nomadic Tribes)",
+    "code": "SEED-DNT-DOSJE",
+    "ministry": "Development and Welfare Board for De-notified, Nomadic and Semi-Nomadic Communities (DWBDNC)",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Community Development",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Workers",
+      "Students"
+    ],
+    "benefitValue": "Free Competitive Exam Coaching + Ayushman Bharat Health Insurance (₹5 Lakh) + Housing Subsidy (₹1.2 Lakh)",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 500000,
+    "description": "Provides coaching for competitive exams, health insurance, housing financial assistance, and livelihood skill training to Nomadic and Semi-Nomadic tribes.",
+    "eligibilityDescription": "Families belonging to De-notified, Nomadic, and Semi-Nomadic Tribes (DNT/SNT) not covered under SC/ST/OBC.",
+    "requiredDocs": [
+      "DNT Community Certificate",
+      "Income Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "SEED Scheme Portal (seed.dosje.gov.in)",
+    "officialWebsiteUrl": "https://seed.dosje.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "maxAnnualIncome": 250000
+    },
+    "isPopular": false,
+    "iconName": "holiday_village"
+  },
+  {
+    "id": "venture-capital-fund-for-scheduled-castes",
+    "title": "Venture Capital Fund for Scheduled Castes (VCF-SC Business Finance)",
+    "code": "VCF-SC-IFCI-DOSJE",
+    "ministry": "Ministry of Social Justice and Empowerment & IFCI Venture",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Entrepreneurship",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Workers"
+    ],
+    "benefitValue": "Concessional Equity / Debt Risk Capital Funding from ₹20 Lakh up to ₹15 Crore for SC-Led Enterprises",
+    "benefitNumericMin": 2000000,
+    "benefitNumericMax": 150000000,
+    "description": "Promotes SC entrepreneurship by providing risk capital funding to technology, manufacturing, and commercial companies owned by SC entrepreneurs.",
+    "eligibilityDescription": "Registered companies where at least 51% stake is held by SC entrepreneurs for past 12 months.",
+    "requiredDocs": [
+      "SC Caste Certificate of Founders",
+      "Company Audited Financials",
+      "Business Plan"
+    ],
+    "deadline": "VCF-SC IFCI Portal (vcfsc.in)",
+    "officialWebsiteUrl": "https://vcfsc.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 65,
+      "allowedCategories": [
+        "SC"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "trending_up"
+  },
+  {
+    "id": "dr-ambedkar-medical-scheme-sc-st-critical-illness",
+    "title": "Dr. Ambedkar Medical Scheme for Critical Illnesses of SC/ST Patients",
+    "code": "AMBEDKAR-MEDICAL-FOUNDATION",
+    "ministry": "Dr. Ambedkar Foundation, Ministry of Social Justice and Empowerment",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Health Assistance",
+    "beneficiaries": [
+      "General Citizen",
+      "Senior Citizens",
+      "Workers"
+    ],
+    "benefitValue": "Direct Hospital Financial Assistance Grant up to ₹5.0 Lakh for Kidney Transplant, Heart Surgery, Cancer & Spinal Injury",
+    "benefitNumericMin": 125000,
+    "benefitNumericMax": 500000,
+    "description": "Provides urgent medical treatment grant directly to government hospitals for SC and ST patients suffering from life-threatening critical diseases.",
+    "eligibilityDescription": "SC and ST patients undergoing surgery or treatment in government empaneled hospitals with family income below ₹3 Lakh.",
+    "requiredDocs": [
+      "SC/ST Caste Certificate",
+      "Income Certificate",
+      "Hospital Medical Estimate Cost Sheet",
+      "Aadhaar Card"
+    ],
+    "deadline": "Dr. Ambedkar Foundation (ambedkarfoundation.nic.in)",
+    "officialWebsiteUrl": "https://ambedkarfoundation.nic.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "maxAnnualIncome": 300000,
+      "allowedCategories": [
+        "SC",
+        "ST"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "medical_services"
+  },
+  {
+    "id": "up-post-matric-scholarship-sc-st-obc",
+    "title": "UP Scholarship and Fee Reimbursement Scheme (Post-Matric SC/ST/OBC)",
+    "code": "UP-SCHOLARSHIP-FEE-REIMBURSEMENT",
+    "ministry": "Social Welfare & Backward Class Welfare Dept, Govt. of UP",
+    "origin": "state",
+    "stateName": "Uttar Pradesh",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Education",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "100% Tuition Fee Reimbursement (up to ₹50,000/Year) + Monthly Maintenance Allowance for UP Students",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 50000,
+    "description": "Reimburses full college tuition fees and provides monthly allowance to SC, ST, OBC, and General BPL students studying in UP colleges.",
+    "eligibilityDescription": "UP domicile students pursuing diploma, degree, or post-graduation with family income under ₹2.5 Lakh (SC/ST) or ₹2 Lakh (OBC/Gen).",
+    "requiredDocs": [
+      "UP Domicile Certificate",
+      "Caste Certificate",
+      "Income Certificate",
+      "College Fee Receipt",
+      "Aadhaar Card"
+    ],
+    "deadline": "UP Scholarship Portal (scholarship.up.gov.in)",
+    "officialWebsiteUrl": "https://scholarship.up.gov.in",
+    "rules": {
+      "minAge": 15,
+      "maxAge": 35,
+      "maxAnnualIncome": 250000,
+      "requiresStudent": true,
+      "statesAllowed": [
+        "Uttar Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "school"
+  },
+  {
+    "id": "up-samagra-pension-divyang-jan",
+    "title": "UP Divyang Jan Pension Yojana (Monthly Disability Pension)",
+    "code": "UP-DIVYANG-PENSION-SCHEME",
+    "ministry": "Department for Empowerment of Persons with Disabilities, Govt. of UP",
+    "origin": "state",
+    "stateName": "Uttar Pradesh",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Persons with Disabilities & Social Security",
+    "beneficiaries": [
+      "Persons with Disabilities"
+    ],
+    "benefitValue": "Monthly Financial Cash Transfer of ₹1,000 directly into Bank Account (₹12,000 per year)",
+    "benefitNumericMin": 12000,
+    "benefitNumericMax": 12000,
+    "description": "Provides monthly disability pension to poor persons with 40%+ certified disability across all districts of Uttar Pradesh.",
+    "eligibilityDescription": "Uttar Pradesh residents with 40% or more disability and annual family income up to ₹56,460 (urban) or ₹46,080 (rural).",
+    "requiredDocs": [
+      "UP Domicile Certificate",
+      "Disability Certificate (40%+)",
+      "Income Certificate",
+      "Aadhaar Seeded Bank Account"
+    ],
+    "deadline": "UP SSPY Pension Portal (sspy-up.gov.in)",
+    "officialWebsiteUrl": "https://sspy-up.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 100,
+      "requiresDisability": true,
+      "statesAllowed": [
+        "Uttar Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "account_balance_wallet"
+  },
+  {
+    "id": "mh-sanjay-gandhi-niradhar-anudan-yojana",
+    "title": "Sanjay Gandhi Niradhar Anudan Yojana (Monthly Destitute Pension MH)",
+    "code": "MH-SANJAY-GANDHI-NIRADHAR",
+    "ministry": "Social Justice and Special Assistance Dept, Govt. of Maharashtra",
+    "origin": "state",
+    "stateName": "Maharashtra",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Destitute Welfare",
+    "beneficiaries": [
+      "Senior Citizens",
+      "Women",
+      "Persons with Disabilities"
+    ],
+    "benefitValue": "Monthly Pension Transfer of ₹1,500 for Destitute Persons, Orphan Children, Divorced Women & Disabled",
+    "benefitNumericMin": 18000,
+    "benefitNumericMax": 18000,
+    "description": "Monthly pension for destitute individuals, deserted women, blind/disabled persons, and victims of major illnesses in Maharashtra.",
+    "eligibilityDescription": "Maharashtra residents aged below 65 without earning family members and annual family income up to ₹21,000.",
+    "requiredDocs": [
+      "Maharashtra Domicile",
+      "Income Certificate",
+      "Aadhaar Card",
+      "Age Proof"
+    ],
+    "deadline": "Sanjay Gandhi Niradhar Portal / Tahsildar Office",
+    "officialWebsiteUrl": "https://sanjaygandhi.maharashtra.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "maxAnnualIncome": 21000,
+      "statesAllowed": [
+        "Maharashtra"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "payments"
+  },
+  {
+    "id": "mh-shahu-maharaj-scholarship-maratha-ebc",
+    "title": "Rajarshi Chhatrapati Shahu Maharaj EBC Tuition Fee Waiver Scheme",
+    "code": "MH-SHAHU-MAHARAJ-EBC-WAIVER",
+    "ministry": "Higher and Technical Education Dept, Govt. of Maharashtra",
+    "origin": "state",
+    "stateName": "Maharashtra",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Education",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "50% College Tuition & Exam Fee Reimbursement for Professional Courses (Engineering, Medical, Pharmacy)",
+    "benefitNumericMin": 25000,
+    "benefitNumericMax": 150000,
+    "description": "Provides 50% tuition fee reimbursement to Economically Backward Class (EBC) and Maratha students studying in private professional colleges.",
+    "eligibilityDescription": "Maharashtra resident students enrolled in professional courses through CAP rounds with annual family income up to ₹8 Lakh.",
+    "requiredDocs": [
+      "Maharashtra Domicile",
+      "EBC / Income Certificate",
+      "CAP Admission Allotment Letter"
+    ],
+    "deadline": "MahaDBT Portal (mahadbt.maharashtra.gov.in)",
+    "officialWebsiteUrl": "https://mahadbt.maharashtra.gov.in",
+    "rules": {
+      "minAge": 17,
+      "maxAge": 30,
+      "maxAnnualIncome": 800000,
+      "requiresStudent": true,
+      "statesAllowed": [
+        "Maharashtra"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "school"
+  },
+  {
+    "id": "tn-dr-dharmambal-widow-remarriage-assistance",
+    "title": "Dr. Dharmambal Ammaiyar Ninaivu Widow Remarriage Financial Assistance Scheme",
+    "code": "TN-DHARMAMBAL-WIDOW-REMARRIAGE",
+    "ministry": "Social Welfare and Women Empowerment Dept, Govt. of Tamil Nadu",
+    "origin": "state",
+    "stateName": "Tamil Nadu",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Women Empowerment",
+    "beneficiaries": [
+      "Women"
+    ],
+    "benefitValue": "Financial Assistance of ₹50,000 (₹25,000 Cash + 8 Gram Gold Coin) for Widow Remarriage",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 70000,
+    "description": "Encourages widow remarriage and rehabilitates young widows in Tamil Nadu by gifting ₹50,000 cash grant and an 8g 22-karat gold coin.",
+    "eligibilityDescription": "Widow remarrying aged 20 or above and groom aged 21 or above residing in Tamil Nadu.",
+    "requiredDocs": [
+      "Deceased Husband Death Certificate",
+      "Widow Certificate",
+      "Marriage Invitation",
+      "Aadhaar Card"
+    ],
+    "deadline": "District Social Welfare Office Tamil Nadu",
+    "officialWebsiteUrl": "https://tn.gov.in",
+    "rules": {
+      "minAge": 20,
+      "maxAge": 45,
+      "genderConstraint": "Female",
+      "statesAllowed": [
+        "Tamil Nadu"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "favorite"
+  },
+  {
+    "id": "ka-maternity-and-disability-pension-sevasindhu",
+    "title": "Karnataka Special Disability Pension & Maintenance Allowance Scheme",
+    "code": "KA-SPECIAL-DISABILITY-PENSION",
+    "ministry": "Directorate for the Empowerment of Differently Abled and Senior Citizens, Govt. of Karnataka",
+    "origin": "state",
+    "stateName": "Karnataka",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Persons with Disabilities & Social Security",
+    "beneficiaries": [
+      "Persons with Disabilities"
+    ],
+    "benefitValue": "Monthly Financial Pension of ₹1,400 (40-74% Disability) and ₹2,000 (75%+ Severe Disability)",
+    "benefitNumericMin": 16800,
+    "benefitNumericMax": 24000,
+    "description": "Provides monthly disability pension directly into bank accounts of disabled residents across Karnataka.",
+    "eligibilityDescription": "Karnataka residents with 40% or more certified disability and annual family income up to ₹32,000.",
+    "requiredDocs": [
+      "Karnataka Domicile",
+      "Disability UDID Card",
+      "Income Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "Seva Sindhu Portal Karnataka",
+    "officialWebsiteUrl": "https://sevasindhu.karnataka.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "maxAnnualIncome": 32000,
+      "requiresDisability": true,
+      "statesAllowed": [
+        "Karnataka"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "wheelchair_pickup"
+  },
+  {
+    "id": "ts-asara-pension-scheme-disabled-widows",
+    "title": "Telangana Aasara Pension Scheme for Disabled, Widows & Senior Citizens",
+    "code": "TS-AASARA-PENSION-SCHEME",
+    "ministry": "Panchayat Raj and Rural Development Department, Govt. of Telangana",
+    "origin": "state",
+    "stateName": "Telangana",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Pension",
+    "beneficiaries": [
+      "Senior Citizens",
+      "Women",
+      "Persons with Disabilities",
+      "Workers"
+    ],
+    "benefitValue": "Monthly Cash Pension of ₹3,016 for Disabled Persons and ₹2,016 for Widows, Elderly & Toddy Tappers",
+    "benefitNumericMin": 24192,
+    "benefitNumericMax": 36192,
+    "description": "Telangana’s flagship social security pension scheme delivering monthly financial security to vulnerable citizens.",
+    "eligibilityDescription": "Telangana residents belonging to BPL families: Senior Citizens (57+), Widows (18+), and Disabled persons (40%+).",
+    "requiredDocs": [
+      "Telangana Food Security Card",
+      "Aadhaar Card",
+      "Age / Disability Certificate"
+    ],
+    "deadline": "Meeseva Telangana Portal / Gram Panchayat Sachivalayam",
+    "officialWebsiteUrl": "https://aasara.telangana.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Telangana"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "account_balance_wallet"
+  },
+  {
+    "id": "ap-ysr-pension-kanuka-scheme",
+    "title": "YSR Pension Kanuka Monthly Welfare Transfer Scheme",
+    "code": "AP-YSR-PENSION-KANUKA",
+    "ministry": "Panchayat Raj & Rural Development Department, Govt. of Andhra Pradesh",
+    "origin": "state",
+    "stateName": "Andhra Pradesh",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Pension",
+    "beneficiaries": [
+      "Senior Citizens",
+      "Women",
+      "Persons with Disabilities",
+      "Workers"
+    ],
+    "benefitValue": "Monthly Cash Pension of ₹3,000 for Elderly/Widows and ₹5,000 to ₹10,000 for Severe Disabled & Dialysis Patients",
+    "benefitNumericMin": 36000,
+    "benefitNumericMax": 120000,
+    "description": "Delivers door-step monthly pension cash delivery through Village Volunteers to 65+ lakh pensioners in Andhra Pradesh.",
+    "eligibilityDescription": "AP residents with White Ration Card / Rice Card eligible under social welfare pension guidelines.",
+    "requiredDocs": [
+      "AP YSR Rice Card",
+      "Aadhaar Card",
+      "Medical / Age Proof"
+    ],
+    "deadline": "Navasakam Portal AP / Gram Sachivalayam",
+    "officialWebsiteUrl": "https://sspensions.apcfss.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Andhra Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "payments"
+  },
+  {
+    "id": "wb-jai-johar-and-tapasili-bandhu-pension",
+    "title": "Jai Johar (ST) & Tapasili Bandhu (SC) Monthly Pension Scheme WB",
+    "code": "WB-JAI-JOHAR-TAPASILI-PENSION",
+    "ministry": "Backward Classes Welfare and Tribal Development Dept, Govt. of West Bengal",
+    "origin": "state",
+    "stateName": "West Bengal",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Social Security",
+    "beneficiaries": [
+      "Senior Citizens",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Monthly Lifelong Financial Pension Transfer of ₹1,000 directly into Bank Account",
+    "benefitNumericMin": 12000,
+    "benefitNumericMax": 12000,
+    "description": "Provides monthly pension to all senior SC and ST citizens in West Bengal who are not covered under other pension schemes.",
+    "eligibilityDescription": "West Bengal resident SC and ST citizens aged 60 and above.",
+    "requiredDocs": [
+      "WB Caste Certificate (SC/ST)",
+      "Khadya Sathi Card",
+      "Aadhaar Card"
+    ],
+    "deadline": "Duare Sarkar Camps / BDO Office West Bengal",
+    "officialWebsiteUrl": "https://wb.gov.in",
+    "rules": {
+      "minAge": 60,
+      "maxAge": 110,
+      "allowedCategories": [
+        "SC",
+        "ST"
+      ],
+      "requiresSeniorCitizen": true,
+      "statesAllowed": [
+        "West Bengal"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "elderly"
+  },
+  {
+    "id": "gj-sant-surdas-disability-pension-scheme",
+    "title": "Sant Surdas Yojana (Monthly Financial Assistance for 80%+ Disabled)",
+    "code": "GJ-SANT-SURDAS-DISABLED",
+    "ministry": "Social Justice and Empowerment Department, Govt. of Gujarat",
+    "origin": "state",
+    "stateName": "Gujarat",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Persons with Disabilities & Social Security",
+    "beneficiaries": [
+      "Persons with Disabilities"
+    ],
+    "benefitValue": "Monthly Cash Financial Assistance of ₹1,000 for Persons with Severe Disability",
+    "benefitNumericMin": 12000,
+    "benefitNumericMax": 12000,
+    "description": "Provides monthly financial relief to BPL families having individuals with 80% or higher severe disability in Gujarat.",
+    "eligibilityDescription": "Gujarat resident disabled persons (80%+ disability) aged 0 to 75 belonging to BPL households.",
+    "requiredDocs": [
+      "Gujarat BPL Ration Card",
+      "Disability Certificate (80%+)",
+      "Aadhaar Card"
+    ],
+    "deadline": "e-Samaj Kalyan Portal Gujarat (esamajkalyan.gujarat.gov.in)",
+    "officialWebsiteUrl": "https://esamajkalyan.gujarat.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 75,
+      "requiresDisability": true,
+      "statesAllowed": [
+        "Gujarat"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "wheelchair_pickup"
+  },
+  {
+    "id": "rj-palanhar-yojana-orphan-child-welfare",
+    "title": "Palanhar Yojana (Monthly Financial Allowance for Orphan & Destitute Children)",
+    "code": "RJ-PALANHAR-YOJANA-CHILD",
+    "ministry": "Social Justice and Empowerment Department, Govt. of Rajasthan",
+    "origin": "state",
+    "stateName": "Rajasthan",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Child Welfare",
+    "beneficiaries": [
+      "Children",
+      "Students"
+    ],
+    "benefitValue": "Monthly Allowance of ₹1,500 (Age 0-6) and ₹2,500 (Age 6-18) + Annual Uniform Grant of ₹2,000",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 32000,
+    "description": "Provides monthly financial support to foster families (Palanhar) taking care of orphan children, children of widowed mothers, or children of incarcerated parents.",
+    "eligibilityDescription": "Foster parents raising orphan/destitute children in Rajasthan with annual family income up to ₹1.2 Lakh.",
+    "requiredDocs": [
+      "Jan Aadhaar Card",
+      "Orphan / Death Certificate of Parents",
+      "School Certificate"
+    ],
+    "deadline": "SJE Rajasthan Portal (sje.rajasthan.gov.in)",
+    "officialWebsiteUrl": "https://sje.rajasthan.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 18,
+      "maxAnnualIncome": 120000,
+      "statesAllowed": [
+        "Rajasthan"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "child_care"
+  },
+  {
+    "id": "kl-aswasa-kiranam-scheme-bedridden-caregivers",
+    "title": "Aswasakiranam Scheme (Monthly Financial Allowance for Bedridden Caregivers)",
+    "code": "KL-ASWASAKIRANAM-CAREGIVER",
+    "ministry": "Social Justice Department, Govt. of Kerala",
+    "origin": "state",
+    "stateName": "Kerala",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Persons with Disabilities & Social Assistance",
+    "beneficiaries": [
+      "Persons with Disabilities",
+      "Senior Citizens",
+      "Women"
+    ],
+    "benefitValue": "Monthly Financial Assistance Transfer of ₹600 for Family Caregivers of Bedridden Patients",
+    "benefitNumericMin": 7200,
+    "benefitNumericMax": 7200,
+    "description": "Provides monthly assistance to caregivers who cannot go for employment because they are providing full-time care to bedridden mentally or physically disabled family members.",
+    "eligibilityDescription": "Family caregivers residing in Kerala caring for bedridden patients belonging to BPL households.",
+    "requiredDocs": [
+      "Kerala BPL Ration Card",
+      "Medical Officer Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "SUNEETHI Portal Kerala (suneethi.sjd.kerala.gov.in)",
+    "officialWebsiteUrl": "https://sjd.kerala.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 70,
+      "statesAllowed": [
+        "Kerala"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "personal_injury"
+  },
+  {
+    "id": "od-madho-babu-pension-yojana-mbpy",
+    "title": "Madhu Babu Pension Yojana (MBPY Social Security Pension Odisha)",
+    "code": "OD-MADHU-BABU-PENSION",
+    "ministry": "Department of Social Security and Empowerment of PwDs, Govt. of Odisha",
+    "origin": "state",
+    "stateName": "Odisha",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Pension",
+    "beneficiaries": [
+      "Senior Citizens",
+      "Women",
+      "Persons with Disabilities"
+    ],
+    "benefitValue": "Monthly Pension Cash Transfer of ₹1,000 (Age 60-79) and ₹1,200 (Age 80+) directly into Bank Account",
+    "benefitNumericMin": 12000,
+    "benefitNumericMax": 14400,
+    "description": "Unifies social security pensions for elderly, widows, disabled, leprosy cured patients, and transgender persons in Odisha.",
+    "eligibilityDescription": "Odisha residents belonging to BPL families with annual family income below ₹24,000.",
+    "requiredDocs": [
+      "Odisha BSK Ration Card",
+      "Aadhaar Card",
+      "Age / Disability Certificate"
+    ],
+    "deadline": "SSEPD Odisha Portal (ssepd.gov.in)",
+    "officialWebsiteUrl": "https://ssepd.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 110,
+      "maxAnnualIncome": 24000,
+      "statesAllowed": [
+        "Odisha"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "payments"
+  },
+  {
+    "id": "pb-ashirwad-scheme-sc-st-bc-marriage-grant",
+    "title": "Punjab Ashirwad Scheme (Shagun Financial Grant for Daughter Marriage)",
+    "code": "PB-ASHIRWAD-MARRIAGE-GRANT",
+    "ministry": "Department of Social Justice, Empowerment and Minorities, Govt. of Punjab",
+    "origin": "state",
+    "stateName": "Punjab",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Social Assistance",
+    "beneficiaries": [
+      "Women",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Direct One-Time Financial Shagun Grant of ₹51,000 for Marriage of SC/ST/BC Daughters",
+    "benefitNumericMin": 51000,
+    "benefitNumericMax": 51000,
+    "description": "Provides financial assistance of ₹51,000 at the time of marriage of low-income SC, ST, Backward Class, and Christian/Muslim daughters in Punjab.",
+    "eligibilityDescription": "Parents residing in Punjab belonging to SC/ST/BC/BPL categories with annual family income up to ₹32,790.",
+    "requiredDocs": [
+      "Punjab Domicile",
+      "Caste / BPL Certificate",
+      "Daughter Aadhaar Card",
+      "Marriage Card"
+    ],
+    "deadline": "District Social Justice Officer Punjab",
+    "officialWebsiteUrl": "https://socsecurity.punjab.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 45,
+      "maxAnnualIncome": 32790,
+      "genderConstraint": "Female",
+      "statesAllowed": [
+        "Punjab"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "celebration"
+  },
+  {
+    "id": "hr-dr-ambedkar-renovation-house-scheme",
+    "title": "Dr. B.R. Ambedkar Awas Navinikarn Yojana (House Repair Grant HR)",
+    "code": "HR-AMBEDKAR-HOUSE-REPAIR",
+    "ministry": "Department of Welfare of SCs and BCs, Govt. of Haryana",
+    "origin": "state",
+    "stateName": "Haryana",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Housing Relief",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Workers"
+    ],
+    "benefitValue": "Direct Financial Repair Grant of ₹80,000 for Renovation of Dilapidated House",
+    "benefitNumericMin": 80000,
+    "benefitNumericMax": 80000,
+    "description": "Provides ₹80,000 financial grant to BPL families belonging to SC, BC, and DNT communities in Haryana to repair their existing house.",
+    "eligibilityDescription": "Haryana resident SC/BC/BPL homeowners whose house is at least 10 years old and needs urgent roof/wall repair.",
+    "requiredDocs": [
+      "Haryana PPP Family ID",
+      "SC/BC Caste Certificate",
+      "House Ownership Proof",
+      "Bank Account Details"
+    ],
+    "deadline": "SARAL Haryana Portal (saralharyana.gov.in)",
+    "officialWebsiteUrl": "https://saralharyana.gov.in",
+    "rules": {
+      "minAge": 21,
+      "maxAge": 75,
+      "allowedCategories": [
+        "SC",
+        "OBC"
+      ],
+      "statesAllowed": [
+        "Haryana"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "home_repair_service"
+  },
+  {
+    "id": "mp-mukhyamantri-kanya-vivah-yojana",
+    "title": "MP Mukhyamantri Kanya Vivah / Nikah Yojana (Mass Marriage Financial Grant)",
+    "code": "MP-MMKVY-MARRIAGE-GRANT",
+    "ministry": "Social Justice and Disabled Welfare Department, Govt. of MP",
+    "origin": "state",
+    "stateName": "Madhya Pradesh",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Women Welfare",
+    "beneficiaries": [
+      "Women",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Direct Cash Transfer Grant of ₹55,000 for Marriage Expenses and Household Gift Items",
+    "benefitNumericMin": 55000,
+    "benefitNumericMax": 55000,
+    "description": "Offers ₹55,000 financial aid to needy, destitute, widowed, or divorced women for marriage conducted in mass marriage ceremonies in MP.",
+    "eligibilityDescription": "BPL resident families of MP whose daughter has completed 18 years of age.",
+    "requiredDocs": [
+      "MP Samagra ID",
+      "Girl Age Proof Certificate",
+      "BPL Card",
+      "Bank Account Details"
+    ],
+    "deadline": "MP Vivah Portal (mpvivahportal.nic.in)",
+    "officialWebsiteUrl": "https://mpvivahportal.nic.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 35,
+      "genderConstraint": "Female",
+      "statesAllowed": [
+        "Madhya Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "volunteer_activism"
+  },
+  {
+    "id": "br-mukhyamantri-vriddhajana-pension-yojana",
+    "title": "Bihar Mukhyamantri Vriddhajana Pension Yojana (MVPY Senior Pension)",
+    "code": "BR-MVPY-SENIOR-PENSION",
+    "ministry": "Social Welfare Department, Govt. of Bihar",
+    "origin": "state",
+    "stateName": "Bihar",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Senior Pension",
+    "beneficiaries": [
+      "Senior Citizens"
+    ],
+    "benefitValue": "Monthly Lifelong Financial Pension of ₹400 (Age 60-79) and ₹500 (Age 80+) for Universal Senior Citizens",
+    "benefitNumericMin": 4800,
+    "benefitNumericMax": 6000,
+    "description": "Universal pension scheme for all senior citizens aged 60+ in Bihar who do not receive any government/retired pension.",
+    "eligibilityDescription": "All Bihar residents aged 60 and above not receiving state/central government pension.",
+    "requiredDocs": [
+      "Bihar Residential Certificate",
+      "Aadhaar Card",
+      "Age Certificate",
+      "Bank Passbook"
+    ],
+    "deadline": "SSPMIS Bihar Portal (sspmis.bihar.gov.in)",
+    "officialWebsiteUrl": "https://sspmis.bihar.gov.in",
+    "rules": {
+      "minAge": 60,
+      "maxAge": 110,
+      "requiresSeniorCitizen": true,
+      "statesAllowed": [
+        "Bihar"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "elderly"
+  },
+  {
+    "id": "cg-sukhad-sahara-yojana-pension",
+    "title": "Chhattisgarh Sukhad Sahara Yojana (Monthly Widow Pension)",
+    "code": "CG-SUKHAD-SAHARA-PENSION",
+    "ministry": "Social Welfare Department, Govt. of Chhattisgarh",
+    "origin": "state",
+    "stateName": "Chhattisgarh",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Widow Welfare",
+    "beneficiaries": [
+      "Women"
+    ],
+    "benefitValue": "Monthly Financial Cash Assistance Pension of ₹350 directly into Bank Account",
+    "benefitNumericMin": 4200,
+    "benefitNumericMax": 4200,
+    "description": "Provides monthly pension to destitute widows aged 18 to 59 years residing in Chhattisgarh.",
+    "eligibilityDescription": "Widows residing in Chhattisgarh aged 18 to 59 belonging to BPL families.",
+    "requiredDocs": [
+      "CG Domicile Certificate",
+      "Husband Death Certificate",
+      "BPL Ration Card"
+    ],
+    "deadline": "Gram Panchayat / Urban Local Body CG",
+    "officialWebsiteUrl": "https://sw.cg.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 59,
+      "genderConstraint": "Female",
+      "statesAllowed": [
+        "Chhattisgarh"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "account_balance_wallet"
+  },
+  {
+    "id": "jh-pension-yojana-universal-old-age",
+    "title": "Jharkhand Universal Old Age Pension Scheme (Sarvajan Pension Scheme)",
+    "code": "JH-SARVAJAN-PENSION-SCHEME",
+    "ministry": "Department of Women, Child Development and Social Security, Govt. of Jharkhand",
+    "origin": "state",
+    "stateName": "Jharkhand",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Universal Pension",
+    "beneficiaries": [
+      "Senior Citizens",
+      "Women",
+      "Persons with Disabilities"
+    ],
+    "benefitValue": "Monthly Financial Pension Transfer of ₹1,000 for All Elderly, Widows & Disabled Persons without Income Cap",
+    "benefitNumericMin": 12000,
+    "benefitNumericMax": 12000,
+    "description": "Universalized pension scheme in Jharkhand removing income limit caps to ensure every eligible senior citizen, widow, and disabled person receives ₹1,000 per month.",
+    "eligibilityDescription": "Jharkhand residents: Senior Citizens (60+), ST/SC Elderly (50+), Widows (18+), and PwD (18+).",
+    "requiredDocs": [
+      "Jharkhand Residential Certificate",
+      "Aadhaar Card",
+      "Bank Account Details"
+    ],
+    "deadline": "Block Development Officer (BDO) Office Jharkhand",
+    "officialWebsiteUrl": "https://jharkhand.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 110,
+      "statesAllowed": [
+        "Jharkhand"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "payments"
+  },
+  {
+    "id": "as-orunodoi-2-0-women-cash-transfer",
+    "title": "Orunodoi 2.0 Scheme (Assam Universal Monthly Cash Transfer for Women)",
+    "code": "AS-ORUNODOI-2-0-CASH",
+    "ministry": "Finance Department, Govt. of Assam",
+    "origin": "state",
+    "stateName": "Assam",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Women Empowerment",
+    "beneficiaries": [
+      "Women",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Direct Benefit Transfer (DBT) Cash Allowance of ₹1,250 on the 10th of Every Month (₹15,000/Year)",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 15000,
+    "description": "Assam’s largest direct cash transfer scheme benefiting 27 lakh low-income female househeads to support nutrition, health, and medical expenses.",
+    "eligibilityDescription": "Low-income female househeads residing in Assam with total family annual income below ₹2 Lakh.",
+    "requiredDocs": [
+      "Assam Domicile Certificate",
+      "Aadhaar Card",
+      "Ration Card",
+      "Bank Passbook Details"
+    ],
+    "deadline": "District Orunodoi Nodal Officer / Assam Finance Dept",
+    "officialWebsiteUrl": "https://finance.assam.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 70,
+      "maxAnnualIncome": 200000,
+      "genderConstraint": "Female",
+      "statesAllowed": [
+        "Assam"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "savings"
+  },
+  {
+    "id": "uk-gaura-devi-kanya-dhan-yojana",
+    "title": "Nanda Gaura Devi Kanya Dhan Yojana (Financial Grant for Girl Education)",
+    "code": "UK-NANDA-GAURA-DEVI-GRANT",
+    "ministry": "Women Empowerment and Child Development Dept, Govt. of Uttarakhand",
+    "origin": "state",
+    "stateName": "Uttarakhand",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Girl Child Development",
+    "beneficiaries": [
+      "Students",
+      "Women"
+    ],
+    "benefitValue": "Direct Financial Transfer Grant of ₹11,000 at Birth and ₹51,000 on Passing 12th Standard",
+    "benefitNumericMin": 11000,
+    "benefitNumericMax": 51000,
+    "description": "Provides total financial aid of ₹62,000 to girl children born in low-income families in Uttarakhand upon completing 12th class.",
+    "eligibilityDescription": "Girls born/residing in Uttarakhand passing 12th standard from recognized boards with annual family income up to ₹72,000.",
+    "requiredDocs": [
+      "Uttarakhand Domicile",
+      "12th Marksheet",
+      "Income Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "WWCD Uttarakhand Portal (nandagaura.uk.gov.in)",
+    "officialWebsiteUrl": "https://nandagaura.uk.gov.in",
+    "rules": {
+      "minAge": 16,
+      "maxAge": 22,
+      "maxAnnualIncome": 72000,
+      "genderConstraint": "Female",
+      "statesAllowed": [
+        "Uttarakhand"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "card_giftcard"
+  },
+  {
+    "id": "hp-saharay-yojana-critical-illness-pension",
+    "title": "Himachal Pradesh Sahara Yojana (Monthly Pension for Serious Diseases)",
+    "code": "HP-SAHARA-YOJANA-HEALTH",
+    "ministry": "Department of Health and Family Welfare, Govt. of Himachal Pradesh",
+    "origin": "state",
+    "stateName": "Himachal Pradesh",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Health Relief",
+    "beneficiaries": [
+      "General Citizen",
+      "Senior Citizens",
+      "Persons with Disabilities"
+    ],
+    "benefitValue": "Monthly Financial Assistance Pension of ₹3,000 directly transferred to Chronic Patients",
+    "benefitNumericMin": 36000,
+    "benefitNumericMax": 36000,
+    "description": "Offers ₹3,000 monthly financial relief to economically weaker patients suffering from Parkinson’s, Cancer, Renal Failure, Muscular Dystrophy, and Paralysis.",
+    "eligibilityDescription": "Himachal Bonafide patients with family annual income up to ₹4 Lakh suffering from specified chronic diseases.",
+    "requiredDocs": [
+      "Bonafide Himachali Certificate",
+      "Medical Board Treatment Certificate",
+      "Income Certificate"
+    ],
+    "deadline": "District Chief Medical Officer (CMO) HP",
+    "officialWebsiteUrl": "https://hptax.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "maxAnnualIncome": 400000,
+      "statesAllowed": [
+        "Himachal Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "health_and_safety"
+  },
+  {
+    "id": "delhi-pension-to-differently-abled-persons",
+    "title": "Delhi Financial Assistance to Differently Abled Persons (₹2,500 Monthly)",
+    "code": "DELHI-DISABLED-PENSION-2500",
+    "ministry": "Department of Social Welfare, Govt. of NCT of Delhi",
+    "origin": "state",
+    "stateName": "Delhi",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Persons with Disabilities & Social Security",
+    "beneficiaries": [
+      "Persons with Disabilities"
+    ],
+    "benefitValue": "Monthly Financial Pension Transfer of ₹2,500 directly into Bank Account",
+    "benefitNumericMin": 30000,
+    "benefitNumericMax": 30000,
+    "description": "Provides monthly disability pension of ₹2,500 to disabled citizens residing in Delhi NCR.",
+    "eligibilityDescription": "Delhi residents for past 5 years with 40%+ disability and annual family income up to ₹1,00,000.",
+    "requiredDocs": [
+      "Delhi Address Proof (5 Years)",
+      "UDID / Disability Certificate",
+      "Income Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "e-District Delhi Portal (edistrict.delhigovt.nic.in)",
+    "officialWebsiteUrl": "https://edistrict.delhigovt.nic.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "maxAnnualIncome": 100000,
+      "requiresDisability": true,
+      "statesAllowed": [
+        "Delhi"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "wheelchair_pickup"
+  },
+  {
+    "id": "jk-social-security-state-marriage-assistance",
+    "title": "J&K State Marriage Assistance Scheme (SMAS Financial Grant for Poor Girls)",
+    "code": "JK-SMAS-MARRIAGE-GRANT",
+    "ministry": "Social Welfare Department, Govt. of Jammu and Kashmir",
+    "origin": "state",
+    "stateName": "Jammu and Kashmir",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Women Empowerment",
+    "beneficiaries": [
+      "Women",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Direct One-Time Financial Marriage Grant of ₹50,000 + 5 Grams Gold Coin",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 70000,
+    "description": "Provides financial aid of ₹50,000 and gold coin to poor unmarried girls of marriageable age belonging to BPL families in J&K.",
+    "eligibilityDescription": "Unmarried girls of marriageable age residing in J&K belonging to BPL households.",
+    "requiredDocs": [
+      "J&K Domicile Certificate",
+      "Aadhaar Card",
+      "BPL Ration Card",
+      "Age Proof Certificate"
+    ],
+    "deadline": "District Social Welfare Officer J&K",
+    "officialWebsiteUrl": "https://jk.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 40,
+      "genderConstraint": "Female",
+      "statesAllowed": [
+        "Jammu and Kashmir"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "celebration"
+  },
+  {
+    "id": "national-safai-karamcharis-finance-development",
+    "title": "National Safai Karamcharis Finance and Development Corporation (NSKFDC Concessional Loans)",
+    "code": "NSKFDC-LOAN-SCHEME",
+    "ministry": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Sanitation Workers",
+    "beneficiaries": [
+      "Workers",
+      "General Citizen"
+    ],
+    "benefitValue": "Concessional Micro-Finance Loans up to ₹15 Lakh at 4% Interest Rate for Self-Employment Ventures",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 1500000,
+    "description": "Provides subsidized interest rate business and education loans to Safai Karamcharis, manual scavengers, and their dependents.",
+    "eligibilityDescription": "Sanitation workers, manual scavengers, and their direct dependents across India.",
+    "requiredDocs": [
+      "NSKFDC Target Group Identity Certificate",
+      "Aadhaar Card",
+      "Project Business DPR"
+    ],
+    "deadline": "NSKFDC Portal (nskfdc.nic.in)",
+    "officialWebsiteUrl": "https://nskfdc.nic.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 60
+    },
+    "isPopular": false,
+    "iconName": "cleaning_services"
+  },
+  {
+    "id": "national-backward-classes-finance-development",
+    "title": "National Backward Classes Finance and Development Corporation (NBCFDC Loan Scheme)",
+    "code": "NBCFDC-OBC-LOAN",
+    "ministry": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Concessional Finance",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Workers",
+      "Students"
+    ],
+    "benefitValue": "Term Loans & Micro-Finance up to ₹15 Lakh at Low Interest (4% to 6% per annum) for OBC Businesses & Overseas Education",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 1500000,
+    "description": "Provides low-cost capital loans for small businesses, transport vehicles, and higher education for Backward Classes.",
+    "eligibilityDescription": "OBC category citizens with annual family income up to ₹3,00,000.",
+    "requiredDocs": [
+      "OBC Caste Certificate",
+      "Income Certificate",
+      "Aadhaar Card",
+      "Business DPR"
+    ],
+    "deadline": "NBCFDC Portal (nbcfdc.gov.in)",
+    "officialWebsiteUrl": "https://nbcfdc.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "maxAnnualIncome": 300000,
+      "allowedCategories": [
+        "OBC"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "account_balance"
+  },
+  {
+    "id": "central-sector-scholarship-top-class-education-sc",
+    "title": "Top Class Education Scheme for SC Students (100% Fee Grant in IITs/IIMs/AIIMS)",
+    "code": "TOP-CLASS-SC-SCHOLARSHIP",
+    "ministry": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Elite Education",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "100% Tuition Fee Waiver + Monthly Living Allowance ₹3,000 + One-Time Laptop Grant ₹45,000 in Premier Institutes",
+    "benefitNumericMin": 150000,
+    "benefitNumericMax": 400000,
+    "description": "Covers full tuition fees, computer allowance, and living expenses for SC students gaining admission into top institutions like IITs, IIMs, NITs, and AIIMS.",
+    "eligibilityDescription": "SC students gaining admission into notified 260+ top national institutes with family income below ₹8 Lakh.",
+    "requiredDocs": [
+      "SC Caste Certificate",
+      "Institute Admission Offer Letter",
+      "Income Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "National Scholarship Portal (scholarships.gov.in)",
+    "officialWebsiteUrl": "https://scholarships.gov.in",
+    "rules": {
+      "minAge": 17,
+      "maxAge": 30,
+      "maxAnnualIncome": 800000,
+      "allowedCategories": [
+        "SC"
+      ],
+      "requiresStudent": true
+    },
+    "isPopular": true,
+    "iconName": "school"
+  },
+  {
+    "id": "national-handicapped-finance-development-nhfdc",
+    "title": "National Handicapped Finance and Development Corporation (NHFDC Self-Employment Loans)",
+    "code": "NHFDC-PWD-LOAN",
+    "ministry": "DEPwD, Ministry of Social Justice and Empowerment",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Persons with Disabilities & Entrepreneurship",
+    "beneficiaries": [
+      "Persons with Disabilities",
+      "Entrepreneurs"
+    ],
+    "benefitValue": "Concessional Business & Higher Education Loans up to ₹25 Lakh at Low Interest (4% to 8% per annum)",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 2500000,
+    "description": "Promotes economic self-reliance among persons with disabilities by providing soft loan capital to launch retail shops, services, or manufacturing units.",
+    "eligibilityDescription": "Indian citizens with 40%+ disability aged 18 to 60 years.",
+    "requiredDocs": [
+      "Disability Certificate (40%+)",
+      "Project Business Plan",
+      "Aadhaar Card"
+    ],
+    "deadline": "NHFDC Official Portal (nhfdc.nic.in)",
+    "officialWebsiteUrl": "https://nhfdc.nic.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 60,
+      "requiresDisability": true
+    },
+    "isPopular": true,
+    "iconName": "storefront"
+  },
+  {
+    "id": "pradhan-mantri-daksh-aur-kushalata-sampann-hitgrahi-pm-daksh",
+    "title": "PM-DAKSH (Pradhan Mantri Dakshta Aur Kushalta Sampann Hitgrahi Skill Scheme)",
+    "code": "PM-DAKSH-DOSJE-SKILL",
+    "ministry": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Skill Training",
+    "beneficiaries": [
+      "Job Seekers",
+      "Workers",
+      "Students"
+    ],
+    "benefitValue": "100% Free Short-Term Skill Training, Up-skilling, Entrepreneurship Development & Monthly Stipend up to ₹1,500",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 40000,
+    "description": "National skill development program targeting SC, OBC, EBC, DNT, and Safai Karamcharis to increase employable capabilities.",
+    "eligibilityDescription": "SC, OBC, EBC, DNT, and Safai Karamchari youth aged 18 to 45.",
+    "requiredDocs": [
+      "Caste / Community Certificate",
+      "Income Certificate",
+      "Aadhaar Card"
+    ],
+    "deadline": "PM-DAKSH Portal (pmdaksh.dosje.gov.in)",
+    "officialWebsiteUrl": "https://pmdaksh.dosje.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 45
+    },
+    "isPopular": true,
+    "iconName": "construction"
+  },
+  {
+    "id": "scheme-for-rehabilitation-of-manual-scavengers-srms",
+    "title": "Self Employment Scheme for Rehabilitation of Manual Scavengers (SRMS)",
+    "code": "SRMS-DOSJE-NSKFDC",
+    "ministry": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "Social Assistance & Rehabilitation",
+    "beneficiaries": [
+      "Workers",
+      "General Citizen"
+    ],
+    "benefitValue": "One-Time Cash Assistance of ₹40,000 + Capital Subsidy up to ₹3,25,000 for Alternative Business & Skill Stipend ₹3,000/Month",
+    "benefitNumericMin": 40000,
+    "benefitNumericMax": 325000,
+    "description": "Provides one-time cash grants and heavy capital subsidies to rehabilitate identified manual scavengers into alternative dignified livelihoods.",
+    "eligibilityDescription": "Identified manual scavengers and their dependents.",
+    "requiredDocs": [
+      "Manual Scavenger Identification Certificate",
+      "Aadhaar Card",
+      "Bank Passbook Details"
+    ],
+    "deadline": "NSKFDC / SRMS Portal",
+    "officialWebsiteUrl": "https://dosje.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 65
+    },
+    "isPopular": false,
+    "iconName": "handshake"
+  },
+  {
+    "id": "dr-ambedkar-scheme-of-interest-subsidy-educational-loans-abroad",
+    "title": "Dr. Ambedkar Interest Subsidy Scheme for Overseas Studies for OBC/EBC",
+    "code": "AMBEDKAR-INTEREST-SUBSIDY-OBC",
+    "ministry": "Ministry of Social Justice and Empowerment, Govt. of India",
+    "origin": "central",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Global Education",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "100% Interest Subsidy Waiver during Moratorium Period on Education Loans Taken for Master’s & Ph.D. Abroad",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 300000,
+    "description": "Waives 100% interest on education bank loans during the course and moratorium period for OBC and EBC students studying abroad.",
+    "eligibilityDescription": "OBC and EBC students pursuing Master’s, M.Phil, or Ph.D. abroad with education loans from approved banks and family income below ₹8 Lakh (OBC) or ₹5 Lakh (EBC).",
+    "requiredDocs": [
+      "OBC/EBC Caste Certificate",
+      "Bank Education Loan Sanction Letter",
+      "Foreign University Admission Proof"
+    ],
+    "deadline": "NSP / Canara Bank Nodal Portal",
+    "officialWebsiteUrl": "https://scholarships.gov.in",
+    "rules": {
+      "minAge": 20,
+      "maxAge": 35,
+      "maxAnnualIncome": 800000,
+      "allowedCategories": [
+        "OBC",
+        "EBC"
+      ],
+      "requiresStudent": true
+    },
+    "isPopular": false,
+    "iconName": "school"
+  },
+  {
+    "id": "up-samanya-janti-and-sc-st-free-coaching-abhyudaya",
+    "title": "UP Mukhyamantri Abhyudaya Yojana (Free UPSC/NEET/JEE Civil Services Coaching)",
+    "code": "UP-ABHYUDAYA-FREE-COACHING",
+    "ministry": "Social Welfare Department, Govt. of UP",
+    "origin": "state",
+    "stateName": "Uttar Pradesh",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Free Coaching",
+    "beneficiaries": [
+      "Students",
+      "Job Seekers"
+    ],
+    "benefitValue": "100% Free Offline & Online Civil Services, NEET, JEE & NDA Competitive Exam Coaching by IAS/IPS Officers + Free Tablet",
+    "benefitNumericMin": 40000,
+    "benefitNumericMax": 100000,
+    "description": "Provides free top-tier competitive coaching and free digital tablets to low-income and SC/ST/OBC students in every division of UP.",
+    "eligibilityDescription": "UP domicile students preparing for IAS, PCS, NEET, JEE, NDA, or CDS competitive exams.",
+    "requiredDocs": [
+      "UP Domicile Certificate",
+      "Aadhaar Card",
+      "Abhyudaya Entrance Test Scorecard"
+    ],
+    "deadline": "UP Abhyudaya Portal (abhyuday.up.gov.in)",
+    "officialWebsiteUrl": "https://abhyuday.up.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 35,
+      "requiresStudent": true,
+      "statesAllowed": [
+        "Uttar Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "menu_book"
+  },
+  {
+    "id": "mh-babasaheb-ambedkar-swadhar-yojana-sc-hostel",
+    "title": "Dr. Babasaheb Ambedkar Swadhar Yojana (Hostel Maintenance Allowance MH)",
+    "code": "MH-SWADHAR-YOJANA-SC-ST",
+    "ministry": "Social Justice and Special Assistance Dept, Govt. of Maharashtra",
+    "origin": "state",
+    "stateName": "Maharashtra",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Education",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "Annual Financial Cash Transfer Allowance up to ₹60,000 for Lodging, Boarding & Educational Expenses",
+    "benefitNumericMin": 40000,
+    "benefitNumericMax": 60000,
+    "description": "Provides monthly cash financial allowance to SC and Neo-Buddhist college students in Maharashtra who do not get admission in government hostels.",
+    "eligibilityDescription": "SC and Neo-Buddhist students studying in 11th, diploma, or degree courses in Maharashtra colleges with family income up to ₹2.5 Lakh.",
+    "requiredDocs": [
+      "Caste Certificate",
+      "College Admission Proof",
+      "Income Certificate",
+      "Aadhaar Seeded Bank Account"
+    ],
+    "deadline": "MahaDBT Portal (mahadbt.maharashtra.gov.in)",
+    "officialWebsiteUrl": "https://mahadbt.maharashtra.gov.in",
+    "rules": {
+      "minAge": 15,
+      "maxAge": 28,
+      "maxAnnualIncome": 250000,
+      "allowedCategories": [
+        "SC"
+      ],
+      "requiresStudent": true,
+      "statesAllowed": [
+        "Maharashtra"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "apartment"
+  },
+  {
+    "id": "ka-pribandik-and-obc-post-matric-hostel-stipend",
+    "title": "Karnataka Post-Matric Hostel & Monthly Maintenance Allowance for OBCs",
+    "code": "KA-OBC-POST-MATRIC-STIPEND",
+    "ministry": "Department of Backward Classes Welfare, Govt. of Karnataka",
+    "origin": "state",
+    "stateName": "Karnataka",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Education",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "Monthly Food and Accommodation Allowance (₹1,500/Month) + 100% Free College Hostel Room",
+    "benefitNumericMin": 15000,
+    "benefitNumericMax": 25000,
+    "description": "Reimburses boarding and food charges for Backward Classes (OBC) post-matric students studying in Karnataka colleges.",
+    "eligibilityDescription": "OBC students studying in post-10th courses in Karnataka with annual family income up to ₹2.5 Lakh.",
+    "requiredDocs": [
+      "OBC Caste Certificate",
+      "Income Certificate",
+      "College Admission Receipt",
+      "Aadhaar Card"
+    ],
+    "deadline": "State Scholarship Portal (SSP) Karnataka (ssp.postmatric.karnataka.gov.in)",
+    "officialWebsiteUrl": "https://ssp.postmatric.karnataka.gov.in",
+    "rules": {
+      "minAge": 15,
+      "maxAge": 30,
+      "maxAnnualIncome": 250000,
+      "allowedCategories": [
+        "OBC"
+      ],
+      "requiresStudent": true,
+      "statesAllowed": [
+        "Karnataka"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "school"
+  },
+  {
+    "id": "ts-chief-minister-overseas-scholarship-minority-sc-st",
+    "title": "Telangana Chief Minister’s Overseas Scholarship Scheme for SC/ST/BC/Minorities",
+    "code": "TS-CM-OVERSEAS-SCHOLARSHIP",
+    "ministry": "Scheduled Castes / Minorities Development Department, Govt. of Telangana",
+    "origin": "state",
+    "stateName": "Telangana",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Global Education",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "100% Full Foreign Grant of ₹20,000,00 (₹20 Lakh) + One-Way Airfare + Visa Fees for Post-Graduation Abroad",
+    "benefitNumericMin": 2000000,
+    "benefitNumericMax": 2000000,
+    "description": "Provides ₹20 Lakh direct financial grant to SC, ST, BC, and Minority students from Telangana to pursue Master’s or Ph.D. degrees in USA, UK, Australia, Canada, or Singapore.",
+    "eligibilityDescription": "Telangana domicile SC/ST/BC/Minority students aged below 35 with 60%+ in Graduation and annual family income up to ₹5.0 Lakh.",
+    "requiredDocs": [
+      "Caste Certificate",
+      "Foreign University Admission Letter",
+      "GRE/GMAT/TOEFL Scorecard",
+      "Passport"
+    ],
+    "deadline": "Telangana ePASS Portal (telanganaepass.cgg.gov.in)",
+    "officialWebsiteUrl": "https://telanganaepass.cgg.gov.in",
+    "rules": {
+      "minAge": 20,
+      "maxAge": 35,
+      "maxAnnualIncome": 500000,
+      "requiresStudent": true,
+      "statesAllowed": [
+        "Telangana"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "flight_takeoff"
+  },
+  {
+    "id": "ap-jagananna-vidya-deevena-and-vasathi-deevena",
+    "title": "AP Jagananna Vidya Deevena & Vasathi Deevena Full Fee Reimbursement",
+    "code": "AP-VIDYA-DEEVENA-FULL-FEE",
+    "ministry": "Social Welfare / Tribal Welfare / BC Welfare Dept, Govt. of AP",
+    "origin": "state",
+    "stateName": "Andhra Pradesh",
+    "category": "Social Welfare & Empowerment",
+    "subCategory": "SC/ST/OBC Welfare & Education",
+    "beneficiaries": [
+      "Students"
+    ],
+    "benefitValue": "100% Full College Tuition Fee Reimbursement + ₹20,000 Annual Boarding/Mess Food Allowance directly to Mother’s Account",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 100000,
+    "description": "Reimburses 100% ITI, Polytechnic, Degree, Engineering, and Medical college fees directly into mother’s bank account for low-income families in AP.",
+    "eligibilityDescription": "AP students belonging to SC, ST, BC, EBC, Kapu, Minority, and Divyang categories with annual family income under ₹2.5 Lakh.",
+    "requiredDocs": [
+      "AP Rice Card",
+      "Caste Certificate",
+      "Mother Aadhaar Card & Bank Account",
+      "College Admission Proof"
+    ],
+    "deadline": "Jnanabhumi Portal AP (jnanabhumi.ap.gov.in)",
+    "officialWebsiteUrl": "https://jnanabhumi.ap.gov.in",
+    "rules": {
+      "minAge": 15,
+      "maxAge": 30,
+      "maxAnnualIncome": 250000,
+      "requiresStudent": true,
+      "statesAllowed": [
+        "Andhra Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "school"
+  }
+]

@@ -1,0 +1,509 @@
+export interface Translations {
+  [key: string]: string;
+}
+
+export const TRANSLATIONS: Record<string, Translations> = {
+  en: {
+    // Brand & Header
+    tagline: "AI-Powered Government Schemes Assistant • Connecting Citizens with Government Schemes",
+    dashboard: "Dashboard",
+    timeline: "👶 Life Timeline",
+    score: "📊 Opportunity Score",
+    family: "👨‍👩‍👧 Family Planner",
+    calendar: "📅 Benefit Calendar",
+    tools: "AI Tools",
+    checker: "Check Eligibility",
+    catalog: "Catalog",
+    savedTab: "Saved Schemes",
+    voiceAssistant: "AI Voice",
+    searchPlaceholder: "Search schemes...",
+    selectLanguage: "Select Language",
+    proactiveAlerts: "JanAI Proactive Alerts",
+
+    // Hero Overview
+    heroBadge: "AI-Powered Government Schemes Assistant",
+    heroTitle: "JanAI Architecture —",
+    heroTitleHighlight: "Connecting Citizens with Government Schemes",
+    heroDesc: "Your 24×7 AI-powered Government Schemes Assistant connecting citizens with 30+ verified Central & State initiatives. Automatically evaluates eligibility, monitors life timeline milestones, recovers missed opportunities, and auto-fills application forms.",
+    runScanBtn: "Run Instant AI Profile Scan",
+    exploreTimelineBtn: "👶 Explore Life Timeline",
+
+    // Feature Cards
+    lifeTimelineTitle: "AI Life Timeline",
+    lifeTimelineBadge: "Stage 1",
+    lifeTimelineDesc: "Automatic scheme unlocking from Birth 👶, School 🎒, College 🎓, Farmer 🚜 to Senior Citizen 👴.",
+    
+    scoreTitle: "Opportunity Score",
+    scoreBadge: "22% Utilized",
+    scoreDesc: "Calculates missed money (₹1.8L in 5 yrs) with reason breakdown & 100% recovery steps.",
+
+    familyTitle: "Family Planner",
+    familyBadge: "Multi-Member",
+    familyDesc: "Manage pension for grandparents, farmer subsidy for father & scholarships for students together.",
+
+    calendarTitle: "Benefit Calendar",
+    calendarBadge: "Sync Ready",
+    calendarDesc: "Google Calendar-style reminders for registration deadlines, card renewals & DBT transfers.",
+
+    // General Actions
+    applyNow: "Apply Now",
+    viewDetails: "View Details",
+    saveScheme: "Save Scheme",
+    savedBadge: "Saved",
+    share: "Share",
+    askAi: "Ask AI",
+    downloadForm: "Download Form",
+    checkEligibilityNow: "Check Eligibility Now",
+    eligible: "Eligible",
+    conditionallyEligible: "Conditionally Eligible",
+    notEligible: "Not Eligible",
+    
+    // Tools
+    translatorTitle: "Government Legalese Translator",
+    translatorSub: "Translates complex government GRs, circulars, and notifications into plain citizen language.",
+    copilotTitle: "AI Form Copilot",
+    copilotSub: "Interactive step-by-step form filling guide with auto-filling from your verified profile.",
+    walletTitle: "Smart Document Wallet & Expiry Monitor",
+    walletSub: "Safely store government certificates and receive proactive alerts before expiration.",
+  },
+
+  hi: {
+    // Brand & Header
+    tagline: "एआई-संचालित सरकारी योजना सहायक • नागरिकों को सरकारी योजनाओं से जोड़ना",
+    dashboard: "डैशबोर्ड",
+    timeline: "👶 जीवन समयरेखा",
+    score: "📊 अवसर स्कोर",
+    family: "👨‍👩‍👧 परिवार योजनाकार",
+    calendar: "📅 लाभ कैलेंडर",
+    tools: "एआई टूल्स",
+    checker: "पात्रता जांचें",
+    catalog: "योजना सूची",
+    savedTab: "सहेजी गई योजनाएं",
+    voiceAssistant: "एआई आवाज़",
+    searchPlaceholder: "योजनाएं खोजें...",
+    selectLanguage: "भाषा चुनें",
+    proactiveAlerts: "JanAI सतर्क संदेश",
+
+    // Hero Overview
+    heroBadge: "एआई-संचालित सरकारी योजना सहायक",
+    heroTitle: "जन-एआई आर्किटेक्चर —",
+    heroTitleHighlight: "नागरिकों को सरकारी योजनाओं से जोड़ना",
+    heroDesc: "आपका व्यक्तिगत 24×7 एआई सहायक जो नागरिकों को 30+ केंद्रीय और राज्य योजनाओं से जोड़ता है। पात्रता का मूल्यांकन करता है, जीवन समयरेखा ट्रैक करता है, और योजनाओं के लिए मार्गदर्शन करता है।",
+    runScanBtn: "तुरंत एआई प्रोफ़ाइल स्कैन करें",
+    exploreTimelineBtn: "👶 जीवन समयरेखा देखें",
+
+    // Feature Cards
+    lifeTimelineTitle: "एआई जीवन समयरेखा",
+    lifeTimelineBadge: "चरण 1",
+    lifeTimelineDesc: "जन्म 👶, स्कूल 🎒, कॉलेज 🎓, किसान 🚜 से लेकर वरिष्ठ नागरिक 👴 तक स्वचालित योजनाएं।",
+    
+    scoreTitle: "अवसर स्कोर",
+    scoreBadge: "22% उपयोग किया गया",
+    scoreDesc: "पिछले 5 वर्षों में छूटे पैसे (₹1.8 लाख) और 100% वसूली के कदमों की गणना करता है।",
+
+    familyTitle: "परिवार योजनाकार",
+    familyBadge: "बहु-सदस्यीय",
+    familyDesc: "दादा-दादी के लिए पेंशन, पिता के लिए किसान सब्सिडी और छात्रों के लिए छात्रवृत्ति प्रबंधित करें।",
+
+    calendarTitle: "लाभ कैलेंडर",
+    calendarBadge: "सिंक के लिए तैयार",
+    calendarDesc: "पंजीकरण समय सीमा, कार्ड नवीनीकरण और डीबीटी हस्तांतरण के लिए रिमाइंडर।",
+
+    // General Actions
+    applyNow: "अभी आवेदन करें",
+    viewDetails: "विवरण देखें",
+    saveScheme: "योजना सहेजें",
+    savedBadge: "सहेजा गया",
+    share: "साझा करें",
+    askAi: "एआई से पूछें",
+    downloadForm: "फॉर्म डाउनलोड करें",
+    checkEligibilityNow: "अब पात्रता जांचें",
+    eligible: "पात्र",
+    conditionallyEligible: "सशर्त पात्र",
+    notEligible: "अपात्र",
+
+    // Tools
+    translatorTitle: "सरकारी कानूनी अनुवादक",
+    translatorSub: "जटिल सरकारी परिपत्रों और आदेशों का सरल नागरिक भाषा में अनुवाद करता है।",
+    copilotTitle: "एआई फॉर्म कोपायलट",
+    copilotSub: "आपकी सत्यापित प्रोफ़ाइल से स्वतः भरे जाने वाले चरण-दर-चरण आवेदन मार्गदर्शक।",
+    walletTitle: "स्मार्ट दस्तावेज़ वॉलेट और समाप्ति मॉनिटर",
+    walletSub: "सरकारी प्रमाण पत्रों को सुरक्षित रखें और समाप्ति से पहले अलर्ट प्राप्त करें।",
+  },
+
+  mr: {
+    // Marathi
+    tagline: "प्रत्येक नागरिक. प्रत्येक योजना. प्रत्येक लाभ.",
+    dashboard: "डॅशबोर्ड",
+    timeline: "👶 जीवन टाइमलाइन",
+    score: "📊 संधी स्कोर",
+    family: "👨‍👩‍👧 कुटुंब नियोजक",
+    calendar: "📅 लाभ कॅलेंडर",
+    tools: "AI साधने",
+    checker: "पात्रता तपासा",
+    catalog: "योजना सूची",
+    savedTab: "जतन केलेल्या योजना",
+    voiceAssistant: "AI आवाज",
+    searchPlaceholder: "योजना शोधा...",
+    selectLanguage: "भाषा निवडा",
+    proactiveAlerts: "JanAI महत्त्वाचे इशारे",
+
+    heroBadge: "भारताचे वैयक्तिक शासकीय AI",
+    heroTitle: "प्रत्येक नागरिक. प्रत्येक योजना.",
+    heroTitleHighlight: "प्रत्येक लाभ.",
+    heroDesc: "तुमचा २४×७ वैयक्तिक AI सहाय्यक जो आपोआप सरकारी योजनांवर लक्ष ठेवतो. योजना शोधण्याची गरज नाही—JanAI तुमच्यासाठी शोधते.",
+    runScanBtn: "झटपट AI प्रोफाईल स्कॅन करा",
+    exploreTimelineBtn: "👶 जीवन टाइमलाइन पहा",
+
+    lifeTimelineTitle: "AI जीवन टाइमलाइन",
+    lifeTimelineBadge: "टप्पा १",
+    lifeTimelineDesc: "जन्मापासून 👶 ते ज्येष्ठ नागरिकांपर्यंत 👴 सर्व योजनांचे स्वयंचलित अनलॉक.",
+
+    scoreTitle: "संधी स्कोर",
+    scoreBadge: "२२% वापरलेले",
+    scoreDesc: "मागील ५ वर्षात राहून गेलेले पैसे (₹१.८ लाख) आणि ते मिळवण्याचे टप्पे.",
+
+    familyTitle: "कुटुंब नियोजक",
+    familyBadge: "सर्व सदस्य",
+    familyDesc: "आजोबांचे पेन्शन, वडिलांची शेतकरी सबसिडी आणि मुलांची शिष्यवृत्ती एकाच ठिकाणी.",
+
+    calendarTitle: "लाभ कॅलेंडर",
+    calendarBadge: "सिंक तयार",
+    calendarDesc: "नोंदणी मुदत, कार्ड नूतनीकरण आणि DBT जमा होण्याच्या तारखांचे स्मरणपत्रे.",
+
+    applyNow: "आत्ताच अर्ज करा",
+    viewDetails: "तपशील पहा",
+    saveScheme: "योजना जतन करा",
+    savedBadge: "जतन केले",
+    share: "शेअर करा",
+    askAi: "AI ला विचारा",
+    downloadForm: "फॉर्म डाउनलोड करा",
+    checkEligibilityNow: "पात्रता आत्ताच तपासा",
+    eligible: "पात्र",
+    conditionallyEligible: "सशर्त पात्र",
+    notEligible: "अपात्र",
+
+    translatorTitle: "सरकारी कायदेशीर भाषांतरकार",
+    translatorSub: "कठीण सरकारी शासन निर्णय आणि परिपत्रकांचे सोप्या भाषेत भाषांतर करा.",
+    copilotTitle: "AI फॉर्म कोपायलट",
+    copilotSub: "तुमच्या प्रोफाईलवरून आपोआप फॉर्म भरणारा सहाय्यक.",
+    walletTitle: "स्मार्ट कागदपत्रे वॉलेट",
+    walletSub: "दाखल्यांची मुदत संपण्यापूर्वी सतर्क करणारे वॉलेट.",
+  },
+
+  ta: {
+    // Tamil
+    tagline: "ஒவ்வொரு குடிமகனும். ஒவ்வொரு திட்டமும். ஒவ்வொரு நன்மையும்.",
+    dashboard: "முகப்பு",
+    timeline: "👶 வாழ்க்கை காலவரிசை",
+    score: "📊 வாய்ப்பு மதிப்பெண்",
+    family: "👨‍👩‍👧 குடும்ப திட்டமிடுபவர்",
+    calendar: "📅 பயன் காலண்டர்",
+    tools: "AI கருவிகள்",
+    checker: "தகுதி சரிபார்க்கவும்",
+    catalog: "திட்டப் பட்டியல்",
+    savedTab: "சேமிக்கப்பட்டவை",
+    voiceAssistant: "AI குரல்",
+    searchPlaceholder: "திட்டங்களைத் தேடவும்...",
+    selectLanguage: "மொழியைத் தேர்ந்தெடுக்கவும்",
+    proactiveAlerts: "JanAI விழிப்பூட்டல்கள்",
+
+    heroBadge: "இந்தியாவின் தனிப்பட்ட அரசு AI",
+    heroTitle: "ஒவ்வொரு குடிமகனும். ஒவ்வொரு திட்டமும்.",
+    heroTitleHighlight: "ஒவ்வொரு நன்மையும்.",
+    heroDesc: "அரசு திட்டங்களை தானாக கண்காணிக்கும் உங்கள் 24×7 AI உதவியாளர்.",
+    runScanBtn: "உடனடி AI ஸ்கேன் செய்யவும்",
+    exploreTimelineBtn: "👶 காலவரிசையை பார்க்கவும்",
+
+    lifeTimelineTitle: "AI வாழ்க்கை காலவரிசை",
+    lifeTimelineBadge: "நிலை 1",
+    lifeTimelineDesc: "பிறப்பு 👶 முதல் மூத்த குடிமகன் 👴 வரை தானியங்கி திட்டங்கள்.",
+
+    scoreTitle: "வாய்ப்பு மதிப்பெண்",
+    scoreBadge: "22% பயன்படுத்தப்பட்டது",
+    scoreDesc: "கடந்த 5 ஆண்டுகளில் தவறவிட்ட பணம் (₹1.8 லட்சம்) பற்றிய விபரம்.",
+
+    familyTitle: "குடும்ப திட்டமிடுபவர்",
+    familyBadge: "அனைத்து உறுப்பினர்கள்",
+    familyDesc: "தாத்தாவின் ஓய்வூதியம், தந்தையின் விவசாய மானியம் & கல்வி உதவித்தொகை.",
+
+    calendarTitle: "பயன் காலண்டர்",
+    calendarBadge: "தயாராக உள்ளது",
+    calendarDesc: "பதிவு காலக்கெடு மற்றும் DBT நேரடி பணப்பரிமாற்ற நினைவூட்டல்கள்.",
+
+    applyNow: "இப்போதே விண்ணப்பிக்கவும்",
+    viewDetails: "விவரங்களைப் பார்க்கவும்",
+    saveScheme: "திட்டத்தைச் சேமிக்கவும்",
+    savedBadge: "சேமிக்கப்பட்டது",
+    share: "பகிரவும்",
+    askAi: "AI இடம் கேட்கவும்",
+    downloadForm: "படிவத்தைப் பதிவிறக்கவும்",
+    checkEligibilityNow: "தகுதியை சரிபார்க்கவும்",
+    eligible: "தகுதியுடையவர்",
+    conditionallyEligible: "நிபந்தனையுடன் தகுதியுடையவர்",
+    notEligible: "தகுதியற்றவர்",
+
+    translatorTitle: "அரசு சட்ட ஆவண மொழிபெயர்ப்பாளர்",
+    translatorSub: "சிக்கலான அரசு அரசாணைகளை எளிய குடிமக்கள் மொழியில் மொழிபெயர்க்கவும்.",
+    copilotTitle: "AI விண்ணப்ப வழிகாட்டி",
+    copilotSub: "விண்ணப்ப படிவங்களை எளிதாக நிரப்ப உதவும் AI வழிகாட்டி.",
+    walletTitle: "ஸ்மார்ட் ஆவண பணப்பை",
+    walletSub: "சான்றிதழ்களின் காலாவதி தேதியை முன்னரே நினைவூட்டும் வசதி.",
+  },
+
+  te: {
+    // Telugu
+    tagline: "ప్రతి పౌరుడు. ప్రతి పథకం. ప్రతి లబ్ధి.",
+    dashboard: "డాష్‌బోర్డ్",
+    timeline: "👶 జీవన కాలక్రమం",
+    score: "📊 అవకాశాల స్కోరు",
+    family: "👨‍👩‍👧 కుటుంబ ప్రణాళికాధికారి",
+    calendar: "📅 లబ్ధి క్యాలెండర్",
+    tools: "AI టూల్స్",
+    checker: "అర్హత తనిఖీ",
+    catalog: "పథకాల జాబితా",
+    savedTab: "సేవ్ చేసిన పథకాలు",
+    voiceAssistant: "AI వాయిస్",
+    searchPlaceholder: "పథకాలను శోధించండి...",
+    selectLanguage: "భాషను ఎంచుకోండి",
+    proactiveAlerts: "JanAI హెచ్చరికలు",
+
+    heroBadge: "భారతదేశ వ్యక్తిగత ప్రభుత్వ AI",
+    heroTitle: "ప్రతి పౌరుడు. ప్రతి పథకం.",
+    heroTitleHighlight: "ప్రతి లబ్ధి.",
+    heroDesc: "మీ కోసం ప్రభుత్వ పథకాలను నిరంతరం పర్యవేక్షించే 24×7 AI సహాయకుడు.",
+    runScanBtn: "తక్షణ AI ప్రొఫైల్ స్కాన్",
+    exploreTimelineBtn: "👶 కాలక్రమాన్ని చూడండి",
+
+    lifeTimelineTitle: "AI జీవన కాలక్రమం",
+    lifeTimelineBadge: "దశ 1",
+    lifeTimelineDesc: "పుట్టుక 👶 నుండి వయోవృద్ధుల 👴 వరకు స్వయంచాలక పథకాలు.",
+
+    scoreTitle: "అవకాశాల స్కోరు",
+    scoreBadge: "22% వినియోగించబడింది",
+    scoreDesc: "గడిచిన 5 ఏళ్లలో పొందని నగదు (₹1.8 లక్షలు) వివరాలు.",
+
+    familyTitle: "కుటుంబ ప్రణాళికాధికారి",
+    familyBadge: "సభ్యులందరికీ",
+    familyDesc: "తాతయ్య పెన్షన్, తండ్రికి రైతు సబ్సిడీ మరియు పిల్లల స్కాలర్‌షిప్‌లు.",
+
+    calendarTitle: "లబ్ధి క్యాలెండర్",
+    calendarBadge: "సింక్ సిద్ధం",
+    calendarDesc: "దరఖాస్తు గడువు మరియు DBT జమ అయ్యే తేదీల రిమైండర్లు.",
+
+    applyNow: "ఇప్పుడే దరఖాస్తు చేయండి",
+    viewDetails: "వివరాలు చూడండి",
+    saveScheme: "పథకాన్ని దాచండి",
+    savedBadge: "సేవ్ చేయబడింది",
+    share: "షేర్ చేయండి",
+    askAi: "AI ని అడగండి",
+    downloadForm: "ఫారమ్ డౌన్‌లోడ్ చేయండి",
+    checkEligibilityNow: "అర్హత తనిఖీ చేయండి",
+    eligible: "అర్హులు",
+    conditionallyEligible: "షరతులతో కూడిన అర్హత",
+    notEligible: "అనర్హులు",
+
+    translatorTitle: "ప్రభుత్వ చట్టపరమైన అనువాదకుడు",
+    translatorSub: "కలికి ప్రభుత్వ ఉత్తర్వులను సులభమైన భాషలోకి మార్చండి.",
+    copilotTitle: "AI ఫారమ్ సహాయకుడు",
+    copilotSub: "మీ ప్రొఫైల్ నుండి దరఖాస్తు ఫారమ్‌లను సులభంగా పూరించండి.",
+    walletTitle: "స్మార్ట్ డాక్యుమెంట్ వ్యాలెట్",
+    walletSub: "ధృవపత్రాల గడువు ముగియడానికి ముందే హెచ్చరికలు పొందండి.",
+  },
+
+  kn: {
+    // Kannada
+    tagline: "ಪ್ರತಿ ಪ್ರಜೆ. ಪ್ರತಿ ಯೋಜನೆ. ಪ್ರತಿ ಸೌಲಭ್ಯ.",
+    dashboard: "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+    timeline: "👶 ಜೀವನ ಕಾಲಾವಧಿ",
+    score: "📊 ಅವಕಾಶದ ಸ್ಕೋರ್",
+    family: "👨‍👩‍👧 ಕುಟುಂಬ ಯೋಜನೆ",
+    calendar: "📅 ಸೌಲಭ್ಯ ಕ್ಯಾಲೆಂಡರ್",
+    tools: "AI ಉಪಕರಣಗಳು",
+    checker: "ಅರ್ಹತೆ ಪರಿಶೀಲಿಸಿ",
+    catalog: "ಯೋಜನೆಗಳ ಪಟ್ಟಿ",
+    savedTab: "ಉಳಿಸಿದ ಯೋಜನೆಗಳು",
+    voiceAssistant: "AI ಧ್ವನಿ",
+    searchPlaceholder: "ಯೋಜನೆಗಳನ್ನು ಹುಡುಕಿ...",
+    selectLanguage: "ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    proactiveAlerts: "JanAI ಮುನ್ಸೂಚನೆಗಳು",
+
+    heroBadge: "ಭಾರತದ ವೈಯಕ್ತಿಕ ಸರ್ಕಾರಿ AI",
+    heroTitle: "ಪ್ರತಿ ಪ್ರಜೆ. ಪ್ರತಿ ಯೋಜನೆ.",
+    heroTitleHighlight: "ಪ್ರತಿ ಸೌಲಭ್ಯ.",
+    heroDesc: "ನಿಮಗಾಗಿ ಸರ್ಕಾರಿ ಯೋಜನೆಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡುವ 24×7 AI ಸಹಾಯಕ.",
+    runScanBtn: "ತ್ವರಿತ AI ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+    exploreTimelineBtn: "👶 ಜೀವನ ಕಾಲಾವಧಿ ವೀಕ್ಷಿಸಿ",
+
+    lifeTimelineTitle: "AI ಜೀವನ ಕಾಲಾವಧಿ",
+    lifeTimelineBadge: "ಹಂತ 1",
+    lifeTimelineDesc: "ಹುಟ್ಟಿನಿಂದ 👶 ಹಿರಿಯ ನಾಗರಿಕರವರೆಗೆ 👴 ಸ್ವಯಂಚಾಲಿತ ಯೋಜನೆಗಳ ಅನ್‌ಲಾಕ್.",
+
+    scoreTitle: "ಅವಕಾಶದ ಸ್ಕೋರ್",
+    scoreBadge: "22% ಬಳಸಲಾಗಿದೆ",
+    scoreDesc: "ಕಳೆದ 5 ವರ್ಷಗಳಲ್ಲಿ ತಪ್ಪಿಸಿಕೊಂಡ ಹಣದ (₹1.8 ಲಕ್ಷ) ವಿವರ.",
+
+    familyTitle: "ಕುಟುಂಬ ಯೋಜನೆ",
+    familyBadge: "ಎಲ್ಲಾ ಸದಸ್ಯರಿಗೆ",
+    familyDesc: "ಅಜ್ಜಂದಿರ ಪಿಂಚಣಿ, ತಂದೆಯ ರೈತ ಸಬ್ಸಿಡಿ ಮತ್ತು ಮಕ್ಕಳ ವಿದ್ಯಾರ್ಥಿವೇತನ.",
+
+    calendarTitle: "ಸೌಲಭ್ಯ ಕ್ಯಾಲೆಂಡರ್",
+    calendarBadge: "ಸಿಂಕ್ ಸಿದ್ಧವಾಗಿದೆ",
+    calendarDesc: "ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಕೊನೆಯ ದಿನಾಂಕ ಮತ್ತು DBT ಜಮಾ ನೆನಪೋಲೆಗಳು.",
+
+    applyNow: "ಈಗಲೇ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ",
+    viewDetails: "ವಿವರಗಳನ್ನು ನೋಡಿ",
+    saveScheme: "ಯೋಜನೆ ಉಳಿಸಿ",
+    savedBadge: "ಉಳಿಸಲಾಗಿದೆ",
+    share: "ಹಂಚಿಕೊಳ್ಳಿ",
+    askAi: "AI ಬಳಿ ಕೇಳಿ",
+    downloadForm: "ಫಾರ್ಮ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    checkEligibilityNow: "ಅರ್ಹತೆ ಪರಿಶೀಲಿಸಿ",
+    eligible: "ಅರ್ಹರು",
+    conditionallyEligible: "ಷರತ್ತುಬದ್ಧ ಅರ್ಹರು",
+    notEligible: "ಅನರ್ಹರು",
+
+    translatorTitle: "ಸರ್ಕಾರಿ ನಿಯಮಗಳ ಸರಳ ಅನುವಾದಕ",
+    translatorSub: "ಕಠಿಣ ಸರ್ಕಾರಿ ಆದೇಶಗಳನ್ನು ಸರಳ ಕನ್ನಡದಲ್ಲಿ ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ.",
+    copilotTitle: "AI ಫಾರ್ಮ್ ಸಹಾಯಕ",
+    copilotSub: "ಅರ್ಜಿ ಫಾರ್ಮ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಭರ್ತಿ ಮಾಡಲು ನೆರವು.",
+    walletTitle: "ಸ್ಮಾರ್ಟ್ ದಾಖಲೆಗಳ ವಾಲೆಟ್",
+    walletSub: "ಪ್ರಮಾಣಪತ್ರಗಳ ಅವಧಿ ಮುಗಿಯುವ ಮುನ್ನ ಮುನ್ನೆಚ್ಚರಿಕೆ ಸಂದೇಶಗಳು.",
+  },
+
+  bn: {
+    // Bengali
+    tagline: "প্রতিটি নাগরিক। প্রতিটি প্রকল্প। প্রতিটি সুবিধা।",
+    dashboard: "ড্যাশবোর্ড",
+    timeline: "👶 জীবন টাইমলাইন",
+    score: "📊 সুযোগের স্কোর",
+    family: "👨‍👩‍👧 পারিবারিক পরিকল্পনাকারী",
+    calendar: "📅 সুবিধার ক্যালেন্ডার",
+    tools: "AI টুলস",
+    checker: "যোগ্যতা যাচাই করুন",
+    catalog: "প্রকল্প তালিকা",
+    savedTab: "সংরক্ষিত প্রকল্প",
+    voiceAssistant: "AI ভয়েস",
+    searchPlaceholder: "প্রকল্প খুঁজুন...",
+    selectLanguage: "ভাষা নির্বাচন করুন",
+    proactiveAlerts: "JanAI সতর্কতা",
+
+    heroBadge: "ভারতের নিজস্ব সরকারি AI",
+    heroTitle: "প্রতিটি নাগরিক। প্রতিটি প্রকল্প।",
+    heroTitleHighlight: "প্রতিটি সুবিধা।",
+    heroDesc: "আপনার নিজস্ব ২৪×৭ AI সহকারী যা স্বয়ংক্রিয়ভাবে সরকারি প্রকল্প তদারকি করে।",
+    runScanBtn: "অবিলম্বে AI স্ক্যান করুন",
+    exploreTimelineBtn: "👶 টাইমলাইন দেখুন",
+
+    lifeTimelineTitle: "AI জীবন টাইমলাইন",
+    lifeTimelineBadge: "ধাপ ১",
+    lifeTimelineDesc: "জন্ম 👶 থেকে প্রবীণ নাগরিক 👴 পর্যন্ত স্বয়ংক্রিয় প্রকল্প আনলক।",
+
+    scoreTitle: "সুযোগের স্কোর",
+    scoreBadge: "২২% ব্যবহৃত",
+    scoreDesc: "গত ৫ বছরে মিস হওয়া টাকা (₹১.৮ লাখ) এবং তা পুনরুদ্ধারের উপায়।",
+
+    familyTitle: "পারিবারিক পরিকল্পনাকারী",
+    familyBadge: "সকল সদস্য",
+    familyDesc: "পিতামাতার পেনশন, বাবার কৃষক ভতুর্কি ও সন্তানদের স্কলারশিপ।",
+
+    calendarTitle: "সুবিধার ক্যালেন্ডার",
+    calendarBadge: "সিঙ্ক প্রস্তুত",
+    calendarDesc: "আবেদনের শেষ তারিখ ও ডিবিটি টাকা জমা হওয়ার রিমাইন্ডার।",
+
+    applyNow: "এখনই আবেদন করুন",
+    viewDetails: "বিস্তারিত দেখুন",
+    saveScheme: "প্রকল্প সেভ করুন",
+    savedBadge: "সংরক্ষিত",
+    share: "শেয়ার করুন",
+    askAi: "AI কে জিজ্ঞাসা করুন",
+    downloadForm: "ফর্ম ডাউনলোড করুন",
+    checkEligibilityNow: "যোগ্যতা পরীক্ষা করুন",
+    eligible: "যোগ্য",
+    conditionallyEligible: "শর্তসাপেক্ষে যোগ্য",
+    notEligible: "অযোগ্য",
+
+    translatorTitle: "সরকারি আইনি নথির অনুবাদক",
+    translatorSub: "জটিল সরকারি বিজ্ঞপ্তি ও সার্কুলারের সহজ বাংলা অনুবাদ।",
+    copilotTitle: "AI ফর্ম সহকারী",
+    copilotSub: "আবেদন ফর্ম সহজে পূরণ করার জন্য AI গাইড।",
+    walletTitle: "স্মার্ট ডকুমেন্টস ওয়ালেট",
+    walletSub: "সার্টিফিকেটের মেয়াদ শেষ হওয়ার আগেই সতর্ক বার্তা পান।",
+  },
+
+  gu: {
+    // Gujarati
+    tagline: "દરેક નાગરિક. દરેક યોજના. દરેક લાભ.",
+    dashboard: "ડેશબોર્ડ",
+    timeline: "👶 જીવન ટાઈમલાઈન",
+    score: "📊 તક સ્કોર",
+    family: "👨‍👩‍👧 પરિવાર આયોજક",
+    calendar: "📅 લાભ કેલેન્ડર",
+    tools: "AI ટૂલ્સ",
+    checker: "પાત્રતા ચકાસો",
+    catalog: "યોજનાઓની યાદી",
+    savedTab: "સાચવેલી યોજનાઓ",
+    voiceAssistant: "AI અવાજ",
+    searchPlaceholder: "યોજનાઓ શોધો...",
+    selectLanguage: "ભાષા પસંદ કરો",
+    proactiveAlerts: "JanAI એલર્ટ્સ",
+
+    heroBadge: "ભારતનું અંગત સરકારી AI",
+    heroTitle: "દરેક નાગરિક. દરેક યોજના.",
+    heroTitleHighlight: "દરેક લાભ.",
+    heroDesc: "સરકારી યોજનાઓનું આપમેળે નિરીક્ષણ કરનાર તમારું અંગત 24×7 AI સહાયક.",
+    runScanBtn: "ત્વરિત AI પ્રોફાઇલ સ્કેન કરો",
+    exploreTimelineBtn: "👶 ટાઈમલાઈન જુઓ",
+
+    lifeTimelineTitle: "AI જીવન ટાઈમલાઈન",
+    lifeTimelineBadge: "તબક્કો 1",
+    lifeTimelineDesc: "જન્મથી 👶 લઈને વરિષ્ઠ નાગરિક 👴 સુધીની યોજનાઓ.",
+
+    scoreTitle: "તક સ્કોર",
+    scoreBadge: "22% ઉપયોગ થયો",
+    scoreDesc: "છેલ્લા 5 વર્ષમાં ન મળેલા નાણાં (₹1.8 લાખ) અને મેળવવાના પગલાં.",
+
+    familyTitle: "પરિવાર આયોજક",
+    familyBadge: "તમામ સભ્યો",
+    familyDesc: "દાદા-દાદીનું પેન્શન, પિતાની ખેડૂત સબસિડી અને બાળકોની શિષ્યવૃત્તિ.",
+
+    calendarTitle: "લાભ કેલેન્ડર",
+    calendarBadge: "સિંક તૈયાર",
+    calendarDesc: "અરજી કરવાની છેલ્લી તારીખ અને DBT જમા થવાની તારીખો.",
+
+    applyNow: "અત્યારે જ અરજી કરો",
+    viewDetails: "વિગતો જુઓ",
+    saveScheme: "યોજના સાચવો",
+    savedBadge: "સાચવેલ",
+    share: "શેર કરો",
+    askAi: "AI ને પૂછો",
+    downloadForm: "ફોર્મ ડાઉનલોડ કરો",
+    checkEligibilityNow: "પાત્રતા ચકાસો",
+    eligible: "પાત્ર",
+    conditionallyEligible: "શરતી પાત્ર",
+    notEligible: "અપાત્ર",
+
+    translatorTitle: "સરકારી કાયદાકીય અનુવાદક",
+    translatorSub: "અઘરા સરકારી પરિપત્રોનું સરળ ભાષામાં ભાષાંતર.",
+    copilotTitle: "AI ફોર્મ સહાયક",
+    copilotSub: "અરજી ફોર્મ સરળતાથી ભરવા માટે AI માર્ગદર્શિકા.",
+    walletTitle: "સ્માર્ટ દસ્તાવેજ વોલેટ",
+    walletSub: "પ્રમાણપત્રોની મુદત પૂરી થતા પહેલા એલર્ટ મેળવો.",
+  }
+};
+
+/**
+ * Translator helper function
+ */
+export function t(key: string, lang: string = 'en'): string {
+  const langDict = TRANSLATIONS[lang] || TRANSLATIONS['en'];
+  if (langDict && langDict[key]) {
+    return langDict[key];
+  }
+  // Fallback to English
+  if (TRANSLATIONS['en'][key]) {
+    return TRANSLATIONS['en'][key];
+  }
+  // Return readable key name if not found
+  return key;
+}

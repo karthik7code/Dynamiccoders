@@ -1,0 +1,1761 @@
+[
+  {
+    "id": "swachh-bharat-mission-urban-2-0",
+    "title": "Swachh Bharat Mission (Urban 2.0 - Garbage Free Cities)",
+    "code": "SBM-URBAN-2-MOHUA",
+    "ministry": "Ministry of Housing and Urban Affairs (MoHUA), Govt. of India",
+    "origin": "central",
+    "category": "Utility & Sanitation",
+    "subCategory": "Sanitation & Waste Management",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers"
+    ],
+    "benefitValue": "100% Financial Grant for Constructing Community/Public Toilets, Legacy Waste Remediation & Municipal Solid Waste Processing Plants",
+    "benefitNumericMin": 12000,
+    "benefitNumericMax": 500000,
+    "description": "Aims to make all Indian cities garbage-free, ensuring 100% scientific processing of municipal solid waste, legacy dumpsite remediation, and safe sanitation.",
+    "eligibilityDescription": "All Urban Local Bodies (ULBs), Municipal Corporations, and urban citizens across India.",
+    "requiredDocs": [
+      "Municipal Swachhata Application",
+      "Aadhaar Card"
+    ],
+    "deadline": "Swachh Bharat Urban Portal (sbmurban.org)",
+    "officialWebsiteUrl": "https://sbmurban.org",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "cleaning_services"
+  },
+  {
+    "id": "jal-jeevan-mission-har-ghar-jal",
+    "title": "Jal Jeevan Mission (Har Ghar Jal - Tap Water Supply for Every Rural Home)",
+    "code": "JAL-JEEVAN-MISSION-DDWS",
+    "ministry": "Department of Drinking Water and Sanitation, Ministry of Jal Shakti",
+    "origin": "central",
+    "category": "Utility & Sanitation",
+    "subCategory": "Drinking Water & Local Utilities",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Women",
+      "Farmers"
+    ],
+    "benefitValue": "100% Free Functional Household Tap Connection (FHTC) Delivering 55 Liters Potable Drinking Water Per Person Per Day",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 20000,
+    "description": "Provides functional tap water connection to every rural household in India, eliminating the drudgery of fetching water for women and rural families.",
+    "eligibilityDescription": "All rural households, rural schools, anganwadi centers, and community halls in Indian villages.",
+    "requiredDocs": [
+      "Gram Sabha Village Water and Sanitation Committee (VWSC) Registry"
+    ],
+    "deadline": "Jal Jeevan Mission Portal (ejalshakti.gov.in)",
+    "officialWebsiteUrl": "https://ejalshakti.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "water_drop"
+  },
+  {
+    "id": "pm-surya-ghar-muft-bijli-yojana",
+    "title": "PM-Surya Ghar: Muft Bijli Yojana (Roof-top Solar Electricity Scheme)",
+    "code": "PM-SURYA-GHAR-MNRE",
+    "ministry": "Ministry of New and Renewable Energy (MNRE), Govt. of India",
+    "origin": "central",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Clean Cooking",
+    "beneficiaries": [
+      "General Citizen",
+      "Farmers",
+      "Workers"
+    ],
+    "benefitValue": "Direct Central Capital Subsidy up to ₹78,000 for 3 kW Solar Rooftop Installation + Up to 300 Units Free Electricity Monthly",
+    "benefitNumericMin": 30000,
+    "benefitNumericMax": 78000,
+    "description": "Provides direct financial subsidy to 1 Crore households to install rooftop solar panels, providing up to 300 units of free clean electricity every month.",
+    "eligibilityDescription": "Residential homeowners in India with suitable concrete/tile roof space and valid DISCOM electricity connection.",
+    "requiredDocs": [
+      "DISCOM Electricity Consumer Bill Number",
+      "Roof Ownership Document",
+      "Aadhaar Card",
+      "Bank Passbook"
+    ],
+    "deadline": "PM-Surya Ghar National Portal (pmsuryaghar.gov.in)",
+    "officialWebsiteUrl": "https://pmsuryaghar.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85
+    },
+    "isPopular": true,
+    "iconName": "solar_power"
+  },
+  {
+    "id": "pradhan-mantri-ujjwala-yojana-2-0",
+    "title": "Pradhan Mantri Ujjwala Yojana (PMUY 2.0 - Free LPG Gas Connection)",
+    "code": "PMUY-2-0-MOPNG",
+    "ministry": "Ministry of Petroleum and Natural Gas (MoPNG), Govt. of India",
+    "origin": "central",
+    "category": "Utility & Sanitation",
+    "subCategory": "Clean Cooking & Local Utilities",
+    "beneficiaries": [
+      "Women",
+      "Rural Citizens",
+      "Workers"
+    ],
+    "benefitValue": "100% Free Deposit-Free LPG Cylinder Connection + First Refill Free + Free Hotplate Gas Stove + ₹300 Monthly Refill Subsidy",
+    "benefitNumericMin": 1600,
+    "benefitNumericMax": 5000,
+    "description": "Provides deposit-free LPG connections to poor women from low-income households, protecting them from indoor air pollution caused by burning firewood and dung cakes.",
+    "eligibilityDescription": "Adult women belonging to BPL families, SECC households, SC/ST, PMAY beneficiaries, or poor rural families without existing LPG connection.",
+    "requiredDocs": [
+      "Aadhaar Card of Adult Woman",
+      "Ration Card Proof of BPL/SECC",
+      "Bank Passbook Details"
+    ],
+    "deadline": "PMUY Official Portal (pmuy.gov.in)",
+    "officialWebsiteUrl": "https://pmuy.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 80,
+      "genderConstraint": "Female"
+    },
+    "isPopular": true,
+    "iconName": "propane_tank"
+  },
+  {
+    "id": "swachh-bharat-mission-gramin-phase-2",
+    "title": "Swachh Bharat Mission (Gramin Phase II - Individual Household Latrine IHHL)",
+    "code": "SBM-GRAMIN-PHASE-2-DDWS",
+    "ministry": "Department of Drinking Water and Sanitation, Ministry of Jal Shakti",
+    "origin": "central",
+    "category": "Utility & Sanitation",
+    "subCategory": "Sanitation & Waste Management",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Women",
+      "Farmers"
+    ],
+    "benefitValue": "Direct Financial Assistance Grant of ₹12,000 for Constructing Individual Household Twin-Pit Pour Flush Toilets",
+    "benefitNumericMin": 12000,
+    "benefitNumericMax": 12000,
+    "description": "Provides cash incentive to eligible poor rural families to construct hygienic twin-pit pour-flush toilets in their homes and achieve ODF Plus village status.",
+    "eligibilityDescription": "Rural BPL households, small/marginal farmers, SC/ST, landless laborers, and women-headed rural households without existing toilets.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Ration Card Proof",
+      "Bank Account Passbook Copy",
+      "Toilet Construction Photograph"
+    ],
+    "deadline": "SBM Gramin Portal (sbm.gov.in)",
+    "officialWebsiteUrl": "https://sbm.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85
+    },
+    "isPopular": true,
+    "iconName": "wc"
+  },
+  {
+    "id": "revamped-distribution-sector-scheme-rdss-electricity",
+    "title": "Revamped Distribution Sector Scheme (RDSS Electricity Infrastructure Upgradation)",
+    "code": "RDSS-POWER-DISCOM-SCHEME",
+    "ministry": "Ministry of Power, Govt. of India",
+    "origin": "central",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Power Distribution",
+    "beneficiaries": [
+      "General Citizen",
+      "Farmers",
+      "Workers"
+    ],
+    "benefitValue": "25 Crore Prepaid Smart Electricity Meters + Subsidized High-Voltage Distribution Feeders for 24x7 Uninterrupted Rural & Urban Power",
+    "benefitNumericMin": 1000000,
+    "benefitNumericMax": 50000000,
+    "description": "Reforms state DISCOM power infrastructure by deploying prepaid smart meters and dedicated agricultural electricity feeders for uninterrupted 24x7 electricity supply.",
+    "eligibilityDescription": "State Power Distribution Companies (DISCOMs) and electricity consumers across India.",
+    "requiredDocs": [
+      "DISCOM Power Consumer ID Number"
+    ],
+    "deadline": "Ministry of Power Official Portal (powermin.gov.in)",
+    "officialWebsiteUrl": "https://powermin.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": false,
+    "iconName": "electrical_services"
+  },
+  {
+    "id": "gobardhan-scheme-galvanizing-organic-bio-agro-resources",
+    "title": "GOBARdhan Scheme (Galvanizing Organic Bio-Agro Resources Dhan - Biogas Scheme)",
+    "code": "GOBARDHAN-JAL-SHAKTI-MNRE",
+    "ministry": "Department of Drinking Water and Sanitation, Ministry of Jal Shakti",
+    "origin": "central",
+    "category": "Utility & Sanitation",
+    "subCategory": "Clean Cooking & Waste Management",
+    "beneficiaries": [
+      "Farmers",
+      "Rural Citizens",
+      "Entrepreneurs"
+    ],
+    "benefitValue": "Capital Grant up to ₹50 Lakh per District for Setting up Community Biogas & Compressed Bio-Gas (CBG) Plants from Cattle Dung & Bio-Waste",
+    "benefitNumericMin": 500000,
+    "benefitNumericMax": 5000000,
+    "description": "Converts cattle dung, agricultural waste, and organic bio-waste into clean bio-gas for cooking and organic bio-fertilizers for soil enrichment.",
+    "eligibilityDescription": "Gram Panchayats, Dairy Farmer Cooperatives, SHGs, and Rural Entrepreneurs across India.",
+    "requiredDocs": [
+      "Gram Panchayat Bio-Gas Project DPR",
+      "Cooperative Registration Document"
+    ],
+    "deadline": "GOBARdhan Unified Portal (gobardhan.co.in)",
+    "officialWebsiteUrl": "https://gobardhan.co.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 70
+    },
+    "isPopular": true,
+    "iconName": "compost"
+  },
+  {
+    "id": "national-water-mission-catch-the-rain",
+    "title": "National Water Mission - Catch the Rain Campaign (Rainwater Harvesting)",
+    "code": "CATCH-THE-RAIN-NWM-JAL-SHAKTI",
+    "ministry": "National Water Mission, Ministry of Jal Shakti",
+    "origin": "central",
+    "category": "Utility & Sanitation",
+    "subCategory": "Drinking Water & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Farmers",
+      "Students"
+    ],
+    "benefitValue": "Technical & Financial Assistance for Constructing Rainwater Harvesting Structures, Check Dams & Aquifer Recharge Wells",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 500000,
+    "description": "Promotes nationwide rainwater harvesting structures (\"Catch the rain, where it falls, when it falls\") in residential buildings, schools, and agricultural fields.",
+    "eligibilityDescription": "Individual house owners, Gram Panchayats, schools, colleges, and industrial establishments across India.",
+    "requiredDocs": [
+      "Rainwater Harvesting Geo-Tagged Photo Upload"
+    ],
+    "deadline": "Jal Shakti Abhiyan Portal (jsatr-nwm.da.gov.in)",
+    "officialWebsiteUrl": "https://catchtherain.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "water"
+  },
+  {
+    "id": "namaste-scheme-dignity-for-sanitation-workers",
+    "title": "NAMASTE Scheme (National Action for Mechanised Sanitation Ecosystem)",
+    "code": "NAMASTE-SANITATION-MOSJE-MOHUA",
+    "ministry": "MoSJE & MoHUA, Govt. of India",
+    "origin": "central",
+    "category": "Utility & Sanitation",
+    "subCategory": "Sanitation & Waste Management",
+    "beneficiaries": [
+      "Workers",
+      "General Citizen"
+    ],
+    "benefitValue": "100% Capital Subsidy up to ₹5.0 Lakh for Sewage Cleaning Machines/Robots + Free Health Insurance Cover under AB-PMJAY",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 500000,
+    "description": "Eliminates hazardous manual cleaning of sewers and septic tanks, replacing it with mechanized cleaning machines and providing health insurance to sanitation workers.",
+    "eligibilityDescription": "Sewerage/septic tank sanitation workers and emergency response sanitation units in municipalities.",
+    "requiredDocs": [
+      "Sanitation Worker Identification Card",
+      "Aadhaar Card",
+      "Bank Passbook Details"
+    ],
+    "deadline": "NAMASTE Portal (namaste.dosje.gov.in)",
+    "officialWebsiteUrl": "https://namaste.dosje.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 60
+    },
+    "isPopular": true,
+    "iconName": "engineering"
+  },
+  {
+    "id": "ujala-scheme-led-bulb-distribution",
+    "title": "UJALA Scheme (Unnat Jyoti by Affordable LEDs for All - Power Efficiency)",
+    "code": "UJALA-EESL-POWER-MINISTRY",
+    "ministry": "Energy Efficiency Services Limited (EESL), Ministry of Power",
+    "origin": "central",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers"
+    ],
+    "benefitValue": "Subsidized High-Efficiency LED Bulbs (₹70), Energy Efficient Tube Lights (₹220) & 5-Star BEE Ceiling Fans (₹1,200)",
+    "benefitNumericMin": 70,
+    "benefitNumericMax": 1200,
+    "description": "Distributes highly subsidized energy-efficient LED lighting and 5-star BEE ceiling fans to drastically reduce household electricity bills.",
+    "eligibilityDescription": "All residential electricity bill paying consumers across India.",
+    "requiredDocs": [
+      "Copy of Recent Electricity Bill",
+      "Identity Proof (Aadhaar Card)"
+    ],
+    "deadline": "EESL UJALA Official Portal (ujala.eeslindia.org)",
+    "officialWebsiteUrl": "https://ujala.eeslindia.org",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85
+    },
+    "isPopular": true,
+    "iconName": "lightbulb"
+  },
+  {
+    "id": "up-free-electricity-farmers-tubewell-scheme",
+    "title": "UP Mukhyamantri Muft Bijli Yojana (100% Electricity Bill Waiver for Private Farmers Tubewells)",
+    "code": "UP-MUFT-BIJLI-FARMERS-TUBEWELL",
+    "ministry": "Department of Energy / UPPCL, Govt. of Uttar Pradesh",
+    "origin": "state",
+    "stateName": "Uttar Pradesh",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Irrigation Utility",
+    "beneficiaries": [
+      "Farmers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Complete Electricity Bill Waiver for Private Agricultural Tubewells & Free Smart Electricity Metering",
+    "benefitNumericMin": 12000,
+    "benefitNumericMax": 60000,
+    "description": "Waives 100% electricity bills for 14+ lakh private agricultural tubewell pump connections across Uttar Pradesh, providing completely free irrigation power.",
+    "eligibilityDescription": "Farmers in Uttar Pradesh having private agricultural tubewell electric connections registered with UPPCL.",
+    "requiredDocs": [
+      "UPPCL Agricultural Consumer Account Number",
+      "Aadhaar Card",
+      "Khasra/Khatauni Land Record"
+    ],
+    "deadline": "UPPCL Official Portal (uppcl.org)",
+    "officialWebsiteUrl": "https://uppcl.org",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "requiresFarmer": true,
+      "statesAllowed": [
+        "Uttar Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "bolt"
+  },
+  {
+    "id": "up-jal-nigam-urban-sewerage-connection-grant",
+    "title": "UP Har Ghar Nal Se Jal Urban & Sewerage Connection Scheme",
+    "code": "UP-JAL-NIGAM-SEWER-CONNECTION",
+    "ministry": "Department of Urban Development / UP Jal Nigam",
+    "origin": "state",
+    "stateName": "Uttar Pradesh",
+    "category": "Utility & Sanitation",
+    "subCategory": "Drinking Water & Sanitation",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers"
+    ],
+    "benefitValue": "Free Household Drinking Water Tap Connection + Subsidized Household Sewer Line Connection in Municipalities",
+    "benefitNumericMin": 3000,
+    "benefitNumericMax": 15000,
+    "description": "Connects urban households in UP cities directly to clean treated municipal water supply and underground sewer network.",
+    "eligibilityDescription": "Urban property owners in Municipal Corporations across Uttar Pradesh.",
+    "requiredDocs": [
+      "Municipal House Tax Receipt / Property ID",
+      "Aadhaar Card"
+    ],
+    "deadline": "UP Jal Nigam Portal (upjn.org)",
+    "officialWebsiteUrl": "https://upjn.org",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Uttar Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "water_drop"
+  },
+  {
+    "id": "mh-solarkrishi-vahi20-free-solar-pump-electricity",
+    "title": "Maharashtra Magel Tyala Solar Krishi Pump Scheme (100% Subsidized Solar Tubewell)",
+    "code": "MH-SOLAR-KRISHI-PUMP-MAHADISCOM",
+    "ministry": "Department of Energy / MSEDCL, Govt. of Maharashtra",
+    "origin": "state",
+    "stateName": "Maharashtra",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Clean Energy",
+    "beneficiaries": [
+      "Farmers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "90% to 95% State Subsidized Off-Grid Solar Agriculture Water Pumps (3 HP, 5 HP & 7.5 HP) for Day-time Free Irrigation",
+    "benefitNumericMin": 150000,
+    "benefitNumericMax": 350000,
+    "description": "Provides off-grid solar agriculture pumps to farmers in Maharashtra, enabling 100% free daytime irrigation without relying on night grid power.",
+    "eligibilityDescription": "Farmers in Maharashtra with farmland water sources (well/borewell) lacking conventional electric connection.",
+    "requiredDocs": [
+      "7/12 land extract copy",
+      "Aadhaar Card",
+      "Caste Certificate (if SC/ST for 95% subsidy)"
+    ],
+    "deadline": "MSEDCL Solar Agriculture Portal (meda.maharashtra.gov.in)",
+    "officialWebsiteUrl": "https://mahadiscom.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "requiresFarmer": true,
+      "statesAllowed": [
+        "Maharashtra"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "solar_power"
+  },
+  {
+    "id": "tn-free-electricity-200-units-handloom-weavers",
+    "title": "TN 100 Units Free Household Power & 200 Units Free Power for Handloom Weavers",
+    "code": "TN-TANGEDCO-FREE-ELECTRICITY",
+    "ministry": "Energy Department / TANGEDCO, Govt. of Tamil Nadu",
+    "origin": "state",
+    "stateName": "Tamil Nadu",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Farmers"
+    ],
+    "benefitValue": "100% Free Electricity for First 100 Units for All Domestic Consumers + 200 Free Units for Handloom & 1,000 Units for Powerlooms",
+    "benefitNumericMin": 3000,
+    "benefitNumericMax": 18000,
+    "description": "Provides 100 units of free electricity every bimonthly cycle to every domestic household and specialized free power quotas for weavers and farmers.",
+    "eligibilityDescription": "Domestic domestic electricity service connection owners and registered weaver artisans in Tamil Nadu.",
+    "requiredDocs": [
+      "TANGEDCO Consumer Number",
+      "Aadhaar Card"
+    ],
+    "deadline": "TANGEDCO Official Portal (tangedco.gov.in)",
+    "officialWebsiteUrl": "https://tangedco.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Tamil Nadu"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "bolt"
+  },
+  {
+    "id": "ka-gruha-jyothi-free-electricity-scheme",
+    "title": "Karnataka Gruha Jyothi Scheme (Up to 200 Units Free Monthly Electricity)",
+    "code": "KA-GRUHA-JYOTHI-ENERGY",
+    "ministry": "Energy Department / BESCOM, Govt. of Karnataka",
+    "origin": "state",
+    "stateName": "Karnataka",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Complete Electricity Bill Waiver for Up to 200 Units of Monthly Electricity Consumption per Household",
+    "benefitNumericMin": 6000,
+    "benefitNumericMax": 24000,
+    "description": "Guarantees up to 200 units of free electricity per month for every domestic household in Karnataka, drastically reducing family utility bills.",
+    "eligibilityDescription": "Residential electricity connection holders and tenant families living in Karnataka.",
+    "requiredDocs": [
+      "BESCOM / DISCOM Electricity Meter Account ID",
+      "Aadhaar Card",
+      "Rental Agreement / Voter ID"
+    ],
+    "deadline": "Seva Sindhu Portal Karnataka (sevasindhugs.karnataka.gov.in)",
+    "officialWebsiteUrl": "https://sevasindhugs.karnataka.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Karnataka"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "lightbulb"
+  },
+  {
+    "id": "ts-gruha-jyothi-200-units-free-power-scheme",
+    "title": "Telangana Gruha Jyothi Scheme (200 Units Free Electricity for BPL Homes)",
+    "code": "TS-GRUHA-JYOTHI-FREE-POWER",
+    "ministry": "Energy Department / TSSPDCL / TSNPDCL, Govt. of Telangana",
+    "origin": "state",
+    "stateName": "Telangana",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Rural Citizens",
+      "Workers"
+    ],
+    "benefitValue": "100% Zero Electricity Bill for Families Consuming Up to 200 Units per Month",
+    "benefitNumericMin": 6000,
+    "benefitNumericMax": 20000,
+    "description": "Waives 100% power bills for poor and middle-class households consuming less than 200 units of electricity per month across Telangana.",
+    "eligibilityDescription": "Telangana households holding Food Security Smart Card (Ration Card) with monthly power consumption under 200 units.",
+    "requiredDocs": [
+      "Telangana Food Security Ration Card",
+      "TSSPDCL Consumer USC Number",
+      "Aadhaar Card"
+    ],
+    "deadline": "Praja Palana Portal Telangana (prajapalana.telangana.gov.in)",
+    "officialWebsiteUrl": "https://prajapalana.telangana.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Telangana"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "electrical_services"
+  },
+  {
+    "id": "ap-ysr-free-borewell-and-9-hour-daytime-power",
+    "title": "AP YSR Free Borewell Scheme & 9-Hour Daytime Free Agriculture Power",
+    "code": "AP-YSR-FREE-BOREWELL-SCHEME",
+    "ministry": "Panchayat Raj & Rural Development / APTRANSCO",
+    "origin": "state",
+    "stateName": "Andhra Pradesh",
+    "category": "Utility & Sanitation",
+    "subCategory": "Drinking Water & Agriculture Utility",
+    "beneficiaries": [
+      "Farmers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Free Drilling of Borewells for Farmers + Free Hydrogeological Survey + 9 Hours Uninterrupted Daytime Free Electricity",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 150000,
+    "description": "Drills 100% free irrigation borewells on small and marginal farmlands and provides 9 hours of free daytime electricity for tubewell pumping.",
+    "eligibilityDescription": "Small and marginal farmers in Andhra Pradesh owning contiguous farmland without existing borewell water supply.",
+    "requiredDocs": [
+      "Pattadar Passbook / Land Adangal Copy",
+      "AP Rice Card",
+      "Aadhaar Card"
+    ],
+    "deadline": "Spandana Portal AP (spandana.ap.gov.in)",
+    "officialWebsiteUrl": "https://spandana.ap.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "requiresFarmer": true,
+      "statesAllowed": [
+        "Andhra Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "water"
+  },
+  {
+    "id": "wb-hasir-aloke-free-electricity-scheme",
+    "title": "WB Hasir Aloke Scheme (100% Free Electricity Up to 75 Units Monthly)",
+    "code": "WB-HASIR-ALOKE-FREE-POWER",
+    "ministry": "Department of Power / WBSEDCL, Govt. of West Bengal",
+    "origin": "state",
+    "stateName": "West Bengal",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Rural Citizens",
+      "Workers"
+    ],
+    "benefitValue": "100% Complete Electricity Bill Waiver for Domestic Consumers Consuming Up to 75 Units Quarterly / Monthly",
+    "benefitNumericMin": 2000,
+    "benefitNumericMax": 8000,
+    "description": "Provides completely free electricity to over 46 lakh ultra-poor lifelines household consumers in West Bengal.",
+    "eligibilityDescription": "Lifeline category domestic electricity consumers registered with WBSEDCL.",
+    "requiredDocs": [
+      "WBSEDCL Electricity Consumer ID",
+      "Aadhaar Card"
+    ],
+    "deadline": "WBSEDCL Portal (wbsedcl.in)",
+    "officialWebsiteUrl": "https://wbsedcl.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "West Bengal"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "bolt"
+  },
+  {
+    "id": "gj-surya-gujarat-rooftop-solar-policy",
+    "title": "Surya Gujarat Rooftop Solar Subsidy Scheme (40% State Capital Subsidy)",
+    "code": "GJ-SURYA-GUJARAT-SOLAR",
+    "ministry": "Energy and Petrochemicals Department / GUVNL, Govt. of Gujarat",
+    "origin": "state",
+    "stateName": "Gujarat",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Clean Energy",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Farmers"
+    ],
+    "benefitValue": "40% Subsidy for Up to 3 kW Solar Capacity & 20% Subsidy for 3 kW to 10 kW Capacity + Selling Excess Solar Power Back to DISCOM",
+    "benefitNumericMin": 20000,
+    "benefitNumericMax": 70000,
+    "description": "Gujarat leads India in rooftop solar, providing 40% capital subsidy to residential house owners to install solar power systems.",
+    "eligibilityDescription": "Residential property owners in Gujarat with DISCOM power meter.",
+    "requiredDocs": [
+      "Electricity Bill Copy",
+      "Building Ownership Proof",
+      "Aadhaar Card"
+    ],
+    "deadline": "Surya Gujarat Portal (suryagujarat.guvnl.in)",
+    "officialWebsiteUrl": "https://suryagujarat.guvnl.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Gujarat"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "solar_power"
+  },
+  {
+    "id": "rj-mukhyamantri-nishulk-bijli-yojana-100-units",
+    "title": "Rajasthan Mukhyamantri Nishulk Bijli Yojana (100 Units Free Power for Domestic Homes)",
+    "code": "RJ-NISHULK-BIJLI-YOJANA",
+    "ministry": "Energy Department / Rajasthan DISCOMs (JVVNL/AVVNL/JdVVNL)",
+    "origin": "state",
+    "stateName": "Rajasthan",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Rural Citizens",
+      "Workers"
+    ],
+    "benefitValue": "100% Free Electricity for First 100 Units Monthly + Free Power up to 2,000 Units for Farmers",
+    "benefitNumericMin": 4000,
+    "benefitNumericMax": 24000,
+    "description": "Waives electricity bills completely for domestic consumers using up to 100 units of electricity and gives 2,000 free units monthly to farmers.",
+    "eligibilityDescription": "Rajasthan resident households registered on Jan Aadhaar Card and linked DISCOM meters.",
+    "requiredDocs": [
+      "Rajasthan Jan Aadhaar Card",
+      "DISCOM K-Number Electricity Bill"
+    ],
+    "deadline": "Mehngai Rahat Camp Portal / Energy Dept Rajasthan",
+    "officialWebsiteUrl": "https://energy.rajasthan.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Rajasthan"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "lightbulb"
+  },
+  {
+    "id": "kl-suprabha-and-jal-samridhi-drinking-water-scheme",
+    "title": "Kerala KWA \"Jal Samridhi\" Drinking Water Connection & Solar Suprabha Scheme",
+    "code": "KL-KWA-JAL-SAMRIDHI-WATER",
+    "ministry": "Water Resources Dept / Kerala Water Authority (KWA)",
+    "origin": "state",
+    "stateName": "Kerala",
+    "category": "Utility & Sanitation",
+    "subCategory": "Drinking Water & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Women",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Free Domestic Water Meter Installation & 100% Subsidized Drinking Water Connection for BPL Families",
+    "benefitNumericMin": 3000,
+    "benefitNumericMax": 12000,
+    "description": "Provides free Kerala Water Authority pipe tap water connection and subsidized water meters to low-income families in Kerala.",
+    "eligibilityDescription": "BPL families and low-income households in Kerala.",
+    "requiredDocs": [
+      "Kerala BPL Ration Card",
+      "Aadhaar Card"
+    ],
+    "deadline": "KWA Portal (kwa.kerala.gov.in)",
+    "officialWebsiteUrl": "https://kwa.kerala.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Kerala"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "water_drop"
+  },
+  {
+    "id": "pb-200-units-free-power-and-mandi-water-scheme",
+    "title": "Punjab 300 Units Free Electricity Scheme (600 Units Bimonthly Free Power)",
+    "code": "PB-PSPCL-300-UNITS-FREE-POWER",
+    "ministry": "Department of Power / PSPCL, Govt. of Punjab",
+    "origin": "state",
+    "stateName": "Punjab",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Farmers",
+      "Workers"
+    ],
+    "benefitValue": "100% Complete Electricity Bill Waiver for Up to 300 Units per Month (600 Units Bimonthly)",
+    "benefitNumericMin": 12000,
+    "benefitNumericMax": 36000,
+    "description": "Punjab’s flagship utility scheme giving 300 units of free electricity every month to over 90% of domestic households in Punjab.",
+    "eligibilityDescription": "Domestic domestic electricity service connection owners in Punjab with monthly consumption up to 300 units.",
+    "requiredDocs": [
+      "PSPCL Electricity Account Number (10 Digit)",
+      "Aadhaar Card"
+    ],
+    "deadline": "PSPCL Official Portal (pspcl.in)",
+    "officialWebsiteUrl": "https://pspcl.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Punjab"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "bolt"
+  },
+  {
+    "id": "hr-zero-bill-electricity-and-canal-water-scheme",
+    "title": "Haryana PM-Surya Ghar Additional State Subsidy & Free Rural Canal Water Scheme",
+    "code": "HR-SOLAR-ADDITIONAL-STATE-SUBSIDY",
+    "ministry": "Department of Renewable Energy (HAREDA) / UHBVN / DHBVN",
+    "origin": "state",
+    "stateName": "Haryana",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Clean Energy",
+    "beneficiaries": [
+      "General Citizen",
+      "Farmers"
+    ],
+    "benefitValue": "Top-Up State Capital Subsidy up to ₹50,000 over Central PM Surya Ghar Subsidy for Poor Households (Total ₹1.10 Lakh Grant)",
+    "benefitNumericMin": 30000,
+    "benefitNumericMax": 110000,
+    "description": "Provides top-up state cash subsidy to poor Haryana families (income under ₹1.8 Lakh) to install rooftop solar panels for zero electricity bills.",
+    "eligibilityDescription": "Haryana residents registered under Parivar Pehchan Patra (PPP) with annual income up to ₹1.80 Lakh.",
+    "requiredDocs": [
+      "Haryana Family ID (PPP)",
+      "UHBVN/DHBVN Electricity Consumer ID"
+    ],
+    "deadline": "HAREDA Portal (hareda.gov.in)",
+    "officialWebsiteUrl": "https://hareda.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "maxAnnualIncome": 180000,
+      "statesAllowed": [
+        "Haryana"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "solar_power"
+  },
+  {
+    "id": "mp-indira-griha-jyoti-yojana-100-rupee-bill",
+    "title": "MP Indira Griha Jyoti Yojana (100 Units Power for Just ₹100 Monthly)",
+    "code": "MP-INDIRA-GRIHA-JYOTI",
+    "ministry": "Energy Department / MP DISCOMs (MPEZ/MPWZ/MPCZ)",
+    "origin": "state",
+    "stateName": "Madhya Pradesh",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Flat Concessional Electricity Bill of Just ₹100 for Up to 100 Units of Monthly Domestic Consumption",
+    "benefitNumericMin": 3000,
+    "benefitNumericMax": 12000,
+    "description": "Subsidizes monthly electricity bills for poor and middle-class households in MP, capping 100 units of electricity at just ₹100 total bill.",
+    "eligibilityDescription": "Domestic electricity consumers in MP consuming up to 100 units per month.",
+    "requiredDocs": [
+      "MP Samagra ID",
+      "DISCOM Service IVRS Account ID"
+    ],
+    "deadline": "MP Energy Dept Portal (energy.mp.gov.in)",
+    "officialWebsiteUrl": "https://energy.mp.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Madhya Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "lightbulb"
+  },
+  {
+    "id": "br-mukhyamantri-har-ghar-nal-ka-jal-yojana",
+    "title": "Bihar Mukhyamantri Har Ghar Nal Ka Jal Scheme (Clean Tap Water Supply)",
+    "code": "BR-HAR-GHAR-NAL-KA-JAL",
+    "ministry": "Panchayati Raj Dept & PHED, Govt. of Bihar",
+    "origin": "state",
+    "stateName": "Bihar",
+    "category": "Utility & Sanitation",
+    "subCategory": "Drinking Water & Local Utilities",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Women",
+      "Children"
+    ],
+    "benefitValue": "100% Free Piped Drinking Water Tap Connection in 1.15 Crore Rural Bihar Households",
+    "benefitNumericMin": 5000,
+    "benefitNumericMax": 15000,
+    "description": "Part of Bihar’s \"Saat Nischay\" program, supplying treated safe drinking tap water directly inside every rural ward home across Bihar.",
+    "eligibilityDescription": "Rural families in Gram Panchayats across Bihar without treated piped tap water.",
+    "requiredDocs": [
+      "Ward Member Verification / Aadhaar Card"
+    ],
+    "deadline": "PHED Bihar Portal (phed.bihar.gov.in)",
+    "officialWebsiteUrl": "https://phed.bihar.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Bihar"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "water_drop"
+  },
+  {
+    "id": "delhi-free-water-20000-liters-and-sewer-clean",
+    "title": "Delhi Free Water Scheme (20,000 Liters Free Monthly Water & Sewer Charge Waiver)",
+    "code": "DELHI-DJB-20000-LITERS-FREE-WATER",
+    "ministry": "Delhi Jal Board (DJB), Govt. of NCT of Delhi",
+    "origin": "state",
+    "stateName": "Delhi",
+    "category": "Utility & Sanitation",
+    "subCategory": "Drinking Water & Sanitation",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers"
+    ],
+    "benefitValue": "100% Free Water Supply for Up to 20,000 Liters per Month per Household + 100% Waiver of Sewer Maintenance Charges",
+    "benefitNumericMin": 3000,
+    "benefitNumericMax": 15000,
+    "description": "Provides 20,000 liters of clean drinking water completely free every month to every metered household in Delhi.",
+    "eligibilityDescription": "Delhi residents with functional working DJB domestic water meters.",
+    "requiredDocs": [
+      "DJB Water Meter Account Number (K-No)",
+      "Aadhaar Card"
+    ],
+    "deadline": "Delhi Jal Board Official Portal (delhijalboard.delhi.gov.in)",
+    "officialWebsiteUrl": "https://delhijalboard.delhi.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Delhi"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "water_drop"
+  },
+  {
+    "id": "cg-half-bijli-bill-yojana-chhattisgarh",
+    "title": "Chhattisgarh Half Bijli Bill Scheme (50% Electricity Bill Discount)",
+    "code": "CG-HALF-BIJLI-BILL-YOJANA",
+    "ministry": "Energy Department / CSPDCL, Govt. of Chhattisgarh",
+    "origin": "state",
+    "stateName": "Chhattisgarh",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Direct 50% Subsidy Discount on Monthly Electricity Bills for Domestic Consumption Up to 400 Units",
+    "benefitNumericMin": 3000,
+    "benefitNumericMax": 15000,
+    "description": "Provides 50% discount on electricity consumption charges for domestic consumers in Chhattisgarh using up to 400 units monthly.",
+    "eligibilityDescription": "Domestic domestic electricity consumers in Chhattisgarh consuming up to 400 units per month.",
+    "requiredDocs": [
+      "CSPDCL BP Electricity Meter ID Number",
+      "Aadhaar Card"
+    ],
+    "deadline": "CSPDCL Official Portal (cspdcl.co.in)",
+    "officialWebsiteUrl": "https://cspdcl.co.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Chhattisgarh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "bolt"
+  },
+  {
+    "id": "national-clean-air-programme-ncap-utility",
+    "title": "National Clean Air Programme (NCAP Urban Air Quality & Dust Control Grant)",
+    "code": "NCAP-MOEFCC-AIR-QUALITY",
+    "ministry": "Ministry of Environment, Forest and Climate Change (MoEFCC)",
+    "origin": "central",
+    "category": "Utility & Sanitation",
+    "subCategory": "Waste Management & Environment",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers"
+    ],
+    "benefitValue": "100% Central Performance-Based Grants for Mechanical Road Sweepers, Anti-Smog Guns & EV Waste Compactors",
+    "benefitNumericMin": 5000000,
+    "benefitNumericMax": 100000000,
+    "description": "Provides municipal grants to 131 non-attainment cities to reduce particulate matter (PM2.5 and PM10) concentrations by 20% to 40%.",
+    "eligibilityDescription": "Municipal corporations and pollution control boards across 131 non-attainment cities in India.",
+    "requiredDocs": [
+      "NCAP City Air Action Plan Approval"
+    ],
+    "deadline": "PRANA Portal MoEFCC (prana.cpcb.gov.in)",
+    "officialWebsiteUrl": "https://prana.cpcb.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 75
+    },
+    "isPopular": true,
+    "iconName": "air"
+  },
+  {
+    "id": "swachh-bharat-mission-urban-2-0-garbage-free-cities",
+    "title": "Swachh Bharat Mission Urban 2.0 (Garbage-Free Cities & Material Recovery Facilities)",
+    "code": "SBM-URBAN-2-0-MOHUA",
+    "ministry": "Ministry of Housing and Urban Affairs (MoHUA)",
+    "origin": "central",
+    "category": "Utility & Sanitation",
+    "subCategory": "Sanitation & Waste Management",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers"
+    ],
+    "benefitValue": "Central Financial Subsidy for Setting Up Waste-to-Energy Plants, Legacy Landfill Bioremediation & Public Smart Toilets",
+    "benefitNumericMin": 1000000,
+    "benefitNumericMax": 50000000,
+    "description": "Achieves 100% door-to-door waste collection, source segregation, legacy dump site remediation, and 100% wastewater treatment in urban India.",
+    "eligibilityDescription": "Urban local bodies, sanitation worker cooperatives, and waste processing entrepreneurs.",
+    "requiredDocs": [
+      "SBM Urban 2.0 City Sanitation Plan"
+    ],
+    "deadline": "SBM Urban Portal (sbmurban.org)",
+    "officialWebsiteUrl": "https://sbmurban.org",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 75
+    },
+    "isPopular": true,
+    "iconName": "cleaning_services"
+  },
+  {
+    "id": "namami-gange-programme-sewage-treatment-plants-stp",
+    "title": "Namami Gange Programme (National Mission for Clean Ganga & Sewage Treatment)",
+    "code": "NAMAMI-GANGE-STP-CLEAN-RIVER",
+    "ministry": "National Mission for Clean Ganga (NMCG), Ministry of Jal Shakti",
+    "origin": "central",
+    "category": "Utility & Sanitation",
+    "subCategory": "Drinking Water & Waste Management",
+    "beneficiaries": [
+      "General Citizen",
+      "Rural Citizens",
+      "Farmers"
+    ],
+    "benefitValue": "100% Central Funding for Construction of Modern Hybrid Annuity Model Sewage Treatment Plants (STPs) & Riverfront Ghats",
+    "benefitNumericMin": 10000000,
+    "benefitNumericMax": 500000000,
+    "description": "Comprehensive river rejuvenation program preventing industrial effluent and untreated municipal sewage from entering River Ganga.",
+    "eligibilityDescription": "Municipalities and riverbank villages along Ganga basin states (UK, UP, Bihar, JH, WB).",
+    "requiredDocs": [
+      "NMCG Sewage Infrastructure Charter"
+    ],
+    "deadline": "NMCG Official Portal (nmcg.nic.in)",
+    "officialWebsiteUrl": "https://nmcg.nic.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": true,
+    "iconName": "water"
+  },
+  {
+    "id": "pradhan-mantri-surya-ghar-muft-bijli-yojana-300-units",
+    "title": "PM Surya Ghar: Muft Bijli Yojana (Up to 300 Units Free Electricity & ₹78,000 Solar Grant)",
+    "code": "PM-SURYA-GHAR-MUFT-BIJLI",
+    "ministry": "Ministry of New and Renewable Energy (MNRE), Govt. of India",
+    "origin": "central",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Renewable Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "Direct Financial Subsidy up to ₹78,000 for 3kW Rooftop Solar Installation + Up to 300 Units of Free Green Power per Month",
+    "benefitNumericMin": 30000,
+    "benefitNumericMax": 78000,
+    "description": "Provides ₹30,000 to ₹78,000 direct bank subsidy for installing rooftop solar panels on 1 crore homes across India, making power zero-cost.",
+    "eligibilityDescription": "Residential households in India with electricity connection and suitable roof space for solar panels.",
+    "requiredDocs": [
+      "Electricity DISCOM Consumer Account ID",
+      "Rooftop Photo",
+      "Aadhaar Card",
+      "Bank Passbook"
+    ],
+    "deadline": "PM Surya Ghar National Portal (pmsuryaghar.gov.in)",
+    "officialWebsiteUrl": "https://pmsuryaghar.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85
+    },
+    "isPopular": true,
+    "iconName": "solar_power"
+  },
+  {
+    "id": "atal-bhujal-yojana-groundwater-management",
+    "title": "Atal Bhujal Yojana (Atal Jal Groundwater Conservation in Water-Stressed Blocks)",
+    "code": "ATAL-BHUJAL-YOJANA-JAL",
+    "ministry": "Department of Water Resources, Ministry of Jal Shakti",
+    "origin": "central",
+    "category": "Utility & Sanitation",
+    "subCategory": "Drinking Water & Local Utilities",
+    "beneficiaries": [
+      "Farmers",
+      "Rural Citizens",
+      "Women"
+    ],
+    "benefitValue": "100% World Bank & Central Govt Grants for Rainwater Harvesting Structures, Artificial Recharge Shafts & Water Meters",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 1000000,
+    "description": "Community-led groundwater management scheme implemented in 8,220 water-stressed Gram Panchayats across 7 states.",
+    "eligibilityDescription": "Gram Panchayats and Water User Associations in GJ, HR, KA, MP, MH, RJ, and UP.",
+    "requiredDocs": [
+      "Gram Panchayat Water Security Plan (WSP)"
+    ],
+    "deadline": "Atal Bhujal Portal (ataljal.mowr.gov.in)",
+    "officialWebsiteUrl": "https://ataljal.mowr.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "isPopular": false,
+    "iconName": "water_drop"
+  },
+  {
+    "id": "ka-gruha-jyothi-scheme-200-units-free-electricity",
+    "title": "Karnataka Gruha Jyothi Scheme (Up to 200 Units 100% Free Electricity)",
+    "code": "KA-GRUHA-JYOTHI-200-UNITS",
+    "ministry": "Energy Department / BESCOM, MESCOM, HESCOM, GESCOM, CESC Karnataka",
+    "origin": "state",
+    "stateName": "Karnataka",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Zero Electricity Charges on Monthly Consumption Up to 200 Units for All Domestic Consumers",
+    "benefitNumericMin": 6000,
+    "benefitNumericMax": 24000,
+    "description": "Provides up to 200 units of domestic electricity completely free of cost every month to all residential households in Karnataka.",
+    "eligibilityDescription": "Domestic households domiciled in Karnataka with monthly average consumption below 200 units.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Karnataka Electricity Connection Account ID (Account ID on Bill)"
+    ],
+    "deadline": "Seva Sindhu Portal Karnataka (sevasindhuservices.karnataka.gov.in)",
+    "officialWebsiteUrl": "https://energy.karnataka.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Karnataka"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "lightbulb"
+  },
+  {
+    "id": "ts-gruha-jyothi-scheme-200-units-free-power",
+    "title": "Telangana Gruha Jyothi Scheme (200 Units 100% Free Power for Poor Families)",
+    "code": "TS-GRUHA-JYOTHI-FREE-POWER",
+    "ministry": "Energy Department & TGSPDCL / TGNPDCL, Govt. of Telangana",
+    "origin": "state",
+    "stateName": "Telangana",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Zero Power Bill for Low-Income Households Consuming Up to 200 Units Monthly",
+    "benefitNumericMin": 6000,
+    "benefitNumericMax": 24000,
+    "description": "Waives 100% electricity charges for BPL households in Telangana consuming under 200 units per month.",
+    "eligibilityDescription": "Low-income households in Telangana with Food Security Card (Ration Card) and monthly usage under 200 units.",
+    "requiredDocs": [
+      "Telangana Food Security Ration Card",
+      "Electricity USC Number / Aadhaar Card"
+    ],
+    "deadline": "Praja Palana Portal Telangana",
+    "officialWebsiteUrl": "https://tgspdcl.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Telangana"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "lightbulb"
+  },
+  {
+    "id": "tn-100-units-free-electricity-scheme-tangedco",
+    "title": "Tamil Nadu TANGEDCO 100 Units Free Power & Handloom Free Power Scheme",
+    "code": "TN-TANGEDCO-100-UNITS-FREE",
+    "ministry": "Energy Department & TANGEDCO, Govt. of Tamil Nadu",
+    "origin": "state",
+    "stateName": "Tamil Nadu",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Farmers",
+      "Workers"
+    ],
+    "benefitValue": "100 Units 100% Free Domestic Power + 200 Units Free Power for Handloom Weavers + 100% Free Power for Agricultural Pumpsets",
+    "benefitNumericMin": 4000,
+    "benefitNumericMax": 20000,
+    "description": "Provides 100 units free power bimonthly to all 2.3 crore domestic consumers and 100% free power to all registered farmers in Tamil Nadu.",
+    "eligibilityDescription": "Domestic power consumers and registered farmers in Tamil Nadu.",
+    "requiredDocs": [
+      "TANGEDCO Service Connection Number",
+      "Aadhaar Card"
+    ],
+    "deadline": "TANGEDCO Official Portal (tangedco.gov.in)",
+    "officialWebsiteUrl": "https://tangedco.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Tamil Nadu"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "bolt"
+  },
+  {
+    "id": "up-mukhya-mantri-nagar-roos-ev-waste-management",
+    "title": "UP Safe Drinking Water Mission & Single-Use Plastic Elimination Scheme",
+    "code": "UP-SAFE-WATER-PLASTIC-FREE",
+    "ministry": "Urban Development & Jal Nigam, Govt. of Uttar Pradesh",
+    "origin": "state",
+    "stateName": "Uttar Pradesh",
+    "category": "Utility & Sanitation",
+    "subCategory": "Sanitation & Waste Management",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers"
+    ],
+    "benefitValue": "100% Piped Underground Sewer Connections + Free Solid Waste Segregation Dustbins for Households",
+    "benefitNumericMin": 2000,
+    "benefitNumericMax": 10000,
+    "description": "Expands underground sewer networks and door-to-door organic waste collection across 75 districts of UP.",
+    "eligibilityDescription": "Urban and peri-urban households in Uttar Pradesh.",
+    "requiredDocs": [
+      "UP Municipal Property Tax Bill / Ration Card"
+    ],
+    "deadline": "UP Urban Local Bodies Portal",
+    "officialWebsiteUrl": "https://urbandevelopment.up.nic.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Uttar Pradesh"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "cleaning_services"
+  },
+  {
+    "id": "rj-mukhyamantri-ni-shulk-annapurna-food-packet-utility",
+    "title": "Rajasthan Indira Rasoi & Mukhyamantri Free Electricity Scheme (100 Units)",
+    "code": "RJ-FREE-ELECTRICITY-100-UNITS",
+    "ministry": "Energy Department & DISCOMs, Govt. of Rajasthan",
+    "origin": "state",
+    "stateName": "Rajasthan",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Zero Power Bill for First 100 Units Monthly + Fixed Charge & Fuel Surcharge Waivers",
+    "benefitNumericMin": 4000,
+    "benefitNumericMax": 15000,
+    "description": "Provides 100 units of free electricity per month for all domestic consumers and 2,000 units free power for farmers in Rajasthan.",
+    "eligibilityDescription": "Domestic households and farmers domiciled in Rajasthan.",
+    "requiredDocs": [
+      "Jan Aadhaar Card",
+      "DISCOM K-No Connection Number"
+    ],
+    "deadline": "Rajasthan Energy Department Portal",
+    "officialWebsiteUrl": "https://energy.rajasthan.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Rajasthan"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "bolt"
+  },
+  {
+    "id": "pb-300-units-free-electricity-scheme-pspcl",
+    "title": "Punjab 300 Units Free Electricity Scheme (600 Units Free Bimonthly Power)",
+    "code": "PB-PSPCL-300-UNITS-FREE",
+    "ministry": "Department of Power & PSPCL, Govt. of Punjab",
+    "origin": "state",
+    "stateName": "Punjab",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Zero Electricity Bill for Domestic Consumption Up to 300 Units Every Month (600 Units Bimonthly)",
+    "benefitNumericMin": 8000,
+    "benefitNumericMax": 30000,
+    "description": "Saves up to ₹30,000 per year for 90% of Punjab households by providing 300 units of free power per month.",
+    "eligibilityDescription": "Domestic electricity consumers in Punjab consuming up to 300 units monthly.",
+    "requiredDocs": [
+      "PSPCL Consumer Account Number",
+      "Aadhaar Card"
+    ],
+    "deadline": "PSPCL Official Portal (pspcl.in)",
+    "officialWebsiteUrl": "https://pspcl.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Punjab"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "lightbulb"
+  },
+  {
+    "id": "or-basudha-scheme-piped-water-supply",
+    "title": "Odisha BASUDHA Scheme (Buxi Jagabandhu Assured Water Supply to All)",
+    "code": "OR-BASUDHA-PIPED-WATER",
+    "ministry": "Panchayati Raj and Drinking Water Department, Govt. of Odisha",
+    "origin": "state",
+    "stateName": "Odisha",
+    "category": "Utility & Sanitation",
+    "subCategory": "Drinking Water & Local Utilities",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Women",
+      "Children"
+    ],
+    "benefitValue": "100% Free Household Piped Drinking Water Tap Connection in All 47,000 Villages of Odisha",
+    "benefitNumericMin": 5000,
+    "benefitNumericMax": 15000,
+    "description": "Ensures safe, purified piped drinking water supply to every rural household and school in Odisha.",
+    "eligibilityDescription": "Rural families in Odisha without access to safe piped drinking water.",
+    "requiredDocs": [
+      "Aadhaar Card",
+      "Gram Panchayat Verification"
+    ],
+    "deadline": "Panchayati Raj & Drinking Water Portal Odisha",
+    "officialWebsiteUrl": "https://rwssodisha.nic.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Odisha"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "water_drop"
+  },
+  {
+    "id": "ap-dr-ysr-jala-kala-borewell-scheme",
+    "title": "AP YSR Jala Kala Scheme (100% Free Borewell Drilling & Solar Pumps for Farmers)",
+    "code": "AP-YSR-JALA-KALA-BOREWELL",
+    "ministry": "Panchayati Raj and Rural Development Dept, Govt. of Andhra Pradesh",
+    "origin": "state",
+    "stateName": "Andhra Pradesh",
+    "category": "Utility & Sanitation",
+    "subCategory": "Drinking Water & Agricultural Utilities",
+    "beneficiaries": [
+      "Farmers",
+      "Rural Citizens"
+    ],
+    "benefitValue": "100% Free Borewell Drilling + Free Motor Pump Sets + Free Casing Pipes for Small & Marginal Farmers",
+    "benefitNumericMin": 50000,
+    "benefitNumericMax": 150000,
+    "description": "Drills free irrigation borewells and installs motor pumps for small/marginal farmers in upland and drought-prone areas of AP.",
+    "eligibilityDescription": "Small and marginal farmers in Andhra Pradesh owning 2.5 to 5 acres of land without borewells.",
+    "requiredDocs": [
+      "AP Rice Card",
+      "Pattadar Passbook / Land Adangal Title",
+      "Aadhaar Card"
+    ],
+    "deadline": "YSR Jala Kala Official Portal (ysrjalakala.ap.gov.in)",
+    "officialWebsiteUrl": "https://ysrjalakala.ap.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 75,
+      "requiresFarmer": true,
+      "statesAllowed": [
+        "Andhra Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "water_ph"
+  },
+  {
+    "id": "kl-kerala-water-authority-jal-jeevan-clean-water",
+    "title": "Kerala Water Authority (KWA) Jal Jeevan Tap Connection & Rainwater Harvesting Scheme",
+    "code": "KL-KWA-TAP-WATER-RAINWATER",
+    "ministry": "Water Resources Department & KWA, Govt. of Kerala",
+    "origin": "state",
+    "stateName": "Kerala",
+    "category": "Utility & Sanitation",
+    "subCategory": "Drinking Water & Local Utilities",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Women",
+      "General Citizen"
+    ],
+    "benefitValue": "Functional Household Tap Connection (FHTC) Supplying 55 Liters per Person per Day + 50% Subsidy for Domestic Rainwater Storage Tanks",
+    "benefitNumericMin": 10000,
+    "benefitNumericMax": 30000,
+    "description": "Provides functional treated drinking tap connections to all rural households in Kerala and subsidizes rooftop rainwater harvesting structures.",
+    "eligibilityDescription": "Rural and coastal households in Kerala without piped KWA drinking water.",
+    "requiredDocs": [
+      "Kerala Domicile Certificate",
+      "Property Tax Receipt",
+      "Aadhaar Card"
+    ],
+    "deadline": "Kerala Water Authority Portal (kwa.kerala.gov.in)",
+    "officialWebsiteUrl": "https://kwa.kerala.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Kerala"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "water_drop"
+  },
+  {
+    "id": "as-chief-ministers-free-power-connection-and-led-bulb",
+    "title": "Assam Chief Minister’s Free Power Connection & LED Distribution Scheme",
+    "code": "AS-FREE-POWER-LED-DISTRIBUTION",
+    "ministry": "Power Department & APDCL, Govt. of Assam",
+    "origin": "state",
+    "stateName": "Assam",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Workers",
+      "General Citizen"
+    ],
+    "benefitValue": "100% Free Electricity Service Connection + 4 Free Energy-Efficient LED Bulbs for Low-Income BPL Families",
+    "benefitNumericMin": 3000,
+    "benefitNumericMax": 10000,
+    "description": "Electrifies un-electrified rural households across Assam with free meters, wiring, and LED bulbs.",
+    "eligibilityDescription": "Economically weaker and BPL families in Assam without domestic power meter.",
+    "requiredDocs": [
+      "Assam Domicile Certificate",
+      "BPL Ration Card",
+      "Aadhaar Card"
+    ],
+    "deadline": "APDCL Official Portal (apdcl.org)",
+    "officialWebsiteUrl": "https://apdcl.org",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Assam"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "lightbulb"
+  },
+  {
+    "id": "uk-mukhyamantri-saur-swarojgar-yojana-power",
+    "title": "Uttarakhand Mukhyamantri Saur Swarojgar Yojana (25kW Solar Power Plant Grant)",
+    "code": "UK-SAUR-SWAROJGAR-POWER",
+    "ministry": "Uttarakhand Renewable Energy Development Agency (UREDA)",
+    "origin": "state",
+    "stateName": "Uttarakhand",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Renewable Utilities",
+    "beneficiaries": [
+      "Entrepreneurs",
+      "Job Seekers",
+      "Farmers"
+    ],
+    "benefitValue": "30% Capital State Subsidy + Bank Loan for Setting Up 25 kW Solar Power Plants with Guaranteed Power Buyback by UPCL",
+    "benefitNumericMin": 300000,
+    "benefitNumericMax": 1000000,
+    "description": "Encourages unemployed youth and hill farmers in Uttarakhand to generate income by selling solar power produced on uncultivated land to the grid.",
+    "eligibilityDescription": "Unemployed youth, migrant workers, and small farmers domiciled in Uttarakhand.",
+    "requiredDocs": [
+      "Uttarakhand Domicile Certificate",
+      "Land Availability Proof",
+      "UREDA Online Application"
+    ],
+    "deadline": "UREDA Portal (ureda.uk.gov.in)",
+    "officialWebsiteUrl": "https://ureda.uk.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 55,
+      "statesAllowed": [
+        "Uttarakhand"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "solar_power"
+  },
+  {
+    "id": "wb-nijo-griho-nijo-bhumi-drinking-water-and-toilet",
+    "title": "West Bengal \"Nijo Griho Nijo Bhumi\" Integrated Water, Power & Toilet Scheme",
+    "code": "WB-NIJO-GRIHO-WATER-TOILET",
+    "ministry": "Panchayat and Rural Development Dept, Govt. of West Bengal",
+    "origin": "state",
+    "stateName": "West Bengal",
+    "category": "Utility & Sanitation",
+    "subCategory": "Sanitation & Drinking Water",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Workers",
+      "Women"
+    ],
+    "benefitValue": "100% Free Sanitary Toilet Construction (₹12,000 Grant) + Free Electricity Meter & Piped Water Tap",
+    "benefitNumericMin": 12000,
+    "benefitNumericMax": 25000,
+    "description": "Provides landless rural agricultural laborers in West Bengal with homestead patta along with free sanitary toilet, electricity, and water tap.",
+    "eligibilityDescription": "Landless rural agricultural laborers and BPL households in West Bengal.",
+    "requiredDocs": [
+      "WB Khata/Patta Land Document",
+      "BPL Digital Ration Card",
+      "Aadhaar Card"
+    ],
+    "deadline": "P&RD Department West Bengal (pbprd.gov.in)",
+    "officialWebsiteUrl": "https://pbprd.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 75,
+      "statesAllowed": [
+        "West Bengal"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "wc"
+  },
+  {
+    "id": "cg-mukhyamantri-paliyakat-drinking-water-purification",
+    "title": "Chhattisgarh Mukhyamantri Safe Drinking Water & Fluoride Removal Mission",
+    "code": "CG-SAFE-WATER-FLUORIDE-REMOVAL",
+    "ministry": "Public Health Engineering Department (PHED), Govt. of Chhattisgarh",
+    "origin": "state",
+    "stateName": "Chhattisgarh",
+    "category": "Utility & Sanitation",
+    "subCategory": "Drinking Water & Local Utilities",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Children",
+      "Women"
+    ],
+    "benefitValue": "100% Installation of Solar-Powered RO Clean Water De-fluoridation Plants in Fluoride-Affected Tribal Villages",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 500000,
+    "description": "Installs community solar RO water purification plants in heavy fluoride and iron affected ground-water zones across tribal districts of CG.",
+    "eligibilityDescription": "Gram Panchayats in fluoride-affected tribal districts of Chhattisgarh.",
+    "requiredDocs": [
+      "PHED Water Testing Report / Gram Sabha Request"
+    ],
+    "deadline": "PHED Chhattisgarh Portal (phed.cg.gov.in)",
+    "officialWebsiteUrl": "https://phed.cg.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Chhattisgarh"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "water_drop"
+  },
+  {
+    "id": "jh-mukhyamantri-urja-khushhali-yojana-power-waiver",
+    "title": "Jharkhand Mukhyamantri Urja Khushhali Yojana (Complete Electricity Arrears Waiver)",
+    "code": "JH-URJA-KHUSHHALI-WAIVER",
+    "ministry": "Department of Energy & JBVNL, Govt. of Jharkhand",
+    "origin": "state",
+    "stateName": "Jharkhand",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "General Citizen",
+      "Rural Citizens",
+      "Workers"
+    ],
+    "benefitValue": "100% Complete Waiver of Outstanding Electricity Bill Arrears & Interest + 200 Units Free Electricity Monthly",
+    "benefitNumericMin": 5000,
+    "benefitNumericMax": 50000,
+    "description": "Waives off all past pending domestic electricity bill dues and provides 200 units of free power monthly to low-income families in Jharkhand.",
+    "eligibilityDescription": "Domestic power consumers in Jharkhand with pending arrears and monthly load up to 2 kW.",
+    "requiredDocs": [
+      "Jharkhand Residential Certificate",
+      "JBVNL Consumer Account Number",
+      "Aadhaar Card"
+    ],
+    "deadline": "JBVNL Official Portal (jbvnl.co.in)",
+    "officialWebsiteUrl": "https://jbvnl.co.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Jharkhand"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "bolt"
+  },
+  {
+    "id": "mp-mukhyamantri-sanitation-worker-welfare-scheme",
+    "title": "MP Safai Mitra Suraksha & Mechanical Cleaning Utility Scheme",
+    "code": "MP-SAFAI-MITRA-SURAKSHA",
+    "ministry": "Urban Development and Housing Dept, Govt. of MP",
+    "origin": "state",
+    "stateName": "Madhya Pradesh",
+    "category": "Utility & Sanitation",
+    "subCategory": "Sanitation & Safety",
+    "beneficiaries": [
+      "Workers",
+      "General Citizen"
+    ],
+    "benefitValue": "100% Free Motorized Sewer Suction Machines for Sanitation Cooperatives + ₹10 Lakh Life Insurance Cover for Sanitation Workers",
+    "benefitNumericMin": 500000,
+    "benefitNumericMax": 1000000,
+    "description": "Eliminates hazardous manual sewer entry by providing mechanized jetting machines, PPE gear kits, and ₹10 Lakh insurance cover to urban sanitation workers in MP.",
+    "eligibilityDescription": "Sanitation workers and municipal cleaning staff domiciled in Madhya Pradesh.",
+    "requiredDocs": [
+      "MP Urban Local Body ID Card",
+      "Samagra ID",
+      "Aadhaar Card"
+    ],
+    "deadline": "MP Urban Development Portal (mpurban.gov.in)",
+    "officialWebsiteUrl": "https://mpurban.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 60,
+      "statesAllowed": [
+        "Madhya Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "cleaning_services"
+  },
+  {
+    "id": "hr-mukhya-mantri-rural-piped-water-supply-scheme",
+    "title": "Haryana Mukhya Mantri Rural Piped Clean Drinking Water Scheme",
+    "code": "HR-MM-RURAL-WATER-SCHEME",
+    "ministry": "Public Health Engineering Department (PHED), Govt. of Haryana",
+    "origin": "state",
+    "stateName": "Haryana",
+    "category": "Utility & Sanitation",
+    "subCategory": "Drinking Water & Local Utilities",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Women"
+    ],
+    "benefitValue": "100% Free Household Metered Drinking Water Tap Connection + Flat ₹50 Monthly Water Tariff for Rural Families",
+    "benefitNumericMin": 3000,
+    "benefitNumericMax": 10000,
+    "description": "Provides functional household drinking tap water connections across all 6,800 villages of Haryana with automated water quality testing labs.",
+    "eligibilityDescription": "Rural families domiciled in Haryana without clean piped water taps.",
+    "requiredDocs": [
+      "Haryana Parivar Pehchan Patra (PPP)",
+      "Aadhaar Card"
+    ],
+    "deadline": "PHED Haryana Official Portal (phedharyana.gov.in)",
+    "officialWebsiteUrl": "https://phedharyana.gov.in",
+    "rules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "statesAllowed": [
+        "Haryana"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "water_drop"
+  },
+  {
+    "id": "gj-swachh-gujarat-clean-waste-segregation-incentive",
+    "title": "Gujarat Nirmal Gujarat Urban Solid Waste Processing & Recycling Subsidy",
+    "code": "GJ-NIRMAL-GUJARAT-WASTE-SUBSIDY",
+    "ministry": "Urban Development and Urban Housing Department, Govt. of Gujarat",
+    "origin": "state",
+    "stateName": "Gujarat",
+    "category": "Utility & Sanitation",
+    "subCategory": "Sanitation & Waste Management",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers",
+      "Entrepreneurs"
+    ],
+    "benefitValue": "Capital Subsidy up to 50% for Composting Units, Plastic Recycling Plants & Smart Underground Dustbins",
+    "benefitNumericMin": 100000,
+    "benefitNumericMax": 2500000,
+    "description": "Promotes 100% segregated garbage collection and recycling in municipal corporations across Gujarat.",
+    "eligibilityDescription": "Gujarat urban resident welfare associations (RWAs), NGOs, and recycling entrepreneurs.",
+    "requiredDocs": [
+      "GPCB Registration License",
+      "Urban Local Body Recommendation"
+    ],
+    "deadline": "Nirmal Gujarat Urban Portal",
+    "officialWebsiteUrl": "https://udd.gujarat.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 70,
+      "statesAllowed": [
+        "Gujarat"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "cleaning_services"
+  },
+  {
+    "id": "ga-free-water-scheme-16000-liters-goa",
+    "title": "Goa Save Water Free Water Scheme (16,000 Liters Free Monthly Domestic Water)",
+    "code": "GA-FREE-WATER-16000-LITERS",
+    "ministry": "Public Works Department (PWD Water Supply), Govt. of Goa",
+    "origin": "state",
+    "stateName": "Goa",
+    "category": "Utility & Sanitation",
+    "subCategory": "Drinking Water & Local Utilities",
+    "beneficiaries": [
+      "General Citizen"
+    ],
+    "benefitValue": "100% Free Piped Water Supply for Consumption Up to 16,000 Liters per Month per Domestic Household Connection",
+    "benefitNumericMin": 2000,
+    "benefitNumericMax": 8000,
+    "description": "Goa became the first state to provide 100% zero-cost drinking water supply for up to 16,000 liters monthly to every household.",
+    "eligibilityDescription": "Domestic water consumers in Goa with functional PWD water meters.",
+    "requiredDocs": [
+      "Goa PWD Water Bill Connection Consumer ID",
+      "Aadhaar Card"
+    ],
+    "deadline": "Goa PWD Official Portal (pwd.goa.gov.in)",
+    "officialWebsiteUrl": "https://pwd.goa.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Goa"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "water_drop"
+  },
+  {
+    "id": "hp-mukhya-mantri-roshni-yojana-free-electricity-connections",
+    "title": "Himachal Pradesh Mukhya Mantri Roshni Yojana (100% Free Power Connections)",
+    "code": "HP-MM-ROSHNI-YOJANA",
+    "ministry": "Department of Non-Conventional Energy Sources & HPSEBL",
+    "origin": "state",
+    "stateName": "Himachal Pradesh",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Local Utilities",
+    "beneficiaries": [
+      "Rural Citizens",
+      "Workers"
+    ],
+    "benefitValue": "100% Free Electricity Meter & Service Line Cable Connection for Poor BPL Families in Remote Mountain Regions",
+    "benefitNumericMin": 4000,
+    "benefitNumericMax": 12000,
+    "description": "Provides free domestic electricity meters and service cables to poor rural households in hilly terrain of Himachal Pradesh.",
+    "eligibilityDescription": "Poor and BPL households domiciled in Himachal Pradesh without power connection.",
+    "requiredDocs": [
+      "Himachal Bonafide Certificate",
+      "BPL Certificate",
+      "HPSEBL Application"
+    ],
+    "deadline": "HPSEBL Official Portal (hpseb.in)",
+    "officialWebsiteUrl": "https://hpseb.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Himachal Pradesh"
+      ]
+    },
+    "isPopular": true,
+    "iconName": "lightbulb"
+  },
+  {
+    "id": "py-puducherry-free-water-and-electricity-subsidy",
+    "title": "Puducherry Free 100 Units Power & Clean Water Tap Scheme",
+    "code": "PY-FREE-POWER-WATER-SCHEME",
+    "ministry": "Electricity Department & Public Works Department, Govt. of Puducherry",
+    "origin": "state",
+    "stateName": "Puducherry",
+    "category": "Utility & Sanitation",
+    "subCategory": "Electricity & Drinking Water",
+    "beneficiaries": [
+      "General Citizen",
+      "Workers"
+    ],
+    "benefitValue": "100% Zero Charges for First 100 Units of Electricity Bimonthly + Free Metered Drinking Water Taps",
+    "benefitNumericMin": 3000,
+    "benefitNumericMax": 10000,
+    "description": "Provides free electricity up to 100 units bimonthly and free piped water supply to low-income residents of Union Territory of Puducherry.",
+    "eligibilityDescription": "Resident domestic power and water consumers in Puducherry.",
+    "requiredDocs": [
+      "Puducherry Ration Card",
+      "Electricity Account ID"
+    ],
+    "deadline": "Electricity Department Puducherry Portal",
+    "officialWebsiteUrl": "https://electricity.py.gov.in",
+    "rules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "statesAllowed": [
+        "Puducherry"
+      ]
+    },
+    "isPopular": false,
+    "iconName": "bolt"
+  }
+]

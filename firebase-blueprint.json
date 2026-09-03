@@ -1,0 +1,378 @@
+{
+  "entities": {
+    "User": {
+      "description": "Registered citizen profile containing email, Aadhaar number, demographic details, and economic indicators.",
+      "fields": {
+        "email": {
+          "type": "string",
+          "description": "Citizen registered email address."
+        },
+        "aadhaarNumber": {
+          "type": "string",
+          "description": "Citizen 12-digit Aadhaar identification number (masked/formatted)."
+        },
+        "fullName": {
+          "type": "string",
+          "description": "Full legal name of the citizen."
+        },
+        "age": {
+          "type": "number",
+          "description": "Age of the citizen in years."
+        },
+        "gender": {
+          "type": "string",
+          "description": "Gender: Male, Female, or Other."
+        },
+        "state": {
+          "type": "string",
+          "description": "State of residence."
+        },
+        "district": {
+          "type": "string",
+          "description": "District of residence."
+        },
+        "annualFamilyIncome": {
+          "type": "number",
+          "description": "Annual household income in INR."
+        },
+        "socialCategory": {
+          "type": "string",
+          "description": "Social reservation category (General, OBC, SC, ST, EWS)."
+        },
+        "maritalStatus": {
+          "type": "string",
+          "description": "Marital status."
+        },
+        "occupation": {
+          "type": "string",
+          "description": "Primary occupation / livelihood."
+        },
+        "highestEducation": {
+          "type": "string",
+          "description": "Highest level of formal education completed."
+        },
+        "isFarmer": {
+          "type": "boolean",
+          "description": "Whether the citizen is an active agricultural farmer."
+        },
+        "isActiveStudent": {
+          "type": "boolean",
+          "description": "Whether the citizen is currently enrolled as a student."
+        },
+        "isSeniorCitizen": {
+          "type": "boolean",
+          "description": "Whether the citizen is a senior citizen (60+ years)."
+        },
+        "isDisabilityPwD": {
+          "type": "boolean",
+          "description": "Person with Disability (Divyangjan) status."
+        },
+        "isMinority": {
+          "type": "boolean",
+          "description": "Whether citizen belongs to notified minority community."
+        },
+        "isExServiceman": {
+          "type": "boolean",
+          "description": "Whether citizen is an ex-serviceman or defense veteran."
+        },
+        "hasBplRationCard": {
+          "type": "boolean",
+          "description": "Whether family possesses BPL / Antyodaya ration card."
+        },
+        "landholdingAcres": {
+          "type": "number",
+          "description": "Total agricultural landholding in acres."
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "ISO timestamp of record creation."
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "ISO timestamp of last update."
+        }
+      }
+    },
+    "VaultDocument": {
+      "description": "Encrypted and cryptographically verified citizen documents stored in Smart Document Wallet.",
+      "fields": {
+        "id": {
+          "type": "string",
+          "description": "Unique document UUID."
+        },
+        "citizenEmail": {
+          "type": "string",
+          "description": "Citizen email address owner."
+        },
+        "citizenAadhaar": {
+          "type": "string",
+          "description": "Citizen Aadhaar number (sanitized/hashed)."
+        },
+        "docType": {
+          "type": "string",
+          "description": "Document type (e.g. Aadhaar Card, PAN Card, Income Certificate, Caste Certificate, Land Records, Ration Card, Disability Certificate, Bank Passbook, Domicile Certificate)."
+        },
+        "docNumber": {
+          "type": "string",
+          "description": "Masked or encrypted document identification number."
+        },
+        "issuerAuthority": {
+          "type": "string",
+          "description": "Government issuing authority (e.g. UIDAI, Income Tax Department, Revenue Department, Tehsildar, Seva Sindhu)."
+        },
+        "issueDate": {
+          "type": "string",
+          "description": "Date of issuance (YYYY-MM-DD)."
+        },
+        "expiryDate": {
+          "type": "string",
+          "description": "Date of expiry (YYYY-MM-DD), if applicable."
+        },
+        "daysToExpiry": {
+          "type": "number",
+          "description": "Calculated days remaining before required renewal."
+        },
+        "verifiedStatus": {
+          "type": "string",
+          "description": "Verification status: 'Verified', 'Pending Verification', 'Renewal Required', or 'Expired'."
+        },
+        "encryptionAlgorithm": {
+          "type": "string",
+          "description": "Cryptographic standard used (e.g. 'AES-GCM-256 / SHA-256 Vault Seal')."
+        },
+        "docHash": {
+          "type": "string",
+          "description": "SHA-256 digital integrity checksum."
+        },
+        "fileDataUrl": {
+          "type": "string",
+          "description": "Encrypted digital certificate proof / document scan payload."
+        },
+        "fileName": {
+          "type": "string",
+          "description": "Original file name."
+        },
+        "fileMimeType": {
+          "type": "string",
+          "description": "MIME type (image/png, image/jpeg, application/pdf)."
+        },
+        "fileSizeBytes": {
+          "type": "number",
+          "description": "File size in bytes."
+        },
+        "securityLevel": {
+          "type": "string",
+          "description": "Security classification (RESTRICTED_GOV_DOC, CONFIDENTIAL_FINANCIAL, VERIFIED_IDENTITY)."
+        },
+        "isEncrypted": {
+          "type": "boolean",
+          "description": "Whether document payload is encrypted at rest."
+        },
+        "tags": {
+          "type": "string",
+          "description": "Comma-separated search tags or category metadata."
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "ISO timestamp of upload/registration."
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "ISO timestamp of last update/verification."
+        }
+      }
+    },
+    "Scheme": {
+      "description": "Government welfare schemes, eligibility rules, benefits, and administrative details.",
+      "fields": {
+        "id": {
+          "type": "string",
+          "description": "Unique scheme identifier."
+        },
+        "name": {
+          "type": "string",
+          "description": "Official title of the welfare scheme."
+        },
+        "code": {
+          "type": "string",
+          "description": "Government abbreviation or code (e.g. PM-KISAN, PMAY-G)."
+        },
+        "ministry": {
+          "type": "string",
+          "description": "Nodal Ministry or State Department."
+        },
+        "category": {
+          "type": "string",
+          "description": "Functional domain (e.g. Agriculture, Healthcare, Education, Housing)."
+        },
+        "origin": {
+          "type": "string",
+          "description": "Jurisdiction level: central, state, or district."
+        },
+        "benefitAmount": {
+          "type": "number",
+          "description": "Monetary benefit amount in INR."
+        },
+        "benefitType": {
+          "type": "string",
+          "description": "Direct Benefit Transfer (DBT), subsidy, loan, or service."
+        },
+        "briefDescription": {
+          "type": "string",
+          "description": "Summary of scheme objectives and support provided."
+        },
+        "eligibilityCriteria": {
+          "type": "string",
+          "description": "Structured eligibility criteria JSON or description."
+        },
+        "requiredDocuments": {
+          "type": "string",
+          "description": "List of mandatory verification documents."
+        },
+        "officialPortalUrl": {
+          "type": "string",
+          "description": "Official government portal application URL."
+        }
+      }
+    },
+    "EligibilityAnalysis": {
+      "description": "Recorded eligibility assessment audit logs containing matching scores, eligible schemes, and financial impact.",
+      "fields": {
+        "id": {
+          "type": "string",
+          "description": "Unique analysis report UUID."
+        },
+        "citizenEmail": {
+          "type": "string",
+          "description": "Email of the citizen evaluated."
+        },
+        "citizenAadhaar": {
+          "type": "string",
+          "description": "Aadhaar number of the citizen evaluated."
+        },
+        "citizenName": {
+          "type": "string",
+          "description": "Full name of the citizen."
+        },
+        "citizenState": {
+          "type": "string",
+          "description": "State at time of analysis."
+        },
+        "totalSchemesEvaluated": {
+          "type": "number",
+          "description": "Total government schemes evaluated in this run."
+        },
+        "eligibleSchemesCount": {
+          "type": "number",
+          "description": "Number of schemes where citizen meets >=60% eligibility."
+        },
+        "potentialBenefitInr": {
+          "type": "number",
+          "description": "Estimated total annual financial benefit in INR."
+        },
+        "topEligibleSchemeIds": {
+          "type": "string",
+          "description": "Comma-separated list or JSON of top eligible scheme IDs."
+        },
+        "evaluatedResults": {
+          "type": "string",
+          "description": "Serialized JSON snapshot of scheme scores and failed/passed criteria."
+        },
+        "analyzedAt": {
+          "type": "string",
+          "description": "ISO timestamp when the analysis was performed."
+        }
+      }
+    },
+    "SchemeApplication": {
+      "description": "Citizen application tracking and verification records for government schemes.",
+      "fields": {
+        "id": {
+          "type": "string",
+          "description": "Application tracking reference ID."
+        },
+        "citizenEmail": {
+          "type": "string",
+          "description": "Applicant email."
+        },
+        "citizenAadhaar": {
+          "type": "string",
+          "description": "Applicant Aadhaar."
+        },
+        "schemeId": {
+          "type": "string",
+          "description": "Target scheme ID."
+        },
+        "schemeName": {
+          "type": "string",
+          "description": "Target scheme name."
+        },
+        "status": {
+          "type": "string",
+          "description": "Status: drafted, submitted, under_verification, approved, disbursed."
+        },
+        "appliedBenefitInr": {
+          "type": "number",
+          "description": "Expected DBT financial amount in INR."
+        },
+        "submittedAt": {
+          "type": "string",
+          "description": "ISO timestamp of application submission."
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "ISO timestamp of last status change."
+        }
+      }
+    },
+    "Admin": {
+      "description": "Government administrators and portal officers with role-based access control.",
+      "fields": {
+        "id": { "type": "string", "description": "Unique admin officer identifier." },
+        "email": { "type": "string", "description": "Official government email." },
+        "name": { "type": "string", "description": "Officer name." },
+        "role": { "type": "string", "description": "Role: CENTRAL_ADMIN, STATE_ADMIN, LOCAL_ADMIN." },
+        "scopeLevel": { "type": "string", "description": "Geographic scope: INDIA, STATE, DISTRICT, TALUK." },
+        "state": { "type": "string", "description": "Assigned state jurisdiction." },
+        "district": { "type": "string", "description": "Assigned district jurisdiction." },
+        "permissions": { "type": "string", "description": "Array of assigned admin permissions." },
+        "status": { "type": "string", "description": "Status: ACTIVE, INVITED, DISABLED." },
+        "lastLoginAt": { "type": "string", "description": "ISO timestamp of last login." },
+        "createdAt": { "type": "string", "description": "ISO timestamp of creation." },
+        "updatedAt": { "type": "string", "description": "ISO timestamp of update." }
+      }
+    },
+    "AdminBiometricCredential": {
+      "description": "UIDAI Certified RD Service biometric registration credentials and cryptographic tokens.",
+      "fields": {
+        "id": { "type": "string", "description": "Credential UUID." },
+        "adminId": { "type": "string", "description": "Associated officer ID." },
+        "adminEmail": { "type": "string", "description": "Associated officer email." },
+        "biometricType": { "type": "string", "description": "Modality: FINGERPRINT, IRIS, FACIAL_RD." },
+        "rdServiceDeviceId": { "type": "string", "description": "UIDAI Certified RD Service device identifier." },
+        "cryptoAssertionHash": { "type": "string", "description": "Cryptographic proof hash of modality token." },
+        "verified": { "type": "boolean", "description": "Whether modality assertion is validated." },
+        "verifiedAt": { "type": "string", "description": "ISO timestamp of verification." }
+      }
+    },
+    "AdminAuditLog": {
+      "description": "Immutable audit trails for administrative and biometric authentication events.",
+      "fields": {
+        "id": { "type": "string", "description": "Log UUID." },
+        "adminId": { "type": "string", "description": "Officer identifier." },
+        "adminEmail": { "type": "string", "description": "Officer email." },
+        "adminName": { "type": "string", "description": "Officer name." },
+        "adminRole": { "type": "string", "description": "Officer administrative role." },
+        "action": { "type": "string", "description": "Event action (e.g. ADMIN_BIOMETRIC_LOGIN, CREATE_SCHEME)." },
+        "resourceType": { "type": "string", "description": "Resource type (ADMIN, SCHEME, APPLICATION)." },
+        "resourceId": { "type": "string", "description": "Target resource ID." },
+        "details": { "type": "string", "description": "JSON serialized event details." },
+        "ipAddress": { "type": "string", "description": "Client IP / RD device interface." },
+        "timestamp": { "type": "string", "description": "ISO timestamp of audit event." }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  }
+}
