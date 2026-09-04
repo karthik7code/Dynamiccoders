@@ -16,7 +16,12 @@ import {
 import { ChatMessage, UserProfile } from '../types';
 import { AiVoiceSpeaker } from './AiVoiceSpeaker';
 import { VoiceRecognizer } from '../utils/speech';
-import { ALL_INDIAN_LANGUAGES } from '../data/languages';
+import {
+  ALL_INDIAN_LANGUAGES,
+  SCHEDULED_INDIAN_LANGUAGES,
+  REGIONAL_INDIAN_LANGUAGES,
+  getLanguageByCode,
+} from '../data/languages';
 
 interface AiAssistantWidgetProps {
   isOpen: boolean;
@@ -24,6 +29,7 @@ interface AiAssistantWidgetProps {
   userProfile?: UserProfile;
   initialPrompt?: string;
   selectedLang?: string;
+  onLanguageChange?: (lang: string) => void;
 }
 
 export const AiAssistantWidget: React.FC<AiAssistantWidgetProps> = ({
@@ -32,18 +38,93 @@ export const AiAssistantWidget: React.FC<AiAssistantWidgetProps> = ({
   userProfile,
   initialPrompt,
   selectedLang = 'en',
+  onLanguageChange,
 }) => {
+  const [currentLang, setCurrentLang] = useState<string>(selectedLang || 'en');
+
+  const getGreetingForLang = (langCode: string): string => {
+    switch (langCode) {
+      case 'hi':
+        return "नमस्ते! 🙏 मैं आपका जनAI सहायक हूँ। आप किसी भी सरकारी कल्याणकारी योजना (जैसे पीएम किसान, आयुष्मान भारत, छात्रवृत्ति) के बारे में अपनी भाषा में पूछ सकते हैं।";
+      case 'te':
+        return "నమస్కారం! 🙏 నేను మీ జన్AI సంక్షేమ సహాయకుడిని. మీరు ఏ ప్రభుత్వ పథకం గురించైనా (పీఎం కిసాన్, ఆయుష్మాన్ భారత్ మొదలైనవి) తెలుగులో అడగవచ్చు.";
+      case 'ta':
+        return "வணக்கம்! 🙏 நான் உங்கள் ஜன்AI வழிகாட்டி. மத்திய மற்றும் மாநில அரசு நலத்திட்டங்கள் (PM கிசான், ஆயுஷ்மான் பாரத்) பற்றி தமிழில் கேட்கலாம்.";
+      case 'mr':
+        return "नमस्कार! 🙏 मी आपला जनAI सहाय्यक आहे. आपण कोणत्याही शासकीय योजनेबद्दल (उदा. पीएम किसान, लाडकी बहीण) मराठीत विचारू शकता.";
+      case 'bn':
+        return "নমস্কার! 🙏 আমি আপনার জনAI কল্যাণ সহকারী। যেকোনো কেন্দ্রীয় ও রাজ্য সরকারি প্রকল্প সম্পর্কে বাংলায় জিজ্ঞাসা করুন।";
+      case 'kn':
+        return "ನಮಸ್ಕಾರ! 🙏 ನಾನು ನಿಮ್ಮ ಜನ್‌ಎಐ ಸಹಾಯಕ. ಯಾವುದೇ ಸರ್ಕಾರಿ ಕಲ್ಯಾಣ ಯೋಜನೆಗಳ ಬಗ್ಗೆ ಕನ್ನಡದಲ್ಲೇ ವಿವರಣೆ ಪಡೆಯಿರಿ.";
+      case 'gu':
+        return "નમસ્તે! 🙏 હું તમારો જનAI સહાયક છું. સરકારી યોજનાઓ, સબસિડી અને પાત્રતા વિશે ગુજરાતીમાં પૂછી શકો છો.";
+      case 'ml':
+        return "നമസ്കാരം! 🙏 ഞാൻ നിങ്ങളുടെ ജൻAI സഹായിയാണ്. സർക്കാർ പദ്ധതികളെക്കുറിച്ചും ആനുകൂല്യങ്ങളെക്കുറിച്ചും ചോദിക്കാം.";
+      case 'pa':
+        return "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ! 🙏 ਮੈਂ ਤੁਹਾਡਾ ਜਨAI ਸਹਾਇਕ ਹਾਂ। ਸਰਕਾਰੀ ਸਕੀਮਾਂ ਅਤੇ ਲਾਭਾਂ ਬਾਰੇ ਆਪਣੀ ਬੋਲੀ ਵਿੱਚ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕਰੋ।";
+      case 'or':
+        return "ନମସ୍କାର! 🙏 ମୁଁ ଆପଣଙ୍କ ଜନAI ସହାୟକ। ସରକାରୀ କଲ୍ୟାଣକାରୀ ଯୋଜନା ବିଷୟରେ ଓଡ଼ିଆରେ ପଚାରନ୍ତୁ।";
+      case 'ur':
+        return "آداب! 🙏 میں آپ کا جن اے آئی مددگار ہوں۔ آپ کسی بھی سرکاری فلاحی اسکیم کے بارے میں اپنی زبان میں پوچھ سکتے ہیں۔";
+      default:
+        return "Namaste! 🙏 I am your JanAI Assistant. You can ask or speak in ANY Indian language, and I will explain government schemes, eligibility, documents, and benefits in that same language.";
+    }
+  };
+
+  const getSuggestedQuestionsForLang = (langCode: string): string[] => {
+    switch (langCode) {
+      case 'hi':
+        return [
+          "क्या मैं पीएम किसान सम्मान निधि के लिए पात्र हूँ?",
+          "आयुष्मान भारत कार्ड के लिए कौन से दस्तावेज चाहिए?",
+          "महिलाओं और छात्रों के लिए प्रमुख सरकारी योजनाएं कौन सी हैं?"
+        ];
+      case 'te':
+        return [
+          "నేను పీఎం కిసాన్ పథకానికి అర్హుడనా?",
+          "ఆయుష్మాన్ భారత్ కోసం ఏయే పత్రాలు అవసరం?",
+          "విద్యార్థులకు మరియు మహిళలకు ఉన్న ప్రభుత్వ పథకాలు ఏమిటి?"
+        ];
+      case 'ta':
+        return [
+          "நான் பிஎம் கிசான் திட்டத்திற்கு தகுதியானவரா?",
+          "ஆயுஷ்மான் பாரத் கார்டுக்கு என்ன ஆவணங்கள் தேவை?",
+          "மாணவர்கள் மற்றும் பெண்களுக்கான சிறந்த அரசு திட்டங்கள் எவை?"
+        ];
+      case 'mr':
+        return [
+          "मी पीएम किसान योजनेसाठी पात्र आहे का?",
+          "आयुष्मान भारत कार्डसाठी कोणती कागदपत्रे लागतात?",
+          "महिलांसाठी आणि शेतकऱ्यांसाठी कोणती योजना आहे?"
+        ];
+      case 'bn':
+        return [
+          "আমি কি পিএম কিষাণ প্রকল্পের জন্য যোগ্য?",
+          "আয়ুষ্মান ভারত কার্ডের জন্য কী কী নথি প্রয়োজন?",
+          "মহিলা ও শিক্ষার্থীদের জন্য সরকারি প্রকল্পগুলি কী কী?"
+        ];
+      case 'kn':
+        return [
+          "ನಾನು ಪಿಎಂ ಕಿಸಾನ್ ಯೋಜನೆಗೆ ಅರ್ಹನೇ?",
+          "ಆಯುಷ್ಮಾನ್ ಭಾರತ್ ಕಾರ್ಡ್‌ಗೆ ಯಾವ ದಾಖಲೆಗಳು ಬೇಕು?",
+          "ಮಹಿಳೆಯರು ಮತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಯಾವ ಸರ್ಕಾರಿ ಯೋಜನೆಗಳಿವೆ?"
+        ];
+      default:
+        return [
+          "Am I eligible for PM Kisan Samman Nidhi?",
+          "What documents are needed for Ayushman Bharat?",
+          "Which government schemes exist for women and students?"
+        ];
+    }
+  };
+
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       id: 'welcome-1',
       sender: 'assistant',
-      text: "Namaste! 🙏 I am your JanAI Architecture Assistant. I connect citizens with 30+ Central and State government schemes, verify eligibility criteria, check required documents, and guide your applications.",
+      text: getGreetingForLang(selectedLang || 'en'),
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-      suggestedQuestions: [
-        "Am I eligible for PM Kisan Samman Nidhi?",
-        "What documents are needed for Ayushman Bharat?",
-        "Which government schemes exist for women in Maharashtra?"
-      ]
+      suggestedQuestions: getSuggestedQuestionsForLang(selectedLang || 'en')
     }
   ]);
 
@@ -74,13 +155,48 @@ export const AiAssistantWidget: React.FC<AiAssistantWidgetProps> = ({
     }
   }, [initialPrompt, isOpen]);
 
-  const [currentLang, setCurrentLang] = useState<string>(selectedLang || 'en');
-
   useEffect(() => {
     if (selectedLang) {
       setCurrentLang(selectedLang);
+      // If user hasn't sent any messages yet, update the welcome message to the new language
+      setMessages((prev) => {
+        if (prev.length === 1 && prev[0].id === 'welcome-1') {
+          return [
+            {
+              id: 'welcome-1',
+              sender: 'assistant',
+              text: getGreetingForLang(selectedLang),
+              timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+              suggestedQuestions: getSuggestedQuestionsForLang(selectedLang)
+            }
+          ];
+        }
+        return prev;
+      });
     }
   }, [selectedLang]);
+
+  const handleLangChangeInternal = (newLang: string) => {
+    setCurrentLang(newLang);
+    if (onLanguageChange) {
+      onLanguageChange(newLang);
+    }
+    // Update welcome message if conversation is fresh
+    setMessages((prev) => {
+      if (prev.length === 1 && prev[0].id === 'welcome-1') {
+        return [
+          {
+            id: 'welcome-1',
+            sender: 'assistant',
+            text: getGreetingForLang(newLang),
+            timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+            suggestedQuestions: getSuggestedQuestionsForLang(newLang)
+          }
+        ];
+      }
+      return prev;
+    });
+  };
 
   const handleToggleVoiceInput = () => {
     if (!voiceRecognizerRef.current?.isSupported()) {
@@ -95,7 +211,7 @@ export const AiAssistantWidget: React.FC<AiAssistantWidgetProps> = ({
       setVoiceNotice('');
     } else {
       setIsListening(true);
-      const langObj = ALL_INDIAN_LANGUAGES.find((l) => l.code === currentLang);
+      const langObj = getLanguageByCode(currentLang);
       const langLabel = langObj ? `${langObj.nativeName} (${langObj.name})` : currentLang;
       setVoiceNotice(`Listening in ${langLabel}... Speak now!`);
 
@@ -144,7 +260,7 @@ export const AiAssistantWidget: React.FC<AiAssistantWidgetProps> = ({
         body: JSON.stringify({
           message: messageText,
           profile: userProfile,
-          lang: selectedLang,
+          lang: currentLang,
         })
       });
 
@@ -170,7 +286,7 @@ export const AiAssistantWidget: React.FC<AiAssistantWidgetProps> = ({
       const fallbackMsg: ChatMessage = {
         id: `assistant-${Date.now()}`,
         sender: 'assistant',
-        text: "I am having trouble connecting to the JanAI Architecture server. Generally, most government schemes require Aadhaar card, Income Certificate, and active bank account.",
+        text: "I am having trouble connecting to the JanAI server. Generally, most government schemes require Aadhaar card, Income Certificate, and active bank account.",
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
       };
       setMessages(prev => [...prev, fallbackMsg]);
@@ -199,14 +315,26 @@ export const AiAssistantWidget: React.FC<AiAssistantWidgetProps> = ({
               <span>🇮🇳</span>
               <select
                 value={currentLang}
-                onChange={(e) => setCurrentLang(e.target.value)}
-                className="bg-transparent text-amber-300 font-extrabold text-[11px] focus:outline-none cursor-pointer underline"
+                onChange={(e) => handleLangChangeInternal(e.target.value)}
+                className="bg-transparent text-amber-300 font-extrabold text-[11px] focus:outline-none cursor-pointer underline max-w-[150px]"
               >
-                {(ALL_INDIAN_LANGUAGES || []).map((l) => (
-                  <option key={l.code} value={l.code} className="text-slate-900 font-bold">
-                    {l.nativeName} ({l.name})
-                  </option>
-                ))}
+                <option value="en" className="text-slate-900 font-bold">
+                  English (Original)
+                </option>
+                <optgroup label="🇮🇳 22 Scheduled Indian Languages" className="text-slate-900 font-bold">
+                  {SCHEDULED_INDIAN_LANGUAGES.map((l) => (
+                    <option key={l.code} value={l.code} className="text-slate-900 font-medium">
+                      {l.nativeName} ({l.name})
+                    </option>
+                  ))}
+                </optgroup>
+                <optgroup label="🇮🇳 Regional & Tribal Indian Languages" className="text-slate-900 font-bold">
+                  {REGIONAL_INDIAN_LANGUAGES.map((l) => (
+                    <option key={l.code} value={l.code} className="text-slate-900 font-medium">
+                      {l.nativeName} ({l.name})
+                    </option>
+                  ))}
+                </optgroup>
               </select>
             </p>
           </div>
@@ -307,7 +435,7 @@ export const AiAssistantWidget: React.FC<AiAssistantWidgetProps> = ({
                   <div className="pt-1.5 border-t border-slate-100 flex items-center justify-between gap-2">
                     <AiVoiceSpeaker
                       textToSpeak={msg.text}
-                      lang={selectedLang}
+                      lang={currentLang}
                       compact={true}
                       autoPlay={autoVoiceReply && isLatestAssistantMsg}
                     />
@@ -376,7 +504,11 @@ export const AiAssistantWidget: React.FC<AiAssistantWidgetProps> = ({
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder={isListening ? "Listening... Speak now!" : "Ask or speak about PM Kisan, Ayushman..."}
+            placeholder={
+              isListening
+                ? "Listening... Speak now!"
+                : "Ask or speak in any Indian language (उदा. हिन्दी, తెలుగు, தமிழ், ಕನ್ನಡ, etc.)..."
+            }
             className="flex-1 bg-transparent text-xs text-slate-800 placeholder-slate-400 focus:outline-none"
           />
 
@@ -388,6 +520,16 @@ export const AiAssistantWidget: React.FC<AiAssistantWidgetProps> = ({
             <Send className="w-3.5 h-3.5" />
           </button>
         </form>
+
+        <div className="flex items-center justify-between text-[10px] text-slate-400 px-1 pt-0.5">
+          <span className="flex items-center gap-1 text-indigo-700 font-semibold">
+            <Sparkles className="w-3 h-3 text-amber-500" />
+            Any Indian Language Input • Explains in Same Language
+          </span>
+          <span className="font-bold text-slate-600 bg-slate-100 px-1.5 py-0.5 rounded">
+            {getLanguageByCode(currentLang)?.nativeName || currentLang}
+          </span>
+        </div>
       </div>
 
     </div>

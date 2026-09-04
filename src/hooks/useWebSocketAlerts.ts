@@ -17,12 +17,28 @@ export interface UseWebSocketReturn {
   reconnect: () => void;
 }
 
+const formatToIst = (timestamp?: string): string => {
+  if (timestamp) {
+    return timestamp.includes('IST') ? timestamp : `${timestamp} IST`;
+  }
+  return (
+    new Date().toLocaleTimeString('en-IN', {
+      timeZone: 'Asia/Kolkata',
+      hour: 'numeric',
+      minute: '2-digit',
+      hour12: true,
+    }) + ' IST'
+  );
+};
+
 export function useWebSocketAlerts(initialStateFilter: string = 'All India'): UseWebSocketReturn {
   const [status, setStatus] = useState<'connecting' | 'connected' | 'disconnected' | 'error'>('connecting');
   const [alerts, setAlerts] = useState<GovtAlert[]>([]);
   const [latestAlert, setLatestAlert] = useState<GovtAlert | null>(null);
   const socketRef = useRef<WebSocket | null>(null);
   const reconnectTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const retryCountRef = useRef<number>(0);
+  const MAX_RETRIES = 3;
 
   const connect = useCallback(() => {
     try {
@@ -40,6 +56,7 @@ export function useWebSocketAlerts(initialStateFilter: string = 'All India'): Us
 
       ws.onopen = () => {
         setStatus('connected');
+        retryCountRef.current = 0;
         // Subscribe to state alerts
         ws.send(JSON.stringify({
           type: 'SUBSCRIBE_ALERTS',
@@ -55,7 +72,7 @@ export function useWebSocketAlerts(initialStateFilter: string = 'All India'): Us
               id: `alert_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`,
               title: data.title || 'Live Govt Alert',
               message: data.message || 'New updates available on portal',
-              timestamp: data.timestamp || new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true }),
+              timestamp: formatToIst(data.timestamp),
               unread: true
             };
             setLatestAlert(newAlert);
@@ -72,13 +89,17 @@ export function useWebSocketAlerts(initialStateFilter: string = 'All India'): Us
 
       ws.onclose = () => {
         setStatus('disconnected');
-        // Auto-reconnect after 5 seconds if disconnected
-        reconnectTimeoutRef.current = setTimeout(() => {
-          connect();
-        }, 5000);
+        // Auto-reconnect with backoff up to MAX_RETRIES
+        if (retryCountRef.current < MAX_RETRIES) {
+          retryCountRef.current += 1;
+          const delay = Math.min(5000 * retryCountRef.current, 20000);
+          reconnectTimeoutRef.current = setTimeout(() => {
+            connect();
+          }, delay);
+        }
       };
     } catch (err) {
-      console.error('Failed to initialize WebSocket:', err);
+      console.warn('WebSocket connection unavailable:', err);
       setStatus('error');
     }
   }, [initialStateFilter]);

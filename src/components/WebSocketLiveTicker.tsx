@@ -1,11 +1,20 @@
-import React, { useState } from 'react';
-import { Wifi, WifiOff, Bell, RefreshCw, Sparkles, X, ChevronRight } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Wifi, WifiOff, Bell, RefreshCw, Sparkles, X, ChevronRight, Clock } from 'lucide-react';
 import { useWebSocketAlerts } from '../hooks/useWebSocketAlerts';
 
 interface WebSocketLiveTickerProps {
   userState?: string;
   onSelectSchemeAlert?: (schemeTitle: string) => void;
 }
+
+const getFormattedIstTime = () => {
+  return new Date().toLocaleTimeString('en-IN', {
+    timeZone: 'Asia/Kolkata',
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true,
+  }) + ' IST';
+};
 
 export const WebSocketLiveTicker: React.FC<WebSocketLiveTickerProps> = ({
   userState = 'All India',
@@ -14,15 +23,26 @@ export const WebSocketLiveTicker: React.FC<WebSocketLiveTickerProps> = ({
   const { status, alerts, latestAlert, clearAlerts, reconnect } = useWebSocketAlerts(userState);
   const [minimized, setMinimized] = useState(false);
   const [dismissed, setDismissed] = useState(false);
+  const [defaultTimestamp, setDefaultTimestamp] = useState<string>(getFormattedIstTime);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setDefaultTimestamp(getFormattedIstTime());
+    }, 30000);
+    return () => clearInterval(timer);
+  }, []);
 
   const defaultAlert = {
     id: 'alert-init-1',
     title: '🇮🇳 Live Government Welfare Broadcast',
     message: '📢 PM Surya Ghar Muft Bijli: 300 units free electricity subsidy portal claims extended!',
-    timestamp: '8:48 PM'
+    timestamp: defaultTimestamp
   };
 
   const displayAlert = latestAlert || defaultAlert;
+  const formattedTimestamp = displayAlert.timestamp.includes('IST') 
+    ? displayAlert.timestamp 
+    : `${displayAlert.timestamp} IST`;
 
   if (dismissed) return null;
 
@@ -58,16 +78,16 @@ export const WebSocketLiveTicker: React.FC<WebSocketLiveTickerProps> = ({
         </div>
 
         <span className="text-[11px] text-slate-400 font-medium hidden sm:inline">
-          {status === 'connected' ? 'Real-time Govt Broadcast Active' : 'Connecting to /api/ws...'}
+          {status === 'connected' ? 'Real-time Govt Broadcast Active (IST)' : 'Connecting to /api/ws...'}
         </span>
       </div>
 
       {/* Middle: Live Streamed Alert Ticker */}
       <div className="flex-1 min-w-[280px] max-w-3xl overflow-hidden">
         <div className="flex items-center gap-2 animate-in fade-in">
-          <span className="px-2 py-0.5 rounded bg-amber-400 text-slate-950 text-[10px] font-extrabold shrink-0 flex items-center gap-1">
+          <span className="px-2 py-0.5 rounded bg-amber-400 text-slate-950 text-[10px] font-extrabold shrink-0 flex items-center gap-1 shadow-xs">
             <span className="w-1.5 h-1.5 rounded-full bg-slate-950 animate-pulse" />
-            {displayAlert.timestamp}
+            {formattedTimestamp}
           </span>
           <p className="text-slate-200 font-medium text-xs truncate">
             {displayAlert.message}

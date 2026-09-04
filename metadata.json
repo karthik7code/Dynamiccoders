@@ -1,6 +1,6 @@
 {
   "name": "JanAI – India's Personal Government AI",
   "description": "Jan AI – AI-Powered Support for Government Services. Connecting Citizens with 30+ Central and State government schemes with seamless eligibility evaluation, automated life timeline tracking, document wallet management, and AI copilot guidance.",
-  "requestFramePermissions": ["geolocation"],
+  "requestFramePermissions": ["geolocation", "microphone"],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

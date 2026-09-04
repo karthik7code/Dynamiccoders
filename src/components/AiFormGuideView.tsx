@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Scheme, UserProfile } from '../types';
-import { ALL_INDIAN_LANGUAGES } from '../data/languages';
+import {
+  ALL_INDIAN_LANGUAGES,
+  SCHEDULED_INDIAN_LANGUAGES,
+  REGIONAL_INDIAN_LANGUAGES,
+} from '../data/languages';
 import { AiVoiceSpeaker } from './AiVoiceSpeaker';
 import { useToast } from '../context/ToastContext';
 import { FormImageVisualPresentation } from './FormImageVisualPresentation';
@@ -521,13 +525,25 @@ export const AiFormGuideView: React.FC<AiFormGuideViewProps> = ({
                 <select
                   value={selectedLang}
                   onChange={(e) => setSelectedLang(e.target.value)}
-                  className="bg-transparent text-white font-bold text-xs focus:outline-none cursor-pointer"
+                  className="bg-transparent text-white font-bold text-xs focus:outline-none cursor-pointer max-w-[170px]"
                 >
-                  {ALL_INDIAN_LANGUAGES.map((lang) => (
-                    <option key={lang.code} value={lang.code} className="bg-slate-900 text-white">
-                      {lang.nativeName} ({lang.name})
-                    </option>
-                  ))}
+                  <option value="en" className="bg-slate-900 text-white font-bold">
+                    English (Original)
+                  </option>
+                  <optgroup label="🇮🇳 22 Scheduled Indian Languages" className="bg-slate-900 text-white font-bold">
+                    {SCHEDULED_INDIAN_LANGUAGES.map((lang) => (
+                      <option key={lang.code} value={lang.code} className="bg-slate-900 text-white">
+                        {lang.nativeName} ({lang.name})
+                      </option>
+                    ))}
+                  </optgroup>
+                  <optgroup label="🇮🇳 Regional & Tribal Indian Languages" className="bg-slate-900 text-white font-bold">
+                    {REGIONAL_INDIAN_LANGUAGES.map((lang) => (
+                      <option key={lang.code} value={lang.code} className="bg-slate-900 text-white">
+                        {lang.nativeName} ({lang.name})
+                      </option>
+                    ))}
+                  </optgroup>
                 </select>
               </div>
 

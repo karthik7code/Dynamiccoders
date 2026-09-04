@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ShieldCheck, MessageSquareWarning, X, Send, CheckCircle2, AlertCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { t } from '../utils/i18n';
-import { ALL_INDIAN_LANGUAGES } from '../data/languages';
+import { ALL_INDIAN_LANGUAGES, getLanguageByCode } from '../data/languages';
 import { SCHEMES_DATABASE } from '../data/schemes';
 import { useToast } from '../context/ToastContext';
 import { JanAiLogo } from './JanAiLogo';
@@ -13,7 +13,7 @@ interface FooterProps {
 
 export const Footer: React.FC<FooterProps> = ({ selectedLang = 'en' }) => {
   const { showToast } = useToast();
-  const currentLangObj = (ALL_INDIAN_LANGUAGES || []).find((l) => l.code === selectedLang);
+  const currentLangObj = getLanguageByCode(selectedLang);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedSchemeId, setSelectedSchemeId] = useState('');
@@ -91,7 +91,7 @@ export const Footer: React.FC<FooterProps> = ({ selectedLang = 'en' }) => {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
-            <p>© 2026 Ministry of Digital Governance & JanAI Architecture. All Rights Reserved.</p>
+            <p>© 2026 Ministry of Digital Governance & JanAI. All Rights Reserved.</p>
             <div className="flex items-center gap-4">
               <span className="flex items-center gap-1 text-emerald-400 font-semibold">
                 <ShieldCheck className="w-4 h-4" /> SSL Encrypted & Verified

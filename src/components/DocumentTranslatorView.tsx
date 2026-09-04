@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AiVoiceSpeaker } from './AiVoiceSpeaker';
-import { ALL_INDIAN_LANGUAGES } from '../data/languages';
+import { ALL_INDIAN_LANGUAGES, SCHEDULED_INDIAN_LANGUAGES, REGIONAL_INDIAN_LANGUAGES } from '../data/languages';
 import { useToast } from '../context/ToastContext';
 import { 
   FileText, 
@@ -166,19 +166,28 @@ export const DocumentTranslatorView: React.FC<DocumentTranslatorViewProps> = ({ 
               <span>Complex Legalese / Gazette Text</span>
             </h3>
 
-            {/* Target Language Selector */}
+            {/* Target Language Selector - Only Indian Languages */}
             <div className="flex items-center gap-1.5 bg-slate-100 p-1.5 rounded-xl border border-slate-200">
-              <Globe className="w-3.5 h-3.5 text-slate-500 ml-1" />
+              <Globe className="w-3.5 h-3.5 text-[#00003c] ml-1" />
               <select
                 value={targetLanguage}
                 onChange={(e) => setTargetLanguage(e.target.value)}
-                className="bg-transparent text-xs font-bold text-slate-800 focus:outline-none max-w-[180px]"
+                className="bg-transparent text-xs font-bold text-slate-800 focus:outline-none max-w-[200px]"
               >
-                {ALL_INDIAN_LANGUAGES.map((lang) => (
-                  <option key={lang.code} value={lang.name}>
-                    {lang.name} ({lang.nativeName})
-                  </option>
-                ))}
+                <optgroup label="🇮🇳 22 Scheduled Indian Languages">
+                  {SCHEDULED_INDIAN_LANGUAGES.map((lang) => (
+                    <option key={lang.code} value={lang.name}>
+                      {lang.name} ({lang.nativeName})
+                    </option>
+                  ))}
+                </optgroup>
+                <optgroup label="🇮🇳 Regional & Tribal Indian Languages">
+                  {REGIONAL_INDIAN_LANGUAGES.map((lang) => (
+                    <option key={lang.code} value={lang.name}>
+                      {lang.name} ({lang.nativeName})
+                    </option>
+                  ))}
+                </optgroup>
               </select>
             </div>
           </div>

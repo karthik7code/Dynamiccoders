@@ -50,6 +50,7 @@ interface EligibilityResultsViewProps {
   overallAdvice?: string;
   userProfile?: UserProfile;
   savedSchemeIds: string[];
+  selectedLang?: string;
   onToggleSaveScheme: (schemeId: string) => void;
   onAskAiAboutScheme: (schemeTitle: string) => void;
   onRestartCheck: () => void;
@@ -63,6 +64,7 @@ export const EligibilityResultsView: React.FC<EligibilityResultsViewProps> = ({
   overallAdvice,
   userProfile,
   savedSchemeIds,
+  selectedLang = 'en',
   onToggleSaveScheme,
   onAskAiAboutScheme,
   onRestartCheck,
@@ -109,6 +111,7 @@ export const EligibilityResultsView: React.FC<EligibilityResultsViewProps> = ({
             scheme: item.scheme,
             matchScore: item.matchScore,
             missingRequirements: item.missingRequirements,
+            lang: selectedLang,
           }),
         });
 
@@ -280,6 +283,7 @@ export const EligibilityResultsView: React.FC<EligibilityResultsViewProps> = ({
           <AiVoiceSpeaker
             textToSpeak={overallAdvice || `Based on your profile, we identified ${filteredResults.length} Central and State schemes you qualify for or can apply to immediately.`}
             label="Explain with AI Voice"
+            lang={selectedLang}
           />
 
           <button
@@ -587,6 +591,7 @@ export const EligibilityResultsView: React.FC<EligibilityResultsViewProps> = ({
                         <AiVoiceSpeaker
                           textToSpeak={`${scheme.title}. ${whyYouQualify}`}
                           compact={true}
+                          lang={selectedLang}
                         />
                       </div>
                       <p className="leading-relaxed font-medium">
@@ -636,6 +641,7 @@ export const EligibilityResultsView: React.FC<EligibilityResultsViewProps> = ({
                                 textToSpeak={`${scheme.title}. ${explanationsCache[scheme.id].personalizedSummary}. ${explanationsCache[scheme.id].keyBenefitNote || ''}`}
                                 compact={true}
                                 label="Voice AI"
+                                lang={selectedLang}
                               />
                             )}
                           </div>

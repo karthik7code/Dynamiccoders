@@ -32,6 +32,13 @@ import {
   Globe2
 } from 'lucide-react';
 import { JanAiLogo } from './JanAiLogo';
+import {
+  ALL_INDIAN_LANGUAGES,
+  SCHEDULED_INDIAN_LANGUAGES,
+  REGIONAL_INDIAN_LANGUAGES,
+  getLanguageByCode,
+} from '../data/languages';
+import { applyPageTranslation } from '../utils/translator';
 
 interface CitizenLoginPageProps {
   onLoginSuccess: (userProfile: UserProfile) => void;
@@ -624,17 +631,28 @@ export const CitizenLoginPage: React.FC<CitizenLoginPageProps> = ({
             <Globe2 className="w-3.5 h-3.5 text-[#00003c]" />
             <select
               value={selectedLang}
-              onChange={(e) => setSelectedLang(e.target.value)}
-              className="bg-transparent font-medium outline-none cursor-pointer text-xs"
+              onChange={(e) => {
+                const newLang = e.target.value;
+                setSelectedLang(newLang);
+                applyPageTranslation(newLang);
+              }}
+              className="bg-transparent font-medium outline-none cursor-pointer text-xs max-w-[150px] sm:max-w-none"
             >
-              <option value="English">English</option>
-              <option value="Hindi">हिंदी (Hindi)</option>
-              <option value="Kannada">ಕನ್ನಡ (Kannada)</option>
-              <option value="Tamil">தமிழ் (Tamil)</option>
-              <option value="Telugu">తెలుగు (Telugu)</option>
-              <option value="Marathi">मराठी (Marathi)</option>
-              <option value="Gujarati">ગુજરાતી (Gujarati)</option>
-              <option value="Bengali">বাংলা (Bengali)</option>
+              <option value="en">English (Original)</option>
+              <optgroup label="🇮🇳 22 Scheduled Indian Languages">
+                {SCHEDULED_INDIAN_LANGUAGES.map((lang) => (
+                  <option key={lang.code} value={lang.code}>
+                    {lang.nativeName} ({lang.name})
+                  </option>
+                ))}
+              </optgroup>
+              <optgroup label="🇮🇳 Regional & Tribal Indian Languages">
+                {REGIONAL_INDIAN_LANGUAGES.map((lang) => (
+                  <option key={lang.code} value={lang.code}>
+                    {lang.nativeName} ({lang.name})
+                  </option>
+                ))}
+              </optgroup>
             </select>
           </div>
 

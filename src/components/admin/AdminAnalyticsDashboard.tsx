@@ -83,9 +83,10 @@ export const AdminAnalyticsDashboard: React.FC<AdminAnalyticsDashboardProps> = (
   currentAdmin,
   onNavigateTab,
 }) => {
-  const usersGradientId = useId();
-  const queriesGradientId = useId();
-  const checksGradientId = useId();
+  const rawId = useId().replace(/[^a-zA-Z0-9_-]/g, '_');
+  const usersGradientId = `grad_users_${rawId}`;
+  const queriesGradientId = `grad_queries_${rawId}`;
+  const checksGradientId = `grad_checks_${rawId}`;
 
   const [timeRange, setTimeRange] = useState<'24h' | '7d' | '30d'>('24h');
   const [selectedCategory, setSelectedCategory] = useState<string>('ALL');
@@ -98,8 +99,43 @@ export const AdminAnalyticsDashboard: React.FC<AdminAnalyticsDashboardProps> = (
     todayApplications: 68420,
     conversionRate: 68.4,
   });
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isSyncing, setIsSyncing] = useState<boolean>(false);
   const [activeTab, setActiveSection] = useState<'all' | 'popularity' | 'conversion' | 'engagement'>('all');
+
+  const fetchRealtimeAnalytics = async () => {
+    setIsSyncing(true);
+    try {
+      const token = localStorage.getItem('janai_admin_token') || '';
+      const res = await fetch('/api/admin/analytics/realtime', {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
+      if (res.ok) {
+        const payload = await res.json();
+        if (payload.success && payload.data) {
+          const { activeNow, conversionFunnel } = payload.data;
+          if (activeNow) {
+            setActivePulse({
+              activeCitizens: activeNow.activeCitizensOnline || 3428,
+              queriesLastMinute: activeNow.welfareQueriesPerMinute || 412,
+              todayEligibilityChecks: activeNow.todayEligibilityChecks || 184200,
+              todayApplications: activeNow.todayApplicationsFiled || 68420,
+              conversionRate: activeNow.platformConversionRate || 68.4,
+            });
+          }
+        }
+      }
+    } catch (err) {
+      console.warn('Realtime analytics API sync notice:', err);
+    } finally {
+      setIsSyncing(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchRealtimeAnalytics();
+  }, [currentAdmin.id]);
 
   // Simulated live event feed data generator
   const sampleCitizenActions = [
@@ -338,6 +374,17 @@ export const AdminAnalyticsDashboard: React.FC<AdminAnalyticsDashboardProps> = (
                 </button>
               ))}
             </div>
+
+            {/* Refresh Live Analytics Button */}
+            <button
+              onClick={fetchRealtimeAnalytics}
+              disabled={isSyncing}
+              className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white border border-white/20 text-xs font-bold transition-all cursor-pointer shadow-xs disabled:opacity-50"
+              title="Refresh real-time analytics from NIC GovCloud"
+            >
+              <RefreshCw className={`w-3.5 h-3.5 ${isSyncing ? 'animate-spin' : ''}`} />
+              <span>{isSyncing ? 'Syncing...' : 'Refresh'}</span>
+            </button>
 
             {/* Export Report Button */}
             <button

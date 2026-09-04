@@ -14,6 +14,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
   </head>
   <body>
+    <!-- Hidden container for Google Translate Element (positioned safely off-screen) -->
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+      // Primary website language is English (en) by default
+      (function() {
+        try {
+          var saved = localStorage.getItem('janai_selected_lang');
+          var gtCode = localStorage.getItem('janai_gt_code') || saved;
+          // If no language is explicitly set yet, default to English
+          if (!saved || saved === 'undefined' || saved === 'null') {
+            saved = 'en';
+            gtCode = 'en';
+            localStorage.setItem('janai_selected_lang', 'en');
+          }
+          if (saved === 'en') {
+            var past = "Thu, 01 Jan 1970 00:00:00 UTC";
+            document.cookie = "googtrans=; expires=" + past + "; path=/;";
+            document.cookie = "googtrans=; expires=" + past + "; path=/; SameSite=Lax;";
+            if (window.location.hostname) {
+              document.cookie = "googtrans=; expires=" + past + "; path=/; domain=" + window.location.hostname + ";";
+              if (window.location.hostname.includes('.')) {
+                document.cookie = "googtrans=; expires=" + past + "; path=/; domain=." + window.location.hostname + ";";
+              }
+            }
+          } else {
+            var target = gtCode || saved;
+            // Set both /en/ and /auto/ cookies on root and domain
+            document.cookie = "googtrans=/en/" + target + "; path=/; SameSite=Lax;";
+            document.cookie = "googtrans=/auto/" + target + "; path=/; SameSite=Lax;";
+            if (window.location.hostname) {
+              document.cookie = "googtrans=/en/" + target + "; path=/; domain=" + window.location.hostname + "; SameSite=Lax;";
+              document.cookie = "googtrans=/auto/" + target + "; path=/; domain=" + window.location.hostname + "; SameSite=Lax;";
+              if (window.location.hostname.includes('.')) {
+                document.cookie = "googtrans=/en/" + target + "; path=/; domain=." + window.location.hostname + "; SameSite=Lax;";
+                document.cookie = "googtrans=/auto/" + target + "; path=/; domain=." + window.location.hostname + "; SameSite=Lax;";
+              }
+            }
+          }
+        } catch(e) {}
+      })();
+
+      function googleTranslateElementInit() {
+        try {
+          if (window.google && window.google.translate && window.google.translate.TranslateElement) {
+            new window.google.translate.TranslateElement({
+              pageLanguage: 'en',
+              includedLanguages: 'as,bn,bho,brx,doi,gom,gu,hi,kn,ks,mai,ml,mni,mr,ne,or,pa,sa,sat,sd,ta,te,ur,lus,en',
+              autoDisplay: false
+            }, 'google_translate_element');
+          }
+        } catch(e) {
+          console.warn('Google Translate initialization error:', e);
+        }
+      }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

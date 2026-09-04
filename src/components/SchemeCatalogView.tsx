@@ -1140,6 +1140,11 @@ export const SchemeCatalogView: React.FC<SchemeCatalogViewProps> = ({
               {/* Bottom Actions */}
               <div className="pt-3 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2 text-xs">
                 <div className="flex flex-wrap items-center gap-2">
+                  <AiVoiceSpeaker
+                    textToSpeak={`${scheme.title}. ${scheme.description}. Key Benefit: ${scheme.benefitValue}`}
+                    compact={true}
+                  />
+
                   <button
                     onClick={() => {
                       if (onNavigateToTab) {

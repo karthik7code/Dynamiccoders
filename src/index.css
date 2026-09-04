@@ -62,3 +62,64 @@
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
+
+/* Google Translate UI Suppression - hide the top banner frame, tooltips and branding while keeping translation engine fully functional */
+.goog-te-banner-frame,
+iframe.goog-te-banner-frame,
+#goog-gt-tt,
+#goog-gt-vt,
+.goog-tooltip,
+.goog-tooltip:hover,
+.goog-text-highlight,
+.goog-logo-link,
+.goog-te-gadget-icon,
+.VIpgJd-ZVi9I-OR9QNe-Hand,
+.VIpgJd-ZVi9I-aZ2wEe-wOHMyf,
+.VIpgJd-ZVi9I-bRP2Yd,
+.VIpgJd-yAWNEb-hvhGLc,
+.VIpgJd-yAWNEb-L7lbkb {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  height: 0 !important;
+  width: 0 !important;
+  border: none !important;
+  position: absolute !important;
+  top: -9999px !important;
+}
+
+body {
+  top: 0px !important;
+  position: static !important;
+}
+
+/* Off-screen position for Google Translate select widget so it initializes and stays interactive */
+#google_translate_element {
+  position: fixed !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  opacity: 0.01 !important;
+  pointer-events: none !important;
+  z-index: -9999 !important;
+}
+
+/* Ensure translated font elements inherit parent styling smoothly */
+font[style*="vertical-align: inherit"] {
+  font-family: inherit !important;
+  color: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+/* Don't translate code, numbers or icons */
+.notranslate,
+.material-symbols-outlined,
+pre,
+code {
+  translate: no;
+}

@@ -29,6 +29,7 @@ import { UserProfile, EvaluatedSchemeResult, Scheme } from './types';
 import { saveCitizenRecord, recordEligibilityAnalysis } from './firebase';
 import { Bot, Sparkles } from 'lucide-react';
 import { useToast } from './context/ToastContext';
+import { applyPageTranslation, retriggerPageTranslation } from './utils/translator';
 
 export function App() {
   const { showToast } = useToast();
@@ -111,11 +112,30 @@ export function App() {
     }
   });
 
-  const [currentTab, setCurrentTab] = useState<string>('overview');
+  const [currentTab, setCurrentTab] = useState<string>(() => {
+    try {
+      return localStorage.getItem('janai_current_tab') || 'overview';
+    } catch {
+      return 'overview';
+    }
+  });
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('janai_current_tab', currentTab);
+    } catch {}
+  }, [currentTab]);
+
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [selectedLang, setSelectedLang] = useState<string>(() => {
     try {
-      return localStorage.getItem('janai_selected_lang') || 'en';
+      const stored = localStorage.getItem('janai_selected_lang');
+      // Primary website language is English ('en') by default
+      if (!stored || stored === 'undefined' || stored === 'null') {
+        localStorage.setItem('janai_selected_lang', 'en');
+        return 'en';
+      }
+      return stored;
     } catch {
       return 'en';
     }
@@ -124,10 +144,16 @@ export function App() {
   useEffect(() => {
     try {
       localStorage.setItem('janai_selected_lang', selectedLang);
+      applyPageTranslation(selectedLang, false);
     } catch (err) {
       console.error('Failed to persist language in localStorage', err);
     }
   }, [selectedLang]);
+
+  // Ensure newly rendered tabs and content immediately adopt the selected language
+  useEffect(() => {
+    retriggerPageTranslation(selectedLang);
+  }, [currentTab, selectedLang]);
 
   // Check backend session on mount
   useEffect(() => {
@@ -266,63 +292,82 @@ export function App() {
       localStorage.setItem('janai_user_profile', JSON.stringify(profile));
     } catch {}
     
-    // Persist to Cloud Firestore Database
+    // Persist to Cloud Firestore Database in background
     saveCitizenRecord(profile, profile.email || '', profile.aadhaarNumber || '').catch(console.warn);
 
     setIsAnalyzing(true);
     showToast({
       title: 'Evaluating Profile Details...',
-      description: `Analyzing eligibility for ${profile.fullName} across 45+ welfare schemes.`,
+      description: `Cross-referencing eligibility for ${profile.fullName || 'Citizen'} across 1,440+ schemes.`,
       type: 'info',
     });
 
-    try {
-      const response = await fetch('/api/eligibility-check', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ profile }),
-      });
+    // 1. Instant local deterministic evaluation (runs in <15ms)
+    const instantResults = evaluateAllSchemes(profile, SCHEMES_DATABASE);
+    const eligibleCount = instantResults.filter(r => r.status === 'highly_eligible' || r.status === 'eligible').length;
+    
+    // Set immediate results & fast smart summary
+    setEvaluatedResults(instantResults);
+    setOverallAdvice(
+      `Namaste ${profile.fullName || 'Citizen'}, based on your profile in ${profile.state || 'India'}, we identified ${eligibleCount} high-priority schemes matching your profile as a ${profile.occupation || 'citizen'}.`
+    );
 
-      let finalResults: EvaluatedSchemeResult[] = [];
-      if (response.ok) {
-        const data = await response.json();
-        finalResults = data.results || evaluateAllSchemes(profile, SCHEMES_DATABASE);
-        setEvaluatedResults(finalResults);
-        setOverallAdvice(data.overallAdvice || '');
-      } else {
-        finalResults = evaluateAllSchemes(profile, SCHEMES_DATABASE);
-        setEvaluatedResults(finalResults);
-      }
-
-      // Record this eligibility analysis audit run in Cloud Firestore
-      recordEligibilityAnalysis(profile, finalResults, SCHEMES_DATABASE.length).catch(console.warn);
-
-      // Also sync to server database API
-      fetch('/api/database/eligibility-analyses', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          profile,
-          results: finalResults,
-          totalEvaluated: SCHEMES_DATABASE.length
-        })
-      }).catch(console.warn);
-
-    } catch (err) {
-      console.error('API call error, falling back to client engine:', err);
-      const fallback = evaluateAllSchemes(profile, SCHEMES_DATABASE);
-      setEvaluatedResults(fallback);
-      recordEligibilityAnalysis(profile, fallback, SCHEMES_DATABASE.length).catch(console.warn);
-    } finally {
+    // Provide a brief, smooth micro-transition (350ms) for UI tactile feedback, then immediately transition to results
+    setTimeout(() => {
       setIsAnalyzing(false);
       setCurrentTab('results');
       window.scrollTo({ top: 0, behavior: 'smooth' });
       showToast({
-        title: 'Profile Evaluated Successfully!',
-        description: 'Analysis recorded to database. Your eligible schemes are ready.',
+        title: 'Eligibility Results Ready!',
+        description: `Found ${eligibleCount} schemes matching your profile.`,
         type: 'success',
       });
-    }
+    }, 350);
+
+    // 2. Background AI Cross-Referencing & Personalized Enrichment via Gemini
+    (async () => {
+      try {
+        const response = await fetch('/api/eligibility-check', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ profile, minimal: true }),
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          if (data.overallAdvice) {
+            setOverallAdvice(data.overallAdvice);
+          }
+          if (data.explanations && Object.keys(data.explanations).length > 0) {
+            setEvaluatedResults(prevResults =>
+              prevResults.map(item => {
+                if (data.explanations[item.scheme.title]) {
+                  return {
+                    ...item,
+                    whyYouQualify: data.explanations[item.scheme.title],
+                  };
+                }
+                return item;
+              })
+            );
+          }
+        }
+
+        // Record audit run in Cloud Firestore and server database asynchronously
+        recordEligibilityAnalysis(profile, instantResults, SCHEMES_DATABASE.length).catch(console.warn);
+        fetch('/api/database/eligibility-analyses', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            profile,
+            results: instantResults,
+            totalEvaluated: SCHEMES_DATABASE.length,
+          }),
+        }).catch(console.warn);
+      } catch (bgError) {
+        console.warn('Background AI enrichment completed with local cache:', bgError);
+      }
+    })();
   };
 
   const savedSchemes = schemesCatalog.filter((s) => savedSchemeIds.includes(s.id));
@@ -504,6 +549,7 @@ export function App() {
               overallAdvice={overallAdvice}
               userProfile={userProfile}
               savedSchemeIds={savedSchemeIds}
+              selectedLang={selectedLang}
               onToggleSaveScheme={handleToggleSaveScheme}
               onAskAiAboutScheme={handleAskAiAboutScheme}
               onRestartCheck={() => setCurrentTab('checker')}
@@ -569,6 +615,7 @@ export function App() {
         userProfile={userProfile}
         initialPrompt={aiInitialPrompt}
         selectedLang={selectedLang}
+        onLanguageChange={(lang) => setSelectedLang(lang)}
       />
 
       {/* Official Government Footer */}

@@ -1,5 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ALL_INDIAN_LANGUAGES } from '../data/languages';
+import {
+  ALL_INDIAN_LANGUAGES,
+  SCHEDULED_INDIAN_LANGUAGES,
+  REGIONAL_INDIAN_LANGUAGES,
+} from '../data/languages';
 import { AiVoiceSpeaker } from './AiVoiceSpeaker';
 import { useToast } from '../context/ToastContext';
 import { 
@@ -104,7 +108,7 @@ const SAMPLE_FORMS = [
 ];
 
 export const FormImageVisualPresentation: React.FC<FormImageVisualPresentationProps> = ({
-  selectedLang = 'hi',
+  selectedLang = 'en',
   userProfileName = 'Rahul Sharma',
   onClose
 }) => {
@@ -257,13 +261,25 @@ export const FormImageVisualPresentation: React.FC<FormImageVisualPresentationPr
             <select
               value={currentLang}
               onChange={(e) => setCurrentLang(e.target.value)}
-              className="bg-transparent text-white font-extrabold text-xs focus:outline-none cursor-pointer"
+              className="bg-transparent text-white font-extrabold text-xs focus:outline-none cursor-pointer max-w-[170px]"
             >
-              {ALL_INDIAN_LANGUAGES.map((lang) => (
-                <option key={lang.code} value={lang.code} className="bg-slate-900 text-white font-bold">
-                  {lang.nativeName} ({lang.name})
-                </option>
-              ))}
+              <option value="en" className="bg-slate-900 text-white font-bold">
+                English (Original)
+              </option>
+              <optgroup label="🇮🇳 22 Scheduled Indian Languages" className="bg-slate-900 text-white font-bold">
+                {SCHEDULED_INDIAN_LANGUAGES.map((lang) => (
+                  <option key={lang.code} value={lang.code} className="bg-slate-900 text-white font-bold">
+                    {lang.nativeName} ({lang.name})
+                  </option>
+                ))}
+              </optgroup>
+              <optgroup label="🇮🇳 Regional & Tribal Indian Languages" className="bg-slate-900 text-white font-bold">
+                {REGIONAL_INDIAN_LANGUAGES.map((lang) => (
+                  <option key={lang.code} value={lang.code} className="bg-slate-900 text-white font-bold">
+                    {lang.nativeName} ({lang.name})
+                  </option>
+                ))}
+              </optgroup>
             </select>
           </div>
 

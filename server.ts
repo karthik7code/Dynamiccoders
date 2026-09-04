@@ -41,11 +41,20 @@ app.use(express.json({ limit: '10mb' }));
 const httpServer = http.createServer(app);
 const wss = new WebSocketServer({ server: httpServer, path: '/api/ws' });
 
+const getFormattedIstTime = () => {
+  return new Date().toLocaleTimeString('en-IN', {
+    timeZone: 'Asia/Kolkata',
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true,
+  }) + ' IST';
+};
+
 wss.on('connection', (ws) => {
   console.log('[WebSocket] Citizen client connected to JanAI real-time stream');
   
   const getCurrentTimeFormatted = () => {
-    return new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
+    return getFormattedIstTime();
   };
 
   ws.send(JSON.stringify({
@@ -144,7 +153,7 @@ async function generateGeminiContentWithRetry(params: GeminiCallParams): Promise
   const preferred = params.preferredModel || 'gemini-2.5-flash';
   const candidateModels = [
     preferred,
-    ...(params.fallbackModels || ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-3.7-flash', 'gemini-1.5-flash', 'gemini-flash-latest'])
+    ...(params.fallbackModels || ['gemini-2.5-flash', 'gemini-3.8-flash', 'gemini-flash-latest'])
   ];
 
   // Remove duplicates while preserving priority order
@@ -168,22 +177,30 @@ async function generateGeminiContentWithRetry(params: GeminiCallParams): Promise
         }
       } catch (err: any) {
         const errMsg = err?.message || String(err);
-        const is503OrRateLimit = 
+        const isQuotaExhausted = 
+          err?.status === 429 || 
+          err?.code === 429 || 
+          errMsg.includes('RESOURCE_EXHAUSTED') ||
+          errMsg.includes('Quota exceeded');
+
+        if (isQuotaExhausted) {
+          // Immediately try the next candidate model instead of wasting time retrying an exhausted quota
+          break;
+        }
+
+        const isTransient503 = 
           err?.status === 503 || 
           err?.code === 503 || 
           errMsg.includes('503') || 
           errMsg.includes('high demand') || 
-          errMsg.includes('UNAVAILABLE') ||
-          err?.status === 429 || 
-          err?.code === 429 ||
-          errMsg.includes('RESOURCE_EXHAUSTED');
+          errMsg.includes('UNAVAILABLE');
 
-        if (is503OrRateLimit && attempts < maxAttempts) {
-          await new Promise(resolve => setTimeout(resolve, 250 * attempts));
+        if (isTransient503 && attempts < maxAttempts) {
+          await new Promise(resolve => setTimeout(resolve, 200 * attempts));
           continue;
         }
 
-        // On 503 / 429 or failure, proceed seamlessly to next fallback model
+        // On other errors, proceed to next candidate model
         break;
       }
     }
@@ -1215,7 +1232,7 @@ app.get('/api/schemes/:id', async (req, res) => {
 });
 
 // AI Scheme Suggestion Engine based on Natural Language & Profile Input
-app.post(['/api/suggest-schemes', '/api/suggest-scheme'], async (req, res) => {
+app.post(['/api/suggest-schemes', '/api/suggest-scheme', '/api/schemes/suggest'], async (req, res) => {
   try {
     const { userInput, userProfile, lang = 'en', category, origin, state, limit = 6 } = req.body;
     
@@ -1330,11 +1347,11 @@ app.post(['/api/suggest-schemes', '/api/suggest-scheme'], async (req, res) => {
     });
 
     scoredCatalog.sort((a, b) => b.relevance - a.relevance);
-    const candidateSchemes = scoredCatalog.slice(0, 30).map(c => c.scheme);
+    const candidateSchemes = scoredCatalog.slice(0, 8).map(c => c.scheme);
 
-    // 3. Call Gemini 3.7 Flash for deep semantic recommendation & personalized matching
+    // 3. Fast AI Deep Semantic Recommendation with timeout race
     const ai = getGenAI();
-    if (ai) {
+    if (ai && candidateSchemes.length > 0) {
       try {
         const compactCatalogForPrompt = candidateSchemes.map(s => ({
           id: s.id,
@@ -1344,73 +1361,49 @@ app.post(['/api/suggest-schemes', '/api/suggest-scheme'], async (req, res) => {
           stateName: s.stateName,
           ministry: s.ministry,
           benefitValue: s.benefitValue,
-          description: s.description.slice(0, 160),
-          eligibility: s.eligibilityDescription.slice(0, 160),
+          description: s.description.slice(0, 140),
           rules: s.rules,
-          requiredDocs: s.requiredDocs.slice(0, 4)
+          requiredDocs: s.requiredDocs.slice(0, 3)
         }));
 
-        const prompt = `You are SchemeSense AI, India's most advanced official Government Welfare Scheme Recommender.
-Your task is to analyze the user's specific input and recommend the most suitable, accurate, and high-impact government schemes from the provided scheme repository.
+        const prompt = `You are SchemeSense AI, India's official Government Welfare Scheme Recommender.
+User Need: "${queryText || 'General Scheme Recommendation'}"
+User Profile: ${userProfile ? JSON.stringify(userProfile) : 'Standard citizen'}
+Candidate Schemes:
+${JSON.stringify(compactCatalogForPrompt)}
 
-CRITICAL PROFESSION-CENTRIC DIRECTIVE:
-Always sort and prioritize schemes based strictly on the citizen's profession!
-- If the citizen is a Student (or active student): Prioritize Scholarships, higher education grants, tuition waivers, and fellowship/internship schemes at the VERY TOP of the results.
-- If the citizen is a Farmer (or has agricultural land): Prioritize Agriculture, Krishi, PM-KISAN, crop insurance (PMFBY), Kisan Credit Cards (KCC), fertilizer and irrigation subsidies at the VERY TOP of the results.
-- If the citizen is Self-Employed / Artisan / Micro-Vendor: Prioritize PM Vishwakarma, PM SVANidhi, MUDRA loans, and MSME capital grants.
-- If the citizen is Unemployed / Job Seeker: Prioritize PMKVY, Skill India, apprenticeships, and employment assistance programs.
-- If the citizen is a Homemaker: Prioritize Women & Child development, Self-Help Groups (Lakhpati Didi, NRLM), health, and nutrition schemes.
-
-Citizen Input Description / Need:
-"${queryText || 'General Scheme Recommendation'}"
-
-Citizen Profile (if available):
-${userProfile ? JSON.stringify(userProfile, null, 2) : 'No structured profile provided, deduce needs purely from user input.'}
-
-Candidate Official Scheme Repository:
-${JSON.stringify(compactCatalogForPrompt, null, 2)}
-
-Target Response Language Code: "${targetLangCode}".
-
-Instructions:
-1. Carefully match the citizen's situation (e.g. occupation, age, gender, state, income, financial need, goal like solar/scholarship/farming/medical/startup) with the schemes in the repository.
-2. Select the top ${limit} BEST matching schemes from the repository, strictly applying the profession-first ordering rule.
-3. For each selected scheme, output:
-   - "schemeId": The exact matching "id" from the repository.
-   - "schemeTitle": The exact title.
-   - "matchScore": Confidence score between 60 and 99 based on how well user criteria fits.
-   - "matchReason": A personalized, empathetic 1-2 sentence explanation of why this specific scheme applies directly to what the user asked or their situation in language code "${targetLangCode}".
-   - "keyBenefitsHighlight": Concise direct financial/welfare benefit they will receive.
-   - "requiredDocs": Array of mandatory documents.
-   - "nextActionTip": 1 clear recommended next step.
-4. Output "summaryAdvice": A warm, encouraging 2-3 sentence overview in language code "${targetLangCode}" summarizing total potential support.
-5. Output "inferredTags": Array of inferred search tags (e.g. ["Student", "Scholarship", "Maharashtra", "Higher Education"]).
-
-Respond strictly in valid JSON format:
+Respond in language code "${targetLangCode}". Return valid JSON:
 {
-  "summaryAdvice": "string",
+  "summaryAdvice": "Encouraging 2 sentences in language ${targetLangCode} on how these schemes help them.",
   "inferredTags": ["string"],
   "suggestedSchemes": [
     {
-      "schemeId": "string",
-      "schemeTitle": "string",
+      "schemeId": "exact id from candidate list",
+      "schemeTitle": "exact title",
       "matchScore": 95,
-      "matchReason": "string",
-      "keyBenefitsHighlight": "string",
-      "requiredDocs": ["string"],
-      "nextActionTip": "string"
+      "matchReason": "1 personalized sentence in ${targetLangCode} explaining why it helps them.",
+      "keyBenefitsHighlight": "key financial/welfare benefit",
+      "requiredDocs": ["mandatory doc"],
+      "nextActionTip": "next action"
     }
   ]
 }`;
 
-        const response = await generateGeminiContentWithRetry({
-          preferredModel: 'gemini-3.7-flash',
-          fallbackModels: ['gemini-flash-latest'],
+        const geminiCall = generateGeminiContentWithRetry({
+          preferredModel: 'gemini-2.5-flash',
+          fallbackModels: ['gemini-3.8-flash', 'gemini-flash-latest'],
           contents: prompt,
           config: {
             responseMimeType: 'application/json',
+            maxOutputTokens: 800,
           },
         });
+
+        const timeoutPromise = new Promise<{ text: string | null; modelUsed: string | null }>((resolve) =>
+          setTimeout(() => resolve({ text: null, modelUsed: 'timeout' }), 3500)
+        );
+
+        const response = await Promise.race([geminiCall, timeoutPromise]);
 
         if (response.text) {
           try {
@@ -1423,14 +1416,16 @@ Respond strictly in valid JSON format:
               };
             });
 
-            return res.json({
-              success: true,
-              summaryAdvice: parsed.summaryAdvice || `Found tailored schemes matching "${queryText}".`,
-              inferredTags: parsed.inferredTags || [],
-              suggestedSchemes: enrichedSchemes,
-              totalAnalyzed: SCHEMES_DATABASE.length,
-              engine: `${response.modelUsed || 'Gemini'} + Semantic Scheme Matcher`
-            });
+            if (enrichedSchemes.length > 0) {
+              return res.json({
+                success: true,
+                summaryAdvice: parsed.summaryAdvice || `Found tailored schemes matching "${queryText}".`,
+                inferredTags: parsed.inferredTags || [],
+                suggestedSchemes: enrichedSchemes,
+                totalAnalyzed: SCHEMES_DATABASE.length,
+                engine: `${response.modelUsed || 'Gemini'} + Semantic Scheme Matcher`
+              });
+            }
           } catch (jsonErr) {
             console.warn('JSON parsing error for scheme suggestions, falling back to deterministic list');
           }
@@ -1473,85 +1468,107 @@ app.post('/api/eligibility-check', async (req, res) => {
   try {
     const profile: UserProfile = req.body.profile;
     const userGoalPrompt: string = req.body.userGoalPrompt || '';
+    const minimal: boolean = req.body.minimal ?? false;
     if (!profile) {
       return res.status(400).json({ error: 'Missing profile parameter' });
     }
 
     const evaluatedResults = evaluateAllSchemes(profile, SCHEMES_DATABASE);
-    const topMatches = evaluatedResults.filter(r => r.matchScore >= 40);
+    const eligibleMatches = evaluatedResults.filter(r => r.status === 'highly_eligible' || r.status === 'eligible');
+    const topMatches = eligibleMatches.length > 0 ? eligibleMatches : evaluatedResults.filter(r => r.matchScore >= 40);
 
-    // AI Enrichment via Gemini
+    // Instant deterministic counselor advice based on citizen's specific profession & profile
+    const professionLabel = profile.occupation || 'citizen';
+    const topSlice = topMatches.slice(0, 10);
+    const totalPotentialValue = topSlice.reduce((acc, curr) => acc + (curr.scheme.benefitNumericMax || curr.scheme.benefitNumericMin || 0), 0);
+    const formattedValue = totalPotentialValue > 0 ? ` offering up to ₹${totalPotentialValue.toLocaleString('en-IN')} in potential benefits` : '';
+    const fallbackAdvice = `Namaste ${profile.fullName || 'Citizen'}, based on your profile in ${profile.state || 'India'}, we identified ${topMatches.length} schemes tailored for ${professionLabel}s${formattedValue}.`;
+
+    let finalAdvice = fallbackAdvice;
+    const explanationsMap: Record<string, string> = {};
+
+    // AI Enrichment via Gemini with a 3.5-second hard timeout race
     const ai = getGenAI();
     if (ai && topMatches.length > 0) {
       try {
-        const topSummaryInput = topMatches.slice(0, 8).map(r => ({
+        const topSummaryInput = topMatches.slice(0, 5).map(r => ({
           id: r.scheme.id,
           title: r.scheme.title,
           category: r.scheme.category,
           benefit: r.scheme.benefitValue,
           status: r.status,
           score: r.matchScore,
-          missing: r.missingRequirements,
         }));
 
         const prompt = `You are SchemeSense AI, an empathetic Indian government benefits counselor.
-Citizen Profile:
-- Name: ${profile.fullName}
-- Demographics: Age ${profile.age}, ${profile.gender}, State: ${profile.state}, District: ${profile.district}
-- Income: ₹${(profile.annualFamilyIncome || 0).toLocaleString('en-IN')}/yr, Category: ${profile.socialCategory}
-- Occupation: ${profile.occupation}, Education: ${profile.highestEducation}
-- Status: Farmer: ${profile.isFarmer}, Student: ${profile.isActiveStudent}, Senior: ${profile.isSeniorCitizen}, PwD: ${profile.isDisabilityPwD}, Minority: ${profile.isMinority}, BPL: ${profile.hasBplRationCard}, Landholding: ${profile.landholdingAcres || 0} acres
-${userGoalPrompt ? `- Specific Citizen Need / Goal: "${userGoalPrompt}"` : ''}
+Citizen: Name: ${profile.fullName || 'Citizen'}, Age: ${profile.age}, ${profile.gender}, State: ${profile.state}, Income: ₹${(profile.annualFamilyIncome || 0).toLocaleString('en-IN')}/yr, Occupation: ${profile.occupation}.
+Top Matching Schemes:
+${JSON.stringify(topSummaryInput)}
 
-Top Evaluated Schemes (Already sorted with highest priority given to citizen's profession: ${profile.occupation}):
-${JSON.stringify(topSummaryInput, null, 2)}
-
-Provide concise, friendly, citizen-facing explanations in JSON format:
-- For each scheme, write a 1-2 sentence personalized explanation emphasizing how it directly solves their need as a ${profile.occupation} (e.g. if student, explain the educational and scholarship benefits; if farmer, explain the crop support, financial aid, or agri subsidy).
-- For "overallAdvice", write an encouraging 2-sentence overview addressing them by name and highlighting the top profession-aligned benefits (e.g. scholarships for students, agricultural subsidies for farmers).
-
+Return strict JSON:
 {
   "explanations": {
-    "Scheme Title": "1-2 sentence personalized explanation of why they qualify or what exact step they should take next in simple language."
+    "Scheme Title": "1 sentence explaining why this helps them as a ${profile.occupation}."
   },
-  "overallAdvice": "A 2-sentence encouraging summary addressing the citizen by name if available, outlining total potential benefit and recommended next step."
+  "overallAdvice": "2 encouraging sentences addressing them by name with actionable next steps."
 }`;
 
-        const response = await generateGeminiContentWithRetry({
-          preferredModel: 'gemini-3.7-flash',
-          fallbackModels: ['gemini-flash-latest'],
+        const geminiCall = generateGeminiContentWithRetry({
+          preferredModel: 'gemini-2.5-flash',
+          fallbackModels: ['gemini-3.8-flash', 'gemini-flash-latest'],
           contents: prompt,
           config: {
             responseMimeType: 'application/json',
+            maxOutputTokens: 500,
           },
         });
+
+        // 3.5s timeout guarantee so citizen is never delayed
+        const timeoutPromise = new Promise<{ text: string | null; modelUsed: string | null }>((resolve) =>
+          setTimeout(() => resolve({ text: null, modelUsed: 'timeout' }), 3500)
+        );
+
+        const response = await Promise.race([geminiCall, timeoutPromise]);
 
         if (response.text) {
           try {
             const parsed = JSON.parse(response.text.trim());
-            if (parsed.explanations) {
+            if (parsed.overallAdvice) {
+              finalAdvice = parsed.overallAdvice;
+            }
+            if (parsed.explanations && typeof parsed.explanations === 'object') {
+              Object.assign(explanationsMap, parsed.explanations);
               for (const item of evaluatedResults) {
                 if (parsed.explanations[item.scheme.title]) {
                   item.whyYouQualify = parsed.explanations[item.scheme.title];
                 }
               }
             }
-            return res.json({
-              results: evaluatedResults,
-              overallAdvice: parsed.overallAdvice || 'Here are your personalized scheme recommendations.',
-            });
           } catch (jsonErr) {
-            console.warn('JSON parse error in eligibility enrichment, proceeding with deterministic results');
+            console.warn('JSON parse warning in eligibility enrichment');
           }
         }
       } catch (geminiError) {
-        console.warn('Gemini enrichment gracefully handled with fallback:', (geminiError as any)?.message || geminiError);
+        console.warn('Gemini enrichment bypassed safely:', (geminiError as any)?.message || geminiError);
       }
     }
 
-    res.json({
+    // If client requested minimal payload (~1KB instead of 2.5MB), return only advice & explanations
+    if (minimal) {
+      return res.json({
+        success: true,
+        overallAdvice: finalAdvice,
+        explanations: explanationsMap,
+        totalMatches: topMatches.length,
+      });
+    }
+
+    // Default response for full results
+    return res.json({
+      success: true,
       results: evaluatedResults,
-      overallAdvice: `Found ${topMatches.length} schemes matching your profile in ${profile.state || 'India'}.`,
+      overallAdvice: finalAdvice,
+      explanations: explanationsMap,
     });
   } catch (error: any) {
     console.error('Eligibility error:', error);
@@ -1561,10 +1578,12 @@ Provide concise, friendly, citizen-facing explanations in JSON format:
 
 app.post('/api/explain-eligibility', async (req, res) => {
   try {
-    const { profile, scheme, matchScore, missingRequirements } = req.body;
+    const { profile, scheme, matchScore, missingRequirements, lang } = req.body;
     if (!profile || !scheme) {
       return res.status(400).json({ error: 'Missing profile or scheme' });
     }
+
+    const targetLang = lang || profile?.preferredLanguage || 'en';
 
     const ai = getGenAI();
     if (ai) {
@@ -1591,6 +1610,10 @@ Target Scheme Details:
 - Match Score: ${matchScore}%
 - Current Missing Requirements: ${JSON.stringify(missingRequirements || [])}
 
+LANGUAGE MANDATE:
+Target Language: "${targetLang}".
+If target language is not English, generate the ENTIRE explanation ("personalizedSummary", "ruleBreakdown" explanation texts, "keyBenefitNote", "nextActionTip") in this requested Indian language using its authentic native script (e.g. Hindi, Telugu, Tamil, Kannada, Marathi, Bengali, Gujarati, Odia, Malayalam, Punjabi, etc.) so the citizen can understand their benefits effortlessly in their mother tongue!
+
 Generate a detailed, friendly, personalized explanation in JSON format with:
 1. "personalizedSummary": 2-3 natural sentences addressing the citizen directly by name (if available), explaining specifically how their profile attributes satisfy the scheme's criteria.
 2. "ruleBreakdown": An array of objects: [{ "ruleName": string, "matched": boolean, "citizenValue": string, "schemeThreshold": string, "explanation": string }]
@@ -1599,14 +1622,21 @@ Generate a detailed, friendly, personalized explanation in JSON format with:
 
 Respond strictly with valid JSON.`;
 
-      const response = await generateGeminiContentWithRetry({
-        preferredModel: 'gemini-3.7-flash',
-        fallbackModels: ['gemini-flash-latest'],
+      const geminiCall = generateGeminiContentWithRetry({
+        preferredModel: 'gemini-2.5-flash',
+        fallbackModels: ['gemini-3.8-flash', 'gemini-flash-latest'],
         contents: prompt,
         config: {
           responseMimeType: 'application/json',
+          maxOutputTokens: 600,
         },
       });
+
+      const timeoutPromise = new Promise<{ text: string | null; modelUsed: string | null }>((resolve) =>
+        setTimeout(() => resolve({ text: null, modelUsed: 'timeout' }), 3500)
+      );
+
+      const response = await Promise.race([geminiCall, timeoutPromise]);
 
       if (response.text) {
         try {
@@ -1692,8 +1722,8 @@ Return JSON format:
 }`;
 
       const response = await generateGeminiContentWithRetry({
-        preferredModel: 'gemini-3.7-flash',
-        fallbackModels: ['gemini-flash-latest'],
+        preferredModel: 'gemini-2.5-flash',
+        fallbackModels: ['gemini-3.8-flash', 'gemini-flash-latest'],
         contents: `User asks about field "${fieldName || 'Form Filling'}": "${question}"`,
         config: {
           systemInstruction: systemPrompt,
@@ -1797,8 +1827,8 @@ Deterministic Issues Found: ${JSON.stringify(issues)}
 Provide a concise 2-sentence overall audit verdict and 2 actionable recommendations for submission readiness.`;
 
         const response = await generateGeminiContentWithRetry({
-          preferredModel: 'gemini-3.7-flash',
-          fallbackModels: ['gemini-flash-latest'],
+          preferredModel: 'gemini-2.5-flash',
+          fallbackModels: ['gemini-3.8-flash', 'gemini-flash-latest'],
           contents: prompt,
         });
         aiSummary = response.text || '';
@@ -1821,6 +1851,55 @@ Provide a concise 2-sentence overall audit verdict and 2 actionable recommendati
   }
 });
 
+const INDIAN_LANGUAGE_METADATA: Record<string, { name: string; nativeName: string }> = {
+  en: { name: 'English', nativeName: 'English' },
+  hi: { name: 'Hindi', nativeName: 'हिन्दी' },
+  bn: { name: 'Bengali', nativeName: 'বাংলা' },
+  mr: { name: 'Marathi', nativeName: 'मराठी' },
+  te: { name: 'Telugu', nativeName: 'తెలుగు' },
+  ta: { name: 'Tamil', nativeName: 'தமிழ்' },
+  gu: { name: 'Gujarati', nativeName: 'ગુજરાતી' },
+  ur: { name: 'Urdu', nativeName: 'اردو' },
+  kn: { name: 'Kannada', nativeName: 'ಕನ್ನಡ' },
+  or: { name: 'Odia', nativeName: 'ଓଡ଼ିଆ' },
+  ml: { name: 'Malayalam', nativeName: 'മലയാളം' },
+  pa: { name: 'Punjabi', nativeName: 'ਪੰਜਾਬੀ' },
+  as: { name: 'Assamese', nativeName: 'অসমীয়া' },
+  mai: { name: 'Maithili', nativeName: 'मैथिली' },
+  sat: { name: 'Santali', nativeName: 'ᱥᱟᱱᱛᱟᱲᱤ' },
+  ks: { name: 'Kashmiri', nativeName: 'कॉशुर / كأشُر' },
+  ne: { name: 'Nepali', nativeName: 'नेपाली' },
+  gom: { name: 'Konkani', nativeName: 'कोंकणी' },
+  doi: { name: 'Dogri', nativeName: 'डोगरी' },
+  mni: { name: 'Manipuri', nativeName: 'মৈতৈলোন্' },
+  brx: { name: 'Bodo', nativeName: 'बर' },
+  sa: { name: 'Sanskrit', nativeName: 'संस्कृतम्' },
+  sd: { name: 'Sindhi', nativeName: 'सिंधी / سنڌي' },
+  bho: { name: 'Bhojpuri', nativeName: 'भोजपुरी' },
+  hne: { name: 'Chhattisgarhi', nativeName: 'छत्तीसगढ़ी' },
+  bgc: { name: 'Haryanvi', nativeName: 'हरियाणवी' },
+  raj: { name: 'Rajasthani', nativeName: 'राजस्थानी' },
+  tcy: { name: 'Tulu', nativeName: 'ತುಳು' },
+  mwr: { name: 'Marwari', nativeName: 'मारवाड़ी' },
+  mag: { name: 'Magahi', nativeName: 'मगही' },
+  lus: { name: 'Mizo', nativeName: 'Mizo ṭawng' },
+  kha: { name: 'Khasi', nativeName: 'Khasi' },
+  grt: { name: 'Garo', nativeName: 'A·chik' },
+  trx: { name: 'Kokborok', nativeName: 'Kokborok' },
+  lbj: { name: 'Ladakhi', nativeName: 'ལ་དྭགས་སྐད་' },
+  njz: { name: 'Tenyidie', nativeName: 'Tenyidie' },
+  anp: { name: 'Angika', nativeName: 'अंगिका' },
+  kfy: { name: 'Kumaoni', nativeName: 'कुमाऊँनी' },
+  gbm: { name: 'Garhwali', nativeName: 'गढ़वाली' },
+  kfa: { name: 'Kodava', nativeName: 'ಕೊಡವ ತಕ್ಕ್' },
+  bgj: { name: 'Beary', nativeName: 'ಬ್ಯಾರಿ' },
+  saz: { name: 'Sourashtra', nativeName: 'ꢱꢵꢫꢵꢰꣀꢵ' },
+  gon: { name: 'Gondi', nativeName: 'गोंडी' },
+  kru: { name: 'Kurukh', nativeName: 'कुड़ुख़' },
+  unr: { name: 'Mundari', nativeName: 'मुंडारी' },
+  bhb: { name: 'Bhili', nativeName: 'भीली' }
+};
+
 app.post('/api/ai-assistant', async (req, res) => {
   try {
     const { message, profile, lang } = req.body;
@@ -1828,7 +1907,8 @@ app.post('/api/ai-assistant', async (req, res) => {
       return res.status(400).json({ error: 'Message is required' });
     }
 
-    const targetLangCode = lang || 'en';
+    const targetLangCode = (lang || 'en').toLowerCase();
+    const langInfo = INDIAN_LANGUAGE_METADATA[targetLangCode] || { name: targetLangCode, nativeName: targetLangCode };
 
     // Prepare a concise list of scheme titles and summaries for Gemini context
     const conciseCatalog = SCHEMES_DATABASE.slice(0, 45).map(s => ({
@@ -1839,7 +1919,24 @@ app.post('/api/ai-assistant', async (req, res) => {
       ministry: s.ministry
     }));
 
-    const systemPrompt = `You are JanAI, an intelligent, authoritative, friendly and empathetic AI guide for Indian citizens looking for government welfare schemes (Central & State Government of India).
+    const systemPrompt = `You are JanAI, an intelligent, authoritative, friendly, and empathetic AI welfare counselor for Indian citizens seeking Central and State Government schemes.
+
+PRIMARY MULTILINGUAL INTELLIGENCE INSTRUCTION:
+1. Input Acceptance: You accept user input in ANY Indian language or dialect (Hindi, Telugu, Tamil, Kannada, Marathi, Bengali, Gujarati, Odia, Malayalam, Punjabi, Assamese, Urdu, Maithili, Bhojpuri, Rajasthani, Haryanvi, etc.) whether typed in native script, English, or Romanized transliteration (Hinglish, Telugish, Tanglish, etc.).
+2. Explaining in the Same Language:
+   - If the user selected target language "${langInfo.name} (${langInfo.nativeName})" (code: "${targetLangCode}"), OR if the user asked their query in a specific Indian language, you MUST explain and answer in that SAME Indian language using its authentic native script (e.g., తెలుగు for Telugu, हिन्दी for Hindi, தமிழ் for Tamil, ಕನ್ನಡ for Kannada, मराठी for Marathi, বাংলা for Bengali, ગુજરાતી for Gujarati, മലയാളം for Malayalam, ਪੰਜਾਬੀ for Punjabi, ଓଡ଼ିଆ for Odia, etc.).
+   - If the user wrote in English or another language, but selected "${langInfo.name} (${langInfo.nativeName})", explain the schemes in "${langInfo.name} (${langInfo.nativeName})" so they receive the guidance in their chosen regional language.
+   - If the user asks in an Indian language (e.g. Hindi, Telugu, Tamil, Marathi, Bengali, etc.), always explain in that same Indian language even if the language code is default English.
+3. Content & Quality of Explanation:
+   - Provide a clear, thorough, citizen-friendly explanation of relevant schemes.
+   - Specifically explain:
+     a. Benefit Value: Exact financial grant, subsidy, pension, or free service (₹).
+     b. Eligibility Criteria: Who qualifies (age, income limit, landholding, category, student/farmer/senior status).
+     c. Step-by-Step How to Apply: Where and how to apply on official portals or CSC centers.
+     d. Required Documents: Exact certificates needed (Aadhaar, Ration Card, Income Certificate, Caste Certificate, Bank Passbook, etc.).
+4. Scheme IDs & Follow-up Questions:
+   - Include up to 4 exact matching scheme IDs in "matchedSchemeIds".
+   - Include 3 relevant contextual follow-up questions in "suggestedQuestions", WRITTEN IN THE SAME TARGET INDIAN LANGUAGE!
 
 Available Official Schemes Reference:
 ${JSON.stringify(conciseCatalog, null, 2)}
@@ -1847,29 +1944,20 @@ ${JSON.stringify(conciseCatalog, null, 2)}
 User Profile Context (if available):
 ${profile ? JSON.stringify(profile) : 'General Citizen Query'}
 
-TARGET RESPONSE LANGUAGE CODE: "${targetLangCode}".
-IMPORTANT LANGUAGE INSTRUCTION:
-You MUST respond in the language corresponding to language code "${targetLangCode}" (e.g. 'hi' for Hindi, 'mr' for Marathi, 'te' for Telugu, 'ta' for Tamil, 'kn' for Kannada, 'bn' for Bengali, 'gu' for Gujarati, 'pa' for Punjabi, 'ml' for Malayalam, 'or' for Odia, 'ur' for Urdu, 'en' for English).
-Both the "reply" and "suggestedQuestions" MUST be written in the specified target language!
-
-Instructions:
-1. Answer directly, warmly, and accurately in the requested language.
-2. Clearly list key financial benefits, eligibility criteria, required documents, and official portal links.
-3. If the user asks for scheme suggestions or if certain schemes directly solve their problem, list their exact scheme IDs in "matchedSchemeIds" (up to 4 schemes from the catalog).
-4. Include 3 contextual follow-up questions in "suggestedQuestions" in the same language.
+Target Language: "${langInfo.name} (${langInfo.nativeName})" [Code: "${targetLangCode}"]
 
 Return JSON format:
 {
-  "reply": "Your clear response text in requested language with bullet points...",
-  "suggestedQuestions": ["Follow up question 1?", "Follow up question 2?", "Follow up question 3?"],
+  "reply": "Your clear, empathetic, and comprehensive explanation in the specified Indian language with structured points...",
+  "suggestedQuestions": ["Follow-up question 1 in target language?", "Follow-up question 2 in target language?", "Follow-up question 3 in target language?"],
   "matchedSchemeIds": ["scheme-id-1", "scheme-id-2"]
 }`;
 
     const promptText = `User Query: "${message}"`;
 
     const response = await generateGeminiContentWithRetry({
-      preferredModel: 'gemini-3.7-flash',
-      fallbackModels: ['gemini-flash-latest'],
+      preferredModel: 'gemini-3.8-flash',
+      fallbackModels: ['gemini-2.5-flash', 'gemini-flash-latest'],
       contents: promptText,
       config: {
         systemInstruction: systemPrompt,
@@ -1888,9 +1976,30 @@ Return JSON format:
         return res.json({
           reply: parsed.reply || response.text,
           suggestedQuestions: parsed.suggestedQuestions || [
+            targetLangCode === 'hi' ? "मुझे कौन से दस्तावेज तैयार करने चाहिए?" :
+            targetLangCode === 'te' ? "నేను ఏ పత్రాలు సిద్ధం చేసుకోవాలి?" :
+            targetLangCode === 'ta' ? "நான் என்ன ஆவணங்களை தயார் செய்ய வேண்டும்?" :
+            targetLangCode === 'mr' ? "मला कोणती कागदपत्रे तयार करावी लागतील?" :
+            targetLangCode === 'bn' ? "আমার কী কী নথি প্রস্তুত করা দরকার?" :
+            targetLangCode === 'kn' ? "ನಾನು ಯಾವ ದಾಖಲೆಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಬೇಕು?" :
+            targetLangCode === 'gu' ? "મારે કયા દસ્તાવેજો તૈયાર કરવા જોઈએ?" :
             "What documents do I need to prepare?",
+            targetLangCode === 'hi' ? "आधिकारिक पोर्टल पर आवेदन कैसे करें?" :
+            targetLangCode === 'te' ? "అధికారిక పోర్టల్‌లో ఎలా దరఖాస్తు చేసుకోవాలి?" :
+            targetLangCode === 'ta' ? "அதிகாரப்பூர்வ போர்ட்டலில் எவ்வாறு விண்ணப்பிப்பது?" :
+            targetLangCode === 'mr' ? "अधिकृत पोर्टलवर अर्ज कसा करावा?" :
+            targetLangCode === 'bn' ? "অফিসিয়াল পোর্টালে কীভাবে আবেদন করবেন?" :
+            targetLangCode === 'kn' ? "ಅಧಿಕೃತ ಪೋರ್ಟಲ್‌ನಲ್ಲಿ ಹೇಗೆ ಅರ್ಜಿ ಸಲ್ಲಿಸಬೇಕು?" :
+            targetLangCode === 'gu' ? "સત્તાવાર પોર્ટલ પર કેવી રીતે અરજી કરવી?" :
             "How do I register on the official portal?",
-            "What is the income limit for EWS?"
+            targetLangCode === 'hi' ? "इस योजना के लिए आय सीमा क्या है?" :
+            targetLangCode === 'te' ? "ఈ పథకానికి ఆదాయ పరిమితి ఎంత?" :
+            targetLangCode === 'ta' ? "இந்த திட்டத்திற்கான வருமான வரம்பு என்ன?" :
+            targetLangCode === 'mr' ? "या योजनेसाठी उत्पन्नाची मर्यादा काय आहे?" :
+            targetLangCode === 'bn' ? "এই প্রকল্পের জন্য আয়ের সীমা কত?" :
+            targetLangCode === 'kn' ? "ಈ ಯೋಜನೆಗೆ ಆದಾಯ ಮಿತಿ ಎಷ್ಟು?" :
+            targetLangCode === 'gu' ? "આ યોજના માટે આવક મર્યાદા શું છે?" :
+            "What is the income limit for eligibility?"
           ],
           recommendedSchemes: recommendedSchemes
         });
@@ -1909,13 +2018,163 @@ Return JSON format:
     }
 
     res.json({
-      reply: 'I am here to help you navigate Indian Government Central and State welfare schemes, eligibility rules, and application procedures. Please ask about any specific scheme like PM Kisan, Ayushman Bharat, or solar rooftop subsidies!',
-      suggestedQuestions: ["Am I eligible for PM Kisan?", "Ayushman Bharat documents?", "Housing subsidies?"],
+      reply: targetLangCode === 'hi' 
+        ? "नमस्ते! मैं आपके सरकारी योजना संबंधी प्रश्नों का उत्तर देने के लिए तैयार हूँ। कृपया अपनी आवश्यकता या पात्रता के बारे में पूछें।" 
+        : targetLangCode === 'te'
+        ? "నమస్కారం! ప్రభుత్వ సంక్షేమ పథకాల వివరాలు మరియు అర్హతల గురించి వివరించడానికి నేను సిద్ధంగా ఉన్నాను. దయచేసి మీ ప్రశ్నను అడగండి."
+        : targetLangCode === 'ta'
+        ? "வணக்கம்! அரசு நலத்திட்டங்கள் மற்றும் தகுதி விவரங்களை விளக்க நான் தயாராக உள்ளேன். உங்கள் கேள்வியைக் கேட்கவும்."
+        : targetLangCode === 'mr'
+        ? "नमस्कार! शासकीय योजना व पात्रतेबद्दल मार्गदर्शन करण्यासाठी मी सज्ज आहे. कृपया आपला प्रश्न विचारा."
+        : targetLangCode === 'kn'
+        ? "ನಮಸ್ಕಾರ! ಸರ್ಕಾರಿ ಯೋಜನೆಗಳು ಮತ್ತು ಅರ್ಹತೆಯ ಬಗ್ಗೆ ವಿವರಿಸಲು ನಾನು ಸಿದ್ಧನಿದ್ದೇನೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪ್ರಶ್ನೆಯನ್ನು ಕೇಳಿ."
+        : targetLangCode === 'bn'
+        ? "নমস্কার! সরকারি প্রকল্প এবং যোগ্যতা সম্পর্কে বিস্তারিত জানাতে আমি প্রস্তুত। দয়া করে আপনার প্রশ্নটি জিজ্ঞাসা করুন।"
+        : "Namaste! I am ready to guide you through government schemes, eligibility criteria, and required documents. How may I assist you today?",
+      suggestedQuestions: [
+        "What documents do I need to prepare?",
+        "How do I register on the official portal?",
+        "What is the income limit for EWS?"
+      ],
       recommendedSchemes: []
     });
   } catch (err: any) {
-    console.error('AI Assistant Error:', err);
-    res.status(500).json({ error: 'Failed to process chat message' });
+    console.error('AI assistant error:', err);
+    res.status(500).json({ error: 'Failed to process AI assistant request' });
+  }
+});
+
+// Endpoint to translate any text/scheme explanation into spoken native Indian language
+app.post('/api/ai/speak-translate', async (req, res) => {
+  try {
+    const { text, targetLang = 'hi' } = req.body;
+    if (!text) {
+      return res.status(400).json({ error: 'Text is required' });
+    }
+
+    const cleanLangCode = targetLang.toLowerCase().split('-')[0];
+    const langInfo = INDIAN_LANGUAGE_METADATA[cleanLangCode] || { name: cleanLangCode, nativeName: cleanLangCode };
+
+    if (cleanLangCode === 'en') {
+      return res.json({ nativeText: text, langCode: 'en-IN' });
+    }
+
+    const ai = getGenAI();
+    if (ai) {
+      const prompt = `You are JanAI's voice audio narrator for Indian citizens.
+Convert this government scheme excerpt into a concise, warm, natural spoken audio narration (maximum 2-3 sentences) in authentic ${langInfo.name} (${langInfo.nativeName}) using its native script.
+Write it in simple, everyday citizen spoken words so it sounds clear, friendly, and natural when read aloud by text-to-speech. Do NOT include markdown symbols, bullet points, or English transliteration. Return ONLY the spoken text in the native script.
+
+Source Text to Speak:
+"${text.slice(0, 500)}"`;
+
+      const response = await generateGeminiContentWithRetry({
+        preferredModel: 'gemini-3.8-flash',
+        fallbackModels: ['gemini-2.5-flash', 'gemini-flash-latest'],
+        contents: prompt,
+      });
+
+      if (response.text) {
+        const spokenText = response.text.trim().replace(/^["']|["']$/g, '');
+        return res.json({
+          nativeText: spokenText,
+          langCode: `${cleanLangCode}-IN`
+        });
+      }
+    }
+
+    // High quality fallback templates for common languages if Gemini is offline
+    const fallbackMap: Record<string, string> = {
+      hi: `यह सरकारी कल्याणकारी योजना नागरिकों को वित्तीय सहायता और सब्सिडी प्रदान करती है। आप आधार कार्ड और आय प्रमाण पत्र के साथ आधिकारिक पोर्टल पर आवेदन कर सकते हैं।`,
+      te: `ఈ ప్రభుత్వ సంక్షేమ పథకం ద్వారా అర్హులైన పౌరులకు ఆర్థిక సహాయం మరియు సబ్సిడీ అందుతుంది. మీరు ఆధార్ కార్డు మరియు ఆదాయ ధ్రువీకరణ పత్రంతో దరఖాస్తు చేసుకోవచ్చు.`,
+      ta: `இந்த அரசு நலத்திட்டம் தகுதியுள்ள குடிமக்களுக்கு நேரடி நிதி உதவி மற்றும் மானியம் வழங்குகிறது. ஆதார் அட்டை மற்றும் வருமான சான்றிதழுடன் விண்ணப்பிக்கலாம்.`,
+      kn: `ಈ ಸರ್ಕಾರಿ ಕಲ್ಯಾಣ ಯೋಜನೆಯು ಅರ್ಹ ನಾಗರಿಕರಿಗೆ ನೇರ ಧನಸಹಾಯ ಮತ್ತು ಸಬ್ಸಿಡಿ ನೀಡುತ್ತದೆ. ನೀವು ಆಧಾರ್ ಕಾರ್ಡ್ ಮತ್ತು ಆದಾಯ ಪ್ರಮಾಣಪತ್ರದೊಂದಿಗೆ ಅರ್ಜಿ ಸಲ್ಲಿಸಬಹುದು.`,
+      mr: `ही शासकीय कल्याणकारी योजना पात्र नागरिकांना थेट आर्थिक साहाय्य आणि अनुदान प्रदान करते. आपण आधार कार्ड व उत्पन्न दाखल्यासह अर्ज करू शकता.`,
+      bn: `এই সরকারি কল্যাণমূলক প্রকল্পটি যোগ্য নাগরিকদের আর্থিক সহায়তা এবং ভর্তুকি প্রদান করে। আধার কার্ড এবং আয়ের শংসাপত্র সহ আবেদন করুন।`,
+      gu: `આ સરકારી યોજના પાત્ર નાગરિકોને સીધી નાણાકીಯ સહાય અને સબસિડી આપે છે. આધાર કાર્ડ અને આવકના દાખલા સાથે અરજી કરી શકો છો.`
+    };
+
+    const nativeText = fallbackMap[cleanLangCode] || text;
+    return res.json({
+      nativeText,
+      langCode: `${cleanLangCode}-IN`
+    });
+  } catch (err) {
+    console.error('Speak translate error:', err);
+    res.status(500).json({ error: 'Failed to translate speech' });
+  }
+});
+
+// Endpoint to translate and simplify government documents/notices into any Indian language
+app.post('/api/translate-document', async (req, res) => {
+  try {
+    const { text, targetLanguage } = req.body;
+    if (!text) {
+      return res.status(400).json({ error: 'Text is required' });
+    }
+
+    const ai = getGenAI();
+    if (ai) {
+      const prompt = `You are an expert Indian Government Document and Gazette Translator for JanAI.
+Simplify the following official government notice, gazette excerpt, or scheme circular into plain citizen-friendly language.
+
+Document Text:
+"""
+${text}
+"""
+
+Target Language: ${targetLanguage || 'Hindi'}
+
+Instructions:
+1. Explain in simple English in "simpleEnglish" so anyone can understand what the notice means without legalese.
+2. Provide a full, natural, high-quality translation and explanation in "${targetLanguage}" in "localLanguageText", using authentic native script.
+3. Extract 3 clear actionable next steps in "keyActionItems" (in the target language or simple words).
+4. Identify the exact required documents in "requiredDoc".
+
+Return strict JSON:
+{
+  "simpleEnglish": "...",
+  "localLanguageText": "...",
+  "keyActionItems": ["Step 1", "Step 2", "Step 3"],
+  "requiredDoc": "..."
+}`;
+
+      const response = await generateGeminiContentWithRetry({
+        preferredModel: 'gemini-3.8-flash',
+        fallbackModels: ['gemini-2.5-flash', 'gemini-flash-latest'],
+        contents: prompt,
+        config: {
+          responseMimeType: 'application/json',
+        },
+      });
+
+      if (response.text) {
+        try {
+          const parsed = JSON.parse(response.text.trim());
+          return res.json({ success: true, data: parsed });
+        } catch (jsonErr) {
+          console.warn('JSON parse error in translate-document');
+        }
+      }
+    }
+
+    // Fallback response if Gemini is unavailable
+    return res.json({
+      success: true,
+      data: {
+        simpleEnglish: `Simplified: You qualify for direct government assistance. Upload your verified certificates to claim full benefits without middleman fees.`,
+        localLanguageText: `ಸರಳ ವಿವರಣೆ (${targetLanguage}): ನೀವು ಸರ್ಕಾರಿ ಯೋಜನೆಯ ಉಚಿತ ಸೌಲಭ್ಯಕ್ಕೆ ಅರ್ಹರಾಗಿದ್ದೀರಿ. ನಿಮ್ಮ ದಾಖಲೆಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡುವ ಮೂಲಕ ನೇರವಾಗಿ ಸಹಾಯಧನ ಪಡೆಯಿರಿ.`,
+        keyActionItems: [
+          'Verify your domicile & income certificates',
+          'Complete Aadhaar e-KYC on the portal',
+          'Apply directly on official portal',
+        ],
+        requiredDoc: 'Aadhaar Card + Income & Domicile Certificates',
+      }
+    });
+  } catch (err: any) {
+    console.error('Document translation error:', err);
+    res.status(500).json({ error: 'Failed to translate document' });
   }
 });
 
@@ -1984,8 +2243,8 @@ Return strictly valid JSON matching this schema:
 }`;
 
           const response = await generateGeminiContentWithRetry({
-            preferredModel: 'gemini-3.7-flash',
-            fallbackModels: ['gemini-flash-latest'],
+            preferredModel: 'gemini-2.5-flash',
+            fallbackModels: ['gemini-3.8-flash', 'gemini-flash-latest'],
             contents: [
               {
                 role: 'user',
@@ -2283,10 +2542,10 @@ app.post('/api/gemini/generate', async (req, res) => {
       return res.status(400).json({ error: 'Prompt is required' });
     }
 
-    const selectedModel = model || 'gemini-3.7-flash';
+    const selectedModel = model || 'gemini-2.5-flash';
     const response = await generateGeminiContentWithRetry({
       preferredModel: selectedModel,
-      fallbackModels: ['gemini-flash-latest'],
+      fallbackModels: ['gemini-3.8-flash', 'gemini-flash-latest'],
       contents: prompt,
       config: {
         ...(systemInstruction ? { systemInstruction } : {}),
@@ -3091,7 +3350,7 @@ app.post(
                 type: 'GOVT_ALERT',
                 title: `✨ New Scheme Published: ${saved.title}`,
                 message: `${saved.ministry}: ${saved.benefitValue} for eligible citizens.`,
-                timestamp: new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true }),
+                timestamp: getFormattedIstTime(),
               })
             );
           }
@@ -3284,7 +3543,7 @@ app.post(
               type: 'GOVT_ALERT',
               title: `✨ New Scheme Published: ${saved.title}`,
               message: `${saved.ministry}: ${saved.benefitValue} for eligible citizens.`,
-              timestamp: new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true }),
+              timestamp: getFormattedIstTime(),
             })
           );
         }
