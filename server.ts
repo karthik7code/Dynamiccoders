@@ -119,7 +119,7 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
   next();
 });
 
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 // Lazy initialization for Gemini client
 let aiClient: GoogleGenAI | null = null;
